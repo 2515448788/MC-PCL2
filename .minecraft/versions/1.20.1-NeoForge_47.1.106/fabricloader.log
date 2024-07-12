@@ -1,0 +1,4 @@
+[15:02:51] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[15:02:51] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE nvidium 0.2.6-beta {depends sodium @ [=0.5.7 || =0.5.8]}, ROOT_FORCELOAD_SINGLE nvidium 0.2.6-beta]
+[15:02:51] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP nvidium 0.2.6-beta {depends sodium @ [=0.5.7 || =0.5.8]}, HARD_DEP particle_core 0.2.3+1.20.1 {depends fabric-language-kotlin @ [>=1.10.18+kotlin.1.9.22]}, HARD_DEP particle_core 0.2.3+1.20.1 {depends fzzy_config @ [>=0.2.7+1.20.1]}]
+[15:02:51] [INFO] [FabricLoader/Resolution]: Fix: add [add:sodium 0.5.8 ([[0.5.7,0.5.7], [0.5.8,0.5.8]]), add:fabric-language-kotlin 1.10.18+kotlin.1.9.22 ([[1.10.18+kotlin.1.9.22,∞)]), add:fzzy_config 0.2.7+1.20.1 ([[0.2.7+1.20.1,∞)])], remove [], replace []

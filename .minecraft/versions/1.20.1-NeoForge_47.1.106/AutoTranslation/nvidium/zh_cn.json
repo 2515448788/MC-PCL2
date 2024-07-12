@@ -1,0 +1,16 @@
+{
+  "nvidium.options.translucency_sorting.none": "没有任何",
+  "nvidium.options.async_bfs.tooltip": "启用异步 bfs 块部分加载，大大减少移动时的帧时间，渲染距离越远越明显",
+  "nvidium.options.translucency_sorting.quads": "四边形",
+  "nvidium.options.translucency_sorting.sections": "部分",
+  "nvidium.options.statistics_level.frustum": "截锥体",
+  "nvidium.options.statistics_level.quads": "四边形",
+  "nvidium.options.translucency_sorting.name": "半透明排序",
+  "nvidium.options.statistics_level.regions": "地区",
+  "nvidium.options.statistics_level.sections": "部分",
+  "nvidium.options.translucency_sorting.tooltip": "半透明度排序级别，每个级别都有不同的性能影响和视觉质量。 \n无：无半透明排序，没有影响，可能看起来很糟糕\n部分：部分级别半透明排序，使半透明度达到与钠相同的水平，影响最小\n四边形：增量排序，在多个帧上正确排序几何体，可能导致视觉怪异排序时",
+  "nvidium.options.async_bfs.name": "启用异步 bfs",
+  "nvidium.options.statistics_level.none": "没有任何",
+  "nvidium.options.statistics_level.tooltip": "统计日志记录级别，跟踪剔除层的可见性计数",
+  "nvidium.options.statistics_level.name": "统计级别"
+}

@@ -1,0 +1,316 @@
+[14:29:30.223] [Start] 程序版本：Snapshot 2.6.8（305）
+[14:29:30.225] [Start] 识别码：9716-A12E-161C-8DBC
+[14:29:30.225] [Start] 程序路径：C:\PCL2\Plain Craft Launcher 2.exe
+[14:29:30.228] [Start] 第一阶段加载用时：63 ms
+[14:29:30.319] [Start] 版本号从 330 降低到 305
+[14:29:30.337] [UI] 刷新主题：0
+[14:29:30.372] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:29:30.373] [Start] 第二阶段加载用时：125 ms
+[14:29:30.384] [Minecraft] 已创建 launcher_profiles.json：C:\PCL2\.minecraft\
+[14:29:30.384] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:29:30.569] [System] 窗口已置顶，位置：(523, 215), 875 x 611
+[14:29:30.573] [Start] 第三阶段加载用时：47 ms
+[14:29:30.573] [Animation] 动画线程开始
+[14:29:30.575] [Start] 加载 DLL：Json
+[14:29:30.575] [System] 获取资源：Json
+[14:29:30.583] [Launch] 没有已储存的 Minecraft 文件夹
+[14:29:30.584] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:29:30.588] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:29:30.608] [Setup] 当前选择的 Minecraft 文件夹：C:\PCL2\.minecraft\
+[14:29:30.608] [Launch] Minecraft 文件夹：C:\PCL2\.minecraft\
+[14:29:30.608] [Launch] Minecraft 版本无效，没有有效版本
+[14:29:30.614] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[14:29:30.623] [Setup] 当前选择的 Minecraft 版本：
+[14:29:30.624] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[14:29:30.624] [Minecraft] 未找到可用 Minecraft 版本
+[14:29:30.624] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[14:29:30.631] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[14:29:30.637] [Launch] 无可用 Minecraft 版本
+[14:29:30.648] [Page] 实例化：清空自定义主页 UI，来源为空
+[14:29:30.652] [Java] 缓存中有 4 个可用的 Java：
+[14:29:30.653] [Java]  - JRE 8 (8.0.201)，64 位：C:\Program Files\Java\jdk1.8.0_201\jre\bin\
+[14:29:30.653] [Java]  - JDK 17 (17.0.8)，64 位：C:\Users\Admin\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
+[14:29:30.653] [Java]  - JDK 8 (8.0.201)，64 位：C:\Program Files\Java\jdk1.8.0_201\bin\
+[14:29:30.653] [Java]  - JDK 11 (11.0.12)，64 位：C:\Program Files\Java\jdk-11.0.12\bin\
+[14:29:30.653] [Skin] 载入头像成功：Loader Skin Ms
+[14:29:30.665] [Minecraft] 启动按钮：无 Minecraft 版本，要求下载
+[14:29:30.669] [Loader] 加载器 登录 状态改变：Loading
+[14:29:30.675] [Launch] 登录加载已开始
+[14:29:30.676] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[14:29:30.678] [Launch] 登录方式：正版（Aaalicecao）
+[14:29:30.679] [Launch] 开始微软登录步骤 2（刷新登录）
+[14:29:30.682] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[14:29:30.859] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[14:29:30.861] [UI] 解锁隐藏主题：6
+[14:29:30.861] [Loader] 加载器 PCL 服务 状态改变：Loading
+[14:29:30.862] [Server] 正在连接到 PCL 服务器
+[14:29:30.864] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[14:29:30.873] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1720765771-73b19362-0-75963a33b9927fe97bcf7e41e060e5a3，超时 10000ms
+[14:29:30.915] [Server] 服务器公告：144|329|330|5，无需更新
+[14:29:30.925] [Server] 重要等级 0，更新公告 True
+[14:29:30.928] [Loader] 加载器 PCL 服务 状态改变：Finished
+[14:29:31.106] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[14:29:31.283] [System] DPI：96，系统版本：10.0.19044.0，PCL 位置：C:\PCL2\Plain Craft Launcher 2.exe
+[14:29:31.441] [Launch] 开始微软登录步骤 3
+[14:29:31.442] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[14:29:31.693] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[14:29:32.199] [Launch] 开始微软登录步骤 4
+[14:29:32.199] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[14:29:32.394] [Control] 按下单选按钮：设置
+[14:29:32.451] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[14:29:32.489] [Control] 切换主要页面：Setup, -1
+[14:29:32.587] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[14:29:32.590] [Net] 获取网络结果：https://api.mojang.com/users/profiles/minecraft/Alicecao，超时 10000ms，要求 json
+[14:29:32.777] [Control] 按下单选按钮：更多
+[14:29:32.798] [Loader] 加载器 Help Page 状态改变：Loading
+[14:29:32.799] [Control] 切换主要页面：Other, -1
+[14:29:32.816] [System] 获取资源：Help
+[14:29:32.865] [Help] 已解压内置帮助文件，目前状态：True
+[14:29:32.865] [Help] 已扫描 PCL 文件夹下的帮助文件，目前总计 0 条
+[14:29:32.866] [Help] 已扫描缓存文件夹下的帮助文件，目前总计 34 条
+[14:29:32.869] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.880] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.881] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.882] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.882] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.882] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.882] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.882] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.883] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.883] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.883] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.883] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.883] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.884] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.884] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.884] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.884] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.884] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.885] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.885] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.885] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.885] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.885] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.886] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.886] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.886] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.886] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.886] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.887] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.887] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.887] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.887] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.887] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.888] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.889] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.889] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.889] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.889] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.889] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.890] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.890] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.890] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.890] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.890] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.891] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.891] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.891] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.891] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.891] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.892] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.892] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.892] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.894] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.894] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.895] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.896] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.896] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.896] [System] 欲读取的文件不存在，已返回空字符串：C:\PCL2\PCL\hints.txt
+[14:29:32.939] [Loader] 加载器 Help Page 状态改变：Finished
+[14:29:32.955] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[14:29:33.491] [Net] 获取网络结果：https://api.mojang.com/users/profiles/minecraft/Alicecao，超时 30000ms，要求 json
+[14:29:33.711] [Launch] 开始微软登录步骤 5
+[14:29:33.711] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[14:29:33.863] 从官网获取正版 Uuid 失败（Alicecao）：获取结果失败，远程服务器返回错误: (404) 未找到。（https://api.mojang.com/users/profiles/minecraft/Alicecao）
+→ 远程服务器返回错误: (404) 未找到。
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.ModLaunch.McLoginMojangUuid(String Name, Boolean ThrowOnNotFound)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:29:33.865] 获取离线登录使用的正版皮肤失败（Alicecao）：从官网获取正版 Uuid 失败
+→ 获取结果失败，远程服务器返回错误: (404) 未找到。（https://api.mojang.com/users/profiles/minecraft/Alicecao）
+→ 远程服务器返回错误: (404) 未找到。
+   在 PCL.ModLaunch.McLoginMojangUuid(String Name, Boolean ThrowOnNotFound)
+   在 PCL.PageLaunchLeft.SkinLegacyLoad(LoaderTask`2 Data)
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.ModLaunch.McLoginMojangUuid(String Name, Boolean ThrowOnNotFound)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:29:33.865] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[14:29:33.962] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[14:29:34.769] [Control] 按下单选按钮：设置
+[14:29:34.770] [Control] 切换主要页面：Setup, -1
+[14:29:35.086] [Launch] 开始微软登录步骤 6
+[14:29:35.087] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[14:29:35.338] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[14:29:35.855] [Launch] 微软登录完成
+[14:29:35.855] [UI] 解锁隐藏主题：10
+[14:29:35.857] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[14:29:35.859] [Launch] 登录加载已结束
+[14:29:35.859] [Loader] 加载器 登录 状态改变：Finished
+[14:29:35.868] [Control] 普通弹窗：提示
+感谢你对正版游戏的支持！
+隐藏主题 跳票红 已解锁！
+[14:29:38.234] [Control] 按下按钮：确定
+[14:29:40.450] [Control] 按下单选框：自定义
+[14:30:00.587] [Control] 按下单选列表项：个性化
+[14:30:02.698] [Control] 按下单选框：橡木棕
+[14:30:02.706] [UI] 刷新主题：4
+[14:30:11.482] [Control] 按下单选列表项：启动器
+[14:30:13.794] [Control] 按下按钮：输入解锁码
+[14:30:13.861] [Control] 输入弹窗：输入解锁码
+[14:30:26.593] [Control] 按下按钮：取消
+[14:30:26.594] [Control] 输入弹框返回：null
+[14:31:04.481] [Control] 按下单选列表项：个性化
+[14:31:07.801] [Control] 按下按钮：刷新背景图片
+[14:31:07.830] [UI] 弹出提示：未检测到可用背景图片！
+[14:31:08.282] [Control] 按下按钮：打开文件夹
+[14:31:08.283] [System] 执行外部命令：explorer.exe "C:\PCL2\PCL\Pictures"
+[14:31:17.401] [Control] 按下按钮：刷新背景图片
+[14:31:17.402] [UI] 加载背景图片：C:\PCL2\PCL\Pictures\Background.jpg
+[14:31:21.217] [Control] 按下单选按钮：启动
+[14:31:21.218] [Control] 切换主要页面：Launch, -1
+[14:31:23.346] [Control] 按下单选按钮：设置
+[14:31:23.346] [Control] 切换主要页面：Setup, -1
+[14:31:25.929] [Control] 按下单选按钮：启动
+[14:31:25.930] [Control] 切换主要页面：Launch, -1
+[14:31:27.457] [Control] 按下单选按钮：设置
+[14:31:27.458] [Control] 切换主要页面：Setup, -1
+[14:31:30.066] [Control] 按下单选按钮：启动
+[14:31:30.066] [Control] 切换主要页面：Launch, -1
+[14:31:30.970] [Control] 按下单选按钮：设置
+[14:31:30.970] [Control] 切换主要页面：Setup, -1
+[14:31:31.721] [Control] 按下单选按钮：启动
+[14:31:31.722] [Control] 切换主要页面：Launch, -1
+[14:31:34.387] [Control] 按下图标按钮：BtnHintClose
+[14:31:35.346] [Control] 按下单选按钮：下载
+[14:31:35.386] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[14:31:35.386] [Control] 切换主要页面：Download, -1
+[14:31:35.391] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[14:31:35.391] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[14:31:35.507] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[14:31:35.508] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[14:31:35.510] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[14:31:35.512] [Loader] 加载器 DlOptiFineList Official 状态改变：Loading
+[14:31:35.513] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Loading
+[14:31:35.515] [Net] 获取网络结果：http://dl.liteloader.com/versions/versions.json，超时 10000ms，要求 json
+[14:31:35.516] [Loader] 加载器 DlFabricList Official 状态改变：Loading
+[14:31:35.516] [Net] 获取网络结果：https://meta.fabricmc.net/v2/versions，超时 10000ms，要求 json
+[14:31:35.517] [Net] 获取客户端网络结果：https://optifine.net/downloads，最大超时 10000
+[14:31:35.519] [Download] 刷新 Forge 推荐版本缓存开始
+[14:31:35.524] [Loader] 加载器 源码获取 1944# 状态改变：Loading
+[14:31:35.549] [Download] -1798645995_1943 1956#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[14:31:35.603] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[14:31:35.610] [Download] -1798645995_1943：文件大小 51113 B（49.9 K）
+[14:31:35.619] [Download] -1798645995_1943：已完成，剩余文件 0
+[14:31:35.620] [Loader] 加载器 源码获取 1944# 状态改变：Finished
+[14:31:35.626] [Download] 刷新 Forge 推荐版本缓存成功
+[14:31:35.717] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[14:31:36.466] [Control] 按下单选按钮：启动
+[14:31:36.467] [Control] 切换主要页面：Launch, -1
+[14:31:36.544] [Loader] 加载器 DlOptiFineList Official 状态改变：Finished
+[14:31:36.550] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[14:31:36.869] [Loader] 加载器 DlFabricList Official 状态改变：Finished
+[14:31:36.876] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[14:31:37.124] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Finished
+[14:31:37.131] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[14:31:37.353] [Control] 按下单选按钮：下载
+[14:31:37.354] [Control] 切换主要页面：Download, -1
+[14:31:38.673] [Control] 按下单选按钮：设置
+[14:31:38.674] [Control] 切换主要页面：Setup, -1
+[14:31:41.209] [Control] 按下单选按钮：更多
+[14:31:41.210] [Control] 切换主要页面：Other, -1
+[14:31:44.482] [Control] 按下单选按钮：设置
+[14:31:44.482] [Control] 切换主要页面：Setup, -1
+[14:31:44.817] [Report] FPS 0, 动画 44, 下载中 0（0 B/s）
+[14:31:47.082] [Control] 按下单选列表项：启动器
+[14:31:48.154] [Control] 按下按钮：检查更新
+[14:31:48.192] [UI] 弹出提示：正在检查更新，请稍候！
+[14:31:48.201] [Control] 输入弹窗：发现更新！
+[14:32:00.842] [Control] 按下按钮：取消
+[14:32:00.842] [Control] 输入弹框返回：null
+[14:32:01.433] [Control] 按下按钮：复制识别码
+[14:32:01.453] [UI] 弹出提示：已成功复制！
+[14:32:15.265] [Control] 按下按钮：输入解锁码
+[14:32:15.328] [Control] 输入弹窗：输入解锁码
+[14:32:16.082] [Control] 按下按钮：取消
+[14:32:16.082] [Control] 输入弹框返回：null
+[14:32:16.553] [Control] 按下按钮：检查更新
+[14:32:16.605] [UI] 弹出提示：正在检查更新，请稍候！
+[14:32:16.613] [Control] 输入弹窗：发现更新！
+[14:32:17.367] [Control] 输入弹框返回：gJRE4TJLqZY10sYBJO*tgpH+wpG/8Yo5pfX-/*wGdSmu6wOE3hHdXKDi4OFn-4XM49Q110*GD/G6E4/hbI7QIQWF/8YFRP/sn4/JfKS4qrOq8RvTNJWhneOOrV6q85rfLdZz9xKOz9m*mnW*BI4opYnz6/+w11
+[14:32:17.367] [System] 更新已开始，静默：False
+[14:32:17.372] [Loader] 加载器 启动器更新 状态改变：Loading
+[14:32:17.373] [Taskbar] 启动器更新 已加入任务列表
+[14:32:17.374] [Loader] 加载器 下载更新文件 状态改变：Loading
+[14:32:17.415] [UI] 弹出提示：PCL 正在下载更新，更新结束时将自动重启，请稍候！
+[14:32:17.487] [Download] Update.zip 2545#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/update/modmng.zip?sign=1720765937-21fabe29-0-71c8526591639d9e2f62192dc3f4c87a
+[14:32:17.619] [Download] Update.zip 2545#：出错，远程服务器返回错误: (404) 未找到。
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[14:32:17.619] [Download] Update.zip 2535#：下载源被禁用（0）：https://pcl2-server-1253424809.file.myqcloud.com/update/modmng.zip?sign=1720765937-21fabe29-0-71c8526591639d9e2f62192dc3f4c87a
+[14:32:17.619] 下载源 0 已被禁用：远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[14:32:17.619] [Download] 文件 Update.zip 已无可用下载源
+[14:32:17.619] [Download] 已禁用的下载源：https://pcl2-server-1253424809.file.myqcloud.com/update/modmng.zip?sign=1720765937-21fabe29-0-71c8526591639d9e2f62192dc3f4c87a
+[14:32:17.619] 下载源禁用原因：远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[14:32:17.620] [Download] Update.zip：已失败，剩余文件 0
+[14:32:17.623] [Loader] 加载器 下载更新文件 状态改变：Failed
+[14:32:17.623] [Loader] 加载器 启动器更新 状态改变：Failed
+[14:32:17.623] [Download] 远程服务器返回错误: (404) 未找到。
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[14:32:17.628] [Control] 普通弹窗：启动器更新失败
+你的更新密钥已经过期，请重新获取更新密钥。
+[14:32:17.650] [Taskbar] 启动器更新 已移出任务列表
+[14:32:19.073] [Control] 按下按钮：确定
+[14:33:00.641] [Control] 按下按钮：检查更新
+[14:33:00.702] [UI] 弹出提示：正在检查更新，请稍候！
+[14:33:00.710] [Control] 输入弹窗：发现更新！
+[14:33:01.495] [Control] 输入弹框返回：4MLsMsVPuYo10sYBJO*tgpH+wpG/8Yo5pfX-/*wGdSmu6wOE3hHdXKDi4OFn-4XM49Q110rpRgTqN4ZX6vGPo6S7Cxj5+xs/bmEOUf4O74DQEbPZpnqTzKjhLWtL+ucuPLg95fWvjB9-BiFnmW6tyu*vsQZw11
+[14:33:01.495] [System] 更新已开始，静默：False
+[14:33:01.496] [Loader] 加载器 启动器更新 状态改变：Loading
+[14:33:01.496] [Taskbar] 启动器更新 已加入任务列表
+[14:33:01.496] [Loader] 加载器 下载更新文件 状态改变：Loading
+[14:33:01.511] [UI] 弹出提示：PCL 正在下载更新，更新结束时将自动重启，请稍候！
+[14:33:01.552] [Download] Update.zip 2733#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/update/neofrf.zip?sign=1720765981-3134fa12-0-f09ba0ca88dc2f866f2242f3d16f94a1
+[14:33:01.609] [Download] Update.zip：文件大小 4528191 B（4.32 M）
+[14:33:08.803] [Download] Update.zip：已完成，剩余文件 0
+[14:33:08.803] [Loader] 加载器 下载更新文件 状态改变：Finished
+[14:33:08.803] [Loader] 加载器 安装更新 状态改变：Loading
+[14:33:08.804] [System] 无需清理目标更新文件：C:\PCL2\PCL\Plain Craft Launcher 2.exe
+[14:33:08.816] [System] 更新文件解压完成
+[14:33:08.890] [System] 更新程序启动，参数：--update 11904 "Plain Craft Launcher 2.exe" "Plain Craft Launcher 2.exe" True
+[14:33:08.935] [System] 收到关闭指令
+[14:33:08.935] [System] 已由于更新强制结束程序
+[14:33:08.935] [Loader] 加载器 安装更新 状态改变：Finished
+[14:33:08.935] [Loader] 加载器 启动器更新 状态改变：Finished
+[14:33:08.977] [Taskbar] 启动器更新 已移出任务列表
+[14:33:09.177] [System] 程序已退出，返回值：Success

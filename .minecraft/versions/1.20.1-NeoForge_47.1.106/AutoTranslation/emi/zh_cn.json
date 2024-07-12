@@ -1,0 +1,11 @@
+{
+  "emi.dev.duplicate_recipe_id": "配方 ID 与另一个配方重复\n§7%s§r\n配方需要具有唯一的 ID 才能序列化\n这将破坏具有此 ID 的其他配方",
+  "emi.dev.severity.warning": "警告",
+  "emi.dev.null_input_or_output": "配方的输入或输出为 §7null§r\n对于没有输入或输出的情况使用空列表\n使用 §7EmiStack.EMPTY§r 表示空堆栈",
+  "emi.dev.duplicate_vanilla_recipe_id": "配方 ID 与原版配方重复\n§7%s§r\n配方需要具有唯一的 ID 才能序列化\n这将破坏具有相同 ID 的原版配方",
+  "emi.dev.no_output_slots": "配方的插槽不包含任何输出\n在输出上调用 §7SlotWidget.recipeContext(this)§r§r",
+  "emi.dev.null_recipe_id": "配方 ID 为 §7null§r\n配方需要具有唯一的 ID 才能序列化\n这只会影响此配方",
+  "emi.dev.suggest_id": "使用合成 ID §7[命名空间]§b:/§7[路径]§r，例如\n§7%s§b:/§7%s§r",
+  "emi.dev.severity.error": "错误",
+  "emi.dev.synthetic_id": "使用合成 ID §7[命名空间]§b:/§7[路径]§r"
+}

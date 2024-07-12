@@ -1,0 +1,3 @@
+{
+  "modernfix.option.mixin.bugfix.restore_old_dragon_movement": "Fixes MC-272431, which tracks the ender dragon being unable to dive to the portal as it did in 1.13 and older. This causes the dragon to fly quite a bit differently from what modern players are used to and also patches out one-cycling, so it\u0027s not enabled by default. Thanks to Jukitsu for identifying the regression in the vanilla code."
+}

@@ -1,0 +1,7 @@
+{
+  "tooltip.emiffect.harmful": "Harmful",
+  "emi.category.emiffect.status_effect_info": "Status Effect Info",
+  "tooltip.emiffect.beneficial": "Beneficial",
+  "tooltip.emiffect.color": "Color: %s",
+  "tooltip.emiffect.neutral": "Neutral"
+}

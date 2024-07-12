@@ -1,0 +1,16 @@
+{
+  "nvidium.options.translucency_sorting.none": "None",
+  "nvidium.options.async_bfs.tooltip": "Enables asynchronous bfs chunk section loading, greatly reduces the frame time when moving, more noticeable with higher render distances",
+  "nvidium.options.translucency_sorting.quads": "Quads",
+  "nvidium.options.translucency_sorting.sections": "Sections",
+  "nvidium.options.statistics_level.frustum": "Frustum",
+  "nvidium.options.statistics_level.quads": "Quads",
+  "nvidium.options.translucency_sorting.name": "Translucency Sorting",
+  "nvidium.options.statistics_level.regions": "Regions",
+  "nvidium.options.statistics_level.sections": "Sections",
+  "nvidium.options.translucency_sorting.tooltip": "Translucency sorting level, each level has different performance impact and visual quality. \nNone:No translucency sorting, no impact, can look quite bad\nSections: Section level translucency sorting, brings translucency to the same level as sodium, minimal impact\nQuads: Incremental sorting, sorts geometry correctly over multiple frames, can cause visual weirdness while sorting",
+  "nvidium.options.async_bfs.name": "Enable async bfs",
+  "nvidium.options.statistics_level.none": "None",
+  "nvidium.options.statistics_level.tooltip": "Statistics logging level, tracks the visibility count of cull layers",
+  "nvidium.options.statistics_level.name": "Statistics Level"
+}
