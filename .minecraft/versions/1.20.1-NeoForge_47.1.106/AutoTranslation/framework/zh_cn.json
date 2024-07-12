@@ -1,0 +1,3 @@
+{
+  "framework.gui.process_config_fail": "无法处理来自服务器的配置：%s"
+}

@@ -1,0 +1,18 @@
+{
+  "text.observable.maxEntityCount": "最大实体数：",
+  "text.observable.get_field": "输入个人资料 URL/哈希...",
+  "text.observable.profile_uploaded": "个人资料已上传至 %s",
+  "text.observable.sampler": "带有采样器的配置文件（增加开销）",
+  "screen.observable.client_settings": "设置",
+  "text.observable.profile_saved": "配置文件本地保存至 %s",
+  "text.observable.maxEntityDist": "最大实体标签距离（块）：",
+  "text.observable.suggest": "您的服务器似乎运行得有点慢（%s tps）。 %s 寻找滞后源。",
+  "text.observable.maxBlockDist": "最大块标签距离（块）：",
+  "text.observable.normalize": "标准化结果：",
+  "text.observable.suggest_action": "考虑使用可观察的",
+  "text.observable.get_btn": "得到！",
+  "text.observable.upload_failed": "无法上传个人资料",
+  "text.observable.profile_started": "运行 Observable 配置文件 %s 秒...",
+  "text.observable.after_save": "打开位于 %s 的此文件",
+  "text.observable.announce": "该包包含用于查找滞后源的 Observable。请参阅 %s 了解如何使用它。"
+}

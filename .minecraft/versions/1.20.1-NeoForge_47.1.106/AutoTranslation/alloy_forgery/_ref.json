@@ -1,0 +1,5 @@
+{
+  "emi.category.alloy_forgery.alloy_forge": "Alloy Forging",
+  "container.alloy_forgery.rei.button": "Cycle Tier Overrides",
+  "tooltip.alloy_forgery.invalid_tier": "This recipe requires a Forge Controller of Tier %s"
+}

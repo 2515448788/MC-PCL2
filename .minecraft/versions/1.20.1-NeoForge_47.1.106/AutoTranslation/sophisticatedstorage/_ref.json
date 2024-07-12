@@ -1,0 +1,8 @@
+{
+  "item.sophisticatedstorage.packing_tape.tooltip.disabled": "Disabled - config set to drop all storages as packed",
+  "item.sophisticatedstorage.stack_upgrade_tier_5": "Stack Upgrade Tier 5",
+  "gui.sophisticatedstorage.error.add.compacting_exists": "There\u0027s already Compacting Upgrade in another upgrade slot",
+  "item.sophisticatedstorage.stack_upgrade_tier_5.tooltip": "Multiplies the number of stacks that can fit in a slot by 32",
+  "gui.sophisticatedstorage.error.add.compression_exists": "There\u0027s already Compression Upgrade in another upgrade slot",
+  "gui.sophisticatedstorage.status.packing_tape_disabled": "Config set to drop all storages as packed without the need for packing tape"
+}

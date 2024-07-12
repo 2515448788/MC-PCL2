@@ -1,0 +1,12 @@
+{
+  "block.supplementaries.cannon": "Cannon",
+  "block.supplementaries.lunch_basket": "Lunch Basket",
+  "block.supplementaries.cannonball": "Cannonball",
+  "entity.supplementaries.cannonball": "Cannonball",
+  "block.supplementaries.fire_pit": "Fire Pit",
+  "message.supplementaries.cannon_maneuver": "Press %2$s to Dismount, %2$s to Fire",
+  "create.item_attributes.present_recipient.inverted": "Present not addressed to: \"%1$s\"",
+  "gui.supplementaries.blackboard.undo": "Undo",
+  "create.item_attributes.present_recipient": "Present addressed to: \"%1$s\"",
+  "block.supplementaries.lumisene": "Lumisene"
+}

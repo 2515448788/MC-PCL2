@@ -1,0 +1,5 @@
+{
+  "item.beacon.tool.string": "Every 30 seconds, clear all the effects of your own potion and synchronously add the potion effects to all creatures within the surrounding 5 grid range.",
+  "item.mhead.tool.string.1": "Target speed increases and recovers after taking your damage",
+  "item.nightmare_head.tool.string.5": "Maximum health restored after wearing"
+}

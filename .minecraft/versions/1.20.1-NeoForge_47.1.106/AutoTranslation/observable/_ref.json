@@ -1,0 +1,18 @@
+{
+  "text.observable.maxEntityCount": "Max # of entities:",
+  "text.observable.get_field": "Enter profile URL/hash...",
+  "text.observable.profile_uploaded": "Profile uploaded to %s",
+  "text.observable.sampler": "Profile with sampler (adds overhead)",
+  "screen.observable.client_settings": "Settings",
+  "text.observable.profile_saved": "Profile saved locally to %s",
+  "text.observable.maxEntityDist": "Max entity label distance (blocks):",
+  "text.observable.suggest": "It seems your server is running a little slow (%s tps). %s to find lag sources.",
+  "text.observable.maxBlockDist": "Max block label distance (blocks):",
+  "text.observable.normalize": "Normalize results:",
+  "text.observable.suggest_action": "Consider using Observable",
+  "text.observable.get_btn": "Get!",
+  "text.observable.upload_failed": "Profile could not be uploaded",
+  "text.observable.profile_started": "Running Observable profile for %s seconds...",
+  "text.observable.after_save": "Open this file at %s",
+  "text.observable.announce": "This pack contains Observable for finding lag sources. See %s to learn how to use it."
+}

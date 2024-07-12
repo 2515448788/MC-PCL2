@@ -1,0 +1,14 @@
+{
+  "config.ding.cat.world.name": "Loading a world-related Configs",
+  "config.ding.cat.world.desc": "Configs for ding to trigger when the world loads after connecting to a server",
+  "config.ding.cat.load.desc": "Configs for ding to trigger when the game loads",
+  "config.ding.cat.load.name": "Minecraft Load-related Configs",
+  "config.ding.prop.volumeResourcesReload.desc": "Volume of the sound (when resources complete reloading)",
+  "config.ding.prop.volume.desc": "Volume of the volume (when Minecraft loads)",
+  "config.ding.prop.volumeWorld.name": "(World Load) Sound Volume",
+  "config.ding.prop.volumeWorld.desc": "Volume of the sound (when the world loads after connecting to a server)",
+  "config.ding.cat.resourcesReload.name": "Resources reloaded-related Configs",
+  "config.ding.cat.resourcesReload.desc": "Configs for ding to trigger when resources are reloaded",
+  "config.ding.prop.volumeResourcesReload.name": "(Resources Reload) Sound Volume",
+  "config.ding.prop.volume.name": "(Load) Sound Volume"
+}

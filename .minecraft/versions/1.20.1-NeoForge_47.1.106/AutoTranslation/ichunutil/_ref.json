@@ -1,0 +1,16 @@
+{
+  "config.ichunutil.prop.bnsTheme.desc": "Theme to use for Boxes \u0026 Stuff",
+  "config.ichunutil.prop.bnsTheme.name": "Theme",
+  "config.ichunutil.prop.bnsDoubleClickSpeed.name": "Double Click Speed",
+  "config.ichunutil.prop.bnsDockBorder.name": "Dock Border Size",
+  "config.ichunutil.prop.bnsDockBorder.desc": "Number of pixels before iChunUtil thinks you\u0027re trying to dock a window.",
+  "config.ichunutil.prop.bnsTooltipCooldown.name": "Tooltip Cooldown",
+  "config.ichunutil.prop.bnsTooltipCooldown.desc": "How long to mouse over an element (in ticks) before showing a tooltip.",
+  "gui.ichunutil.configs.needsRestart": "Some configs changed require a restart to take effect!",
+  "config.ichunutil.prop.bnsDockPadding.name": "Dock Padding",
+  "config.ichunutil.prop.bnsDockPadding.desc": "How much padding to add to the docked windows.",
+  "gui.ichunutil.configs.configs": "Configs",
+  "config.ichunutil.prop.bnsDoubleClickSpeed.desc": "Speed (in ticks) to register a double click.",
+  "config.ichunutil.prop.bnsMinecraftStyle.desc": "Renders B\u0026S\u0027s GUIs in a Minecraft Style instead.\n0 \u003d Default Style\n1 \u003d Vanilla Style\n2 \u003d Texture Pack Style.",
+  "config.ichunutil.prop.bnsMinecraftStyle.name": "B\u0026S in Minecraft Style"
+}

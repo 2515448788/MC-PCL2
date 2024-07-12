@@ -1,0 +1,12 @@
+{
+  "block.valhelsia_structures.bundled_lapidified_jungle_posts": "捆绑的宝石化丛林柱",
+  "block.valhelsia_structures.cut_stripped_mangrove_post": "切割剥去红树林的柱子",
+  "block.valhelsia_structures.cut_mangrove_post": "切割红树林柱",
+  "block.valhelsia_structures.mangrove_post": "红树林邮报",
+  "itemGroup.valhelsia_structures": "瓦赫西亚结构",
+  "gui.valhelsia_structures.furniture_warning_1": "Valhelsia Structures 检测到 Valhelsia Furniture 未安装。",
+  "gui.valhelsia_structures.furniture_warning_2": "虽然这不是必需的，但它极大地增强了结构。",
+  "block.valhelsia_structures.bundled_stripped_mangrove_posts": "捆绑的剥去红树林的柱子",
+  "block.valhelsia_structures.stripped_mangrove_post": "剥去红树林的柱子",
+  "block.valhelsia_structures.bundled_mangrove_posts": "捆绑的红树林帖子"
+}

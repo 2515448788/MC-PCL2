@@ -1,0 +1,10 @@
+{
+  "ccl.fluid_tank.contains": "Contains:",
+  "ccl.energy_bar.capacity": "Capacity:",
+  "ccl.commands.killall.fail.player": "You cannot kill players with this command.",
+  "ccl.energy_bar.energy_storage": "Energy Storage",
+  "ccl.fluid_tank.stored": "Stored:",
+  "ccl.fluid_tank.fluid_storage": "Fluid Storage",
+  "ccl.fluid_tank.capacity": "Capacity:",
+  "ccl.energy_bar.stored": "Stored:"
+}

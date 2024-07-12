@@ -1,0 +1,14 @@
+{
+  "item.mm_cooking.item_trader_food_onion": "Onion",
+  "gui.mm_cooking.gui_main_controller_input.label_input_controller": "Input Controller",
+  "item.mm_cooking.item_trader_food_cabbage": "Cabbage",
+  "gui.mm_cooking.gui_main_controller_system.label_system_controller": "System Controller",
+  "block.mm_cooking.block_controller_output": "Output Controller",
+  "block.mm_cooking.block_controller_structure": "Structure Controller",
+  "item.mm_cooking.item_trader_food_rice": "Rice",
+  "block.mm_cooking.block_controller_input": "Input Controller",
+  "block.mm_cooking.block_controller_system": "System Controller",
+  "gui.mm_cooking.gui_main_controller_structure.label_structure_controller": "Structure Controller",
+  "gui.mm_cooking.gui_main_controller_output.label_output_controller": "Output Controller",
+  "item.mm_cooking.item_trader_food_tomato": "Tomato"
+}

@@ -50,8 +50,21 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "l2hostility": {
+    "mob": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -71,5 +84,13 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

@@ -1,0 +1,12 @@
+{
+  "block.valhelsia_structures.bundled_lapidified_jungle_posts": "Bundled Lapidified Jungle Posts",
+  "block.valhelsia_structures.cut_stripped_mangrove_post": "Cut Stripped Mangrove Post",
+  "block.valhelsia_structures.cut_mangrove_post": "Cut Mangrove Post",
+  "block.valhelsia_structures.mangrove_post": "Mangrove Post",
+  "itemGroup.valhelsia_structures": "Valhelsia Structures",
+  "gui.valhelsia_structures.furniture_warning_1": "Valhelsia Structures detected that Valhelsia Furniture is not installed.",
+  "gui.valhelsia_structures.furniture_warning_2": "While it is not required, it greatly enhances the structures.",
+  "block.valhelsia_structures.bundled_stripped_mangrove_posts": "Bundled Stripped Mangrove Posts",
+  "block.valhelsia_structures.stripped_mangrove_post": "Stripped Mangrove Post",
+  "block.valhelsia_structures.bundled_mangrove_posts": "Bundled Mangrove Posts"
+}

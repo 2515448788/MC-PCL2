@@ -1,0 +1,8 @@
+{
+  "item.sophisticatedstorage.packing_tape.tooltip.disabled": "已禁用 - 配置设置为丢弃所有已打包的存储",
+  "item.sophisticatedstorage.stack_upgrade_tier_5": "堆栈升级第 5 层",
+  "gui.sophisticatedstorage.error.add.compacting_exists": "另一个升级槽中已经有压缩升级",
+  "item.sophisticatedstorage.stack_upgrade_tier_5.tooltip": "将插槽中可容纳的堆栈数量乘以 32",
+  "gui.sophisticatedstorage.error.add.compression_exists": "另一个升级槽已经有压缩升级",
+  "gui.sophisticatedstorage.status.packing_tape_disabled": "配置设置为丢弃所有已包装的存储，无需包装胶带"
+}
