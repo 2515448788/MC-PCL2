@@ -1,0 +1,8 @@
+{
+  "placebo.cmd.serialize_success": "Saved %s to %s.",
+  "placebo.cmd.not_found": "%s was not found.",
+  "placebo.cmd.serialize_failure": "An error occured during the serialization process.",
+  "key.categories.placebo": "Placebo",
+  "placebo.toggleWings": "Toggle Supporter Wings",
+  "placebo.toggleTrails": "Toggle Supporter Trails"
+}

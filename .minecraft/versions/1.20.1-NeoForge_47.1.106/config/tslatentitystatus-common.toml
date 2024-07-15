@@ -15,7 +15,7 @@
 	hudRenderPosition = "TOP_LEFT"
 	#Manually adjust the left-offset rendering position of the TES HUD
 	#Range: -100000 ~ 100000
-	hudPositionLeftAdjust = 0
+	hudPositionLeftAdjust = 80
 	#Manually adjust the top-offset rendering position of the TES HUD
 	#Range: -100000 ~ 100000
 	hudPositionTopAdjust = 0
@@ -27,7 +27,7 @@
 	#Range: > 0
 	hudTargetGracePeriod = 10
 	#Whether the TES HUD should render the entity's image
-	hudEntityRender = true
+	hudEntityRender = false
 	#Select the health render type for the TES HUD
 	#Options:
 	#NUMERIC - Use numeric values for health only

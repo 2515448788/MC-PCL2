@@ -1,0 +1,5 @@
+{
+  "item.beacon.tool.string": "每30秒清除自身药水的所有效果，并同步为周围5格范围内的所有生物添加药水效果。",
+  "item.mhead.tool.string.1": "受到伤害后目标速度会增加并恢复",
+  "item.nightmare_head.tool.string.5": "佩戴后最大生命值恢复"
+}

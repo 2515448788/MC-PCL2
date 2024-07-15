@@ -86,5 +86,6 @@
   "enchantment.msmlegacy.feast.desc": "Attacks have a chance to repair the weapon.",
   "enchantment.msmlegacy.ender_aura.desc": "Receiving damage may cause you to teleport away automatically.",
   "advancements.msmlegacy.relics.relic_aqueous_blade.description": "Obtain the relic from a drowned zombie.",
-  "enchantment.msmlegacy.ascension": "Ascension"
+  "enchantment.msmlegacy.ascension": "Ascension",
+  "__comment_advancements": "Advancements"
 }

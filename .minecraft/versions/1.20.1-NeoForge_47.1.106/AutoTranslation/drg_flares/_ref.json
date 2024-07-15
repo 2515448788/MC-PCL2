@@ -96,5 +96,9 @@
   "drg_flares.settings.disable_flares_in_water": "Disable Flare Light in Water",
   "drg_flares.settings.about.text": "§a§oDid I hear a Rock and Stone?§r\n \nThis mod introduces High-Intensity Flares from Deep Rock Galactic into Minecraft\n \nFlares are throwable temporary light sources which bounce off of surfaces\n \nAfter %s seconds, a flare will partially lose its brightness,\nand after additional %s seconds it will fizzle out completely\n \nFor the performance purposes, %s seconds later a fizzled out flare will despawn\n \nCan be used as a Client-Side-Only mod with flares visible only to you and not synced between players",
   "drg_flares.settings.seconds_until_idling_flare_gets_optimized.desc": "Flares\u0027 movement rarely needs\nto be calculated after it lands\n \nThis sets the threshold when\nan idling Flare disables movement calculation\n \n§bSet to 0 to disable idle optimization",
-  "item.drg_flares.drg_flare_gray": "Gray Flare"
+  "item.drg_flares.drg_flare_gray": "Gray Flare",
+  "__comment3": "Settings Menu",
+  "__comment4": "Server-Side Settings",
+  "__comment1": "Subtitles Names",
+  "__comment2": "Keybind Names"
 }

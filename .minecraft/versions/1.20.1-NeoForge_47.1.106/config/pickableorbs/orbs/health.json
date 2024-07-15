@@ -3,19 +3,24 @@
     "type": "pickableorbs:percentage_healing",
     "effectMultiplier": 25,
     "color": "#FF0046",
-    "blockList": ["minecraft:spawner"],
+    "blockList": [
+      "minecraft:spawner"
+    ],
     "blockListType": "whitelist",
     "texture": "pickableorbs:textures/entity/plain_orb.png",
     "blockDropChance": 100.0,
-    "entityList": ["minecraft:pig", "minecraft:sheep", "minecraft:rabbit", "minecraft:villager", "minecraft:cow", "minecraft:fox", "minecraft:chicken", "minecraft:horse", "minecraft:donkey"],
+    "entityList": [
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:rabbit",
+      "minecraft:villager",
+      "minecraft:cow",
+      "minecraft:fox",
+      "minecraft:chicken",
+      "minecraft:horse",
+      "minecraft:donkey"
+    ],
     "entityListType": "blacklist",
-    "entityDropChance": 15.5
-  },
-  "ExtraData": {
-    "pickup-message": "You've picked up a health orb!",
-    "animation": false,
-    "sound": true,
-    "follow-player": false,
-    "pickup-delay": 10
+    "entityDropChance": 100.0
   }
 }

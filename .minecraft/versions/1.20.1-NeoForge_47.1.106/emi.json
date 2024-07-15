@@ -1,0 +1,169 @@
+{
+  "favorites": [
+    {
+      "stack": "item:weaponmaster:weaponkit"
+    },
+    {
+      "stack": "item:weaponmaster:workstation"
+    },
+    {
+      "stack": "item:some_assembly_required:sandwiching_station"
+    },
+    {
+      "stack": "item:toms_storage:ts.inventory_connector"
+    },
+    {
+      "stack": "item:toms_storage:ts.storage_terminal"
+    },
+    {
+      "stack": "item:toms_storage:ts.crafting_terminal"
+    },
+    {
+      "stack": "item:farmersdelight:stove"
+    },
+    {
+      "stack": "item:farmersdelight:cooking_pot"
+    },
+    {
+      "stack": "item:farmersdelight:skillet{Damage:0}"
+    },
+    {
+      "stack": "item:farmersdelight:cutting_board"
+    },
+    {
+      "stack": "item:farmersdelight:iron_knife{Damage:0,affix_data:{sockets:0}}"
+    },
+    {
+      "stack": "item:minecraft:campfire",
+      "recipe": "minecraft:campfire"
+    },
+    {
+      "stack": "item:minecraft:bowl",
+      "recipe": "fruitsdelight:durian_lower_to_bowl"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:barrel",
+    "item:minecraft:bowl",
+    "item:twilightdelight:thousand_plant_stew",
+    "item:handcrafted:wood_bowl",
+    "item:farmersdelight:cutting_board",
+    "item:handcrafted:oak_table",
+    "item:farmersdelight:stove",
+    "item:farmersdelight:cooking_pot",
+    "item:minecraft:bucket",
+    {
+      "type": "item",
+      "id": "minecraft:water_bucket",
+      "remainder": "item:minecraft:bucket"
+    },
+    "item:minecraft:wooden_shovel{Damage:0,affix_data:{sockets:0}}",
+    "item:minecraft:charcoal",
+    {
+      "type": "item",
+      "id": "minecraft:stick",
+      "amount": 28
+    },
+    {
+      "type": "item",
+      "id": "minecraft:flint",
+      "amount": 14
+    },
+    {
+      "type": "item",
+      "id": "minecraft:copper_ingot",
+      "amount": 3
+    },
+    "item:weaponmaster:workstation",
+    "item:weaponmaster:weaponkit",
+    "item:mm_cooking:str_kitchen",
+    "item:l2complements:totemic_gold_ingot",
+    "item:minecraft:emerald",
+    "item:born_in_chaos_v1:corpse_maggot",
+    "item:minecraft:iron_sword{Damage:0,affix_data:{sockets:1}}",
+    "item:tombstone:grave_dust",
+    {
+      "type": "item",
+      "id": "brewery:gingerbread",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "twilightforest:liveroot_block",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "moonstone:ectoplasmcloub",
+      "amount": 2
+    },
+    "item:minecraft:stone",
+    "item:lkartifacts:knight_upgrade_smithing_template",
+    "item:lkartifacts:broken_star_small",
+    "item:some_assembly_required:sandwiching_station",
+    "item:aquamirae:fin",
+    "item:born_in_chaos_v1:bone_heart",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:fused_bone",
+      "amount": 2
+    },
+    "item:sophisticatedbackpacks:iron_backpack{contentsUuid:[I;1418179783,-738767021,-1553537292,433305261],inventorySlots:54,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:2}",
+    "item:minecraft:iron_axe{Damage:0,affix_data:{sockets:1}}",
+    "item:comforts:sleeping_bag_white",
+    "item:toms_storage:ts.storage_terminal",
+    "item:mcdar:light_feather{Damage:0}",
+    "item:mcdw:whip_whip{Damage:0}",
+    "item:mcdw:whip_vine_whip{Damage:0,Enchantments:[{id:\"mcdw:jungle_poison\",lvl:1s}]}",
+    "item:alexsmobs:elastic_tendon",
+    "item:alexsmobs:tendon_whip{Damage:116,affix_data:{affixes:{\"apotheosis:sword/attribute/graceful\":0.4163429f,\"apotheosis:sword/attribute/infernal\":0.4904725f,\"apotheosis:sword/attribute/intricate\":0.76090765f},gems:[{Count:1b,id:\"apotheosis:gem\",tag:{affix_data:{rarity:\"apotheosis:mythic\"},gem:\"apotheosis:core/samurai\",gem_power:1.0f,uuids:[[I;-1936369205,1244414713,-1438159957,929945908]]}}],name:\u0027{\"color\":\"#33FF33\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/infernal\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/intricate.suffix\"}]}\u0027,rarity:\"apotheosis:uncommon\",sockets:1,uuids:[[I;-1950879418,-855030522,-1953445981,-1605021488]]},gems_count:1}",
+    "item:waystones:waystone",
+    "item:minecraft:golden_pickaxe{Damage:14,affix_data:{sockets:0}}",
+    "item:mcdar:updraft_tome{Damage:0}"
+  ],
+  "craft_history": [
+    "minecraft:barrel",
+    "minecraft:bowl",
+    "farmersdelight:cutting_board",
+    "handcrafted:oak_table",
+    "farmersdelight:cooking_pot",
+    "minecraft:bucket",
+    "minecraft:wooden_shovel",
+    "minecraft:campfire",
+    "minecraft:oak_slab",
+    "sophisticatedstorage:basic_to_copper_tier_upgrade",
+    "lootbundles:loot_bundle",
+    "minecraft:jungle_slab",
+    "minecraft:stick",
+    "minecraft:redstone_torch",
+    "sophisticatedbackpacks:gold_backpack",
+    "weaponmaster:weaponkit",
+    "minecraft:oak_trapdoor",
+    "quark:tweaks/crafting/utility/bent/bread",
+    "brewery:pretzel",
+    "brewery:gingerbread",
+    "croptopia:flour",
+    "minecraft:wheat",
+    "some_assembly_required:crafting_shaped/sandwiching_station",
+    "minecraft:bread",
+    "minecraft:iron_axe",
+    "comforts:sleeping_bag_white",
+    "farmersdelight:iron_knife",
+    "mcdw:pick_diamond_pickaxe_var",
+    "quark:building/crafting/chests/mixed_chest",
+    "minecraft:oak_planks",
+    "minecraft:spruce_slab",
+    "minecraft:oak_sign",
+    "biomesoplenty:purple_dye_from_lavender",
+    "minecraft:golden_pickaxe",
+    "quark:tweaks/crafting/utility/tools/stone_pickaxe",
+    "minecraft:spruce_planks"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -1,0 +1,9 @@
+{
+  "effect.bountifulfares.acidic.description": "Increases the amplifier of all other effects applied. Reverts after Acidic is removed.",
+  "block.bountifulfares.scorchkin": "Scorchkin",
+  "effect.bountifulfares.restoration.description": "Regenerates health up to the health when it was applied.",
+  "item.bountifulfares.scorchkin_seeds": "Scorchkin Seeds",
+  "block.bountifulfares.scorchkin_stem": "Scorchkin Stem",
+  "effect.bountifulfares.enrichment.description": "Minor buffs to most stats.",
+  "effect.bountifulfares.stupor.description": "Removes all effects and stops effects from applying for its duration."
+}

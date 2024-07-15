@@ -1,0 +1,20 @@
+{
+  "sound.doapi.drawer_close": "关闭抽屉",
+  "sound.doapi.dinner_bell": "敲响晚餐铃声",
+  "sound.doapi.drawer_open": "打开抽屉",
+  "sound.doapi.brewstation_ambient": "酿酒站嗡嗡声",
+  "sound.doapi.timer_ticking": "滴答计时器",
+  "sound.doapi.cabinet_open": "开柜",
+  "sound.doapi.beer_elemental_attack": "酗酒袭击",
+  "sound.doapi.brewstation_timer": "滴答计时器",
+  "sound.doapi.typewriter": "打字机",
+  "sound.doapi.brewstation_whistle": "口哨口哨",
+  "sound.doapi.beer_elemental_hurt": "酒伤",
+  "sound.doapi.cabinet_close": "封闭柜",
+  "sound.doapi.cake_cut": "切蛋糕",
+  "sound.doapi.beer_elemental_death": "酒死",
+  "sound.doapi.brewstation_oven": "烤箱爆裂声",
+  "sound.doapi.breath": "呼吸",
+  "sound.doapi.brewstation_kettle": "泡泡爆破",
+  "sound.doapi.beer_elemental_ambient": "酒环境"
+}

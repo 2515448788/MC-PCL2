@@ -1,0 +1,11 @@
+{
+  "modmenu.summaryTranslation.midnightlib": "Common Library for Team MidnightDust\u0027s mods.",
+  "midnightlib.midnightconfig.title": "MidnightLib Config",
+  "midnightlib.overview.title": "MidnightConfig Overview",
+  "midnightlib.midnightconfig.enum.ConfigButton.TRUE": "§aYes",
+  "midnightlib.midnightconfig.enum.ConfigButton.MODMENU": "§bModMenu",
+  "modmenu.descriptionTranslation.midnightlib": "Common Library for Team MidnightDust\u0027s mods.\nProvides a config api, automatic integration with other mods, common utils, and cosmetics.",
+  "midnightlib.midnightconfig.background_texture": "Texture of config screen backgrounds",
+  "midnightlib.wiki": "Wiki",
+  "midnightlib.midnightconfig.config_screen_list": "Enable Config Screen List"
+}

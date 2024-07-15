@@ -50,5 +50,9 @@
   "tooltip.enigmaticlegacy.deceptionAmulet6": "§5While §6Imperceptible§5, no other creature",
   "tooltip.enigmaticlegacy.deceptionAmulet9": "§5attack or interact with entities/blocks.",
   "tooltip.enigmaticlegacy.deceptionAmulet8": "§5The effect will vanish if you attempt to",
-  "item.enigmaticlegacy.soul_dust": "Soul Dust"
+  "item.enigmaticlegacy.soul_dust": "Soul Dust",
+  "book.enigmaticlegacy.entry.sharpshooter_enchantment.name": "Sharpshooter",
+  "book.enigmaticlegacy.entry.sharpshooter_enchantment.heading.1": "The Enchantment",
+  "book.enigmaticlegacy.entry.sharpshooter_enchantment.page.2": "Sharpshooter only affects arrows - it will not increase damage of fireworks, for instance. Furthermore, it cannot be combined with Multishot or Piercing.",
+  "book.enigmaticlegacy.entry.sharpshooter_enchantment.page.1": "One of possible crossbow enchantments, this one stands among the most useful.\u003cbr2/\u003eIt increases the damage that arrows shot with the crossbow deal, somewhat similar to Power on bows. More precisely, for each level of Sharpshooter applied base damage of the crossbow will be increased by \u003c\u0026l\u003e+40%%$(clear)."
 }

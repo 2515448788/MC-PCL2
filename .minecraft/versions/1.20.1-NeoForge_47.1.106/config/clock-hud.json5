@@ -1,0 +1,10 @@
+{
+	"gameTimeDisplayEnabled": true,
+	"timeDisplayMode": "HRS24",
+	"clockIconEnabled": true,
+	"iconPosition": "RIGHT",
+	"position": "BOTTOM_RIGHT",
+	"color": 16777215,
+	"xOffset": -5,
+	"yOffset": -5
+}

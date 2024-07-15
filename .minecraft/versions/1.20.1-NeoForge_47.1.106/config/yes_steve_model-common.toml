@@ -1,7 +1,7 @@
 
 [general]
 	#Whether to display disclaimer GUI
-	DisclaimerShow = true
+	DisclaimerShow = false
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
@@ -9,7 +9,7 @@
 	#Prevents rendering of other player's model
 	DisableOtherModel = false
 	#Prevents rendering of self player's hand
-	DisableSelfHands = false
+	DisableSelfHands = true
 	#Prevents rendering of arrows model
 	DisableArrowsModel = false
 	#The default model ID when a player first enters the game
@@ -38,7 +38,7 @@
 #Only available on dedicated servers.
 [server_scheduler]
 	#Concurrent level for processing models. Value 0 means AUTO.
-	#Range: 0 ~ 5
+	#Range: 0 ~ 19
 	ThreadCount = 0
 	#Bandwidth limitation during distributing models to players.(In Mbps)
 	#Range: 1 ~ 999

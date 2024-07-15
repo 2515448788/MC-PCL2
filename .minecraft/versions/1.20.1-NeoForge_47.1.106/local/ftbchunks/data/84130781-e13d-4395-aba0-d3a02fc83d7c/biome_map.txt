@@ -1,0 +1,7 @@
+#65C biomesoplenty:lavender_field
+#36F biomesoplenty:lavender_forest
+#4F1 minecraft:ocean
+#5F0 biomesoplenty:pasture
+#5FF minecraft:river
+#2CF biomesoplenty:shrubland
+#51A minecraft:stony_shore

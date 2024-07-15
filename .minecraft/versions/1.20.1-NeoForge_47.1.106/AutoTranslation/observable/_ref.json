@@ -14,5 +14,20 @@
   "text.observable.upload_failed": "Profile could not be uploaded",
   "text.observable.profile_started": "Running Observable profile for %s seconds...",
   "text.observable.after_save": "Open this file at %s",
-  "text.observable.announce": "This pack contains Observable for finding lag sources. See %s to learn how to use it."
+  "text.observable.announce": "This pack contains Observable for finding lag sources. See %s to learn how to use it.",
+  "text.observable.profile_tps": "Profile TPS",
+  "text.observable.entity_not_found": "Entity not found. Perhaps it died or was otherwise removed?",
+  "category.observable.keybinds": "Observable",
+  "text.observable.donate": "Donate",
+  "text.observable.unavailable": "Observable is not installed on the server",
+  "key.observable.profile": "Show profiler screen",
+  "text.observable.docs": "Wiki",
+  "text.observable.unimplemented": "Unimplemented!",
+  "text.observable.profile_fps": "Profile FPS",
+  "text.observable.report": "Please report this at github.com/tasgon/observable/issues",
+  "text.observable.overlay": "Overlay",
+  "screen.observable.profile": "Profile",
+  "text.observable.error": "Error performing action: %s",
+  "text.observable.no_permissions": "You don\u0027t have permissions to start a profiler",
+  "screen.observable.results": "Results"
 }

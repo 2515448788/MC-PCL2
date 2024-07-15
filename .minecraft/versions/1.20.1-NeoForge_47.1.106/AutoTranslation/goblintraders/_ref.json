@@ -1,0 +1,15 @@
+{
+  "item.goblintraders.goblin_trader_spawn_egg": "Goblin Trader Spawn Egg",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "Vein Goblin Trader Spawn Egg",
+  "mob_spawner.type.skeleton": "Skeleton",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "Idle Grunt",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "Splash Potion of Dolphins Grace",
+  "entity.goblintraders.goblin_trader": "Goblin Trader",
+  "mob_spawner.type.zombie": "Zombie",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "Annoyed Grunt",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "Lingering Potion of Dolphins Grace",
+  "entity.goblintraders.vein_goblin_trader": "Vein Goblin Trader",
+  "item.minecraft.potion.effect.dolphins_grace": "Potion of Dolphins Grace",
+  "mob_spawner.type.creeper": "Creeper",
+  "stat.goblintraders.trade_with_goblin": "Traded with Goblins"
+}

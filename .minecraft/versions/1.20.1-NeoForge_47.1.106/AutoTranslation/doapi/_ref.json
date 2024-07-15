@@ -1,0 +1,20 @@
+{
+  "sound.doapi.drawer_close": "Closing Drawer",
+  "sound.doapi.dinner_bell": "Ringing Dinner Bell",
+  "sound.doapi.drawer_open": "Opening Drawer",
+  "sound.doapi.brewstation_ambient": "Brewstation Hum",
+  "sound.doapi.timer_ticking": "Ticking Timer",
+  "sound.doapi.cabinet_open": "Opening Cabinet",
+  "sound.doapi.beer_elemental_attack": "Booze Attack",
+  "sound.doapi.brewstation_timer": "Ticking Timer",
+  "sound.doapi.typewriter": "Typing Typewriter",
+  "sound.doapi.brewstation_whistle": "Whistling Whistle",
+  "sound.doapi.beer_elemental_hurt": "Booze Hurt",
+  "sound.doapi.cabinet_close": "Closing Cabinet",
+  "sound.doapi.cake_cut": "Cutting Cake",
+  "sound.doapi.beer_elemental_death": "Booze Dying",
+  "sound.doapi.brewstation_oven": "Oven Crackling",
+  "sound.doapi.breath": "Breath",
+  "sound.doapi.brewstation_kettle": "Popping Bubbles",
+  "sound.doapi.beer_elemental_ambient": "Booze Ambient"
+}

@@ -12,5 +12,15 @@
   "nvidium.options.async_bfs.name": "Enable async bfs",
   "nvidium.options.statistics_level.none": "None",
   "nvidium.options.statistics_level.tooltip": "Statistics logging level, tracks the visibility count of cull layers",
-  "nvidium.options.statistics_level.name": "Statistics Level"
+  "nvidium.options.statistics_level.name": "Statistics Level",
+  "nvidium.options.enable_temporal_coherence.tooltip": "Removes artifacting when turning around",
+  "nvidium.options.region_keep_distance.name": "Region Keep Distance",
+  "nvidium.options.max_gpu_memory.name": "Max gpu memory",
+  "nvidium.options.region_keep_distance.tooltip": "Distance to keep loaded regions",
+  "nvidium.options.enable_temporal_coherence.name": "Enables temporal coherence",
+  "nvidium.options.mb": "%s Mbs",
+  "nvidium.options.automatic_memory_limit.name": "Automatic memory limit",
+  "nvidium.options.max_gpu_memory.tooltip": "Max gpu memory allowed, will start to cull chunks if this limit is hit",
+  "nvidium.options.pages.nvidium": "Nvidium",
+  "nvidium.options.automatic_memory_limit.tooltip": "Automatically determines the memory limit to set given the amount of available vram on your system (Close and reopen settings to edit the max memory)"
 }

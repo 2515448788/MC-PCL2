@@ -5,14 +5,14 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "ADVANCED"
+		fpsDisplay = "SIMPLE"
 		#Shows GPU and memory usage onto FPS display
 		#Allowed Values: OFF, ON, GPU, RAM
 		fpsDisplaySystem = "OFF"
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		fullscreen = "WINDOWED"
+		fullscreen = "BORDERLESS"
 		#Configure FPS Display gravity
 		#Places counter on specified corner of your screen
 		#Allowed Values: LEFT, CENTER, RIGHT
@@ -32,11 +32,11 @@
 		#Sets culling mode
 		#Reduces number of visible faces when the neighbor blocks are leaves
 		#Allowed Values: ALL, OFF
-		leavesCulling = "OFF"
+		leavesCulling = "ALL"
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
-		fontShadows = true
+		fontShadows = false
 
 		[embeddiumplus.performance.distanceCulling]
 
@@ -65,7 +65,7 @@
 					cullingMaxDistanceX = 16384
 					#Toggles distance culling for monsters (or hostile entities, whatever you want to call it), doesn't affect neutral/pacific entities
 					#Check the options above
-					enable = false
+					enable = true
 					#Configure vertical max distance before cull monster entities
 					#Value is raw
 					#Range: 0 ~ 512

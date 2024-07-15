@@ -1,0 +1,7 @@
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#72D minecraft:snowy_beach
+#4ED biomesoplenty:snowy_maple_woods
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga

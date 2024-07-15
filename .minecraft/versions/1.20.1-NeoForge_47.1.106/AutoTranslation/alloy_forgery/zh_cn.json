@@ -1,0 +1,5 @@
+{
+  "emi.category.alloy_forgery.alloy_forge": "合金锻造",
+  "container.alloy_forgery.rei.button": "循环层覆盖",
+  "tooltip.alloy_forgery.invalid_tier": "此配方需要 %s 级的锻造控制器"
+}

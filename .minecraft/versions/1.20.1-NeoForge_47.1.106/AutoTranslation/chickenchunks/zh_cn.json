@@ -1,0 +1,13 @@
+{
+  "chickenchunks:commands.restrictions.player.chunks_per_loader.reset": "将 %s 的每个加载器的块设置回全局控制",
+  "chickenchunks:commands.restrictions.player.offline.enable": "设置为 %s 启用允许离线",
+  "chickenchunks:commands.restrictions.player.chunks_per_loader.set": "将 %s 的每个加载程序的块设置为 %s 个块",
+  "chickenchunks.gui.morechunks": "超出限额 %s 个块",
+  "chickenchunks:commands.restrictions.player.reset": "将 %s 的所有限制重置回全局控制",
+  "chickenchunks:commands.restrictions.player.offline.disable": "将 %s 设置为禁用允许离线",
+  "chickenchunks:commands.restrictions.player.timeout.set": "将 %s 的超时设置为 %s 分钟",
+  "chickenchunks:commands.restrictions.player.timeout.reset": "将 %s 的超时重置回全局控制",
+  "chickenchunks:commands.restrictions.player.allowed_chunks.reset": "将 %s 的允许块总数重置回全局控制",
+  "chickenchunks:commands.restrictions.player.offline.reset": "将 %s 的AllowOffline重置回全局控制",
+  "chickenchunks:commands.restrictions.player.allowed_chunks.set": "将 %s 允许的块总数设置为 %s 个块"
+}

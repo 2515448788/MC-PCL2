@@ -30,5 +30,9 @@
   "ftblibrary.client_settings.tooltips.image_modname": "Show Mod Name in Image Select GUI",
   "ftblibrary.gui.nbt_copied": "NBT copied to clipboard",
   "ftblibrary.client_settings.tooltips.item_modname": "Show Mod Name in Item Select GUI",
-  "ftblibrary.unsaved_changes": "Discard unsaved changes?"
+  "ftblibrary.unsaved_changes": "Discard unsaved changes?",
+  "item.ftblibrary.fluid_container": "Fluid Container",
+  "item.ftblibrary.fluid_container.use": "Right-click on a tank to empty the container",
+  "ftblibrary.empty": "Empty",
+  "ftblibrary.mb": "%s mB of %s"
 }

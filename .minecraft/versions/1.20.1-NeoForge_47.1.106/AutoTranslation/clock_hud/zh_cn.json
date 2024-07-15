@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.clock-hud.option.yOffset": "Y 轴偏移",
+  "text.autoconfig.clock-hud.option.timeDisplayMode": "游戏时间显示模式",
+  "text.autoconfig.clock-hud.option.clockIconEnabled": "时钟图标已启用？",
+  "text.autoconfig.clock-hud.option.position": "位置",
+  "text.autoconfig.clock-hud.title": "时钟平视显示器",
+  "text.autoconfig.clock-hud.option.iconPosition": "相对时钟图标位置",
+  "text.autoconfig.clock-hud.option.xOffset": "X 轴偏移",
+  "text.autoconfig.clock-hud.option.color": "颜色",
+  "text.autoconfig.clock-hud.option.gameTimeDisplayEnabled": "游戏时间显示已启用？"
+}

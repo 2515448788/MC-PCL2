@@ -28,5 +28,21 @@
   "ftbultimine.server_settings.require_tool.tooltip": "Players must have a damageable tool equipped, or an item in the \u0027ftbultimine:tools\u0027 item tag",
   "ftbultimine.client_settings.render_outline": "Max. Blocks to Render Outline for",
   "ftbultimine.server_settings.merge_tags": "Merge Tags (Shapeless)",
-  "ftbultimine.client_settings.require_sneak_for_menu.tooltip": "When the Ultimine key is pressed, must the player also Sneak to show the shapes menu?"
+  "ftbultimine.client_settings.require_sneak_for_menu.tooltip": "When the Ultimine key is pressed, must the player also Sneak to show the shapes menu?",
+  "ftbultimine.shape.shapeless": "Shapeless",
+  "ftbultimine.shape.small_square": "Small Square (3x3)",
+  "ftbultimine.info.partial_render": "%s rendered",
+  "key.ftbultimine": "FTB Ultimine",
+  "ftbultimine.info.not_active": "not active",
+  "item.ftbultimine.ultiminer": "Ultiminer",
+  "ftbultimine.info.base": "FTB Ultimine is %s",
+  "key.categories.ftbultimine": "FTB Ultimine",
+  "ftbultimine.shape.small_tunnel": "Small Tunnel",
+  "ftbultimine.change_shape": "Hold Shift + (Scroll Mouse or Arrow up/down) to change shape",
+  "item.ftbultimine.ultiminer.tooltip": "Enables the use of %s when active",
+  "ftbultimine.info.active": "active",
+  "ftbultimine.shape.escape_tunnel": "Escape Tunnel",
+  "ftbultimine.info.blocks": "Mining %s blocks",
+  "ftbultimine.shape.mining_tunnel": "Mining Tunnel",
+  "ftbultimine.config": "FTB Ultimine Configuration"
 }

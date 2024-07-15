@@ -4,9 +4,11 @@
     "effectMultiplier": 4,
     "effectDuration": 100,
     "color": "#6400C8",
-    "blockList": ["minecraft:spawner"],
+    "blockList": [
+      "minecraft:spawner"
+    ],
     "blockListType": "whitelist",
-    "blockDropChance": 0.5,
+    "blockDropChance": 0.0,
     "entityList": [],
     "entityListType": "whitelist",
     "entityDropChance": 0.0

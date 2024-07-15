@@ -21,5 +21,6 @@
   "citadel.gui.patreon_customization": "Citadel Patreon Customization",
   "citadel.gui.follower_type": "Type: ",
   "citadel.gui.no_cape": "No Modded Cape",
-  "citadel.gui.patreon_rewards_option": "Citadel Patreon Customization..."
+  "citadel.gui.patreon_rewards_option": "Citadel Patreon Customization...",
+  "item.citadel.debug": "Citadel Debugger"
 }

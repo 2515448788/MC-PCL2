@@ -1,0 +1,9 @@
+{
+  "effect.bountifulfares.acidic.description": "增加所有其他应用效果的放大器。去除酸性后恢复。",
+  "block.bountifulfares.scorchkin": "斯科奇金",
+  "effect.bountifulfares.restoration.description": "恢复生命值至使用时的生命值。",
+  "item.bountifulfares.scorchkin_seeds": "焦金种子",
+  "block.bountifulfares.scorchkin_stem": "焦金茎",
+  "effect.bountifulfares.enrichment.description": "对大多数统计数据都有轻微的增强。",
+  "effect.bountifulfares.stupor.description": "移除所有效果并在其持续时间内停止应用效果。"
+}

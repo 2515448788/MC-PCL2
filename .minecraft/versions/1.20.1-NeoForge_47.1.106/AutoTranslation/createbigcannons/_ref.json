@@ -120,5 +120,6 @@
   "tag.c.nuggets.bronze": "Bronze Nuggets (Forge Format)",
   "cast_shape.createbigcannons.autocannon_recoil_spring": "Autocannon Recoil Spring",
   "cast_shape.createbigcannons.sliding_breech": "Sliding Breech",
-  "createbigcannons.ponder.cannon_loader/base_contraption_loading.header": "Loading Big Cannons with base Create contraptions"
+  "createbigcannons.ponder.cannon_loader/base_contraption_loading.header": "Loading Big Cannons with base Create contraptions",
+  "tag.c.steel_nuggets": "Steel Nuggets"
 }

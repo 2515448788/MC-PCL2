@@ -6,5 +6,13 @@
   "ccl.fluid_tank.stored": "存储：",
   "ccl.fluid_tank.fluid_storage": "液体储存",
   "ccl.fluid_tank.capacity": "容量：",
-  "ccl.energy_bar.stored": "存储："
+  "ccl.energy_bar.stored": "存储：",
+  "ccl.commands.killall.success": "杀死了 %s 个实体。",
+  "ccl.commands.gc.performing": "执行GC..",
+  "ccl.commands.count.total": "找到 %s 个实体。",
+  "ccl.commands.killall.success.line": "杀死了%s",
+  "ccl.commands.count.fail": "没有找到任何实体。",
+  "ccl.commands.killall.fail": "没有找到任何实体。",
+  "ccl.commands.gc.after": "后：",
+  "ccl.commands.gc.before": "前："
 }

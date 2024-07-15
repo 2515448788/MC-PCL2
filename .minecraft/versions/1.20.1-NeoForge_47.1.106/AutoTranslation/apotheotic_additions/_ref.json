@@ -699,5 +699,6 @@
   "affix.apotheotic_additions:curios_armor/dmg_reduction/explosion.suffix": "of Explosive Protection",
   "alexsmobs.potion.oiled.desc": "Float in water and Levitate in rain.",
   "affix.apotheotic_additions:shield/mob_effect/corruption.suffix": "of Eldritch Defense",
-  "affix.apotheotic_additions:armor/attribute/esoteric_armor": "Infinity-Reinforced"
+  "affix.apotheotic_additions:armor/attribute/esoteric_armor": "Infinity-Reinforced",
+  "curios.modifiers.an_focus": "When worn as a Spell Focus"
 }

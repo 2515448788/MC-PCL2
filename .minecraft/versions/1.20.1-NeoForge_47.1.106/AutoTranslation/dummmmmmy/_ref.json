@@ -1,3 +1,5 @@
 {
-  "message.dummmmmmy.crit": "%s (%sx)"
+  "message.dummmmmmy.crit": "%s (%sx)",
+  "entity.dummmmmmy.target_dummy": "Target Dummy",
+  "item.dummmmmmy.target_dummy": "Target Dummy"
 }

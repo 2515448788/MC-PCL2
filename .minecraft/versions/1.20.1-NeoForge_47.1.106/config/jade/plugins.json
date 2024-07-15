@@ -53,6 +53,26 @@
   "l2hostility": {
     "mob": true
   },
+  "tombstone": {
+    "graves": true
+  },
+  "crockpot": {
+    "birdcage": true,
+    "crock_pot": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -66,14 +86,6 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "create": {
     "filter": true,
     "backtank_capacity": true,
@@ -85,12 +97,15 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
   "waystones": {
     "waystone": true
+  },
+  "drinkbeer": {
+    "mixed_beer": true,
+    "trade_box": true,
+    "beer_barrel": true
+  },
+  "barbequesdelight": {
+    "grill": true
   }
 }

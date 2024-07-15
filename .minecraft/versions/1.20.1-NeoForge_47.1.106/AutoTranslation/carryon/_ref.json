@@ -1,3 +1,14 @@
 {
-  "key.carry.category": "Carry On"
+  "key.carry.category": "Carry On",
+  "carryon.category.whitelist": "Whitelist",
+  "carryon.category.settings": "Settings",
+  "carryon.category.custompickupconditions": "Custom Pickup Conditions (Advanced)",
+  "carryon.general.modeloverrides.modeloverrides": "Model Overrides",
+  "key.carry.desc": "Carry",
+  "carryon.general.blacklist.forbiddentiles": "Blocks that the Player cannot pick up",
+  "carryon.category.custompickupconditions.custompickupconditionsentities": "Custom Entity Pickup Conditions",
+  "carryon.category.blacklist": "Blacklist",
+  "carryon.category.custompickupconditions.custompickupconditionsblocks": "Custom Block Pickup Conditions",
+  "carryon.category.modeloverrides": "Model Overrides (Advanced)",
+  "carryon.general.blacklist.forbiddenentities": "Entities that the Player cannot pick up"
 }

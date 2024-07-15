@@ -143,17 +143,6 @@
         "value": 1
       }
     },
-    "forge:entity_gravity": {
-      "enabled": false,
-      "min": {
-        "default": -8,
-        "value": -8
-      },
-      "max": {
-        "default": 8,
-        "value": 8
-      }
-    },
     "obscure_api:resilience": {
       "enabled": false,
       "min": {
@@ -163,6 +152,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "forge:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 8
       }
     },
     "modulargolems:golem_jump": {
@@ -253,17 +253,6 @@
         "value": 512
       }
     },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "l2damagetracker:damage_absorption": {
       "enabled": false,
       "min": {
@@ -284,6 +273,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "skilltree:exp_per_minute": {
@@ -364,6 +364,17 @@
       }
     },
     "additionalentityattributes:generic.magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "feathers:feathers.feather_regen": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -495,17 +506,6 @@
         "value": 1000000
       }
     },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "obscure_api:accuracy": {
       "enabled": false,
       "min": {
@@ -515,6 +515,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2damagetracker:bow_strength": {
@@ -702,6 +713,17 @@
       "max": {
         "default": 90,
         "value": 90
+      }
+    },
+    "feathers:feathers.max_feathers": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "modulargolems:golem_size": {

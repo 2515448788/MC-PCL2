@@ -1,0 +1,5 @@
+{
+  "cullleaves.midnightconfig.cullRoots.tooltip": "Enables culling for mangrove roots.\n§cAfter changing this setting you have to reload all chunks (F3 + A)",
+  "cullleaves.midnightconfig.cullRoots": "Enable Mangrove Root Culling",
+  "cullleaves.midnightconfig.cullRoots.tooltip.sodium": "Enables culling for mangrove roots."
+}

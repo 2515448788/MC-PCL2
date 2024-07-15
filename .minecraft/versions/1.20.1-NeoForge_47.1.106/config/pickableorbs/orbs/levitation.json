@@ -7,8 +7,10 @@
     "blockList": [],
     "blockListType": "whitelist",
     "blockDropChance": 0.0,
-    "entityList": ["minecraft:shulker"],
+    "entityList": [
+      "minecraft:shulker"
+    ],
     "entityListType": "whitelist",
-    "entityDropChance": 0.5
+    "entityDropChance": 0.0
   }
 }

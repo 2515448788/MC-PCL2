@@ -15,5 +15,6 @@
   "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "The rate at which torches spawn throughout the stronghold.",
   "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.@Tooltip": "General settings.",
   "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "Default: 0.1",
-  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "The rate at which cobwebs will spawn in various parts of the stronghold."
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "The rate at which cobwebs will spawn in various parts of the stronghold.",
+  "betterstrongholds.commands.locate.stronghold": "Use /locate structure betterstrongholds:stronghold instead!"
 }

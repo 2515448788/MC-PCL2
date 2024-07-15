@@ -1,0 +1,13 @@
+{
+  "catalogue.gui.mod_list": "Mods",
+  "catalogue.gui.version": "Version: %s",
+  "catalogue.gui.contributors": "Contributor(s): %s",
+  "catalogue.gui.config": "Config",
+  "catalogue.gui.update_available": "Update: %s",
+  "catalogue.gui.authors": "Author(s): %s",
+  "catalogue.gui.open_mods_folder": "Open Mods Folder",
+  "catalogue.gui.internal_libraries": "Show Internal Libraries",
+  "catalogue.gui.licenses": "License(s): %s",
+  "catalogue.gui.credits": "Credits: %s",
+  "catalogue.gui.search": "Search"
+}

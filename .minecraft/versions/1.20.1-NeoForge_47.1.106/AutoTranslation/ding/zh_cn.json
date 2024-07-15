@@ -1,0 +1,14 @@
+{
+  "config.ding.cat.world.name": "加载与世界相关的配置",
+  "config.ding.cat.world.desc": "连接到服务器后世界加载时触发 ding 的配置",
+  "config.ding.cat.load.desc": "配置游戏加载时触发 ding",
+  "config.ding.cat.load.name": "Minecraft 负载相关配置",
+  "config.ding.prop.volumeResourcesReload.desc": "声音音量（资源重新加载完成时）",
+  "config.ding.prop.volume.desc": "体积的体积（当 Minecraft 加载时）",
+  "config.ding.prop.volumeWorld.name": "（世界负载）音量",
+  "config.ding.prop.volumeWorld.desc": "声音音量（连接到服务器后加载世界时）",
+  "config.ding.cat.resourcesReload.name": "资源重载相关配置",
+  "config.ding.cat.resourcesReload.desc": "配置 ding 在资源重新加载时触发",
+  "config.ding.prop.volumeResourcesReload.name": "（资源重新加载）音量",
+  "config.ding.prop.volume.name": "（负载）音量"
+}

@@ -1,0 +1,10 @@
+{
+  "gui.colytra.config.itemListType.tooltip": "确定 itemsList 是否包含允许的项目或拒绝的项目。",
+  "gui.colytra.config.itemsList.description": "用鞘翅制作的物品。",
+  "gui.colytra.config.fusionType.description": "确定组合后的鞘翅胸甲将如何表现。\n正常：鞘翅将与胸甲分开存在，稍后可以分离。\nUNISON：鞘翅将与胸甲完全融合，无法分离。\n完美：鞘翅将与胸甲完全融合胸甲和飞行不会使用耐久度。",
+  "gui.colytra.config.itemListType.name": "胸甲物品列表类型",
+  "gui.colytra.config.fusionType.name": "工艺融合型",
+  "gui.colytra.config.energyCost.description": "如果 fusionType 为 UNISON 并且胸甲使用能量，则坠落飞行每秒的能量消耗。",
+  "gui.colytra.config.energyCost.name": "降低飞行能源成本",
+  "gui.colytra.config.itemsList.name": "胸甲物品"
+}

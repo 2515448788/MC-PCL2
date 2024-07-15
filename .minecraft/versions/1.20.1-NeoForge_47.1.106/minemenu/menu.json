@@ -1,0 +1,52 @@
+{
+  "main": {
+    "2": {
+      "title": "枪械改装",
+      "icon": {
+        "stack": "{Count:1b,id:\"quark:hammer\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.tacz.refit.desc",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "技能树",
+      "icon": {
+        "stack": "{Count:1b,id:\"simplyswords:waking_lichblade\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.display_skill_tree",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "背包",
+      "icon": {
+        "stack": "{Count:1b,id:\"l2backpack:backpack_white\"}"
+      },
+      "action": {
+        "key": {
+          "key": "keybind.sophisticatedbackpacks.open_backpack",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "物品栏",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:trapped_chest\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.inventory",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

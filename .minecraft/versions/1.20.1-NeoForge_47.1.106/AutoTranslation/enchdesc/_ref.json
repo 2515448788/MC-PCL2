@@ -126,5 +126,8 @@
   "enchantment.improved_exp.invulnerability.desc": "The wearer does not take damage.",
   "__support_shield+": "Shields+ https://www.curseforge.com/minecraft/mc-mods/shieldsplus",
   "enchantment.improved_exp.return_from_void.desc": "Teleports the wearer back to the surface if they fall into the void.",
-  "enchantment.improved_exp.resistance.desc": "Gives the wearer the resistance buff."
+  "enchantment.improved_exp.resistance.desc": "Gives the wearer the resistance buff.",
+  "enchdesc.jei.compatible_items.title": "Compatible Items",
+  "enchantment.endlessbiomes.vwooping.desc": "Enemies that attack you may be teleported away.",
+  "enchantment.endlessbiomes.shared_pain": "When a mob is killed any excess damage will be dealt to nearby mobs."
 }
