@@ -1588,9 +1588,21 @@
     },
     "done": true
   },
-  "tombstone:adventure/choose_knowledge": {
+  "iter_rpg:iter_root": {
     "criteria": {
-      "coded_trigger": "2024-07-15 20:34:49 +0800"
+      "iter_root_0": "2024-07-15 20:29:28 +0800"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2024-07-15 20:29:28 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-07-15 20:34:06 +0800"
     },
     "done": true
   },
@@ -1600,9 +1612,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/ambush": {
+  "tombstone:adventure/choose_knowledge": {
     "criteria": {
-      "coded_trigger": "2024-07-15 20:34:06 +0800"
+      "coded_trigger": "2024-07-15 20:34:49 +0800"
     },
     "done": true
   },
@@ -1618,15 +1630,9 @@
     },
     "done": true
   },
-  "iter_rpg:iter_root": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "iter_root_0": "2024-07-15 20:29:28 +0800"
-    },
-    "done": true
-  },
-  "parcool:grant_parcool_guide": {
-    "criteria": {
-      "tick": "2024-07-15 20:29:28 +0800"
+      "tamed_animal": "2024-07-15 21:01:58 +0800"
     },
     "done": true
   },
