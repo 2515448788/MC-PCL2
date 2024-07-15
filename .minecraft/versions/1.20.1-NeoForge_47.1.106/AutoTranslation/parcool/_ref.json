@@ -1,0 +1,7 @@
+{
+  "death.attack.parcool.wall_slide": "%1$s couldn\u0027t bear the burns caused by the frictional heat.",
+  "parcool.command.message.success.deleteLimitation": "Delete Limitation : %s",
+  "parcool.action.FastSwim": "Fast Swim",
+  "parcool.message.disabled": "ParCool : Disabled",
+  "parcool.message.enabled": "ParCool : Enabled"
+}

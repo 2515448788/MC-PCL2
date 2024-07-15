@@ -1,0 +1,7 @@
+{
+  "death.attack.parcool.wall_slide": "%1$s无法忍受摩擦热造成的烧伤。",
+  "parcool.command.message.success.deleteLimitation": "删除限制：%s",
+  "parcool.action.FastSwim": "快速游泳",
+  "parcool.message.disabled": "ParCool：禁用",
+  "parcool.message.enabled": "ParCool：启用"
+}
