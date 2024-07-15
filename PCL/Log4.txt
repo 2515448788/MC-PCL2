@@ -1,73 +1,136 @@
-[12:21:30.798] [Start] 程序版本：Snapshot 2.8.3 (331)
-[12:21:30.799] [Start] 识别码：B3B4-C8E8-A188-2726
-[12:21:30.799] [Start] 程序路径：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[12:21:30.799] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
-[12:21:30.800] [Start] 管理员权限：True
-[12:21:30.803] [Start] 第一阶段加载用时：62 ms
-[12:21:30.905] [UI] 刷新主题：4
-[12:21:30.940] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[12:21:30.940] [Start] 第二阶段加载用时：125 ms
-[12:21:30.946] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[12:21:31.094] [UI] 加载背景图片：D:\MC-PCL2\PCL\Pictures\Background.jpg
-[12:21:31.189] [System] 窗口已置顶，位置：(393, 173), 1135 x 687
-[12:21:31.194] [Start] 第三阶段加载用时：109 ms
-[12:21:31.194] [Animation] 动画线程开始
-[12:21:31.196] [Start] 加载 DLL：Json
-[12:21:31.196] [System] 获取资源：Json
-[12:21:31.204] [Launch] Minecraft 文件夹：D:\MC-PCL2\.minecraft\
-[12:21:31.244] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
-[12:21:31.249] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
-[12:21:31.271] [Java] 缓存中有 4 个可用的 Java：
-[12:21:31.272] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[12:21:31.272] [Java]  - JDK 17 (17.0.11)：C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin\
-[12:21:31.272] [Java]  - JDK 17 (17.0.8)：C:\Users\Administrator\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
-[12:21:31.272] [Java]  - JDK 21 (21.0.3)：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
-[12:21:31.302] [Page] 实例化：清空自定义主页 UI，来源为空
-[12:21:31.305] [Skin] 载入头像成功：Loader Skin Ms
-[12:21:31.307] [Minecraft] 启动按钮：Minecraft 版本：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[12:21:31.310] [Loader] 加载器 登录 状态改变：Loading
-[12:21:31.314] [Launch] 登录加载已开始
-[12:21:31.314] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[12:21:31.316] [Launch] 登录方式：正版（Aaalicecao）
-[12:21:31.317] [Launch] 开始微软登录步骤 2（刷新登录）
-[12:21:31.322] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[12:21:31.487] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[12:21:31.489] [UI] 解锁隐藏主题：6
-[12:21:31.489] [Loader] 加载器 PCL 服务 状态改变：Loading
-[12:21:31.490] [Server] 正在连接到 PCL 服务器
-[12:21:31.492] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
-[12:21:31.500] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1721017291-5b8bc507-0-c6a95e063761ba3ebb0dd8e90d1ae4e6，超时 10000ms
-[12:21:31.578] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[12:21:31.608] [Server] 服务器公告：145|331|332|5，无需更新
-[12:21:31.613] [Loader] 加载器 PCL 服务 状态改变：Finished
-[12:21:31.916] [System] DPI：96，系统版本：10.0.22631.0，PCL 位置：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[12:21:32.108] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[12:21:32.151] [Launch] 开始微软登录步骤 3
-[12:21:32.151] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[12:21:32.414] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[12:21:32.927] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[12:21:33.691] [Launch] 开始微软登录步骤 4
-[12:21:33.691] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[12:21:33.953] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[12:21:34.458] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[12:21:34.799] [System] 接受文件拖拽：E:\Download\YSM内测服v1.0.2.zip 等 1 个文件
-[12:21:34.799] [System] 文件为压缩包，尝试作为整合包安装
-[12:21:34.801] [ModPack] 整合包安装请求：E:\Download\YSM内测服v1.0.2.zip
-[12:21:34.815] [ModPack] 整合包种类：MMC
-[12:21:34.870] [Control] 输入弹窗：输入版本名称
-[12:21:35.218] [Launch] 开始微软登录步骤 5
-[12:21:35.219] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[12:21:35.469] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[12:21:36.592] [Launch] 开始微软登录步骤 6
-[12:21:36.593] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[12:21:36.843] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[12:21:37.112] [Control] 按下按钮：取消
-[12:21:37.113] [Control] 输入弹框返回：null
-[12:21:37.714] [Launch] 开始微软登录步骤 7
-[12:21:37.715] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[12:21:37.979] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[12:21:38.492] [Launch] 微软登录完成
-[12:21:38.492] [UI] 解锁隐藏主题：10
-[12:21:38.493] [Loader] 加载器 Loader Login Ms 状态改变：Finished
-[12:21:38.504] [Launch] 登录加载已结束
-[12:21:38.504] [Loader] 加载器 登录 状态改变：Finished
+[17:47:26.922] [Start] 程序版本：Snapshot 2.8.3 (331)
+[17:47:26.924] [Start] 识别码：9716-A12E-161C-8DBC
+[17:47:26.924] [Start] 程序路径：C:\PCL2\Plain Craft Launcher 2.exe
+[17:47:26.924] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
+[17:47:26.924] [Start] 管理员权限：False
+[17:47:26.928] [Start] 第一阶段加载用时：78 ms
+[17:47:27.037] [UI] 刷新主题：4
+[17:47:27.074] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[17:47:27.075] [Start] 第二阶段加载用时：156 ms
+[17:47:27.081] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[17:47:27.222] [UI] 加载背景图片：C:\PCL2\PCL\Pictures\Background.jpg
+[17:47:27.328] [System] 窗口已置顶，位置：(507, 245), 907 x 550
+[17:47:27.332] [Start] 第三阶段加载用时：125 ms
+[17:47:27.332] [Animation] 动画线程开始
+[17:47:27.335] [Start] 加载 DLL：Json
+[17:47:27.335] [System] 获取资源：Json
+[17:47:27.344] [Launch] Minecraft 文件夹：C:\PCL2\.minecraft\
+[17:47:27.387] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[17:47:27.393] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[17:47:27.414] [Java] 缓存中有 6 个可用的 Java：
+[17:47:27.414] [Java]  - JDK 21 (21.0.3)：C:\PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
+[17:47:27.414] [Java]  - JRE 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\jre\bin\
+[17:47:27.414] [Java]  - JDK 17 (17.0.8)：C:\Users\Admin\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
+[17:47:27.414] [Java]  - JDK 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\bin\
+[17:47:27.414] [Java]  - JDK 21 (21.0.3)：C:\Users\Admin\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
+[17:47:27.414] [Java]  - JDK 11 (11.0.12)：C:\Program Files\Java\jdk-11.0.12\bin\
+[17:47:27.437] [Page] 实例化：清空自定义主页 UI，来源为空
+[17:47:27.440] [Skin] 载入头像成功：Loader Skin Ms
+[17:47:27.460] [Minecraft] 启动按钮：Minecraft 版本：C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
+[17:47:27.464] [Loader] 加载器 登录 状态改变：Loading
+[17:47:27.467] [Launch] 登录加载已开始
+[17:47:27.467] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[17:47:27.470] [Launch] 登录方式：正版（Aaalicecao）
+[17:47:27.471] [Launch] 开始微软登录步骤 2（刷新登录）
+[17:47:27.475] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[17:47:27.620] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[17:47:27.623] [UI] 解锁隐藏主题：6
+[17:47:27.623] [Loader] 加载器 PCL 服务 状态改变：Loading
+[17:47:27.623] [Server] 正在连接到 PCL 服务器
+[17:47:27.626] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[17:47:27.633] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1721036848-14c5021d-0-930161d3b84be3251920d6b42af91a6f，超时 10000ms
+[17:47:27.716] [Server] 服务器公告：145|331|332|5，无需更新
+[17:47:27.721] [Loader] 加载器 PCL 服务 状态改变：Finished
+[17:47:27.728] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[17:47:27.871] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[17:47:28.056] [System] DPI：96，系统版本：10.0.19044.0，PCL 位置：C:\PCL2\Plain Craft Launcher 2.exe
+[17:47:28.293] [Launch] 开始微软登录步骤 3
+[17:47:28.293] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[17:47:28.558] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[17:47:29.064] [Launch] 开始微软登录步骤 4
+[17:47:29.064] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[17:47:29.151] [Control] 按下按钮：版本设置
+[17:47:29.199] [Control] 切换主要页面：VersionSetup, 0
+[17:47:29.328] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[17:47:29.829] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[17:47:30.585] [Launch] 开始微软登录步骤 5
+[17:47:30.586] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[17:47:30.851] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[17:47:30.878] [Control] 按下按钮：版本文件夹
+[17:47:30.879] [System] 执行外部命令：explorer.exe "C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\"
+[17:47:31.762] [Launch] 开始微软登录步骤 6
+[17:47:31.763] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[17:47:32.027] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[17:47:32.785] [Launch] 开始微软登录步骤 7
+[17:47:32.786] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[17:47:33.039] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[17:47:33.549] [Launch] 微软登录完成
+[17:47:33.549] [UI] 解锁隐藏主题：10
+[17:47:33.549] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[17:47:33.561] [Launch] 登录加载已结束
+[17:47:33.561] [Loader] 加载器 登录 状态改变：Finished
+[17:52:39.071] [Control] 按下图标按钮：BtnTitleInner
+[17:52:39.072] [Control] 切换主要页面：Launch, -1
+[17:52:39.862] [Control] 按下单选按钮：下载
+[17:52:39.915] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[17:52:39.916] [Control] 切换主要页面：Download, -1
+[17:52:39.920] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[17:52:39.921] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[17:52:40.009] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[17:52:40.010] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[17:52:40.012] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[17:52:40.013] [Loader] 加载器 DlNeoForgeList Main 状态改变：Loading
+[17:52:40.014] [Loader] 加载器 DlOptiFineList Official 状态改变：Loading
+[17:52:40.015] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Loading
+[17:52:40.018] [Loader] 加载器 DlFabricList Official 状态改变：Loading
+[17:52:40.018] [Net] 获取网络结果：https://meta.fabricmc.net/v2/versions，超时 10000ms，要求 json
+[17:52:40.019] [Net] 获取网络结果：https://dl.liteloader.com/versions/versions.json，超时 10000ms，要求 json
+[17:52:40.019] [Loader] 加载器 DlNeoForgeList Official 状态改变：Loading
+[17:52:40.020] [Net] 获取客户端网络结果：https://optifine.net/downloads，最大超时 10000
+[17:52:40.024] [Loader] 加载器 源码获取 366# 状态改变：Loading
+[17:52:40.027] [Download] 刷新 Forge 推荐版本缓存开始
+[17:52:40.027] [Loader] 加载器 源码获取 370# 状态改变：Loading
+[17:52:40.081] [Download] -439165528_365 397#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge
+[17:52:40.082] [Download] -1798645995_369 398#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[17:52:40.130] [Download] -1798645995_369 398#：文件大小 51113（49.9 K）
+[17:52:40.138] [Download] -1798645995_369：已完成，剩余文件 1
+[17:52:40.138] [Loader] 加载器 源码获取 370# 状态改变：Finished
+[17:52:40.146] [Download] 刷新 Forge 推荐版本缓存成功
+[17:52:40.245] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[17:52:40.378] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[17:52:40.822] [Download] -439165528_365 397#：文件大小 7780（7.6 K）
+[17:52:40.823] [Download] -439165528_365：已完成，剩余文件 0
+[17:52:40.823] [Loader] 加载器 源码获取 366# 状态改变：Finished
+[17:52:40.829] [Loader] 加载器 源码获取 414# 状态改变：Loading
+[17:52:40.845] [Download] 2144960796_413 417#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/forge
+[17:52:41.198] [Download] 2144960796_413 417#：文件大小 1100（1.07 K）
+[17:52:41.199] [Download] 2144960796_413：已完成，剩余文件 0
+[17:52:41.199] [Loader] 加载器 源码获取 414# 状态改变：Finished
+[17:52:41.206] [Loader] 加载器 DlNeoForgeList Official 状态改变：Finished
+[17:52:41.216] [Loader] 加载器 DlNeoForgeList Main 状态改变：Finished
+[17:52:41.256] [Loader] 加载器 DlOptiFineList Official 状态改变：Finished
+[17:52:41.263] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[17:52:41.322] [Loader] 加载器 DlFabricList Official 状态改变：Finished
+[17:52:41.325] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[17:52:42.002] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Finished
+[17:52:42.014] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[17:52:43.223] [Control] 按下单选列表项：Mod
+[17:52:43.237] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:52:43.250] [Comp] 工程列表搜索原始文本：
+[17:52:43.250] [Comp] 工程列表搜索最终文本：
+[17:52:43.253] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0
+[17:52:43.254] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0，超时 10000ms，要求 json
+[17:52:43.255] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
+[17:52:43.255] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[17:52:43.772] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 24759 个）
+[17:52:45.214] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 56412 个）
+[17:52:45.221] [System] 获取资源：ModData
+[17:52:45.243] [Comp] 将 Cloth Config API (cloth-config) 与 Cloth Config API (Fabric/Forge/NeoForge) (cloth-config) 认定为相似工程
+[17:52:45.244] [Comp] 将 ModernFix (modernfix) 与 ModernFix (modernfix) 认定为相似工程
+[17:52:45.245] [Comp] 去重、筛选后累计新增结果 78 个
+[17:52:45.257] [Comp] 开始可视化 Mod 列表，已储藏 78 个结果，当前在第 1 页
+[17:52:45.299] [Comp] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/mOgUt4GM/1b6bcdef5a3d92572f517122650716be7ec6458b.webp
+[17:52:45.447] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:52:46.822] [Control] 按下图标按钮：BtnTitleClose
+[17:52:46.825] [System] 收到关闭指令
+[17:52:47.052] [System] 程序已退出，返回值：Success
