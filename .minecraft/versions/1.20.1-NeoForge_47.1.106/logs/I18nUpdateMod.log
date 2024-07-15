@@ -1,14 +1,14 @@
-[2024-07-15 18:55:30] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
-[2024-07-15 18:55:30] [DEBUG]: Minecraft path: D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
-[2024-07-15 18:55:30] [DEBUG]: User home: C:\Users\Administrator
-[2024-07-15 18:55:30] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip md5: F6283CF99CFC1DB899BB444B947CFD83, remote md5: F6283CF99CFC1DB899BB444B947CFD83
-[2024-07-15 18:55:30] [DEBUG]: Already up to date.
-[2024-07-15 18:55:30] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: 6309DF6DC2308C0B92C49A5D64FF422D, remote md5: 6309DF6DC2308C0B92C49A5D64FF422D
-[2024-07-15 18:55:30] [DEBUG]: Already up to date.
-[2024-07-15 18:55:30] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip md5: CD095CD943966533D8049A9FB4299F25, remote md5: CD095CD943966533D8049A9FB4299F25
-[2024-07-15 18:55:30] [DEBUG]: Already up to date.
-[2024-07-15 18:55:30] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2024-07-15 18:55:30] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2024-07-15 18:55:30] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
-[2024-07-15 18:55:31] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
-[2024-07-15 18:55:31] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-07-15 20:19:48] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
+[2024-07-15 20:19:48] [DEBUG]: Minecraft path: D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
+[2024-07-15 20:19:48] [DEBUG]: User home: C:\Users\Administrator
+[2024-07-15 20:19:48] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip md5: F6283CF99CFC1DB899BB444B947CFD83, remote md5: F6283CF99CFC1DB899BB444B947CFD83
+[2024-07-15 20:19:48] [DEBUG]: Already up to date.
+[2024-07-15 20:19:48] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: 6309DF6DC2308C0B92C49A5D64FF422D, remote md5: 6309DF6DC2308C0B92C49A5D64FF422D
+[2024-07-15 20:19:48] [DEBUG]: Already up to date.
+[2024-07-15 20:19:49] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip md5: CD095CD943966533D8049A9FB4299F25, remote md5: CD095CD943966533D8049A9FB4299F25
+[2024-07-15 20:19:49] [DEBUG]: Already up to date.
+[2024-07-15 20:19:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
+[2024-07-15 20:19:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2024-07-15 20:19:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
+[2024-07-15 20:19:49] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-07-15 20:19:49] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
