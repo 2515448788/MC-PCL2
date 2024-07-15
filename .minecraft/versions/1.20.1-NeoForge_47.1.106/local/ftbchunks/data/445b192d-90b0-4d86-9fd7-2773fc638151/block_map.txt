@@ -228,6 +228,7 @@
 #212B45 realmrpg_skeletons:waterdrop_skeleton
 #1C0619 waystones:waystone
 #F56DD5 minecraft:weathered_cut_copper
+#FB9BF5 minecraft:white_banner
 #BC20FE minecraft:white_wool
 #0A2034 biomesoplenty:yellow_autumn_leaves
 #D9C16D quark:yellow_blossom_leaves

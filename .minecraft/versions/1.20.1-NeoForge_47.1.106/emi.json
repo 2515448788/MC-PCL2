@@ -122,6 +122,7 @@
     "item:mcdar:updraft_tome{Damage:0}"
   ],
   "craft_history": [
+    "biomesoplenty:purple_dye_from_lavender",
     "minecraft:barrel",
     "minecraft:bowl",
     "farmersdelight:cutting_board",
@@ -154,7 +155,6 @@
     "minecraft:oak_planks",
     "minecraft:spruce_slab",
     "minecraft:oak_sign",
-    "biomesoplenty:purple_dye_from_lavender",
     "minecraft:golden_pickaxe",
     "quark:tweaks/crafting/utility/tools/stone_pickaxe",
     "minecraft:spruce_planks"

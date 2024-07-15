@@ -7,14 +7,14 @@
 	can_ClingToCliff = true
 	can_Crawl = true
 	can_Dive = true
-	can_Dodge = true
+	can_Dodge = false
 	can_FastRun = true
 	can_FastSwim = true
-	can_Flipping = true
+	can_Flipping = false
 	can_HangDown = true
-	can_HorizontalWallRun = true
+	can_HorizontalWallRun = false
 	can_JumpFromBar = true
-	can_QuickTurn = true
+	can_QuickTurn = false
 	can_Roll = true
 	can_SkyDive = true
 	can_Slide = true
@@ -207,7 +207,7 @@
 		stamina_consumption_of_WallSlide = 8
 		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 		#Please check 'parcool-server.toml' in 'serverconfig' directory
-		infinite_stamina = false
+		infinite_stamina = true
 		#Infinite Stamina while player is cretive mode
 		infinite_stamina_if_creative_mode = true
 
