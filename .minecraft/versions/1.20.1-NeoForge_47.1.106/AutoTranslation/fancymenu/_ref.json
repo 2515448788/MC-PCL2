@@ -1,0 +1,18 @@
+{
+  "fancymenu.file_types.fma": "FancyMenu Animation",
+  "fancymenu.actions.open_screen.error": "Failed to open screen!\n\nFancyMenu failed to open the given screen via the \u0027Open Screen\u0027 action!\nIn most cases this means the screen is not supported by FancyMenu,\nbecause it\u0027s a non-Vanilla screen from another mod.\n\nIf the screen is a Vanilla screen, please report this bug via GitHub.",
+  "fancymenu.commands.variable.set.error": "[FANCYMENU] Failed to set variable via /fmvariable command!",
+  "fancymenu.editor.background.show_overlay_on_custom_background.desc": "If the dark overlay rendered by Vanilla Minecraft\nshould be visible on custom backgrounds.",
+  "fancymenu.commands.closeguiscreen.error": "[FANCYMENU] Failed to close GUI screen via /closeguiscreen command!",
+  "fancymenu.elements.music_controller.desc": "Element to control Vanilla music that plays in menus.\n\nThis element can\u0027t control music that plays\nin worlds while no screen is open.\nIt is only to control music while a screen is open.",
+  "fancymenu.editor.background.blur_background": "Apply Vanilla Background Blur: %s",
+  "fancymenu.commands.variable.get.error": "[FANCYMENU] Failed to get variable via /fmvariable command!",
+  "fancymenu.actions.mimic_button.error": "Failed to mimic button!\n\nFancyMenu failed to mimic the click action of a button.\nIn most cases this means FancyMenu failed to open the original screen\nthis button is part of, because the screen is not supported.\nMost unsupported screens are non-Vanilla screens from other mods.\n\nIf the screen is a Vanilla screen, please report this bug via GitHub.",
+  "fancymenu.elements.music_controller.play_world_music": "Play World Music: %s",
+  "fancymenu.editor.background.blur_background.desc": "If Vanilla\u0027s background blur should get\napplied to the custom background.",
+  "fancymenu.elements.music_controller.play_menu_music.desc": "This type of music plays in menus when NO world is loaded,\nlike in the Title screen for example.",
+  "fancymenu.elements.music_controller": "Music Controller",
+  "fancymenu.editor.background.show_overlay_on_custom_background": "Show Dark Overlay On Custom Background: %s",
+  "fancymenu.elements.music_controller.play_menu_music": "Play Menu Music: %s",
+  "fancymenu.elements.music_controller.play_world_music.desc": "This type of music plays in menus when a world is loaded.\nIt\u0027s basically the normal world music that\nkeeps playing in menus that don\u0027t pause the game,\nlike the inventory in SP and every menu in MP."
+}
