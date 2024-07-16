@@ -9,7 +9,7 @@
 	#Prevents rendering of other player's model
 	DisableOtherModel = false
 	#Prevents rendering of self player's hand
-	DisableSelfHands = true
+	DisableSelfHands = false
 	#Prevents rendering of arrows model
 	DisableArrowsModel = false
 	#The default model ID when a player first enters the game

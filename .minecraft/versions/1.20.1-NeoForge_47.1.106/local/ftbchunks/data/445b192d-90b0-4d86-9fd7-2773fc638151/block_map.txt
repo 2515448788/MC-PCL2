@@ -6,6 +6,7 @@
 #FA75A8 minecraft:andesite
 #F84007 minecraft:andesite_stairs
 #75FE6B fruitsdelight:apple_leaves
+#374FD0 vinery:apple_leaves
 #985428 mythicmetals:aquarium_ore
 #6E69B5 create:asurine
 #0D47EE minecraft:azalea_leaves
@@ -36,6 +37,7 @@
 #76FDF5 minecraft:cherry_leaves
 #408F91 minecraft:cherry_log
 #4F7F13 minecraft:cherry_slab
+#A12A7C rocks:cherry_stick
 #73EC34 minecraft:cherry_trapdoor
 #F522F4 minecraft:chest
 #B4ED86 minecraft:chiseled_quartz_block
@@ -83,6 +85,7 @@
 #E7F264 minecraft:flower_pot
 #E66556 minecraft:flowering_azalea_leaves
 #FC7434 biomesoplenty:flowering_oak_leaves
+#84752C bountifulfares:flowering_plum_leaves
 #5F7D4C create:flywheel
 #5262A2 minecraft:frosted_ice
 #2DC94B minecraft:furnace
@@ -155,6 +158,7 @@
 #6146E3 minecraft:orange_bed
 #BE93EF minecraft:orange_carpet
 #C24517 fruitsdelight:orange_leaves
+#8F6314 minecraft:orange_tulip
 #F6678E minecraft:oxeye_daisy
 #002F57 minecraft:oxidized_copper
 #45DE74 minecraft:oxidized_cut_copper
@@ -162,6 +166,7 @@
 #AB1C58 minecraft:peony
 #F37841 minecraft:pink_terracotta
 #758209 mythicmetals:platinum_ore
+#B31DC4 bountifulfares:plum_leaves
 #BB7F65 minecraft:podzol
 #FC4096 minecraft:polished_diorite
 #7F4649 minecraft:polished_diorite_slab

@@ -43,6 +43,7 @@
     }
   ],
   "lookup_history": [
+    "item:touhou_little_maid:maid_bed",
     "item:minecraft:barrel",
     "item:minecraft:bowl",
     "item:twilightdelight:thousand_plant_stew",
@@ -122,6 +123,9 @@
     "item:mcdar:updraft_tome{Damage:0}"
   ],
   "craft_history": [
+    "quark:building/crafting/chests/oak_chest",
+    "quark:building/crafting/chests/mixed_chest",
+    "minecraft:spruce_planks",
     "biomesoplenty:purple_dye_from_lavender",
     "minecraft:barrel",
     "minecraft:bowl",
@@ -151,13 +155,11 @@
     "comforts:sleeping_bag_white",
     "farmersdelight:iron_knife",
     "mcdw:pick_diamond_pickaxe_var",
-    "quark:building/crafting/chests/mixed_chest",
     "minecraft:oak_planks",
     "minecraft:spruce_slab",
     "minecraft:oak_sign",
     "minecraft:golden_pickaxe",
-    "quark:tweaks/crafting/utility/tools/stone_pickaxe",
-    "minecraft:spruce_planks"
+    "quark:tweaks/crafting/utility/tools/stone_pickaxe"
   ],
   "recipe_defaults": {
     "added": [],
