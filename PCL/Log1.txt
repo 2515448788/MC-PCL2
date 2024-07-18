@@ -2009,3 +2009,6 @@ PCL 怀疑以下 Mod 导致了游戏出错，但不能完全确定：
 [13:46:30.041] [Control] 切换主要页面：VersionSetup, -1
 [13:46:44.117] [Control] 按下图标按钮：BtnTitleInner
 [13:46:44.117] [Control] 切换主要页面：Launch, -1
+[13:49:43.717] [Control] 按下图标按钮：BtnTitleClose
+[13:49:43.724] [System] 收到关闭指令
+[13:49:43.950] [System] 程序已退出，返回值：Success
