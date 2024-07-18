@@ -15,6 +15,7 @@
 #A4C2A9 mythicmetals:banglum_ore
 #189B99 minecraft:barrel
 #8D86E5 minecraft:beehive
+#BE6A1A iter_rpg:big_vase
 #3BA928 minecraft:birch_log
 #3C3A53 rocks:birch_stick
 #4A6029 born_in_chaos_v1:black_argillite
@@ -76,6 +77,7 @@
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
 #0C7F44 minecraft:dried_kelp_block
+#3B0AD1 minecraft:dripstone_block
 #2566A5 minecraft:emerald_block
 #701628 minecraft:exposed_cut_copper
 #009B14 minecraft:farmland
@@ -104,6 +106,7 @@
 #5D2094 minecraft:green_terracotta
 #398967 beautify:hanging_pot
 #F67E21 minecraft:hay_block
+#06CDF8 quark:hollow_cherry_log
 #9D2636 minecraft:horn_coral_block
 #096B6E born_in_chaos_v1:infected_diamond_ore
 #728767 born_in_chaos_v1:infernal_evil_pumpkin_s
@@ -234,6 +237,7 @@
 #1C0619 waystones:waystone
 #F56DD5 minecraft:weathered_cut_copper
 #FB9BF5 minecraft:white_banner
+#1B60CF minecraft:white_tulip
 #BC20FE minecraft:white_wool
 #0A2034 biomesoplenty:yellow_autumn_leaves
 #D9C16D quark:yellow_blossom_leaves

@@ -43,6 +43,12 @@
     }
   ],
   "lookup_history": [
+    "item:twilightforest:minotaur_spawn_egg",
+    {
+      "type": "item",
+      "id": "creeperoverhaul:savannah_creeper_spawn_egg",
+      "amount": 64
+    },
     "item:touhou_little_maid:maid_bed",
     "item:minecraft:barrel",
     "item:minecraft:bowl",

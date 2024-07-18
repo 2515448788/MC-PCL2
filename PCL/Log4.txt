@@ -1,830 +1,145 @@
-[20:45:21.247] [Start] 程序版本：Snapshot 2.8.3 (331)
-[20:45:21.249] [Start] 识别码：B3B4-C8E8-A188-2726
-[20:45:21.249] [Start] 程序路径：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[20:45:21.249] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
-[20:45:21.249] [Start] 管理员权限：True
-[20:45:21.253] [Start] 第一阶段加载用时：62 ms
-[20:45:21.356] [UI] 刷新主题：4
-[20:45:21.388] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[20:45:21.388] [Start] 第二阶段加载用时：141 ms
-[20:45:21.395] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[20:45:21.549] [UI] 加载背景图片：D:\MC-PCL2\PCL\Pictures\Background.jpg
-[20:45:21.641] [System] 窗口已置顶，位置：(393, 173), 1135 x 687
-[20:45:21.645] [Animation] 动画线程开始
-[20:45:21.645] [Start] 第三阶段加载用时：109 ms
-[20:45:21.646] [Start] 加载 DLL：Json
-[20:45:21.646] [System] 获取资源：Json
-[20:45:21.654] [Launch] Minecraft 文件夹：D:\MC-PCL2\.minecraft\
-[20:45:21.705] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
-[20:45:21.709] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
-[20:45:21.714] [Java] 缓存中有 4 个可用的 Java：
-[20:45:21.716] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:21.716] [Java]  - JDK 17 (17.0.11)：C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin\
-[20:45:21.716] [Java]  - JDK 17 (17.0.8)：C:\Users\Administrator\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
-[20:45:21.716] [Java]  - JDK 21 (21.0.3)：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
-[20:45:21.737] [Page] 实例化：清空自定义主页 UI，来源为空
-[20:45:21.740] [Skin] 载入头像成功：Loader Skin Ms
-[20:45:21.746] [Minecraft] 启动按钮：Minecraft 版本：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:45:21.750] [Loader] 加载器 登录 状态改变：Loading
-[20:45:21.752] [Launch] 登录加载已开始
-[20:45:21.752] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[20:45:21.754] [Launch] 登录方式：正版（Aaalicecao）
-[20:45:21.755] [Launch] 开始微软登录步骤 2（刷新登录）
-[20:45:21.758] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:45:21.920] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[20:45:21.922] [UI] 解锁隐藏主题：6
-[20:45:21.923] [Loader] 加载器 PCL 服务 状态改变：Loading
-[20:45:21.923] [Server] 正在连接到 PCL 服务器
-[20:45:21.925] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
-[20:45:21.933] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1721047522-0069f175-0-6768a66187fc851e86eca9fb3862fcfd，超时 10000ms
-[20:45:22.011] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:45:22.026] [Server] 服务器公告：145|331|332|5，无需更新
-[20:45:22.031] [Loader] 加载器 PCL 服务 状态改变：Finished
-[20:45:22.369] [System] DPI：96，系统版本：10.0.22631.0，PCL 位置：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[20:45:22.806] [Launch] 开始微软登录步骤 3
-[20:45:22.806] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:45:23.068] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:45:23.581] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:45:24.342] [Launch] 开始微软登录步骤 4
-[20:45:24.342] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:45:24.607] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:45:25.120] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:45:25.879] [Launch] 开始微软登录步骤 5
-[20:45:25.880] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:45:26.140] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:45:28.478] [Control] 按下按钮：启动游戏
-[20:45:28.480] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:45:28.493] [Launch] 预检测已通过
-[20:45:28.495] [Download] 开始后台检查资源文件索引
-[20:45:28.497] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:45:28.498] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:45:28.499] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:45:28.499] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:45:28.501] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:45:28.501] [Taskbar] Minecraft 启动 已加入任务列表
-[20:45:28.502] [Download] 无需更新资源文件索引
-[20:45:28.502] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:45:28.502] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:45:28.503] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:45:28.503] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:45:28.503] [Download] 后台下载资源文件索引 已取消！
-[20:45:28.503] [Loader] 加载线程 后台分析资源文件索引地址 (15) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:45:28.508] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:45:28.512] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:45:28.514] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:45:28.520] [Java] 开始确认列表 Java 状态，共 1 项
-[20:45:28.524] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:45:28.618] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:45:28.618] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.618] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:45:28.701] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.701] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.702] [Java] 排序后的 Java 优先顺序：
-[20:45:28.702] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.702] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.702] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:28.702] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:45:32.459] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 30000ms，要求 json
-[20:45:47.234] 加载线程 Loader Login Ms (14) 发生运行时错误：网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:45:47.234] [Loader] 加载器 Loader Login Ms 状态改变：Failed
-[20:45:47.236] 加载线程 登录 (13) 发生运行时错误：网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:45:47.236] [Loader] 加载器 登录 状态改变：Failed
-[20:45:47.236] [Loader] 加载器 Minecraft 启动 状态改变：Failed
-[20:45:47.236] [Loader] 加载器 补全文件 状态改变：Aborted
-[20:45:47.236] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Aborted
-[20:45:47.236] [Loader] 加载器 下载支持库文件 状态改变：Aborted
-[20:45:47.236] [Download] 下载支持库文件 已取消！
-[20:45:47.236] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Aborted
-[20:45:47.236] [Loader] 加载器 下载资源文件索引 状态改变：Aborted
-[20:45:47.236] [Download] 下载资源文件索引 已取消！
-[20:45:47.236] [Loader] 加载器 下载资源文件 状态改变：Aborted
-[20:45:47.236] [Download] 下载资源文件 已取消！
-[20:45:47.283] [Taskbar] Minecraft 启动 已移出任务列表
-[20:45:47.344] [Launch] 错误：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-错误类型：System.Net.Sockets.SocketException
-[20:45:47.344] Minecraft 启动失败：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:45:47.346] 加载线程 Loader Launch (24) 发生运行时错误：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:45:47.346] [Loader] 加载器 Loader Launch 状态改变：Failed
-[20:45:47.423] [Control] 普通弹窗：启动失败
-Minecraft 启动失败：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-错误类型：System.Net.Sockets.SocketException
-[20:45:52.776] [Control] 按下按钮：确定
-[20:45:54.014] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 4000ms，要求 json
-[20:45:54.551] [Control] 按下按钮：启动游戏
-[20:45:54.551] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:45:54.552] [Launch] 预检测已通过
-[20:45:54.552] [Download] 开始后台检查资源文件索引
-[20:45:54.552] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:45:54.552] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:45:54.552] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:45:54.552] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:45:54.552] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:45:54.552] [Download] 无需更新资源文件索引
-[20:45:54.552] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:45:54.552] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:45:54.552] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:45:54.552] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:45:54.552] [Download] 后台下载资源文件索引 已取消！
-[20:45:54.552] [Loader] 加载线程 后台分析资源文件索引地址 (15) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:45:54.552] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:45:54.553] [Loader] 加载器 登录 状态改变：Loading
-[20:45:54.553] [Loader] 加载器 补全文件 状态改变：Loading
-[20:45:54.553] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[20:45:54.553] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[20:45:54.553] [Launch] 登录加载已开始
-[20:45:54.553] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[20:45:54.553] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[20:45:54.553] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[20:45:54.553] [Launch] 登录方式：正版（Aaalicecao）
-[20:45:54.553] [Launch] 开始微软登录步骤 2（刷新登录）
-[20:45:54.553] [Taskbar] Minecraft 启动 已加入任务列表
-[20:45:54.553] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:45:54.553] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:45:54.555] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:45:54.562] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:45:54.565] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[20:45:54.567] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[20:45:54.568] [Java] 开始确认列表 Java 状态，共 1 项
-[20:45:54.568] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:45:54.569] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[20:45:54.569] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[20:45:54.605] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:45:54.648] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:45:54.648] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.648] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:45:54.649] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[20:45:54.649] [Loader] 加载器 下载资源文件 状态改变：Loading
-[20:45:54.649] [Loader] 加载器 下载资源文件 状态改变：Finished
-[20:45:54.649] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[20:45:54.718] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.718] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.718] [Java] 排序后的 Java 优先顺序：
-[20:45:54.718] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.718] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.718] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:45:54.718] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:45:54.780] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[20:45:54.780] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[20:45:54.780] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[20:45:54.780] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[20:45:54.780] [Loader] 加载器 补全文件 状态改变：Finished
-[20:45:54.804] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:45:55.316] [Launch] 开始微软登录步骤 3
-[20:45:55.316] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:45:55.566] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:45:56.075] [Launch] 开始微软登录步骤 4
-[20:45:56.075] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:45:56.327] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:45:56.843] [Launch] 开始微软登录步骤 5
-[20:45:56.843] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:45:57.101] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:45:58.034] 加载线程 DlClientList Mojang (17) 发生运行时错误：连接服务器超时，已接收 0 B（https://launchermeta.mojang.com/mc/game/version_manifest.json）
-你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
-————————————
-详细错误信息：
-   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept, Boolean UseBrowserUserAgent)
-   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl, Boolean UseBrowserUserAgent)
-   在 PCL.ModDownload.DlClientListMojangMain(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-错误类型：System.TimeoutException
-[20:45:58.034] [Loader] 加载器 DlClientList Mojang 状态改变：Failed
-[20:46:09.171] [Control] 按下按钮：取消
-[20:46:09.171] [Loader] 加载器 Minecraft 启动 状态改变：Aborted
-[20:46:09.171] [Loader] 加载器 登录 状态改变：Aborted
-[20:46:09.171] [Launch] 已取消启动
-[20:46:09.182] [Taskbar] Minecraft 启动 已移出任务列表
-[20:46:09.309] [Loader] 加载器 Loader Launch 状态改变：Finished
-[20:46:09.373] [UI] 弹出提示：已取消启动！
-[20:46:10.140] [Control] 按下按钮：启动游戏
-[20:46:10.140] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:46:10.142] [Launch] 预检测已通过
-[20:46:10.142] [Download] 开始后台检查资源文件索引
-[20:46:10.142] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:46:10.142] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:46:10.143] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:10.143] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:46:10.143] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:46:10.143] [Download] 无需更新资源文件索引
-[20:46:10.143] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:46:10.143] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:46:10.143] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:46:10.143] [Download] 后台下载资源文件索引 已取消！
-[20:46:10.143] [Loader] 加载线程 后台分析资源文件索引地址 (27) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:46:10.143] [Loader] 加载器 登录 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 补全文件 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[20:46:10.143] [Launch] 登录加载已开始
-[20:46:10.143] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[20:46:10.143] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[20:46:10.143] [Taskbar] Minecraft 启动 已加入任务列表
-[20:46:10.143] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:10.144] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:46:10.149] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:46:10.151] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[20:46:10.151] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[20:46:10.151] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[20:46:10.151] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[20:46:10.156] [Java] 开始确认列表 Java 状态，共 1 项
-[20:46:10.156] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:10.183] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[20:46:10.184] [Loader] 加载器 下载资源文件 状态改变：Loading
-[20:46:10.184] [Loader] 加载器 下载资源文件 状态改变：Finished
-[20:46:10.184] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[20:46:10.190] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:46:10.258] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:46:10.258] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.258] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:10.309] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[20:46:10.309] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[20:46:10.309] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[20:46:10.309] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[20:46:10.309] [Loader] 加载器 补全文件 状态改变：Finished
-[20:46:10.326] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.326] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.326] [Java] 排序后的 Java 优先顺序：
-[20:46:10.326] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.326] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.326] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:10.326] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:46:13.874] [Report] FPS 0, 动画 10, 下载中 0（0 B/s）
-[20:46:15.781] [Control] 按下按钮：取消
-[20:46:15.781] [Loader] 加载器 Minecraft 启动 状态改变：Aborted
-[20:46:15.781] [Loader] 加载器 登录 状态改变：Aborted
-[20:46:15.781] [Launch] 已取消启动
-[20:46:15.782] [Taskbar] Minecraft 启动 已移出任务列表
-[20:46:15.830] [Loader] 加载器 Loader Launch 状态改变：Finished
-[20:46:15.846] [UI] 弹出提示：已取消启动！
-[20:46:16.500] [Control] 按下按钮：启动游戏
-[20:46:16.500] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:46:16.501] [Launch] 预检测已通过
-[20:46:16.501] [Download] 开始后台检查资源文件索引
-[20:46:16.501] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:46:16.501] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:46:16.502] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:16.502] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:46:16.502] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:46:16.502] [Download] 无需更新资源文件索引
-[20:46:16.502] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:46:16.502] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:46:16.502] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:46:16.502] [Download] 后台下载资源文件索引 已取消！
-[20:46:16.502] [Loader] 加载线程 后台分析资源文件索引地址 (22) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:46:16.502] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:46:16.502] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:46:16.502] [Loader] 加载器 登录 状态改变：Loading
-[20:46:16.502] [Loader] 加载器 补全文件 状态改变：Loading
-[20:46:16.502] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[20:46:16.502] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[20:46:16.502] [Launch] 登录加载已开始
-[20:46:16.502] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[20:46:16.502] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[20:46:16.502] [Taskbar] Minecraft 启动 已加入任务列表
-[20:46:16.502] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:16.504] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:46:16.507] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:46:16.512] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[20:46:16.512] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[20:46:16.513] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[20:46:16.513] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[20:46:16.515] [Java] 开始确认列表 Java 状态，共 1 项
-[20:46:16.515] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:16.544] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[20:46:16.544] [Loader] 加载器 下载资源文件 状态改变：Loading
-[20:46:16.544] [Loader] 加载器 下载资源文件 状态改变：Finished
-[20:46:16.544] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[20:46:16.549] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:46:16.595] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:46:16.595] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.595] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:16.677] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[20:46:16.677] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[20:46:16.677] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[20:46:16.678] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[20:46:16.678] [Loader] 加载器 补全文件 状态改变：Finished
-[20:46:16.679] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.679] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.679] [Java] 排序后的 Java 优先顺序：
-[20:46:16.679] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.679] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.679] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:16.679] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:46:18.169] 加载线程 Loader Login Ms (11) 发生运行时错误：网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:46:18.169] [Loader] 加载器 Loader Login Ms 状态改变：Failed
-[20:46:18.185] 加载线程 登录 (27) 发生运行时错误：网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:46:18.185] [Loader] 加载器 登录 状态改变：Failed
-[20:46:18.185] [Loader] 加载器 Minecraft 启动 状态改变：Failed
-[20:46:18.217] [Taskbar] Minecraft 启动 已移出任务列表
-[20:46:18.370] [Launch] 错误：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-错误类型：System.Net.Sockets.SocketException
-[20:46:18.371] Minecraft 启动失败：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:46:18.371] 加载线程 Loader Launch (31) 发生运行时错误：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
-   在 System.Net.HttpWebRequest.GetRequestStream()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-错误类型：System.Net.Sockets.SocketException
-[20:46:18.371] [Loader] 加载器 Loader Launch 状态改变：Failed
-[20:46:18.408] [Control] 普通弹窗：启动失败
-Minecraft 启动失败：登录失败
-→ 网络请求失败（https://api.minecraftservices.com/authentication/login_with_xbox，无法连接到远程服务器）
-→ 无法连接到远程服务器
-→ 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 13.107.246.73:443
-   在 PCL.ModLaunch.McLaunchStart(LoaderTask`2 Loader)
-   在 PCL.ModLoader.LoaderBase.WaitForExit(Object Input, LoaderBase LoaderToSyncProgress, Boolean IsForceRestart)
-   在 PCL.ModLaunch.McLoginStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestMulty(String Url, String Method, Object Data, String ContentType, Int32 RequestCount, Dictionary`2 Headers)
-   在 PCL.ModLaunch.MsLoginStep5(String[] Tokens)
-   在 PCL.ModLaunch.McLoginMsStart(LoaderTask`2 Data)
-   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
-   在 PCL.ModNet.NetRequestOnce(String Url, String Method, Object Data, String ContentType, Int32 Timeout, Dictionary`2 Headers, Boolean MakeLog, Boolean UseBrowserUserAgent)
-错误类型：System.Net.Sockets.SocketException
-[20:46:19.499] [Control] 按下按钮：确定
-[20:46:19.992] [Control] 按下按钮：启动游戏
-[20:46:19.992] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:46:19.995] [Launch] 预检测已通过
-[20:46:19.995] [Download] 开始后台检查资源文件索引
-[20:46:19.995] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:46:19.995] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:19.995] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:46:19.995] [Download] 无需更新资源文件索引
-[20:46:19.995] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:46:19.995] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:46:19.995] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:46:19.995] [Download] 后台下载资源文件索引 已取消！
-[20:46:19.995] [Loader] 加载线程 后台分析资源文件索引地址 (25) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:46:19.995] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:46:19.995] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:46:19.995] [Loader] 加载器 登录 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 补全文件 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[20:46:19.995] [Launch] 登录加载已开始
-[20:46:19.995] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[20:46:19.995] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[20:46:19.995] [Launch] 登录方式：正版（Aaalicecao）
-[20:46:19.995] [Launch] 开始微软登录步骤 2（刷新登录）
-[20:46:19.995] [Taskbar] Minecraft 启动 已加入任务列表
-[20:46:19.995] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:46:19.995] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:46:19.997] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:46:20.003] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:46:20.004] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[20:46:20.004] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[20:46:20.005] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[20:46:20.005] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[20:46:20.009] [Java] 开始确认列表 Java 状态，共 1 项
-[20:46:20.015] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:20.043] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[20:46:20.043] [Loader] 加载器 下载资源文件 状态改变：Loading
-[20:46:20.043] [Loader] 加载器 下载资源文件 状态改变：Finished
-[20:46:20.043] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[20:46:20.050] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:46:20.130] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:46:20.130] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.130] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:46:20.167] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[20:46:20.167] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[20:46:20.167] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[20:46:20.167] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[20:46:20.167] [Loader] 加载器 补全文件 状态改变：Finished
-[20:46:20.200] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.200] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.200] [Java] 排序后的 Java 优先顺序：
-[20:46:20.200] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.200] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.200] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:20.200] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:46:20.256] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[20:46:20.767] [Launch] 开始微软登录步骤 3
-[20:46:20.767] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:46:21.029] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:46:21.541] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[20:46:22.302] [Launch] 开始微软登录步骤 4
-[20:46:22.302] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:46:22.566] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:46:23.080] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[20:46:23.844] [Launch] 开始微软登录步骤 5
-[20:46:23.844] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:46:24.107] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[20:46:24.995] [Launch] 开始微软登录步骤 6
-[20:46:24.996] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[20:46:25.247] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[20:46:25.950] [Launch] 开始微软登录步骤 7
-[20:46:25.951] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[20:46:26.212] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[20:46:26.729] [Launch] 微软登录完成
-[20:46:26.729] [UI] 解锁隐藏主题：10
-[20:46:26.729] [Loader] 加载器 Loader Login Ms 状态改变：Finished
-[20:46:26.740] [Launch] 登录加载已结束
-[20:46:26.740] [Loader] 加载器 登录 状态改变：Finished
-[20:46:26.741] [Loader] 加载器 登录 状态改变：Loading
-[20:46:26.741] [Launch] 登录加载已开始
-[20:46:26.741] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[20:46:26.741] [Loader] 加载器 获取启动参数 状态改变：Loading
-[20:46:26.741] [Launch] 登录方式：正版（Aaalicecao）
-[20:46:26.741] [Launch] 微软登录完成
-[20:46:26.741] [UI] 解锁隐藏主题：10
-[20:46:26.741] [Loader] 加载器 Loader Login Ms 状态改变：Finished
-[20:46:26.743] [Launch] 开始获取 Minecraft 启动参数
-[20:46:26.743] [Launch] 获取新版 JVM 参数
-[20:46:26.751] [Launch] 当前剩余内存：9.4G
-[20:46:26.755] [Java] 选定的 Java Wrapper 路径：D:\MC-PCL2\PCL\JavaWrapper.jar
-[20:46:26.755] [System] 获取资源：JavaWrapper
-[20:46:26.756] [Launch] 登录加载已结束
-[20:46:26.756] [Loader] 加载器 登录 状态改变：Finished
-[20:46:26.756] [Launch] 新版 JVM 参数获取成功：
-[20:46:26.756] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=${natives_directory} -Djna.tmpdir=${natives_directory} -Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory} -Dio.netty.native.workdir=${natives_directory} -Dminecraft.launcher.brand=${launcher_name} -Dminecraft.launcher.version=${launcher_version} -cp ${classpath} -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,${version_name}.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory=${library_directory} -p ${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.5/asm-9.5.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher
-[20:46:26.756] [Launch] 获取新版 Game 参数
-[20:46:26.758] [Launch] 新版 Game 参数获取成功
-[20:46:26.760] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:46:26.763] [Launch] Minecraft 启动参数：
-[20:46:26.765] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Djna.tmpdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dorg.lwjgl.system.SharedLibraryExtractPath="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dio.netty.native.workdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dminecraft.launcher.brand=PCL -Dminecraft.launcher.version=331 -cp "D:\MC-PCL2\.minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;D:\MC-PCL2\.minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;D:\MC-PCL2\.minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\authlib\4.0.43\authlib-4.0.43.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\brigadier\1.1.8\brigadier-1.1.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\datafixerupper\6.0.8\datafixerupper-6.0.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;D:\MC-PCL2\.minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\MC-PCL2\.minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;D:\MC-PCL2\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\loader\47.2.2\loader-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\earlydisplay\47.2.2\earlydisplay-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\securejarhandler\2.1.10\securejarhandler-2.1.10.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm\9.5\asm-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-util\9.5\asm-util-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-analysis\9.5\asm-analysis-9.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\accesstransformers\8.0.4\accesstransformers-8.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\eventbus\6.0.5\eventbus-6.0.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\forgespi\7.0.1\forgespi-7.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\coremods\5.0.1\coremods-5.0.1.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\modlauncher\10.0.9\modlauncher-10.0.9.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\unsafe\0.2.0\unsafe-0.2.0.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-api.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\core\3.6.4\core-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\toml\3.6.4\toml-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar;D:\MC-PCL2\.minecraft\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.2.0\terminalconsoleappender-1.2.0.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-reader\3.12.1\jline-reader-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-terminal\3.12.1\jline-terminal-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\spongepowered\mixin\0.8.5\mixin-0.8.5.jar;D:\MC-PCL2\.minecraft\libraries\org\openjdk\nashorn\nashorn-core\15.3\nashorn-core-15.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarSelector\0.3.19\JarJarSelector-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarMetadata\0.3.19\JarJarMetadata-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\bootstraplauncher\1.1.2\bootstraplauncher-1.1.2.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarFileSystems\0.3.19\JarJarFileSystems-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\events\47.2.2\events-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\core\47.2.2\core-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-java\47.2.2\language-java-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-lowcode\47.2.2\language-lowcode-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-minecraft\47.2.2\language-minecraft-47.2.2.jar;D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106.jar" -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,1.20.1-NeoForge_47.1.106.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory="D:\MC-PCL2\.minecraft\libraries" -p "D:\MC-PCL2\.minecraft\libraries"/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar;"D:\MC-PCL2\.minecraft\libraries"/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm/9.5/asm-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher --username Aaalicecao --version 1.20.1-NeoForge_47.1.106 --gameDir "D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106" --assetsDir "D:\MC-PCL2\.minecraft\assets" --assetIndex 5 --uuid b23d6b6456a641d1a734109f719e4add --accessToken eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************skuRA --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType PCL --width 852 --height 448 --launchTarget forgeclient --fml.forgeVersion 47.1.106 --fml.fmlVersion 47.2.2 --fml.mcVersion 1.20.1 --fml.mcpVersion 20230612.114412 
-[20:46:26.765] [Loader] 加载器 获取启动参数 状态改变：Finished
-[20:46:26.774] [Loader] 加载器 解压文件 状态改变：Loading
-[20:46:26.777] [Launch] 正在解压 Natives 文件
-[20:46:26.777] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\glfw.dll
-[20:46:26.777] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jemalloc.dll
-[20:46:26.777] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna11635351702314004994.dll
-[20:46:26.777] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna11635351702314004994.dll.x
-[20:46:26.778] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl.dll
-[20:46:26.778] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_opengl.dll
-[20:46:26.778] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_stb.dll
-[20:46:26.779] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\OpenAL.dll
-[20:46:26.779] [Loader] 加载器 解压文件 状态改变：Finished
-[20:46:26.792] [Loader] 加载器 预启动处理 状态改变：Loading
-[20:46:26.805] [Launch] 已更新 launcher_profiles.json
-[20:46:26.805] [Launch] 需要的语言为 zh_cn，当前语言为 zh_cn，无需修改
-[20:46:26.805] [Loader] 加载器 预启动处理 状态改变：Finished
-[20:46:26.817] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[20:46:26.821] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[20:46:26.841] [Loader] 加载器 启动进程 状态改变：Loading
-[20:46:26.848] [Launch] 已启动游戏进程：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\javaw.exe
-[20:46:26.849] [Loader] 加载器 启动进程 状态改变：Finished
-[20:46:26.873] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[20:46:26.874] [Launch] 
-[20:46:26.874] [Launch] ~ 基础参数 ~
-[20:46:26.874] [Launch] PCL 版本：Snapshot 2.8.3 (331)
-[20:46:26.874] [Launch] 游戏版本：1.20.1, NeoForge 47.1.106（识别为 1.20.1）
-[20:46:26.874] [Launch] 资源版本：5
-[20:46:26.874] [Launch] 版本继承：无
-[20:46:26.874] [Launch] 分配的内存：10 GB（10240 MB）
-[20:46:26.874] [Launch] MC 文件夹：D:\MC-PCL2\.minecraft\
-[20:46:26.874] [Launch] 版本文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:46:26.874] [Launch] 版本隔离：True
-[20:46:26.874] [Launch] HMCL 格式：False
-[20:46:26.874] [Launch] Java 信息：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:46:26.875] [Launch] 环境变量：未设置
-[20:46:26.875] [Launch] Natives 文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives
-[20:46:26.875] [Launch] 
-[20:46:26.875] [Launch] ~ 登录参数 ~
-[20:46:26.875] [Launch] 玩家用户名：Aaalicecao
-[20:46:26.875] [Launch] AccessToken：eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************skuRA
-[20:46:26.875] [Launch] ClientToken：b23d6b6456a641d1a734109f719e4add
-[20:46:26.875] [Launch] UUID：b23d6b6456a641d1a734109f719e4add
-[20:46:26.875] [Launch] 登录方式：Microsoft
-[20:46:26.875] [Launch] 
-[20:46:26.877] [Launch] [14824] 开始 Minecraft 日志监控
-[20:46:26.877] [Launch] [全局] 出现运行中的 Minecraft
-[20:46:28.745] [Launch] [14824] 日志 1/5：已出现日志输出
-[20:46:29.648] [Report] FPS 0, 动画 6, 下载中 0（0 B/s）
-[20:46:30.854] [Launch] [14824] Minecraft 窗口已加载：Minecraft: Forge Loading...（1837744）
-[20:46:30.854] [Launch] [14824] Minecraft 加载已完成
-[20:46:30.909] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[20:46:30.923] [Loader] 加载器 结束处理 状态改变：Loading
-[20:46:30.925] [Launch] 开始启动结束处理
-[20:46:30.925] [Launch] 启动器可见性：5
-[20:46:30.926] [Loader] 加载器 结束处理 状态改变：Finished
-[20:46:30.935] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[20:46:30.948] [Taskbar] Minecraft 启动 已移出任务列表
-[20:46:31.098] [Loader] 加载器 Loader Launch 状态改变：Finished
-[20:46:31.129] [UI] 弹出提示：1.20.1-NeoForge_47.1.106 启动成功！
-[20:46:57.689] [Launch] [14824] 日志 2/5：游戏用户已设置
-[20:47:00.485] [Launch] [14824] 日志 3/5：LWJGL 版本已确认
-[20:47:39.687] [Control] 按下按钮：版本设置
-[20:47:39.739] [Control] 切换主要页面：VersionSetup, 0
-[20:47:40.735] [Control] 按下单选列表项：Mod 管理
-[20:47:40.897] [Loader] 加载器 Mod List Loader 状态改变：Loading
-[20:47:40.899] [System] 已刷新 Mod 列表
-[20:47:41.745] [Control] 按下单选列表项：设置
-[20:47:42.432] [Mod] 共有 337 个 Mod，其中 1 个需要联网获取信息，0 个需要更新信息
-[20:47:42.583] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
-[20:47:42.586] [Mod] 目标加载器：NeoForge，版本：1.20.1
-[20:47:42.591] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
-[20:47:42.595] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
-[20:47:42.599] [System] 获取资源：ModData
-[20:47:42.945] [Mod] 从 CurseForge 获取到 0 个本地 Mod 的对应信息
-[20:47:42.970] [Mod] 从 Modrinth 获取到 0 个本地 Mod 的对应信息
-[20:47:42.979] [Mod] 联网获取本地 Mod 信息完成，为 0 个 Mod 更新缓存
-[20:47:42.979] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
-[20:47:43.479] [Animation] 两个动画帧间隔 875 ms
-[20:47:43.510] [Loader] 加载器 Mod List Loader 状态改变：Finished
-[20:47:44.210] [Control] 按下图标按钮：BtnTitleMin
-[20:48:07.203] [Control] 按下附加按钮：关闭 Minecraft
-[20:48:07.205] [Launch] [全局] 已无运行中的 Minecraft
-[20:48:07.205] [Launch] [14824] 尝试强制结束 Minecraft 进程
-[20:48:07.205] [Launch] [14824] 已强制结束 Minecraft 进程
-[20:48:07.237] [UI] 弹出提示：已关闭运行中的 Minecraft！
-[20:48:07.284] [Launch] [14824] Minecraft 日志监控已退出
-[20:48:13.835] [Control] 按下图标按钮：BtnTitleInner
-[20:48:13.836] [Control] 切换主要页面：Launch, -1
-[20:48:14.631] [Control] 按下按钮：启动游戏
-[20:48:14.631] [Loader] 加载器 Loader Launch 状态改变：Loading
-[20:48:14.635] [Launch] 预检测已通过
-[20:48:14.635] [Download] 开始后台检查资源文件索引
-[20:48:14.635] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[20:48:14.635] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[20:48:14.637] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:48:14.637] [Loader] 加载器 登录 状态改变：Waiting
-[20:48:14.637] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[20:48:14.637] [Loader] 加载器 获取 Java 状态改变：Loading
-[20:48:14.637] [Download] 无需更新资源文件索引
-[20:48:14.637] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[20:48:14.637] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[20:48:14.637] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[20:48:14.637] [Download] 后台下载资源文件索引 已取消！
-[20:48:14.637] [Loader] 加载线程 后台分析资源文件索引地址 (38) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[20:48:14.637] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[20:48:14.637] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[20:48:14.637] [Loader] 加载器 登录 状态改变：Loading
-[20:48:14.637] [Loader] 加载器 补全文件 状态改变：Loading
-[20:48:14.637] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[20:48:14.637] [Launch] 登录加载已开始
-[20:48:14.637] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[20:48:14.637] [Launch] 登录加载已结束
-[20:48:14.637] [Loader] 加载器 登录 状态改变：Finished
-[20:48:14.637] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[20:48:14.637] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[20:48:14.638] [Taskbar] Minecraft 启动 已加入任务列表
-[20:48:14.638] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[20:48:14.639] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[20:48:14.642] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:48:14.647] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[20:48:14.647] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[20:48:14.647] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[20:48:14.647] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[20:48:14.650] [Java] 开始确认列表 Java 状态，共 1 项
-[20:48:14.650] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:48:14.681] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[20:48:14.681] [Loader] 加载器 下载资源文件 状态改变：Loading
-[20:48:14.681] [Loader] 加载器 下载资源文件 状态改变：Finished
-[20:48:14.681] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[20:48:14.687] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:48:14.733] [Java] 检查后找到 1 个特定路径下的 Java：
-[20:48:14.733] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.733] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[20:48:14.806] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.806] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.806] [Java] 排序后的 Java 优先顺序：
-[20:48:14.806] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.807] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.807] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.807] [Loader] 加载器 获取 Java 状态改变：Finished
-[20:48:14.812] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[20:48:14.812] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[20:48:14.812] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[20:48:14.812] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[20:48:14.812] [Loader] 加载器 补全文件 状态改变：Finished
-[20:48:14.813] [Loader] 加载器 获取启动参数 状态改变：Loading
-[20:48:14.813] [Launch] 开始获取 Minecraft 启动参数
-[20:48:14.813] [Launch] 获取新版 JVM 参数
-[20:48:14.814] [Launch] 当前剩余内存：8.9G
-[20:48:14.814] [Java] 选定的 Java Wrapper 路径：D:\MC-PCL2\PCL\JavaWrapper.jar
-[20:48:14.814] [System] 获取资源：JavaWrapper
-[20:48:14.814] [Launch] 新版 JVM 参数获取成功：
-[20:48:14.814] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=${natives_directory} -Djna.tmpdir=${natives_directory} -Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory} -Dio.netty.native.workdir=${natives_directory} -Dminecraft.launcher.brand=${launcher_name} -Dminecraft.launcher.version=${launcher_version} -cp ${classpath} -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,${version_name}.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory=${library_directory} -p ${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.5/asm-9.5.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher
-[20:48:14.814] [Launch] 获取新版 Game 参数
-[20:48:14.814] [Launch] 新版 Game 参数获取成功
-[20:48:14.814] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[20:48:14.818] [Launch] Minecraft 启动参数：
-[20:48:14.818] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Djna.tmpdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dorg.lwjgl.system.SharedLibraryExtractPath="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dio.netty.native.workdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dminecraft.launcher.brand=PCL -Dminecraft.launcher.version=331 -cp "D:\MC-PCL2\.minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;D:\MC-PCL2\.minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;D:\MC-PCL2\.minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\authlib\4.0.43\authlib-4.0.43.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\brigadier\1.1.8\brigadier-1.1.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\datafixerupper\6.0.8\datafixerupper-6.0.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;D:\MC-PCL2\.minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\MC-PCL2\.minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;D:\MC-PCL2\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\loader\47.2.2\loader-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\earlydisplay\47.2.2\earlydisplay-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\securejarhandler\2.1.10\securejarhandler-2.1.10.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm\9.5\asm-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-util\9.5\asm-util-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-analysis\9.5\asm-analysis-9.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\accesstransformers\8.0.4\accesstransformers-8.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\eventbus\6.0.5\eventbus-6.0.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\forgespi\7.0.1\forgespi-7.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\coremods\5.0.1\coremods-5.0.1.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\modlauncher\10.0.9\modlauncher-10.0.9.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\unsafe\0.2.0\unsafe-0.2.0.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-api.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\core\3.6.4\core-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\toml\3.6.4\toml-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar;D:\MC-PCL2\.minecraft\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.2.0\terminalconsoleappender-1.2.0.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-reader\3.12.1\jline-reader-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-terminal\3.12.1\jline-terminal-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\spongepowered\mixin\0.8.5\mixin-0.8.5.jar;D:\MC-PCL2\.minecraft\libraries\org\openjdk\nashorn\nashorn-core\15.3\nashorn-core-15.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarSelector\0.3.19\JarJarSelector-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarMetadata\0.3.19\JarJarMetadata-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\bootstraplauncher\1.1.2\bootstraplauncher-1.1.2.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarFileSystems\0.3.19\JarJarFileSystems-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\events\47.2.2\events-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\core\47.2.2\core-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-java\47.2.2\language-java-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-lowcode\47.2.2\language-lowcode-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-minecraft\47.2.2\language-minecraft-47.2.2.jar;D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106.jar" -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,1.20.1-NeoForge_47.1.106.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory="D:\MC-PCL2\.minecraft\libraries" -p "D:\MC-PCL2\.minecraft\libraries"/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar;"D:\MC-PCL2\.minecraft\libraries"/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm/9.5/asm-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher --username Aaalicecao --version 1.20.1-NeoForge_47.1.106 --gameDir "D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106" --assetsDir "D:\MC-PCL2\.minecraft\assets" --assetIndex 5 --uuid b23d6b6456a641d1a734109f719e4add --accessToken eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************skuRA --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType PCL --width 852 --height 448 --launchTarget forgeclient --fml.forgeVersion 47.1.106 --fml.fmlVersion 47.2.2 --fml.mcVersion 1.20.1 --fml.mcpVersion 20230612.114412 
-[20:48:14.818] [Loader] 加载器 获取启动参数 状态改变：Finished
-[20:48:14.820] [Loader] 加载器 解压文件 状态改变：Loading
-[20:48:14.820] [Launch] 正在解压 Natives 文件
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\glfw.dll
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jemalloc.dll
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna13572833183251827736.dll
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna13572833183251827736.dll.x
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl.dll
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_opengl.dll
-[20:48:14.821] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_stb.dll
-[20:48:14.822] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\OpenAL.dll
-[20:48:14.822] [Loader] 加载器 解压文件 状态改变：Finished
-[20:48:14.846] [Loader] 加载器 预启动处理 状态改变：Loading
-[20:48:14.847] [Launch] 已更新 launcher_profiles.json
-[20:48:14.847] [Launch] 需要的语言为 zh_cn，当前语言为 zh_cn，无需修改
-[20:48:14.847] [Loader] 加载器 预启动处理 状态改变：Finished
-[20:48:14.870] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[20:48:14.872] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[20:48:14.891] [Loader] 加载器 启动进程 状态改变：Loading
-[20:48:14.894] [Launch] 已启动游戏进程：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\javaw.exe
-[20:48:14.895] [Loader] 加载器 启动进程 状态改变：Finished
-[20:48:14.918] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[20:48:14.918] [Launch] 
-[20:48:14.918] [Launch] ~ 基础参数 ~
-[20:48:14.918] [Launch] PCL 版本：Snapshot 2.8.3 (331)
-[20:48:14.918] [Launch] 游戏版本：1.20.1, NeoForge 47.1.106（识别为 1.20.1）
-[20:48:14.918] [Launch] 资源版本：5
-[20:48:14.918] [Launch] 版本继承：无
-[20:48:14.918] [Launch] 分配的内存：10 GB（10240 MB）
-[20:48:14.918] [Launch] MC 文件夹：D:\MC-PCL2\.minecraft\
-[20:48:14.918] [Launch] 版本文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[20:48:14.918] [Launch] 版本隔离：True
-[20:48:14.918] [Launch] HMCL 格式：False
-[20:48:14.918] [Launch] Java 信息：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[20:48:14.918] [Launch] 环境变量：未设置
-[20:48:14.918] [Launch] Natives 文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives
-[20:48:14.918] [Launch] 
-[20:48:14.918] [Launch] ~ 登录参数 ~
-[20:48:14.918] [Launch] 玩家用户名：Aaalicecao
-[20:48:14.918] [Launch] AccessToken：eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************skuRA
-[20:48:14.918] [Launch] ClientToken：b23d6b6456a641d1a734109f719e4add
-[20:48:14.918] [Launch] UUID：b23d6b6456a641d1a734109f719e4add
-[20:48:14.918] [Launch] 登录方式：Microsoft
-[20:48:14.918] [Launch] 
-[20:48:14.918] [Launch] [23768] 开始 Minecraft 日志监控
-[20:48:14.918] [Launch] [全局] 出现运行中的 Minecraft
-[20:48:16.775] [Launch] [23768] 日志 1/5：已出现日志输出
-[20:48:18.178] [Launch] [23768] Minecraft 窗口已加载：Minecraft: Forge Loading...（526916）
-[20:48:18.178] [Launch] [23768] Minecraft 加载已完成
-[20:48:18.185] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[20:48:18.208] [Loader] 加载器 结束处理 状态改变：Loading
-[20:48:18.208] [Launch] 开始启动结束处理
-[20:48:18.208] [Launch] 启动器可见性：5
-[20:48:18.209] [Loader] 加载器 结束处理 状态改变：Finished
-[20:48:18.238] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[20:48:18.260] [Taskbar] Minecraft 启动 已移出任务列表
-[20:48:18.359] [Loader] 加载器 Loader Launch 状态改变：Finished
-[20:48:18.385] [UI] 弹出提示：1.20.1-NeoForge_47.1.106 启动成功！
-[20:48:21.487] [Control] 按下图标按钮：BtnTitleMin
-[20:48:43.793] [Launch] [23768] 日志 2/5：游戏用户已设置
-[20:48:46.129] [Launch] [23768] 日志 3/5：LWJGL 版本已确认
-[20:50:24.335] [Launch] [23768] 日志 4/5：OpenAL 已加载
-[20:50:24.572] [Launch] [23768] 日志 5/5：材质已加载
-[21:06:04.409] [Launch] [23768] Minecraft 已退出，返回值：0
-[21:06:04.411] [Launch] [全局] 已无运行中的 Minecraft
-[21:06:04.641] [Launch] [23768] Minecraft 日志监控已退出
-[21:06:25.535] [Control] 按下图标按钮：BtnTitleClose
-[21:06:25.556] [System] 收到关闭指令
-[21:06:25.765] [System] 程序已退出，返回值：Success
+[09:23:42.972] [Start] 程序版本：Snapshot 2.8.3 (331)
+[09:23:42.974] [Start] 识别码：9716-A12E-161C-8DBC
+[09:23:42.974] [Start] 程序路径：C:\PCL2\Plain Craft Launcher 2.exe
+[09:23:42.974] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
+[09:23:42.974] [Start] 管理员权限：False
+[09:23:42.977] [Start] 第一阶段加载用时：78 ms
+[09:23:43.082] [UI] 刷新主题：4
+[09:23:43.117] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[09:23:43.118] [Start] 第二阶段加载用时：125 ms
+[09:23:43.126] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[09:23:43.286] [UI] 加载背景图片：C:\PCL2\PCL\Pictures\Background.jpg
+[09:23:43.388] [System] 窗口已置顶，位置：(507, 245), 907 x 550
+[09:23:43.392] [Start] 第三阶段加载用时：125 ms
+[09:23:43.393] [Animation] 动画线程开始
+[09:23:43.394] [Start] 加载 DLL：Json
+[09:23:43.394] [System] 获取资源：Json
+[09:23:43.404] [Launch] Minecraft 文件夹：C:\PCL2\.minecraft\
+[09:23:43.445] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[09:23:43.452] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[09:23:43.470] [Java] 缓存中有 6 个可用的 Java：
+[09:23:43.471] [Java]  - JDK 21 (21.0.3)：C:\PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
+[09:23:43.471] [Java]  - JRE 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\jre\bin\
+[09:23:43.471] [Java]  - JDK 17 (17.0.8)：C:\Users\Admin\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
+[09:23:43.471] [Java]  - JDK 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\bin\
+[09:23:43.471] [Java]  - JDK 21 (21.0.3)：C:\Users\Admin\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
+[09:23:43.471] [Java]  - JDK 11 (11.0.12)：C:\Program Files\Java\jdk-11.0.12\bin\
+[09:23:43.494] [Page] 实例化：清空自定义主页 UI，来源为空
+[09:23:43.497] [Skin] 载入头像成功：Loader Skin Ms
+[09:23:43.517] [Minecraft] 启动按钮：Minecraft 版本：C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
+[09:23:43.521] [Loader] 加载器 登录 状态改变：Loading
+[09:23:43.523] [Launch] 登录加载已开始
+[09:23:43.524] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[09:23:43.526] [Launch] 登录方式：正版（Aaalicecao）
+[09:23:43.527] [Launch] 开始微软登录步骤 2（刷新登录）
+[09:23:43.531] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[09:23:43.678] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[09:23:43.680] [UI] 解锁隐藏主题：6
+[09:23:43.680] [Loader] 加载器 PCL 服务 状态改变：Loading
+[09:23:43.680] [Server] 正在连接到 PCL 服务器
+[09:23:43.683] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[09:23:43.692] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1721093024-0867b64a-0-bfac2d562219a6400e6e37b9628a8cb0，超时 10000ms
+[09:23:43.784] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[09:23:43.861] [Server] 服务器公告：145|331|332|5，无需更新
+[09:23:43.866] [Loader] 加载器 PCL 服务 状态改变：Finished
+[09:23:44.116] [System] DPI：96，系统版本：10.0.19044.0，PCL 位置：C:\PCL2\Plain Craft Launcher 2.exe
+[09:23:44.257] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[09:23:44.316] [Launch] 开始微软登录步骤 3
+[09:23:44.316] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[09:23:44.579] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[09:23:44.846] [Control] 按下单选按钮：下载
+[09:23:44.915] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[09:23:44.921] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[09:23:44.922] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[09:23:44.924] [Control] 切换主要页面：Download, -1
+[09:23:45.007] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[09:23:45.009] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[09:23:45.010] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[09:23:45.012] [Loader] 加载器 DlOptiFineList Official 状态改变：Loading
+[09:23:45.012] [Loader] 加载器 DlNeoForgeList Main 状态改变：Loading
+[09:23:45.014] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Loading
+[09:23:45.016] [Loader] 加载器 DlFabricList Official 状态改变：Loading
+[09:23:45.016] [Net] 获取网络结果：https://dl.liteloader.com/versions/versions.json，超时 10000ms，要求 json
+[09:23:45.016] [Net] 获取客户端网络结果：https://optifine.net/downloads，最大超时 10000
+[09:23:45.016] [Net] 获取网络结果：https://meta.fabricmc.net/v2/versions，超时 10000ms，要求 json
+[09:23:45.017] [Loader] 加载器 DlNeoForgeList Official 状态改变：Loading
+[09:23:45.027] [Loader] 加载器 源码获取 185# 状态改变：Loading
+[09:23:45.030] [Download] 刷新 Forge 推荐版本缓存开始
+[09:23:45.030] [Loader] 加载器 源码获取 189# 状态改变：Loading
+[09:23:45.059] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[09:23:45.079] [Download] -439165528_184 215#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge
+[09:23:45.079] [Download] -1798645995_188 216#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[09:23:45.094] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[09:23:45.157] [Download] -1798645995_188 216#：文件大小 51113（49.9 K）
+[09:23:45.166] [Download] -1798645995_188：已完成，剩余文件 1
+[09:23:45.167] [Loader] 加载器 源码获取 189# 状态改变：Finished
+[09:23:45.176] [Download] 刷新 Forge 推荐版本缓存成功
+[09:23:45.202] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[09:23:45.861] [Launch] 开始微软登录步骤 4
+[09:23:45.861] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[09:23:45.863] [Download] -439165528_184 215#：文件大小 7780（7.6 K）
+[09:23:45.865] [Download] -439165528_184：已完成，剩余文件 0
+[09:23:45.865] [Loader] 加载器 源码获取 185# 状态改变：Finished
+[09:23:45.876] [Loader] 加载器 源码获取 237# 状态改变：Loading
+[09:23:45.907] [Download] 2144960796_236 241#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/forge
+[09:23:46.126] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[09:23:46.324] [Download] 2144960796_236 241#：文件大小 1100（1.07 K）
+[09:23:46.324] [Download] 2144960796_236：已完成，剩余文件 0
+[09:23:46.324] [Loader] 加载器 源码获取 237# 状态改变：Finished
+[09:23:46.331] [Loader] 加载器 DlNeoForgeList Official 状态改变：Finished
+[09:23:46.343] [Loader] 加载器 DlNeoForgeList Main 状态改变：Finished
+[09:23:46.372] [Loader] 加载器 DlOptiFineList Official 状态改变：Finished
+[09:23:46.375] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[09:23:46.494] [Control] 按下单选列表项：Mod
+[09:23:46.512] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[09:23:46.525] [Comp] 工程列表搜索原始文本：
+[09:23:46.525] [Comp] 工程列表搜索最终文本：
+[09:23:46.527] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0
+[09:23:46.527] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0，超时 10000ms，要求 json
+[09:23:46.533] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
+[09:23:46.533] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[09:23:46.641] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[09:23:47.005] [Loader] 加载器 DlFabricList Official 状态改变：Finished
+[09:23:47.014] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[09:23:47.167] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Finished
+[09:23:47.170] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[09:23:47.405] [Launch] 开始微软登录步骤 5
+[09:23:47.405] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[09:23:47.656] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[09:23:47.744] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 24788 个）
+[09:23:48.819] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 56459 个）
+[09:23:48.825] [System] 获取资源：ModData
+[09:23:48.847] [Comp] 将 Cloth Config API (cloth-config) 与 Cloth Config API (Fabric/Forge/NeoForge) (cloth-config) 认定为相似工程
+[09:23:48.848] [Comp] 将 ModernFix (modernfix) 与 ModernFix (modernfix) 认定为相似工程
+[09:23:48.849] [Comp] 去重、筛选后累计新增结果 78 个
+[09:23:48.861] [Comp] 开始可视化 Mod 列表，已储藏 78 个结果，当前在第 1 页
+[09:23:48.899] [Comp] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/mOgUt4GM/1b6bcdef5a3d92572f517122650716be7ec6458b.webp
+[09:23:49.031] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[09:23:49.229] [Launch] 开始微软登录步骤 6
+[09:23:49.229] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[09:23:49.480] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[09:23:50.184] [Launch] 开始微软登录步骤 7
+[09:23:50.184] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[09:23:50.435] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[09:23:50.941] [Launch] 微软登录完成
+[09:23:50.941] [UI] 解锁隐藏主题：10
+[09:23:50.941] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[09:23:50.950] [Launch] 登录加载已结束
+[09:23:50.950] [Loader] 加载器 登录 状态改变：Finished
+[09:23:51.034] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[09:23:51.034] [Comp] 工程列表搜索原始文本：nullspace
+[09:23:51.035] [Comp] 工程列表搜索最终文本：nullspace
+[09:23:51.035] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=nullspace
+[09:23:51.035] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=nullspace，超时 10000ms，要求 json
+[09:23:51.035] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=nullspace&facets=[["project_type:mod"]]
+[09:23:51.035] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=nullspace&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[09:23:51.348] [Comp] 从 Modrinth 获取到了 1 个工程（已获取 1 个，共 1 个）
+[09:23:51.599] [Comp] 从 CurseForge 获取到了 0 个工程（已获取 0 个，共 0 个）
+[09:23:51.599] [Comp] 去重、筛选后累计新增结果 1 个
+[09:23:51.599] [Comp] 总结果数需求最少 40 个，仅获得了 1 个
+[09:23:51.599] [Comp] 无法继续加载，将强制结束
+[09:23:51.603] [Comp] 开始可视化 Mod 列表，已储藏 1 个结果，当前在第 1 页
+[09:23:51.636] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[09:24:01.086] [Control] 按下图标按钮：BtnTitleClose
+[09:24:01.089] [System] 收到关闭指令
+[09:24:01.310] [System] 程序已退出，返回值：Success
