@@ -1,0 +1,12 @@
+[
+	"#forge:is_badlands?",
+	"#forge:is_desert?",
+	"#forge:is_overworld?",
+	"#minecraft:is_badlands?",
+	"#minecraft:is_desert?",
+	"#minecraft:is_overworld?",
+	"minecraft:badlands?",
+	"minecraft:desert?",
+	"minecraft:eroded_badlands?",
+	"minecraft:wooded_badlands?"
+]

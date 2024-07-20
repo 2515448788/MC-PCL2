@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "crockpot:blocks/bone_soup",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "crockpot:bone_soup"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

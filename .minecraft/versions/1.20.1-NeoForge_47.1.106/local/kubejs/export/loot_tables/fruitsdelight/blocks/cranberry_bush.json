@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fruitsdelight:blocks/cranberry_bush",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "fruitsdelight:cranberry_bush",
+							"properties": {
+								"age": "4"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "fruitsdelight:cranberry"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

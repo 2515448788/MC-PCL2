@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:empty",
+	"random_sequence": "l2backpack:backpack_guide",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{\"patchouli:book\":\"l2backpack:backpack_guide\"}"
+						}
+					],
+					"name": "patchouli:guide_book"
+				}
+			]
+		}
+	]
+}

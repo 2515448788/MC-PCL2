@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"name": "atlatitan_meat",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 7.0,
+								"max": 9.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:furnace_smelt",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"predicate": {
+										"flags": {
+											"is_on_fire": true
+										}
+									},
+									"entity": "this"
+								}
+							]
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							}
+						}
+					],
+					"name": "alexscaves:dinosaur_chop"
+				}
+			]
+		},
+		{
+			"name": "atlatitan_bone",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 9.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							}
+						}
+					],
+					"name": "alexscaves:heavy_bone"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/bamboo_drawer",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "handcrafted:bamboo_drawer"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

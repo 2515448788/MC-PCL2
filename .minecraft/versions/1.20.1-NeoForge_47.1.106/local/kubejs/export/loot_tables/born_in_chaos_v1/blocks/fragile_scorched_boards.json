@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "born_in_chaos_v1:blocks/fragile_scorched_boards",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "born_in_chaos_v1:fragile_scorched_boards"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

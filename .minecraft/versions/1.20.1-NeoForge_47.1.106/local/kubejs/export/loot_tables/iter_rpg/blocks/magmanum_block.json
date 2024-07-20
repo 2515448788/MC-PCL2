@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "iter_rpg:blocks/magmanum_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "iter_rpg:magmanum_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

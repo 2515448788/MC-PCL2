@@ -1,0 +1,209 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 3.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mangrove_leaves"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mangrove_propagule"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 11.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mud"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mangrove_roots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:muddy_mangrove_roots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.45
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:grass"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:moss_carpet"
+				}
+			]
+		}
+	]
+}

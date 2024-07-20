@@ -1,0 +1,148 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 5.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:slime_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:honey_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:note_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:netherite_scrap"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:tnt"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:dispenser"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:dropper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:daylight_detector"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:spyglass"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 60,
+					"name": "structory_towers:potions"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:jukebox"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_stal"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "structory_towers:basic/workshop_basic"
+				}
+			]
+		}
+	]
+}

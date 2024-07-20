@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/mangrove_shelf",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "handcrafted:mangrove_shelf"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

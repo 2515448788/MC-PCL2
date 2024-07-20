@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "iter_rpg:blocks/grim_soultrap",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "iter_rpg:polished_grimstone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

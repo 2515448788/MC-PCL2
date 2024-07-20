@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "rocks:blocks/andesite_rock",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "rocks:andesite_splitter"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

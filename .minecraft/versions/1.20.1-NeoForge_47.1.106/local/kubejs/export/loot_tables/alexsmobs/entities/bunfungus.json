@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"name": "bison_meat",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							}
+						}
+					],
+					"name": "alexsdelight:raw_bunfungus"
+				}
+			]
+		},
+		{
+			"name": "bison",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							}
+						}
+					],
+					"name": "minecraft:red_mushroom"
+				}
+			]
+		}
+	]
+}

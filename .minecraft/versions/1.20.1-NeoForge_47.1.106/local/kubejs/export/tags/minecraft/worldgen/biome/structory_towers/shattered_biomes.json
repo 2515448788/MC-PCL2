@@ -1,0 +1,10 @@
+[
+	"#minecraft:is_hill",
+	"minecraft:windswept_forest",
+	"minecraft:windswept_gravelly_hills",
+	"minecraft:windswept_hills",
+	"minecraft:windswept_savanna",
+	"terralith:cloud_forest?",
+	"terralith:fractured_savanna?",
+	"terralith:jungle_mountains?"
+]

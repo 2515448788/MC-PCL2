@@ -1,0 +1,7 @@
+{
+	"lithostitched:all_of": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:any_of": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:mod_loaded": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:not": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:true": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

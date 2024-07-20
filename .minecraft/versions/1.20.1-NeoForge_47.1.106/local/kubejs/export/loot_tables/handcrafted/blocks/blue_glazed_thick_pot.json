@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/blue_glazed_thick_pot",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "handcrafted:blue_glazed_thick_pot"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

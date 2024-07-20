@@ -1,0 +1,16 @@
+{
+	"betterdeserttemples:desert_temple": "com.yungnickyoung.minecraft.betterdeserttemples.module.StructurePlacementTypeModule$$Lambda/0x00000232e9b4a6e8",
+	"integrated_api:advanced_random_spread": "com.craisinlord.integrated_api.modinit.IAStructurePlacementType$$Lambda/0x00000232ed06cf98",
+	"betterjungletemples:jungle_temple": "com.yungnickyoung.minecraft.betterjungletemples.module.StructurePlacementTypeModule$$Lambda/0x00000232e995cf38",
+	"mss:advanced_random_spread": "com.finndog.mss.modinit.MSSStructurePlacementType$$Lambda/0x00000232ed06dc28",
+	"betterstrongholds:stronghold": "com.yungnickyoung.minecraft.betterstrongholds.module.StructurePlacementTypeModule$$Lambda/0x00000232e9b14300",
+	"mes:advanced_random_spread": "com.finndog.mes.modinit.MESStructurePlacementType$$Lambda/0x00000232ed06d5e0",
+	"cataclysm:cataclysm_random_spread": "com.github.L_Ender.cataclysm.init.ModStructurePlacementType$$Lambda/0x00000232ed06d3c8",
+	"mvs:advanced_random_spread": "com.finndog.mvs.modinit.MVSStructurePlacementType$$Lambda/0x00000232ed06de40",
+	"mns:advanced_random_spread": "com.finndog.mns.modinit.MNSStructurePlacementType$$Lambda/0x00000232ed06d7f8",
+	"minecraft:random_spread": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda/0x00000232e8d8cc00",
+	"twilightforest:forced_landmark": "twilightforest.init.TFStructurePlacementTypes$$Lambda/0x00000232ed06da10",
+	"integrated_api:stronghold": "com.craisinlord.integrated_api.modinit.IAStructurePlacementType$$Lambda/0x00000232ed06d1b0",
+	"minecraft:concentric_rings": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda/0x00000232e8d8cc00",
+	"yungsapi:enhanced_random_spread": "com.yungnickyoung.minecraft.yungsapi.module.StructurePlacementTypeModule$$Lambda/0x00000232e95f9748"
+}

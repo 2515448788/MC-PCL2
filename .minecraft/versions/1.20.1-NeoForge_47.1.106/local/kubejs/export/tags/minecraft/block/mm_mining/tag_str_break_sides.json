@@ -1,0 +1,12 @@
+[
+	"mm_mining:block_controller_input",
+	"mm_mining:block_controller_system",
+	"mm_mining:block_crusher_controller",
+	"mm_mining:block_miner_controller",
+	"mm_mining:block_mining_machine_controller_digital",
+	"mm_mining:block_mining_machine_controller_horizontal",
+	"mm_mining:block_mining_machine_controller_tunnel",
+	"mm_mining:block_mining_machine_controller_vertical",
+	"mm_mining:block_ore_smelter_controller",
+	"mm_mining:block_structure_block"
+]

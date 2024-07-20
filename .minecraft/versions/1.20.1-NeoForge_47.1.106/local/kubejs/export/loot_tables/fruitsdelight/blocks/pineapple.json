@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fruitsdelight:blocks/pineapple",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "fruitsdelight:pineapple",
+									"properties": {
+										"age": "4"
+									}
+								}
+							],
+							"name": "fruitsdelight:pineapple"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "fruitsdelight:pineapple_sapling"
+						}
+					]
+				}
+			]
+		}
+	]
+}

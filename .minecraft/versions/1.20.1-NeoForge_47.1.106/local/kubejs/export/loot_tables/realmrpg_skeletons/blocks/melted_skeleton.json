@@ -1,0 +1,327 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "realmrpg_skeletons:blocks/melted_skeleton",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"enchantments": [
+									{
+										"enchantment": "minecraft:silk_touch",
+										"levels": {
+											"min": 1
+										}
+									}
+								]
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "realmrpg_skeletons:melted_skeleton"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:skeleton_skull"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:charcoal"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:lava_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:fire_charge"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:magma_block"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				}
+			]
+		}
+	]
+}

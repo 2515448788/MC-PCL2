@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "brewery:blocks/brew_oven",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "brewery:brew_oven",
+							"properties": {
+								"material": "copper"
+							}
+						}
+					],
+					"name": "brewery:copper_brewingstation"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "brewery:brew_oven",
+							"properties": {
+								"material": "wood"
+							}
+						}
+					],
+					"name": "brewery:wooden_brewingstation"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "brewery:brew_oven",
+							"properties": {
+								"material": "netherite"
+							}
+						}
+					],
+					"name": "brewery:netherite_brewingstation"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

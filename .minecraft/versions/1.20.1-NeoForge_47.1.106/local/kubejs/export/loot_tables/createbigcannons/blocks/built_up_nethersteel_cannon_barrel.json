@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "createbigcannons:blocks/built_up_nethersteel_cannon_barrel",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 10.0,
+							"add": false
+						}
+					],
+					"name": "createbigcannons:nethersteel_nugget"
+				}
+			]
+		}
+	]
+}

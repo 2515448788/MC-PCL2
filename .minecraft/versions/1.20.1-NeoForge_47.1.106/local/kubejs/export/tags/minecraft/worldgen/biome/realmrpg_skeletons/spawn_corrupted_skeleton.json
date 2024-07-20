@@ -1,0 +1,8 @@
+[
+	"#forge:is_end?",
+	"#minecraft:is_end?",
+	"minecraft:end_barrens?",
+	"minecraft:end_highlands?",
+	"minecraft:end_midlands?",
+	"minecraft:the_end?"
+]

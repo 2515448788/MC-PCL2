@@ -1,0 +1,9 @@
+[
+	"#lightmanscurrency:traders/card_display",
+	"#lightmanscurrency:traders/display_case",
+	"#lightmanscurrency:traders/freezer",
+	"#lightmanscurrency:traders/large_vending_machine",
+	"#lightmanscurrency:traders/shelf",
+	"#lightmanscurrency:traders/shelf_2x2",
+	"#lightmanscurrency:traders/vending_machine"
+]

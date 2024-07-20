@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "bountifulfares:orange_jack_o_straw",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "bountifulfares:orange_jack_o_straw"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

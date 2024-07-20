@@ -1,0 +1,18 @@
+{
+	"minecraft:trunk_vine": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:leave_vine": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:cocoa": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:beehive": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:alter_ground": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:attached_to_leaves": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:passion_fruit": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"minecraft:elderberries": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"goodending:hanging_vines": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"verdantvibes:trunk_ivy": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"verdantvibes:trunk_mushroom": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"twilightforest:core_placer": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"twilightforest:trunkside_decorator": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"twilightforest:tree_roots": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"twilightforest:dangle_from_tree_decorator": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType",
+	"quark:ancient_tree_topper_decorator": "net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType"
+}

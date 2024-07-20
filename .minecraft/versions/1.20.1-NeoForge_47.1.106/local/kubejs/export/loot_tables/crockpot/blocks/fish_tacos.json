@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "crockpot:blocks/fish_tacos",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "crockpot:fish_tacos"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:plague_bringer_1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:precise_enchant",
+							"id": "tombstone:plague_bringer",
+							"level": 1
+						},
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				}
+			]
+		}
+	]
+}

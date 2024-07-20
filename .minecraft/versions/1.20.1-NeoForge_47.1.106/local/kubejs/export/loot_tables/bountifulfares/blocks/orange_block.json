@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:orange_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:orange_block",
+					"properties": {
+						"slices": "0"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 4.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:orange"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:orange_block",
+					"properties": {
+						"slices": "1"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:orange"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:orange_block",
+					"properties": {
+						"slices": "2"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:orange"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:orange_block",
+					"properties": {
+						"slices": "3"
+					}
+				}
+			]
+		}
+	]
+}

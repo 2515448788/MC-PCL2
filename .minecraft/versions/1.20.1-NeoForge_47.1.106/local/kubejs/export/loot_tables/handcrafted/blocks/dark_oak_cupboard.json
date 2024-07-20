@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/dark_oak_cupboard",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "handcrafted:dark_oak_cupboard"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

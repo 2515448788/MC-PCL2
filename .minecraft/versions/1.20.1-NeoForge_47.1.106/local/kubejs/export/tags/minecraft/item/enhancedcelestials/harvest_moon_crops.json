@@ -1,0 +1,14 @@
+[
+	"#c:crop?",
+	"#c:crops?",
+	"#forge:crop?",
+	"#forge:crops?",
+	"#minecraft:crop?",
+	"#minecraft:crops?",
+	"#minecraft:villager_plantable_seeds?",
+	"minecraft:beetroot",
+	"minecraft:carrot",
+	"minecraft:nether_wart",
+	"minecraft:potato",
+	"minecraft:wheat"
+]

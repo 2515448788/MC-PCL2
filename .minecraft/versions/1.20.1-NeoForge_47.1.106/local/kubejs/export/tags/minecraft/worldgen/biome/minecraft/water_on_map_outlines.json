@@ -1,0 +1,9 @@
+[
+	"#minecraft:is_ocean",
+	"#minecraft:is_river",
+	"biomesoplenty:bayou?",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:marsh?",
+	"minecraft:mangrove_swamp",
+	"minecraft:swamp"
+]

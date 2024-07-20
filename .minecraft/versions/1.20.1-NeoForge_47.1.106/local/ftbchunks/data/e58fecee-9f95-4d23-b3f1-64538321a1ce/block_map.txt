@@ -1,5 +1,6 @@
 #FA75A8 minecraft:andesite
 #D16C77 minecraft:andesite_slab
+#ADF429 supplementaries:ash
 #7F849D realmrpg_skeletons:basic_skeleton
 #7F8A04 minecraft:blast_furnace
 #087519 minecraft:blue_ice
@@ -21,6 +22,7 @@
 #B2A2E1 minecraft:dandelion
 #A4967C minecraft:dark_oak_slab
 #A8FCCC minecraft:dark_oak_stairs
+#BE840C realmrpg_skeletons:devastated_skeleton
 #BED665 minecraft:diorite
 #4CF9DA minecraft:diorite_slab
 #C600AA minecraft:diorite_stairs
@@ -35,10 +37,13 @@
 #F67E21 minecraft:hay_block
 #30C9A1 quark:hollow_spruce_log
 #52D27E minecraft:ice
+#EAC0B1 ironchest:iron_chest
 #3CAD79 minecraft:lantern
+#711761 minecraft:light_gray_wall_banner
 #9812BA quark:limestone
 #DE9468 minecraft:magma_block
 #B7C35A mythicmetals:manganese_ore
+#C8A620 biomesoplenty:maple_leaves
 #5A981B minecraft:moss_carpet
 #A4FC4B minecraft:mossy_cobblestone
 #F093B4 minecraft:mossy_cobblestone_slab
@@ -50,6 +55,7 @@
 #AD9EB5 minecraft:oak_leaves
 #E3886A minecraft:oak_planks
 #374FD3 minecraft:oak_slab
+#B371BC rocks:oak_stick
 #46FB1F minecraft:oak_wall_sign
 #B75237 minecraft:packed_ice
 #325093 fruitsdelight:persimmon_leaves
@@ -74,7 +80,9 @@
 #12E6C4 minecraft:snow_block
 #32A72D minecraft:soul_lantern
 #FAE367 minecraft:spruce_fence
+#F522A9 minecraft:spruce_fence_gate
 #13F5AC minecraft:spruce_leaves
+#6A8B3A minecraft:spruce_log
 #49DF61 minecraft:spruce_planks
 #64F88A minecraft:spruce_slab
 #D9135A minecraft:spruce_stairs
@@ -89,7 +97,9 @@
 #139B57 minecraft:stone_stairs
 #5CF3F1 minecraft:sugar_cane
 #0EAA1C minecraft:suspicious_gravel
+#329213 minecraft:sweet_berry_bush
 #72C0FF ecologics:thin_ice
+#16BA60 toms_storage:ts.open_crate
 #88779D minecraft:vine
 #1C0619 waystones:waystone
 #B04FD6 minecraft:white_candle

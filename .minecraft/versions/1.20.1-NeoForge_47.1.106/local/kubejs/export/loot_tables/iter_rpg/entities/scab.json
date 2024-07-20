@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "iter_rpg:entities/scab",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "iter_rpg:vile_tissue"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "iter_rpg:demonbone_fragments"
+				}
+			]
+		}
+	]
+}

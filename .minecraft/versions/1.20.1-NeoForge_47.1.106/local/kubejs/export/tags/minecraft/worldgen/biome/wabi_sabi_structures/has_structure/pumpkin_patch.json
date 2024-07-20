@@ -1,0 +1,22 @@
+[
+	"minecraft:plains",
+	"minecraft:savanna",
+	"minecraft:taiga",
+	"nyctophobia:haunted_forest?",
+	"terralith:alpine_highlands?",
+	"terralith:arid_highlands?",
+	"terralith:birch_taiga?",
+	"terralith:brushland?",
+	"terralith:forested_highlands?",
+	"terralith:highlands?",
+	"terralith:lush_valley?",
+	"terralith:shrubland?",
+	"terrestria:cypress_forest?",
+	"terrestria:dense_woodlands?",
+	"terrestria:lush_redwood_forest?",
+	"traverse:autumnal_woods?",
+	"traverse:desert_shrubland?",
+	"traverse:flatlands?",
+	"traverse:lush_swamp?",
+	"traverse:woodlands?"
+]

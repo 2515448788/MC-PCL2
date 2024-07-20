@@ -1,0 +1,349 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.7
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.05
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:trident"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:fishing_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:music_disc_wait"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:heart_of_the_sea"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:emerald_block"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "structory_towers:potions"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:coast_armor_trim_smithing_template"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:lapis_lazuli"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:turtle_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:pufferfish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:scute"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.6
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 40,
+					"name": "structory_towers:horse_equipment"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "structory_towers:basic/lighthouse_basic"
+				}
+			]
+		}
+	]
+}

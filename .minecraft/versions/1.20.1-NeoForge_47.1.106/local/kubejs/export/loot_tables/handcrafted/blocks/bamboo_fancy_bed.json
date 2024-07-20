@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/bamboo_fancy_bed",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "handcrafted:bamboo_fancy_bed",
+							"properties": {
+								"part": "head"
+							}
+						}
+					],
+					"name": "handcrafted:bamboo_fancy_bed"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

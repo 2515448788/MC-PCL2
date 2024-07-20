@@ -1,0 +1,12 @@
+[
+	"#minecraft:is_forest",
+	"#minecraft:is_mountain",
+	"#minecraft:is_river",
+	"minecraft:birch_forest",
+	"minecraft:forest",
+	"minecraft:meadow",
+	"minecraft:plains",
+	"minecraft:river",
+	"minecraft:sunflower_plains",
+	"minecraft:swamp"
+]

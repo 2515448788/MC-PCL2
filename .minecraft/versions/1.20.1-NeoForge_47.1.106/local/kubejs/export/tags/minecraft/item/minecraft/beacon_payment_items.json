@@ -1,0 +1,13 @@
+[
+	"#create:create_ingots",
+	"lightmanscurrency:coin_diamond",
+	"lightmanscurrency:coin_emerald",
+	"lightmanscurrency:coin_gold",
+	"lightmanscurrency:coin_iron",
+	"lightmanscurrency:coin_netherite",
+	"minecraft:diamond",
+	"minecraft:emerald",
+	"minecraft:gold_ingot",
+	"minecraft:iron_ingot",
+	"minecraft:netherite_ingot"
+]

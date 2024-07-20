@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fruitsdelight:blocks/apple_jello_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fruitsdelight:apple_jello_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

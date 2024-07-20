@@ -1,0 +1,68 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:archer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prize_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heartbreak_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:crushed_raw_copper"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:crushed_raw_zinc"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:crushed_raw_gold"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_shovel"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_candle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "supplementaries:flute"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "supplementaries:rope"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "supplementaries:statue"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				}
+			]
+		}
+	]
+}

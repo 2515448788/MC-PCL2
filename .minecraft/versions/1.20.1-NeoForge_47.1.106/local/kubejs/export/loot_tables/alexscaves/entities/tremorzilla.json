@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"name": "tremorzilla_uranium",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 40.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 3.0
+							}
+						}
+					],
+					"name": "alexscaves:uranium"
+				}
+			]
+		},
+		{
+			"name": "tremorzilla_uranium_shard",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 20.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 3.0
+							}
+						}
+					],
+					"name": "alexscaves:uranium_shard"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:rose_quartz"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:metal_bracket"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:steam_whistle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:wrench"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:cinder_flour"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:clipboard"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:brass_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:iron_sheet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "create:golden_sheet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"Unknown\",display:{Lore:[\"Found in ruins of a train\"]},pages:['[\r\n                \"\",\r\n                {\"text\":\"§lAll aboard!!\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"I just got onto my first train! \"},\r\n                {\"text\":\"I hear they can travel faster than the fastest horse!\"}\r\n              ]','[\r\n                {\"text\":\"It\\'s amazing a humble farmer can afford to travel so elegantly! I\\'m headed to a castle nearby \"},\r\n                {\"text\":\"to sell my exotic crops. I hope they like beetroot!\"}\r\n              ]'],title:\"Journal\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Train Journal 1"
+							}
+						}
+					],
+					"name": "minecraft:written_book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"Unknown\",display:{Lore:[\"Found in ruins of a train\"]},pages:['[\r\n                \"\",\r\n                {\"text\":\"§lConductor\\'s Log\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"Today is my first day as the conductor of this mighty fine train! \"},\r\n                {\"text\":\"All I do is stop and start this thing, it follows the tracks on its own.\"}\r\n              ]','[\r\n                {\"text\":\"How hard can it be?\"}\r\n              ]'],title:\"Journal\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Train Journal 2"
+							}
+						}
+					],
+					"name": "minecraft:written_book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"Unknown\",display:{Lore:[\"Found in ruins of a train\"]},pages:['[\r\n                \"\",\r\n                {\"text\":\"§lDecommissioned\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"This train is being decomissioned. This will be my last time riding it. The \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" have invaded these lands...\"}\r\n              ]','[\r\n                {\"text\":\"We are not safe anymore.\"}\r\n              ]'],title:\"Journal\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Train Journal 3"
+							}
+						}
+					],
+					"name": "minecraft:written_book"
+				}
+			]
+		}
+	]
+}

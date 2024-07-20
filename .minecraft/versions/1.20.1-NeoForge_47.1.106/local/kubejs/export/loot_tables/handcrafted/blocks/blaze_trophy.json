@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "handcrafted:blocks/blaze_trophy",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "handcrafted:blaze_trophy"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

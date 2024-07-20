@@ -1,0 +1,306 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:soul_lantern"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:blackstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:soul_campfire"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cooked_porkchop"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:warped_fungus"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:warped_stem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:mushroom_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:mining_fatigue",
+									"duration": 60.0
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"effects": [
+								{
+									"type": "minecraft:blindness",
+									"duration": 60.0
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"effects": [
+								{
+									"type": "minecraft:fire_resistance",
+									"duration": 60.0
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:poison",
+									"duration": 60.0
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"effects": [
+								{
+									"type": "minecraft:haste",
+									"duration": 60.0
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"effects": [
+								{
+									"type": "minecraft:invisibility",
+									"duration": 60.0
+								}
+							]
+						}
+					],
+					"name": "minecraft:suspicious_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:crying_obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:stone_sword"
+				}
+			]
+		}
+	]
+}

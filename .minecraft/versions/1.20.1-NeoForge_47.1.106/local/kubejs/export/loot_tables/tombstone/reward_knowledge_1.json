@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:reward_knowledge_1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:reward_knowledge",
+							"points": 1
+						}
+					],
+					"name": "minecraft:air"
+				}
+			]
+		}
+	]
+}

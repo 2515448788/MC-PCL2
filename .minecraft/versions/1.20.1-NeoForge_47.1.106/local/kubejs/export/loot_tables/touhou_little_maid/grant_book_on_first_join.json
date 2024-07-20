@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:advancement_reward",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{\"patchouli:book\":\"touhou_little_maid:memorizable_gensokyo\"}"
+						}
+					],
+					"name": "patchouli:guide_book"
+				}
+			]
+		}
+	]
+}

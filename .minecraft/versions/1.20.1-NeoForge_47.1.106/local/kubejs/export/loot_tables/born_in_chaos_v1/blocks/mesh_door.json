@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "born_in_chaos_v1:blocks/mesh_door",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "born_in_chaos_v1:mesh_door",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "born_in_chaos_v1:mesh_door"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

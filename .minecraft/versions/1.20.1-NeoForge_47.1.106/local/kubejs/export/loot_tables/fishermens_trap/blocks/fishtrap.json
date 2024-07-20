@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fishermens_trap:blocks/fishtrap",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fishermens_trap:fishtrap"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

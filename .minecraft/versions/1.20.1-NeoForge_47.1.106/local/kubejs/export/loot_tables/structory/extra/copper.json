@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 1.0
+						}
+					],
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": {
+									"type": "minecraft:uniform",
+									"min": 7.0,
+									"max": {
+										"type": "minecraft:uniform",
+										"min": 14.0,
+										"max": 21.0
+									}
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:copper_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 1.0
+						}
+					],
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": {
+									"type": "minecraft:uniform",
+									"min": 5.0,
+									"max": {
+										"type": "minecraft:uniform",
+										"min": 7.0,
+										"max": 10.0
+									}
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:raw_copper"
+				}
+			]
+		}
+	]
+}

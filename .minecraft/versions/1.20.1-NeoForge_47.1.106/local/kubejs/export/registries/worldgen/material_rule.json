@@ -1,0 +1,8 @@
+{
+	"minecraft:bandlands": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:block": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:transient_merged": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"terrablender:merged": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:condition": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:sequence": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

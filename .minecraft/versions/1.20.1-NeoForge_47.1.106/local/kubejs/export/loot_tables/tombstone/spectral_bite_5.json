@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:spectral_bite_5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:precise_enchant",
+							"id": "tombstone:spectral_bite",
+							"level": 5
+						},
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,265 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:crimson_stem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stripped_crimson_stem"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:golden_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:golden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:golden_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:golden_shovel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:shroomlight"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:gold_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 18.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:crimson_fungus"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 30,
+					"name": "structory_towers:potions"
+				}
+			]
+		}
+	]
+}

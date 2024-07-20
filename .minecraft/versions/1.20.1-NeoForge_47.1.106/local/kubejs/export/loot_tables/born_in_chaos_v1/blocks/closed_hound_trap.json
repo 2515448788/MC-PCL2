@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "born_in_chaos_v1:blocks/closed_hound_trap",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "born_in_chaos_v1:hound_trap"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

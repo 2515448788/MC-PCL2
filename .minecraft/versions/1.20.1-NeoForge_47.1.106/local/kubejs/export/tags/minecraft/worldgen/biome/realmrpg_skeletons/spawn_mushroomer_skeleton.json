@@ -1,0 +1,15 @@
+[
+	"#forge:is_mushroom?",
+	"#forge:is_taiga?",
+	"biomesoplenty:fungal_jungle?",
+	"biomesoplenty:glowing_grotto?",
+	"minecraft:dark_forest?",
+	"minecraft:mushroom_fields?",
+	"minecraft:old_growth_pine_taiga?",
+	"minecraft:old_growth_spruce_taiga?",
+	"regions_unexplored:bioshroom_caves?",
+	"regions_unexplored:blackwood_taiga?",
+	"regions_unexplored:fungal_fen?",
+	"twilightforest:dense_mushroom_forest?",
+	"twilightforest:mushroom_forest?"
+]

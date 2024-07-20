@@ -1,0 +1,8 @@
+{
+	"minecraft:append_loot": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda/0x00000232e8cc4800",
+	"lithostitched:apply_all": "dev.worldgen.lithostitched.registry.LithostitchedBuiltInRegistries$$Lambda/0x00000232ecd6aea0",
+	"minecraft:passthrough": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda/0x00000232e8cc4800",
+	"minecraft:append_static": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda/0x00000232e8cc4800",
+	"lithostitched:apply_random": "dev.worldgen.lithostitched.registry.LithostitchedBuiltInRegistries$$Lambda/0x00000232ecd6aea0",
+	"minecraft:clear": "net.minecraft.world.level.levelgen.structure.templatesystem.rule.blockentity.RuleBlockEntityModifierType$$Lambda/0x00000232e8cc4800"
+}

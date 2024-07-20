@@ -1,0 +1,163 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 4.0,
+			"bonus_rolls": 6.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"name": "minecraft:honey_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:birch_log"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stripped_birch_log"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:bee_nest"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:honeycomb"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rail"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:campfire"
+				}
+			]
+		}
+	]
+}

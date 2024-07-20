@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#B20306",
+								"translate": "incendium.item.death_pot.name",
+								"fallback": "Death Potion"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "red",
+									"translate": "incendium.item.death_pot.desc1",
+									"fallback": "Make your choice, adventurous stranger"
+								},
+								{
+									"color": "red",
+									"translate": "incendium.item.death_pot.desc2",
+									"fallback": "Drink the brew, and bide the danger,"
+								},
+								{
+									"color": "red",
+									"translate": "incendium.item.death_pot.desc3",
+									"fallback": "Or wonder till it drives you mad;"
+								},
+								{
+									"color": "red",
+									"translate": "incendium.item.death_pot.desc4",
+									"fallback": "What would have happened if you had?"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:1517120,CustomPotionEffects:[{Amplifier:1,Id:7},{Amplifier:28,Id:7},{Amplifier:1,Duration:2147483647,Id:33},{Amplifier:1,Duration:2147483647,Id:14},{Amplifier:9,Duration:2147483647,Id:2},{Amplifier:9,Duration:2147483647,Id:4},{Duration:2147483647,Id:9},{Duration:2147483647,Id:15},{Amplifier:19,Duration:2147483647,Id:17},{Amplifier:9,Duration:2147483647,Id:18},{Amplifier:2,Duration:2147483647,Id:19},{Amplifier:4,Duration:2147483647,Id:20},{Duration:2147483647,Id:24},{Amplifier:49,Duration:2147483647,Id:25},{Amplifier:99,Duration:2147483647,Id:27},{Amplifier:5,Duration:1200,Id:31}],HideFlags:32,Potion:\"minecraft:water\",custom_potion_effects:[{amplifier:1,id:\"minecraft:instant_damage\"},{amplifier:1,duration:2147483647,id:\"minecraft:darkness\"},{amplifier:1,duration:2147483647,id:\"minecraft:invisibility\"},{amplifier:9,duration:2147483647,id:\"minecraft:slowness\"},{amplifier:9,duration:2147483647,id:\"minecraft:mining_fatigue\"},{duration:2147483647,id:\"minecraft:nausea\"},{duration:2147483647,id:\"minecraft:blindness\"},{amplifier:19,duration:2147483647,id:\"minecraft:hunger\"},{amplifier:9,duration:2147483647,id:\"minecraft:weakness\"},{amplifier:2,duration:2147483647,id:\"minecraft:poison\"},{amplifier:4,duration:2147483647,id:\"minecraft:wither\"},{duration:2147483647,id:\"minecraft:glowing\"},{amplifier:49,duration:2147483647,id:\"minecraft:levitation\"},{amplifier:99,duration:2147483647,id:\"minecraft:unluck\"},{amplifier:5,duration:1200,id:\"minecraft:bad_omen\"}],display:{Name:'[{\"text\":\"Death Potion\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			]
+		}
+	]
+}

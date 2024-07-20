@@ -1,0 +1,23 @@
+{
+	version: 1
+	uuid: "b23d6b6456a641d1a734109f719e4add"
+	name: ""
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		5193063AC96A0D8D: 1721460747094L
+		0000000000000001: 1721460747094L
+	}
+	completed: {
+		0000000000000000: 1721471776771L
+		5193063AC96A0D8D: 1721471776771L
+		0000000000000001: 1721471776771L
+	}
+	claimed_rewards: { }
+	player_data: {
+		b23d6b6456a641d1a734109f719e4add: {
+			chapter_pinned: 1b
+		}
+	}
+}

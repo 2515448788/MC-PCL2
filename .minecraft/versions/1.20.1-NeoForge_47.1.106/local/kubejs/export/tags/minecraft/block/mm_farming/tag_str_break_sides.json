@@ -1,0 +1,8 @@
+[
+	"mm_farming:block_controller_input",
+	"mm_farming:block_controller_system",
+	"mm_farming:block_farm_controller_plant",
+	"mm_farming:block_farm_controller_plantphc",
+	"mm_farming:block_farm_controller_tree",
+	"mm_farming:block_structure_block"
+]

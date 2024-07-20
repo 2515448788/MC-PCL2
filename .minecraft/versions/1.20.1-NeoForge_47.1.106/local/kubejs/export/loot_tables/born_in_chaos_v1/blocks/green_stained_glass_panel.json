@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "born_in_chaos_v1:blocks/green_stained_glass_panel",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "born_in_chaos_v1:green_stained_glass_panel"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

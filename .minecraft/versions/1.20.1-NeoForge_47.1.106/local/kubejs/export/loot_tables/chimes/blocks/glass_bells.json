@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "Base",
+									"target": "BlockEntityTag.Base",
+									"op": "replace"
+								},
+								{
+									"source": "Tag",
+									"target": "BlockEntityTag.Tag",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "chimes:glass_bells"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

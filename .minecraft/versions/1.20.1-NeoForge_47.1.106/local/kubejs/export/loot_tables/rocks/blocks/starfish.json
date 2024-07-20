@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "rocks:blocks/starfish",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "rocks:starfish",
+							"properties": {
+								"variation": "red"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{variation:\"red\"}"
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "rocks:starfish"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "rocks:starfish",
+							"properties": {
+								"variation": "pink"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{variation:\"pink\"}"
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "rocks:starfish"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "rocks:starfish",
+							"properties": {
+								"variation": "orange"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{variation:\"orange\"}"
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "rocks:starfish"
+				}
+			]
+		}
+	]
+}

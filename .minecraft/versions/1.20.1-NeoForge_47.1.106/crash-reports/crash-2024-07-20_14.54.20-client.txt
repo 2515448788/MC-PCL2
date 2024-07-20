@@ -1,0 +1,298 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Daisy, daisy...
+
+Time: 2024-07-20 14:54:20
+Description: Initializing game
+
+net.minecraftforge.fml.loading.EarlyLoadingException: Could not execute entrypoint stage 'main' due to errors, provided by 'ftbquests'!
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.44+1.20.1-mod.jar%23506!/:1.0.0-beta.44+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$coa001$connectormod$earlyInit(Minecraft.java:32424) ~[client-1.20.1-20230612.114412-srg.jar%23848!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23848!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-NeoForge_47.1.106.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin from mod flywheel,pl:mixin:APP:mixins.emibridge.json:MainEntrypointMixin from mod connectorextras_emi_bridge,pl:mixin:APP:physicsmod.mixins.json:MixinMain from mod physicsmod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.2.2.jar:47.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:71) ~[?:?] {}
+	at oolloo.jlw.Wrapper.main(Wrapper.java:51) ~[?:?] {}
+Caused by: java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'ftbquests'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:133) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:131) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.44+1.20.1-mod.jar%23506!/:1.0.0-beta.44+1.20.1] {re:mixin,re:classloading}
+	... 21 more
+Caused by: java.lang.NullPointerException: Registry Object not present: ftbquests:core_task_screen
+	at dev.architectury.registry.registries.DeferredRegister$Entry.get(DeferredRegister.java:133) ~[architectury-9.2.14-forge.jar%23699!/:?] {re:classloading}
+	at dev.ftb.mods.ftbquests.fabric.FTBQuestsFabric.onInitialize(FTBQuestsFabric.java:34) ~[%5BFTB任务%5D%20ftb-quests-fabric-2001.4.8_mapped_srg_1.20.1.jar%231611!/:?] {re:classloading}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.44+1.20.1-mod.jar%23506!/:1.0.0-beta.44+1.20.1] {re:mixin,re:classloading}
+	... 21 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.44+1.20.1.jar%23500!/:1.0.0-beta.44+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.44+1.20.1-mod.jar%23506!/:1.0.0-beta.44+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$coa001$connectormod$earlyInit(Minecraft.java:32424) ~[client-1.20.1-20230612.114412-srg.jar%23848!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23848!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:高级 Windows 32 基本 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:用户体验控件库:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:加密 API32:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.DLL:Base cryptographic API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.22621.3672:Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.22621.3593 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS 客户端 API DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL 实用工具库 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP 帮助程序 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT 基本 API 客户端 DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT 基本 API 客户端 DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF 服务器 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		Oleacc.dll:Active Accessibility Core Component:7.2.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:电源配置文件帮助程序 DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:远程过程调用运行时:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows 安装程序 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell 公用 DLL:10.0.22621.3810 (WinBuild.160101.0800):Microsoft Corporation
+		Start10_64.dll:Start button for Windows 10/11:1.5.0.1:Stardock Software, Inc
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:多用户 Windows 用户 API 客户端 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.31.31103.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP 服务:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		WINSTA.dll:Winstation Library:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.22621.3810 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32 位 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		WTSAPI32.dll:Windows Remote Desktop Session Host Server SDK APIs:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows 加密基元库:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:用于 Windows 的 Microsoft COM:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		drvstore.dll:Driver Store API:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft 桌面窗口管理器 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		fwpuclnt.dll:FWP/IPsec 用户模式 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		imagehlp.dll:Windows NT Image Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.22621.3810 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		javaw.exe:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		jemalloc.dll
+		jimage.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		jli.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		jna17733286386691100932.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		jvm.dll:Zulu 64-Bit Server VM:21.0.3:Azul Systems Inc.
+		kernel.appcore.dll:AppModel API Host:10.0.22621.2715 (WinBuild.160101.0800):Microsoft Corporation
+		libjlw-x86_64-1.4.0.dll
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		management_ext.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		msasn1.dll:ASN.1 Runtime APIs:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.31.31103.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 服务提供程序:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:电子邮件命名填充提供程序:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt 路由器:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		nio.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT 层 DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA 提供程序:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		nvgpucomp64.dll:NVIDIA GPU Compiler Driver, Version 551.86 :31.0.15.5186:NVIDIA Corporation
+		nvoglv64.dll:NVIDIA Compatible OpenGL ICD:31.0.15.5186:NVIDIA Corporation
+		nvspcap64.dll:NVIDIA Game Proxy:10.0.0.499:NVIDIA Corporation
+		ole32.dll:用于 Windows 的 Microsoft OLE:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.22621.3672 (WinBuild.160101.0800):Microsoft Corporation
+		pdh.dll:Windows 性能数据助手 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows 系统性能对象 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		perfproc.dll:Windows 系统进程性能对象 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP 命名空间提供程序:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:外壳简易实用工具库:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.22621.3810 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.22621.3593 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme 库:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.31.31103.0:Microsoft Corporation
+		verify.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+		win32u.dll:Win32u:10.0.22621.3880 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows 基本类型 DLL:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		wldp.dll:Windows 锁定策略:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		wlidnsp.dll:Microsoft® Account Namespace Provider:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft 公共控制器 API:10.0.22621.2860 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:Zulu Platform x64 Architecture:21.0.3:Azul Systems Inc.
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-NeoForge_47.1.106.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin from mod flywheel,pl:mixin:APP:mixins.emibridge.json:MainEntrypointMixin from mod connectorextras_emi_bridge,pl:mixin:APP:physicsmod.mixins.json:MixinMain from mod physicsmod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.2.2.jar:47.2] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.2.2.jar:47.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:71) ~[?:?] {}
+	at oolloo.jlw.Wrapper.main(Wrapper.java:51) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 337254168 bytes (321 MiB) / 2306867200 bytes (2200 MiB) up to 10737418240 bytes (10240 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: OrayIddDriver Device
+	Graphics card #0 vendor: Shanghai Best Oray Information Technology Co., Ltd.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=17.1.58.818
+	Graphics card #1 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x46a6
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.4502
+	Graphics card #2 name: NVIDIA GeForce RTX 4060 Laptop GPU
+	Graphics card #2 vendor: NVIDIA (0x10de)
+	Graphics card #2 VRAM (MB): 4095.00
+	Graphics card #2 deviceId: 0x28e0
+	Graphics card #2 versionInfo: DriverVersion=31.0.15.5186
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 35467.03
+	Virtual memory used (MB): 16606.18
+	Swap memory total (MB): 19456.00
+	Swap memory used (MB): 899.75
+	JVM Flags: 6 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn1536m -Xmx10240m
+	Launched Version: 1.20.1-NeoForge_47.1.106
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Sinytra Connector: 1.0.0-beta.44+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0_mapped_ | Fabric Language Kotlin         | fabric_language_kotlin         | 1.11.0kotlin.2.0.0   |
+		| [神话金属] mythicmetals-0.19.9+1.20.1$cardinal-compone | Cardinal Components API (entit | cardinal_components_entity     | 5.2.1                |
+		| [我的世界：地下城法器] mcdar-4.0.3_mapped_srg_1.20.1.jar     | MC Dungeons Artifacts          | mcdar                          | 4.0.3                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-core-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| particle_core-0.2.3+1.20.1_mapped_srg_1.20.1.jar   | Particle Core                  | particle_core                  | 0.2.31.20.1          |
+		| [我的世界：地下城武器] mcdw-9.0.4_mapped_srg_1.20.1.jar      | MC Dungeons Weapons            | mcdw                           | 9.0.4                |
+		| [我的世界：地下城盔甲] mcda-5.0.2_mapped_srg_1.20.1.jar      | MC Dungeons Armors             | mcda                           | 5.0.2                |
+		| [丰饶食记] bountifulfares-1.2.1-1.20.1_mapped_srg_1.20 | Bountiful Fares                | bountifulfares                 | 1.2.1-1.20.1         |
+		| [脚步声] PresenceFootsteps-1.9.4+1.20.1$kirin-1.15.6+ | Kirin UI                       | kirin                          | 1.15.61.20.1         |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-reflect                 | org_jetbrains_kotlin_kotlin_re | 2.0.0                |
+		| [FTB任务] ftb-quests-fabric-2001.4.8$energy-3.0.0_ma | Energy                         | team_reborn_energy             | 3.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-core-jvm    | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| [我的世界：地下城武器] mcdw-9.0.4$mixinextras-fabric-0.2.0-b | MixinExtras                    | com_github_llamalad7_mixinextr | 0.2.0-beta.8         |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$atomicf | atomicfu-jvm                   | org_jetbrains_kotlinx_atomicfu | 0.24.0               |
+		| fzzy_config-0.3.5+1.20.1_mapped_srg_1.20.1.jar     | Fzzy Config                    | fzzy_config                    | 0.3.51.20.1          |
+		| [神话金属] mythicmetals-0.19.9+1.20.1$cardinal-compone | Cardinal Components API (base) | cardinal_components_base       | 5.2.1                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib                  | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk8             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk7             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| alloy-forgery-2.1.2+1.20_mapped_srg_1.20.1.jar     | Alloy Forgery                  | alloy_forgery                  | 2.1.21.20            |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-datetime-jvm           | org_jetbrains_kotlinx_kotlinx_ | 0.6.0                |
+		| [神话金属] mythicmetals-0.19.9+1.20.1$common-protectio | Common Protection API          | common_protection_api          | 1.0.0                |
+		| fzzy_config-0.3.5+1.20.1$tomlkt-jvm-0.3.7_mapped_s | tomlkt-jvm                     | net_peanuuutz_tomlkt_tomlkt_jv | 0.3.7                |
+		| [神话金属] mythicmetals-0.19.9+1.20.1$additionalentity | Additional Entity Attributes   | additionalentityattributes     | 1.7.31.20.0          |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-jdk8        | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| particle_core-0.2.3+1.20.1$conditional-mixin-0.5.1 | conditional mixin              | conditional_mixin              | 0.5.1                |
+		| prefabricated-5.2.0_mapped_srg_1.20.1.jar          | Prefabricated                  | prefabricated                  | 5.2.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-json-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| [FTB任务] ftb-quests-fabric-2001.4.8_mapped_srg_1.20 | FTB Quests                     | ftbquests                      | 2001.4.8             |
+		| fzzy_config-0.3.5+1.20.1$jankson-1.2.3_mapped_srg_ | jankson                        | blue_endless_jankson           | 1.2.3                |
+		| [连接纹理] continuity-3.0.0-beta.5+1.20.1_mapped_srg_1 | Continuity                     | continuity                     | 3.0.0-beta.51.20.1   |
+		| [神话金属] mythicmetals-0.19.9+1.20.1_mapped_srg_1.20. | Mythic Metals                  | mythicmetals                   | 0.19.91.20.1         |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-cbor-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| owo-lib-0.11.2+1.20_mapped_srg_1.20.1.jar          | oωo                            | owo                            | 0.11.21.20           |
+		| [丰饶食记] bountifulfares-1.2.1-1.20.1$terraform-wood- | Terraform Wood API (v1)        | terraform_wood_api_v1          | 7.0.1                |
+		| [脚步声] PresenceFootsteps-1.9.4+1.20.1_mapped_srg_1. | Presence Footsteps             | presencefootsteps              | 1.9.41.20.1          |

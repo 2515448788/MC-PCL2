@@ -1,0 +1,11 @@
+[
+	"mm_cooking:block_controller_input",
+	"mm_cooking:block_controller_output",
+	"mm_cooking:block_controller_structure",
+	"mm_cooking:block_controller_system",
+	"mm_cooking:block_kitchen_controller",
+	"mm_cooking:block_kitchen_cooking_oven",
+	"mm_cooking:block_kitchen_cutting_board",
+	"mm_cooking:block_kitchen_skillet",
+	"mm_cooking:block_structure_block"
+]

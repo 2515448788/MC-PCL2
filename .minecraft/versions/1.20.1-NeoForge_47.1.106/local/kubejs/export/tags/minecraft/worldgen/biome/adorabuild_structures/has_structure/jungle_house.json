@@ -1,0 +1,15 @@
+[
+	"minecraft:bamboo_jungle",
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"regions_unexplored:rainforest?",
+	"regions_unexplored:sparse_rainforest?",
+	"regions_unexplored:tropics?",
+	"terralith:rocky_jungle?",
+	"terralith:tropical_jungle?",
+	"wythers:bamboo_jungle_swamp?",
+	"wythers:bamboo_swamp?",
+	"wythers:jungle_island?",
+	"wythers:sparse_bamboo_jungle?",
+	"wythers:tropical_rainforest?"
+]

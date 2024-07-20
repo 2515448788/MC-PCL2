@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "railways:blocks/green_locometal_pillar",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "railways:green_locometal_pillar"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

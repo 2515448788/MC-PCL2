@@ -1,0 +1,92 @@
+{
+	"pools": [
+		{
+			"name": "hullbreaker_swallowed_engine",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "alexscaves:enigmatic_engine"
+				}
+			]
+		},
+		{
+			"name": "hullbreaker_embryo",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "alexscaves:immortal_embryo"
+				}
+			]
+		},
+		{
+			"name": "hullbreaker_sea_glass",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:sea_glass_shards"
+				}
+			]
+		},
+		{
+			"name": "hullbreaker_copper",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:copper_ingot"
+				}
+			]
+		},
+		{
+			"name": "hullbreaker_scrap",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:scrap_metal"
+				}
+			]
+		}
+	]
+}

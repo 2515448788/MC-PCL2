@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "drinkbeer:beer_mug_night_howl_kvass",
+					"properties": {
+						"amount": "1"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "drinkbeer:beer_mug_night_howl_kvass",
+					"properties": {
+						"amount": "2"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 3.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "drinkbeer:beer_mug_night_howl_kvass",
+					"properties": {
+						"amount": "3"
+					}
+				}
+			]
+		}
+	]
+}

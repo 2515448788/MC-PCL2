@@ -40,9 +40,18 @@
     {
       "stack": "item:minecraft:bowl",
       "recipe": "fruitsdelight:durian_lower_to_bowl"
+    },
+    {
+      "stack": "item:minecraft:frog_spawn_egg"
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "lightmanscurrency:coin_iron",
+      "amount": 10
+    },
+    "item:tacz:ammo{AmmoId:\"tacz:9mm\"}",
     "item:twilightforest:minotaur_spawn_egg",
     {
       "type": "item",

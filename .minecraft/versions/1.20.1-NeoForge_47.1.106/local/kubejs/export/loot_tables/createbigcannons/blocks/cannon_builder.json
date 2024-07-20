@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "createbigcannons:blocks/cannon_builder",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "createbigcannons:cannon_builder"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

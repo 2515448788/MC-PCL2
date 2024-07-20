@@ -1,0 +1,16 @@
+[
+	"alexscaves:magnetic_levitation_rail",
+	"create:cart_assembler",
+	"create:controller_rail",
+	"littlelogistics:automatic_switch_rail",
+	"littlelogistics:automatic_tee_junction_rail",
+	"littlelogistics:car_dock_rail",
+	"littlelogistics:junction_rail",
+	"littlelogistics:locomotive_dock_rail",
+	"littlelogistics:switch_rail",
+	"littlelogistics:tee_junction_rail",
+	"minecraft:activator_rail",
+	"minecraft:detector_rail",
+	"minecraft:powered_rail",
+	"minecraft:rail"
+]

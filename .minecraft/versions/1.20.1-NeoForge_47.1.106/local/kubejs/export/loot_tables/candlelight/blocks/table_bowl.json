@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "candlelight:table_bowl"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "candlelight:glass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "candlelight:table_bowl",
+							"properties": {
+								"plate": "glass"
+							}
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "candlelight:table_bowl",
+							"properties": {
+								"plate": "all"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "candlelight:napkin"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "candlelight:table_bowl",
+							"properties": {
+								"plate": "napkin"
+							}
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "candlelight:table_bowl",
+							"properties": {
+								"plate": "all"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+[
+	"create_central_kitchen:flowing_sap?",
+	"create_central_kitchen:flowing_syrup?",
+	"create_central_kitchen:flowing_tomato_sauce?",
+	"create_central_kitchen:sap?",
+	"create_central_kitchen:syrup?",
+	"create_central_kitchen:tomato_sauce?",
+	"minecraft:flowing_water",
+	"minecraft:water"
+]

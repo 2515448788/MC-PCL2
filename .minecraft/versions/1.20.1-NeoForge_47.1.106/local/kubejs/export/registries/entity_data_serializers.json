@@ -1,0 +1,6 @@
+{
+	"touhou_little_maid:maid_schedule": "com.github.tartaricacid.touhoulittlemaid.entity.ai.brain.MaidSchedule$1",
+	"touhou_little_maid:maid_chat_bubble": "com.github.tartaricacid.touhoulittlemaid.entity.chatbubble.MaidChatBubbles$1",
+	"create:carriage_data": "com.simibubi.create.content.trains.entity.CarriageSyncDataSerializer",
+	"alexscaves:optional_vec_3": "net.minecraft.network.syncher.EntityDataSerializer$1"
+}

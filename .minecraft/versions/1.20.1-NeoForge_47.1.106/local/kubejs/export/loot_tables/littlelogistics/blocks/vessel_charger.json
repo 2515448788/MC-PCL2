@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "littlelogistics:blocks/vessel_charger",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "littlelogistics:vessel_charger"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

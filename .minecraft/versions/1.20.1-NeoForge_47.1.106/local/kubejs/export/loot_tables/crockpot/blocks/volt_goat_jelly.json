@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "crockpot:blocks/volt_goat_jelly",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "crockpot:volt_goat_jelly"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

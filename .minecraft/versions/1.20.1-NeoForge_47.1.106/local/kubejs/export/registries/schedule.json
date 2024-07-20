@@ -1,0 +1,10 @@
+{
+	"minecraft:empty": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:simple": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:villager_baby": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:villager_default": "net.minecraft.world.entity.schedule.Schedule",
+	"touhou_little_maid:maid_day_shift_schedules": "net.minecraft.world.entity.schedule.Schedule",
+	"touhou_little_maid:maid_night_shift_schedules": "net.minecraft.world.entity.schedule.Schedule",
+	"touhou_little_maid:maid_all_day_schedules": "net.minecraft.world.entity.schedule.Schedule",
+	"moonlight:custom_villager_schedule": "net.minecraft.world.entity.schedule.Schedule"
+}

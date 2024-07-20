@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "ags_day_counter:blocks/calendar",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ags_day_counter:calendar"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

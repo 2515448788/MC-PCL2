@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:essence_of_undeath",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "tombstone:essence_of_undeath"
+				}
+			]
+		}
+	]
+}

@@ -5,6 +5,7 @@
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
 #F84007 minecraft:andesite_stairs
+#B73D3E bountifulfares:apple_leaves
 #75FE6B fruitsdelight:apple_leaves
 #374FD0 vinery:apple_leaves
 #985428 mythicmetals:aquarium_ore
@@ -14,8 +15,10 @@
 #161AE7 minecraft:bamboo
 #A4C2A9 mythicmetals:banglum_ore
 #189B99 minecraft:barrel
+#7F849D realmrpg_skeletons:basic_skeleton
 #8D86E5 minecraft:beehive
 #BE6A1A iter_rpg:big_vase
+#3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
 #3C3A53 rocks:birch_stick
 #4A6029 born_in_chaos_v1:black_argillite
@@ -72,6 +75,8 @@
 #9E0209 minecraft:deepslate_lapis_ore
 #71D240 mythicmetals:deepslate_mythril_ore
 #60355C minecraft:deepslate_redstone_ore
+#24F39D create:deepslate_zinc_ore
+#BE840C realmrpg_skeletons:devastated_skeleton
 #CB716A minecraft:diamond_ore
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
@@ -85,7 +90,9 @@
 #B9B269 minecraft:fire_coral_block
 #1782C8 drg_flares:flare_light_block
 #E7F264 minecraft:flower_pot
+#10D2D6 bountifulfares:flowering_apple_leaves
 #E66556 minecraft:flowering_azalea_leaves
+#BACD1D bountifulfares:flowering_lemon_leaves
 #FC7434 biomesoplenty:flowering_oak_leaves
 #84752C bountifulfares:flowering_plum_leaves
 #5F7D4C create:flywheel
@@ -108,6 +115,8 @@
 #F67E21 minecraft:hay_block
 #06CDF8 quark:hollow_cherry_log
 #9D2636 minecraft:horn_coral_block
+#1EB2D4 quark:indigo_corundum
+#54018F quark:indigo_corundum_cluster
 #096B6E born_in_chaos_v1:infected_diamond_ore
 #728767 born_in_chaos_v1:infernal_evil_pumpkin_s
 #D7EADE minecraft:iron_ore
@@ -123,6 +132,7 @@
 #3CAD79 minecraft:lantern
 #EA439B minecraft:lapis_ore
 #83CED3 minecraft:lava
+#613785 bountifulfares:lemon_leaves
 #A0FD54 minecraft:light_blue_concrete
 #38DD6B minecraft:light_gray_concrete
 #C1E0C7 minecraft:light_gray_glazed_terracotta
@@ -168,9 +178,11 @@
 #7CFB5F fruitsdelight:pear_leaves
 #AB1C58 minecraft:peony
 #F37841 minecraft:pink_terracotta
+#36285C minecraft:pink_tulip
 #758209 mythicmetals:platinum_ore
 #B31DC4 bountifulfares:plum_leaves
 #BB7F65 minecraft:podzol
+#522933 minecraft:pointed_dripstone
 #FC4096 minecraft:polished_diorite
 #7F4649 minecraft:polished_diorite_slab
 #437566 minecraft:polished_granite
@@ -179,6 +191,7 @@
 #3C5D37 minecraft:potted_cornflower
 #40BB61 minecraft:prismarine
 #A8C236 minecraft:prismarine_bricks
+#E6B35B minecraft:pumpkin
 #F7CED1 minecraft:purple_stained_glass
 #866A3B minecraft:purple_terracotta
 #7601B3 mythicmetals:quadrillum_ore
@@ -201,10 +214,12 @@
 #705189 minecraft:sea_lantern
 #DB4353 rocks:seashell
 #493A6A mythicmetals:silver_ore
+#393E73 iter_rpg:small_vase
 #8638B9 minecraft:smooth_basalt
 #E05640 minecraft:smooth_quartz_slab
 #3A9287 minecraft:smooth_stone
 #872D76 minecraft:snow
+#12E6C4 minecraft:snow_block
 #6B495B minecraft:spawner
 #FAE367 minecraft:spruce_fence
 #13F5AC minecraft:spruce_leaves
@@ -231,7 +246,9 @@
 #2035B7 minecraft:tube_coral_block
 #87BAF4 minecraft:tuff
 #F78D3D realmrpg_skeletons:unsaved_skeleton
+#6DB687 create:veridium
 #88779D minecraft:vine
+#83EB0A ecologics:walnut_leaves
 #9D2725 minecraft:warped_wart_block
 #212B45 realmrpg_skeletons:waterdrop_skeleton
 #1C0619 waystones:waystone

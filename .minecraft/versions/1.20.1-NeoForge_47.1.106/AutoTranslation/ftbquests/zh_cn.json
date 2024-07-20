@@ -78,5 +78,6 @@
   "ftbquests.gui.confirm_esc": "放弃未保存的更改？",
   "ftbquests.quest.appearance.min_width": "最小打开任务窗口宽度",
   "ftbquests.quest.visibility.invisible": "完成前不可见",
-  "ftbquests.quest.misc.require_sequential_tasks": "顺序任务完成"
+  "ftbquests.quest.misc.require_sequential_tasks": "顺序任务完成",
+  "ftbquests.reward.ftbquests.command.tooltip": "香草替代品，例如支持@p\n特殊替换：\n{x} / {y} / {z} - 玩家当前的 X/Y/Z 位置\n{quest} - 此任务的 ID\n{chapter} - 此任务的 ID Chapter\n{team} - 玩家球队的简称"
 }

@@ -1,0 +1,4 @@
+{
+	"bountifulfares:hoary_boat": "com.terraformersmc.terraform.boat.impl.TerraformBoatTypeImpl",
+	"bountifulfares:walnut_boat": "com.terraformersmc.terraform.boat.impl.TerraformBoatTypeImpl"
+}

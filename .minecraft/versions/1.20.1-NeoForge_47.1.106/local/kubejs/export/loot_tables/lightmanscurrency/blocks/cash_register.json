@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "lightmanscurrency:blocks/cash_register",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "lightmanscurrency:cash_register"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"enhancedcelestials:default": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:blue_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:super_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:blood_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:super_blood_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:harvest_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:super_harvest_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent",
+	"enhancedcelestials:super_blue_moon": "corgitaco.enhancedcelestials.api.lunarevent.LunarEvent"
+}

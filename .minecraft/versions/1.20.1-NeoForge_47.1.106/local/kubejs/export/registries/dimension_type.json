@@ -1,0 +1,7 @@
+{
+	"minecraft:overworld": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:overworld_caves": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:the_end": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:the_nether": "net.minecraft.world.level.dimension.DimensionType",
+	"twilightforest:twilight_forest_type": "net.minecraft.world.level.dimension.DimensionType"
+}

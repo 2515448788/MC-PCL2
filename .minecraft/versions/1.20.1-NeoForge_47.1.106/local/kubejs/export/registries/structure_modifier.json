@@ -1,0 +1,4 @@
+{
+	"cataclysm:cataclysm_mob_spawns": "com.github.L_Ender.cataclysm.world.CMMobSpawnStructureModifier",
+	"alexsmobs:am_mob_spawns": "com.github.alexthe666.alexsmobs.world.AMMobSpawnStructureModifier"
+}

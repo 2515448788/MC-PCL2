@@ -1,0 +1,20 @@
+[
+	"#minecraft:is_badlands",
+	"#minecraft:is_jungle",
+	"#minecraft:is_nether",
+	"#minecraft:is_savanna",
+	"biomesoplenty:bayou?",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:fungal_jungle?",
+	"biomesoplenty:lush_desert?",
+	"biomesoplenty:lush_savanna?",
+	"biomesoplenty:volcanic_plains?",
+	"biomesoplenty:volcano?",
+	"biomesoplenty:wasteland?",
+	"biomesoplenty:wasteland_steppe?",
+	"minecraft:desert",
+	"minecraft:mangrove_swamp",
+	"minecraft:warm_ocean",
+	"twilightforest:fire_swamp",
+	"twilightforest:oak_savannah"
+]

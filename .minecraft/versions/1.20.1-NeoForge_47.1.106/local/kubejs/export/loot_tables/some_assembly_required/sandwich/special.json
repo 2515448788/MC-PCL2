@@ -1,0 +1,132 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "some_assembly_required:sandwich/special",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "some_assembly_required:bread_slice"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:honey_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "some_assembly_required:toasted_bread_slice"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:milk_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:squid_ink_pasta"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:egg_sandwich"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:hot_cocoa"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:pumpkin_soup"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:pasta_with_meatballs"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "farmersdelight",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "farmersdelight:ratatouille"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "create",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "create:builders_tea"
+				},
+				{
+					"type": "some_assembly_required:optional_item",
+					"when": [
+						{
+							"modid": "create",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"name": "create:chocolate_glazed_berries"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "some_assembly_required:bread_slice"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "crockpot:blocks/honey_ham",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "crockpot:honey_ham"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

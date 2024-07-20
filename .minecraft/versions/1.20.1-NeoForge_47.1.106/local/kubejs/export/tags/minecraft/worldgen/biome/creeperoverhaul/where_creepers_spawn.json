@@ -1,0 +1,19 @@
+[
+	"#forge:is_snowy",
+	"#minecraft:has_structure/desert_pyramid",
+	"#minecraft:has_structure/mineshaft_mesa",
+	"#minecraft:has_structure/ruined_portal_swamp",
+	"#minecraft:is_beach",
+	"#minecraft:is_hill",
+	"#minecraft:is_jungle",
+	"#minecraft:is_jungle",
+	"#minecraft:is_savanna",
+	"#minecraft:is_taiga",
+	"minecraft:deep_lukewarm_ocean",
+	"minecraft:dripstone_caves",
+	"minecraft:lukewarm_ocean",
+	"minecraft:lush_caves",
+	"minecraft:mushroom_fields",
+	"minecraft:stony_peaks",
+	"minecraft:warm_ocean"
+]

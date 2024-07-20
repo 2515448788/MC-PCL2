@@ -36,7 +36,7 @@ enableEntitySpecificDatapack = true
 	#Chance for trait to apply
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0
-	globalTraitChance = 1.0
+	globalTraitChance = 0.0
 	#Chance to stop adding traits after adding a trait
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0

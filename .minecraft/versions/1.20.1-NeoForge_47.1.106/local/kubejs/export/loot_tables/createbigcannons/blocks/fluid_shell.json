@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "createbigcannons:blocks/fluid_shell",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "Fuze",
+									"target": "BlockEntityTag.Fuze",
+									"op": "replace"
+								},
+								{
+									"source": "id",
+									"target": "BlockEntityTag.id",
+									"op": "replace"
+								},
+								{
+									"source": "FluidContent",
+									"target": "BlockEntityTag.FluidContent",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "createbigcannons:fluid_shell"
+				}
+			]
+		}
+	]
+}

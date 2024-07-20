@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "iter_rpg:blocks/stripped_sacred_log",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "iter_rpg:stripped_sacred_log"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

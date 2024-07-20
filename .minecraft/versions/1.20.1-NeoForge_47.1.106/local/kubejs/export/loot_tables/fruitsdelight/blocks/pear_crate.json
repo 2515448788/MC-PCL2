@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fruitsdelight:blocks/pear_crate",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fruitsdelight:pear_crate"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

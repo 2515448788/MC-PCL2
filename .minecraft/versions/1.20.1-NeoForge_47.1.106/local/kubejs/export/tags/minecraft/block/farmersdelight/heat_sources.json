@@ -1,0 +1,19 @@
+[
+	"#bakery:stove",
+	"#candlelight:stoves",
+	"#farmersdelight:tray_heat_sources",
+	"#twilightforest:storage_blocks/fiery",
+	"create_central_kitchen:blaze_stove?",
+	"ends_delight:end_stove",
+	"farmersdelight:stove",
+	"herbalbrews:stove",
+	"minecraft:lava_cauldron",
+	"minecraft:magma_block",
+	"nethersdelight:blackstone_blast_furnace",
+	"nethersdelight:blackstone_furnace",
+	"nethersdelight:blackstone_stove",
+	"nethersdelight:nether_brick_smoker",
+	"quark:blaze_lantern?",
+	"twilightdelight:maze_stove",
+	"twilightforest:fiery_block"
+]

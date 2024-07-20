@@ -1,0 +1,166 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:crossbow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.2,
+								"max": 0.9
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:cauldron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:music_disc_chirp"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "structory_towers:basic/small_firetower_basic"
+				}
+			]
+		}
+	]
+}

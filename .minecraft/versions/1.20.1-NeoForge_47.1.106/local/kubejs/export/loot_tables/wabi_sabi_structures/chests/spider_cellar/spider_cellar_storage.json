@@ -1,0 +1,2588 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "wabi_sabi_structures:chests/spider_cellar/spider_cellar_storage",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cobweb"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glowstone_dust"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 15.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone_meal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:red_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glass_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:fire_charge"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:dried_kelp"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:prismarine_crystals"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rabbit_hide"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ghast_tear"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:sugar"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:fermented_spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:nether_wart"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:magma_cream"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glistering_melon_slice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:raw_gold"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:honeycomb"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:phantom_membrane"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:popped_chorus_fruit"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_foot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:scute"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:awkward"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:fire_resistance"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:harming"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:healing"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:invisibility"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:leaping"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:luck"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:mundane"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:night_vision"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:poison"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:regeneration"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slow_falling"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slowness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strength"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:swiftness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:thick"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:turtle_master"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water_breathing"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:weakness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_fire_resistance"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_invisibility"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_leaping"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_night_vision"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_poison"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_regeneration"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_slow_falling"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_slowness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_strength"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_swiftness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_turtle_master"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_water_breathing"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_weakness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_harming"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_leaping"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_poison"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_regeneration"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_slowness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_strength"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_swiftness"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_turtle_master"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:awkward"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:fire_resistance"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:harming"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:healing"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:invisibility"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:leaping"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:luck"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:mundane"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:night_vision"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:poison"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:regeneration"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slow_falling"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slowness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strength"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:swiftness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:thick"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:turtle_master"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water_breathing"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:weakness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_fire_resistance"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_invisibility"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_leaping"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_night_vision"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_poison"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_regeneration"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_slow_falling"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_slowness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_strength"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_swiftness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_turtle_master"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_water_breathing"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_weakness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_harming"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_leaping"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_poison"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_regeneration"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_slowness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_strength"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_swiftness"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_turtle_master"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_longsword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_twinblade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_rapier"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_cutlass"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_katana"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_glaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_warglaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_spear"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_sai"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_claymore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_chakram"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_greataxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_greathammer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_scythe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:iron_halberd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_longsword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_twinblade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_rapier"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_cutlass"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_katana"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_glaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_warglaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_spear"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_sai"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_claymore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_greathammer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_chakram"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_greataxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_scythe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:gold_halberd"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.01
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_randomly"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_longsword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_twinblade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_rapier"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_cutlass"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_katana"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_spear"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_glaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_warglaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_sai"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_claymore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_greathammer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_chakram"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_greataxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_scythe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:diamond_halberd"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.004
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_randomly"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:runic_tablet"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.007
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:watcher_claymore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:watching_warglaive"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:toxic_longsword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:sword_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:bramblethorn"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:storms_edge"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:stormbringer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:mjolnir"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:emberblade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:hearthflame"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:twisted_blade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:soulrender"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:soulpyre"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:soulkeeper"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:soulstealer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:frostfall"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:molten_edge"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:livyatan"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:icewhisper"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:arcanethyst"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:thunderbrand"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:brimstone_claymore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:slumbering_lichblade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:shadowsting"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:dormant_relic"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:whisperwind"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:emberlash"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:waxweaver"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:hiveheart"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:stars_edge"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:wickpiercer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:tempest"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:flamewind"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "simplyswords:ribboncleaver"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.001
+				}
+			]
+		}
+	]
+}

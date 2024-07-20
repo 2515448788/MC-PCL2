@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:grave_marble",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "tombstone:dark_marble"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "tombstone:white_marble"
+				}
+			]
+		}
+	]
+}

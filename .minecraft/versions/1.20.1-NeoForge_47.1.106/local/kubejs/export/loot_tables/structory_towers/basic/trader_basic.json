@@ -1,0 +1,135 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 7.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:orange_tulip"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:white_tulip"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:pink_tulip"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:red_tulip"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:gravel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"name": "minecraft:lantern"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:waxed_cut_copper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"name": "minecraft:scaffolding"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:jungle_log"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 15.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cooked_cod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:tropical_fish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_nugget"
+				}
+			]
+		}
+	]
+}

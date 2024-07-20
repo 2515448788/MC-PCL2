@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "wares:agreement/village/mountain_requested_buy",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				}
+			]
+		}
+	]
+}

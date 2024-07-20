@@ -599,6 +599,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2024-07-20 14:39:20 +0800",
+      "minecraft:sunflower_plains": "2024-07-20 14:38:08 +0800",
+      "minecraft:river": "2024-07-20 14:29:30 +0800",
       "minecraft:stony_shore": "2024-07-13 13:57:56 +0800",
       "minecraft:ocean": "2024-07-13 18:35:49 +0800",
       "minecraft:plains": "2024-07-16 12:59:28 +0800"
@@ -1648,6 +1651,12 @@
       "big_bang": "2024-07-16 12:59:07 +0800"
     },
     "done": true
+  },
+  "adorabuild_structures:tireless_legs": {
+    "criteria": {
+      "oak_house_medium_2": "2024-07-20 14:38:15 +0800"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "lkartifacts:blocks/evolve_anvil",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "lkartifacts:evolve_anvil"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

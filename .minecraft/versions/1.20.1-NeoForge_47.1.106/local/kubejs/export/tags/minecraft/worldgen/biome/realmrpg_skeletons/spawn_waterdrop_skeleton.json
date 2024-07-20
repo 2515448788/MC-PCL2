@@ -1,0 +1,22 @@
+[
+	"#forge:is_end?",
+	"#forge:is_overworld?",
+	"#minecraft:is_end?",
+	"#minecraft:is_overworld?",
+	"twilightforest:clearing?",
+	"twilightforest:dark_forest?",
+	"twilightforest:dark_forest_center?",
+	"twilightforest:dense_forest?",
+	"twilightforest:dense_mushroom_forest?",
+	"twilightforest:enchanted_forest?",
+	"twilightforest:final_plateau?",
+	"twilightforest:firefly_forest?",
+	"twilightforest:forest?",
+	"twilightforest:highlands?",
+	"twilightforest:lake?",
+	"twilightforest:mushroom_forest?",
+	"twilightforest:oak_savannah?",
+	"twilightforest:spooky_forest?",
+	"twilightforest:stream?",
+	"twilightforest:swamp?"
+]

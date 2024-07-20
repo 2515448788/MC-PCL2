@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "forge:shears"
+									}
+								}
+							],
+							"name": "verdantvibes:cattails"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch"
+											}
+										]
+									}
+								}
+							],
+							"name": "verdantvibes:cattails"
+						}
+					]
+				}
+			]
+		}
+	]
+}

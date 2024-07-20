@@ -1,0 +1,23 @@
+[
+	"biomesoplenty:dryland?",
+	"biomesoplenty:lush_savanna?",
+	"biomesoplenty:scrubland?",
+	"biomesoplenty:wooded_scrubland?",
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:windswept_savanna",
+	"terralith:arid_highlands?",
+	"terralith:brushland?",
+	"terralith:cold_shrubland?",
+	"terralith:fractured_savanna?",
+	"terralith:rocky_mountains?",
+	"terralith:sakura_grove?",
+	"terralith:sakura_valley?",
+	"terralith:savanna_badlands?",
+	"terralith:savanna_slopes?",
+	"terralith:scarlet_mountains?",
+	"terralith:shield?",
+	"terralith:shrubland?",
+	"terralith:wintry_forest?",
+	"terralith:wintry_lowlands?"
+]

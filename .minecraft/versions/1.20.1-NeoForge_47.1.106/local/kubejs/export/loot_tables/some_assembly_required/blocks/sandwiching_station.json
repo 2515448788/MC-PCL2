@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "some_assembly_required:blocks/sandwiching_station",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "some_assembly_required:sandwiching_station"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

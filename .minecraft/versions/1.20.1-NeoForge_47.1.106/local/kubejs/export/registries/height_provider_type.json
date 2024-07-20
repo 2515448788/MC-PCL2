@@ -1,0 +1,8 @@
+{
+	"minecraft:very_biased_to_bottom": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0",
+	"minecraft:biased_to_bottom": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0",
+	"minecraft:weighted_list": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0",
+	"minecraft:trapezoid": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0",
+	"minecraft:constant": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0",
+	"minecraft:uniform": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x00000232e8d228e0"
+}

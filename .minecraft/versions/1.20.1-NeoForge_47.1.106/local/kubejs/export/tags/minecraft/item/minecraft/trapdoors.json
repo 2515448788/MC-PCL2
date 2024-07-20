@@ -1,0 +1,11 @@
+[
+	"#minecraft:wooden_trapdoors",
+	"create:framed_glass_trapdoor",
+	"create:train_trapdoor",
+	"minecraft:iron_trapdoor",
+	"quark:ancient_trapdoor",
+	"quark:azalea_trapdoor",
+	"quark:blossom_trapdoor",
+	"supplementaries:gold_trapdoor",
+	"supplementaries:netherite_trapdoor"
+]

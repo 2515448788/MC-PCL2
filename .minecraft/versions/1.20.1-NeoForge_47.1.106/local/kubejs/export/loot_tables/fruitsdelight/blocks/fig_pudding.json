@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "fruitsdelight:blocks/fig_pudding",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:survives_explosion"
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "fruitsdelight:fig_pudding",
+							"properties": {
+								"bites": "3"
+							}
+						}
+					],
+					"name": "fruitsdelight:fig_pudding"
+				}
+			]
+		}
+	]
+}

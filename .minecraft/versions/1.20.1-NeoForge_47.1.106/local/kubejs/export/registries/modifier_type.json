@@ -1,0 +1,14 @@
+{
+	"lithostitched:no_op": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:add_structure_set_entries": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:remove_structures_from_structure_set": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:add_surface_rule": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:add_template_pool_elements": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:redirect_feature": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:add_biome_spawns": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:add_features": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:remove_biome_spawns": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:remove_features": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:replace_climate": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lithostitched:replace_effects": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

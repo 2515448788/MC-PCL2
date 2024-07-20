@@ -1,0 +1,68 @@
+{
+	id: "4F0092F90F2E3F36"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:flintlock_bullet"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:nail"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:arrow"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:m993"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:fusion_cell"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "lradd:2mm_ec"
+				}
+			}
+		}
+	]
+	title: "TACZ- 绿葡萄附属弹药"
+}

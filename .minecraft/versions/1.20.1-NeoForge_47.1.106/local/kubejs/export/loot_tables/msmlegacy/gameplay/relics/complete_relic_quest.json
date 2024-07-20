@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:gift",
+	"random_sequence": "msmlegacy:gameplay/relics/complete_relic_quest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "msmlegacy:relic_adminium_ark"
+				}
+			]
+		}
+	]
+}

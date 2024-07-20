@@ -1,0 +1,18 @@
+[
+	"#create:create_ingots",
+	"#forge:ingots/brick",
+	"#forge:ingots/copper",
+	"#forge:ingots/fiery",
+	"#forge:ingots/gold",
+	"#forge:ingots/iron",
+	"#forge:ingots/ironwood",
+	"#forge:ingots/knightmetal",
+	"#forge:ingots/nether_brick",
+	"#forge:ingots/netherite",
+	"#forge:ingots/steeleaf",
+	"l2complements:eternium_ingot",
+	"l2complements:poseidite_ingot",
+	"l2complements:sculkium_ingot",
+	"l2complements:shulkerate_ingot",
+	"l2complements:totemic_gold_ingot"
+]

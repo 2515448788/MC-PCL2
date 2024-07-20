@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"name": "tombstone:merchant_stone",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tombstone:as_gift"
+						}
+					],
+					"name": "tombstone:merchant_stone"
+				}
+			]
+		}
+	]
+}

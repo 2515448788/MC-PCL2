@@ -1,0 +1,15 @@
+{
+	"pools": [
+		{
+			"name": "power_point",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "touhou_little_maid:power_point"
+				}
+			]
+		}
+	]
+}

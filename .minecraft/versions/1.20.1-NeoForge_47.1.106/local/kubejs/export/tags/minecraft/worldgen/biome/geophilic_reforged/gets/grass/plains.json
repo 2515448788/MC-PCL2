@@ -1,0 +1,7 @@
+[
+	"#forge:is_plains?",
+	"#forge:is_plateau?",
+	"biomesoplenty:grassland?",
+	"biomesoplenty:highland?",
+	"minecraft:meadow?"
+]

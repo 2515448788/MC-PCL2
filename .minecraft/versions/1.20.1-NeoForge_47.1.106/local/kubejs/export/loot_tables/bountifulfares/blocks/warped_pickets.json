@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:warped_pickets"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:warped_pickets",
+					"properties": {
+						"north": "true"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:warped_pickets"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:warped_pickets",
+					"properties": {
+						"east": "true"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:warped_pickets"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:warped_pickets",
+					"properties": {
+						"south": "true"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "bountifulfares:warped_pickets"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "bountifulfares:warped_pickets",
+					"properties": {
+						"west": "true"
+					}
+				}
+			]
+		}
+	]
+}

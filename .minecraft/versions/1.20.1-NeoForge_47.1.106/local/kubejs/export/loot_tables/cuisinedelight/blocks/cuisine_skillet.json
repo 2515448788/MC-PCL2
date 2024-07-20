@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "cuisinedelight:blocks/cuisine_skillet",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "cuisinedelight:copy_skillet"
+						}
+					],
+					"name": "cuisinedelight:cuisine_skillet"
+				}
+			]
+		}
+	]
+}

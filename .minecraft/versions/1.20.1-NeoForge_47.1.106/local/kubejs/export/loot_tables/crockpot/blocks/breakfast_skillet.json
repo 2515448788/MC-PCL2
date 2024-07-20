@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "crockpot:blocks/breakfast_skillet",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "crockpot:breakfast_skillet"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+[
+	"#minecraft:is_forest",
+	"#minecraft:is_jungle",
+	"minecraft:desert",
+	"minecraft:end_highlands",
+	"minecraft:end_midlands",
+	"minecraft:plains",
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:sunflower_plains"
+]

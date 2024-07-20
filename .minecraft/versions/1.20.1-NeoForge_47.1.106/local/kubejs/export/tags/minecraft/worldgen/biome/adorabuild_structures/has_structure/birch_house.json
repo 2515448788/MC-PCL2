@@ -1,0 +1,23 @@
+[
+	"biomesoplenty:seasonal_forest?",
+	"biomesoplenty:seasonal_orchard?",
+	"minecraft:birch_forest",
+	"minecraft:dark_forest",
+	"minecraft:flower_forest",
+	"minecraft:forest",
+	"minecraft:meadow",
+	"minecraft:old_growth_birch_forest",
+	"nature_arise:boreal_forest?",
+	"regions_unexplored:autumnal_maple_forest?",
+	"regions_unexplored:boreal_taiga?",
+	"regions_unexplored:cold_boreal_taiga?",
+	"regions_unexplored:silver_birch_forest?",
+	"regions_unexplored:temperate_grove?",
+	"terralith:alpine_highlands?",
+	"terralith:birch_taiga?",
+	"terralith:orchid_swamp?",
+	"terralith:temperate_highlands?",
+	"wythers:birch_swamp?",
+	"wythers:cool_forest?",
+	"wythers:warm_birch_forest?"
+]

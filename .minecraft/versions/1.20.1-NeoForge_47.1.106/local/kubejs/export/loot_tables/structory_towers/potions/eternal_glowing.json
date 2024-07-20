@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16514882,CustomPotionEffects:[{Duration:100000000,Id:24}],HideFlags:32,Potion:\"minecraft:water\",custom_potion_effects:[{duration:100000000,id:\"minecraft:glowing\"}],display:{Lore:['[{\"text\":\"Glowing (∞)\",\"italic\":false,\"color\":\"red\"}]'],Name:'[{\"text\":\"Splash Potion of Eternal Glowing\",\"italic\":false}]'}}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				}
+			]
+		}
+	]
+}

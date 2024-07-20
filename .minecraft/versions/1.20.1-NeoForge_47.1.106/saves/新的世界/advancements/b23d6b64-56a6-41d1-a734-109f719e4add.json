@@ -230,7 +230,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2024-07-20 13:02:12 +0800",
       "minecraft:snowy_taiga": "2024-07-14 18:34:45 +0800",
+      "minecraft:frozen_ocean": "2024-07-20 11:53:21 +0800",
       "minecraft:snowy_beach": "2024-07-14 18:34:56 +0800"
     },
     "done": false
@@ -967,9 +969,98 @@
     },
     "done": true
   },
-  "apotheosis:spawner/capturing": {
+  "born_in_chaos_v1:good_demoman": {
     "criteria": {
-      "egg": "2024-07-18 13:36:28 +0800"
+      "good_demoman_0": "2024-07-20 11:42:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2024-07-20 11:45:34 +0800",
+      "minecraft:creeper": "2024-07-20 12:03:19 +0800",
+      "minecraft:slime": "2024-07-20 15:17:40 +0800",
+      "minecraft:witch": "2024-07-20 15:14:11 +0800",
+      "minecraft:zombie": "2024-07-20 11:43:51 +0800",
+      "minecraft:zombie_villager": "2024-07-20 15:19:00 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-07-20 11:43:51 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-07-20 12:01:21 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-07-20 12:09:02 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-07-20 12:09:02 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:currency/root": {
+    "criteria": {
+      "coin": "2024-07-20 13:12:50 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:currency/myfirstpenny": {
+    "criteria": {
+      "coin": "2024-07-20 13:12:50 +0800"
+    },
+    "done": true
+  },
+  "l2hostility:hostility/kill_first": {
+    "criteria": {
+      "0": "2024-07-20 13:21:43 +0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2024-07-20 15:12:26 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-07-20 15:14:11 +0800"
+    },
+    "done": true
+  },
+  "beautify:lamp_jar": {
+    "criteria": {
+      "requirement": "2024-07-20 15:14:25 +0800"
+    },
+    "done": true
+  },
+  "moonstone:moonstone/ectoplasmball": {
+    "criteria": {
+      "ectoplasmball": "2024-07-20 15:27:05 +0800"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/diving_armor": {
+    "criteria": {
+      "boots": "2024-07-20 18:44:02 +0800"
+    },
+    "done": false
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2024-07-20 18:44:02 +0800"
     },
     "done": true
   },
