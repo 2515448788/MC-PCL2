@@ -43,13 +43,54 @@
     },
     {
       "stack": "item:minecraft:frog_spawn_egg"
+    },
+    {
+      "stack": "item:lightmanscurrency:wallet_iron"
+    },
+    {
+      "stack": "item:lightmanscurrency:atm"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:torch",
+        "amount": 4
+      },
+      "recipe": "minecraft:torch"
+    },
+    {
+      "stack": "item:tacz:ammo_box{Level:0}",
+      "recipe": "tacz:iron_ammo_box"
     }
   ],
   "lookup_history": [
+    "item:lightmanscurrency:coin_iron",
+    "item:tacz:ammo_box{Level:0}",
+    "item:lightmanscurrency:atm",
     {
       "type": "item",
-      "id": "lightmanscurrency:coin_iron",
-      "amount": 10
+      "id": "minecraft:glass",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "mythicmetals:morkite",
+      "amount": 17
+    },
+    "item:quark:vertical_ancient_planks",
+    "item:minecraft:stick",
+    "item:minecraft:glass_pane",
+    "item:lightmanscurrency:wallet_iron",
+    {
+      "type": "item",
+      "id": "mythicmetals:banglum_ingot",
+      "amount": 21
+    },
+    "item:minecraft:iron_ingot",
+    {
+      "type": "item",
+      "id": "lightmanscurrency:coin_gold",
+      "amount": 2
     },
     "item:tacz:ammo{AmmoId:\"tacz:9mm\"}",
     "item:twilightforest:minotaur_spawn_egg",
@@ -75,11 +116,6 @@
     },
     "item:minecraft:wooden_shovel{Damage:0,affix_data:{sockets:0}}",
     "item:minecraft:charcoal",
-    {
-      "type": "item",
-      "id": "minecraft:stick",
-      "amount": 28
-    },
     {
       "type": "item",
       "id": "minecraft:flint",
@@ -138,6 +174,17 @@
     "item:mcdar:updraft_tome{Damage:0}"
   ],
   "craft_history": [
+    "tacz:iron_ammo_box",
+    "lightmanscurrency:atm",
+    "minecraft:glass_pane",
+    "minecraft:torch",
+    "mythicmetals:armor/banglum_leggings",
+    "mythicmetals:armor/banglum_chestplate",
+    "mythicmetals:armor/banglum_helmet",
+    "prefabricated:swift_blade_obsidian",
+    "quark:tweaks/crafting/utility/misc/easy_sticks",
+    "vinery:grapevine_stem",
+    "lightmanscurrency:wallet/wallet_iron",
     "quark:building/crafting/chests/oak_chest",
     "quark:building/crafting/chests/mixed_chest",
     "minecraft:spruce_planks",
