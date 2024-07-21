@@ -4,6 +4,7 @@
 #3DE minecraft:deep_ocean
 #4CA minecraft:dripstone_caves
 #646 biomesoplenty:dune_beach
+#6D4 biomesoplenty:field
 #674 minecraft:flower_forest
 #010 minecraft:forest
 #286 minecraft:grove
@@ -15,6 +16,7 @@
 #5F0 biomesoplenty:pasture
 #3DC minecraft:plains
 #5FF minecraft:river
+#204 biomesoplenty:rocky_shrubland
 #108 biomesoplenty:seasonal_forest
 #0B4 biomesoplenty:seasonal_orchard
 #2CF biomesoplenty:shrubland

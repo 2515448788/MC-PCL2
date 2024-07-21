@@ -28,6 +28,7 @@
 #EAE22B born_in_chaos_v1:black_argillite_brick
 #D81DA2 born_in_chaos_v1:black_argillite_brick_stairs
 #B152E8 minecraft:black_wool
+#85BA4C quark:blue_corundum
 #657B45 minecraft:bone_block
 #4A86E0 beautify:bookstack
 #195237 beautify:botanist_workbench

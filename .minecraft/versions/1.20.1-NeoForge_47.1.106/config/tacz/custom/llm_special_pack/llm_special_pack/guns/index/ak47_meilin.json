@@ -1,0 +1,8 @@
+{
+  "name": "llm_special_pack.gun.ak47_meilin.name",
+  "display": "llm_special_pack:ak47_meilin_display",
+  "data": "llm_special_pack:ak47_meilin_data",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}
