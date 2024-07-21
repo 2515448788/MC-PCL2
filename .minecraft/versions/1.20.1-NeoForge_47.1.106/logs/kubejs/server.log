@@ -1,15 +1,15 @@
-[21:10:02] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[21:10:02] [INIT] Loaded plugins:
-[21:10:02] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:10:02] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:10:02] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[21:10:02] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[21:10:02] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[21:10:02] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
-[21:10:02] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[21:10:02] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[21:10:02] [INFO] Loaded script server_scripts:example.js in 0.003 s
-[21:10:02] [INFO] Loaded script server_scripts:lightmanCurrencyDrop.js in 0.011 s
-[21:10:02] [INFO] Loaded 2/2 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
-[21:10:02] [INFO] Scripts loaded
-[21:10:15] [INFO] Server resource reload complete!
+[22:02:59] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[22:02:59] [INIT] Loaded plugins:
+[22:02:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:02:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:02:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[22:02:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[22:02:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[22:02:59] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[22:02:59] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:03:00] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[22:03:00] [INFO] Loaded script server_scripts:example.js in 0.004 s
+[22:03:00] [INFO] Loaded script server_scripts:lightmanCurrencyDrop.js in 0.008 s
+[22:03:00] [INFO] Loaded 2/2 KubeJS server scripts in 0.037 s with 0 errors and 0 warnings
+[22:03:00] [INFO] Scripts loaded
+[22:03:12] [INFO] Server resource reload complete!

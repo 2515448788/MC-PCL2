@@ -64,9 +64,27 @@
     },
     {
       "stack": "item:tacz:gun_smith_table"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:oak_planks",
+        "amount": 4
+      }
+    },
+    {
+      "stack": "item:minecraft:enchanting_table"
     }
   ],
   "lookup_history": [
+    "item:l2hostility:hostility_detector",
+    "item:minecraft:lightning_rod",
+    "item:minecraft:ender_eye",
+    "item:l2hostility:detector_glasses",
+    "item:l2hostility:charm_of_looting_4",
+    "item:minecraft:enchanting_table",
+    "item:alexscaves:tremorzilla_egg",
+    "item:mcdar:wonderful_wheat{Damage:0}",
     "item:iter_rpg:coin",
     "item:mythicmetals:mythril_pickaxe{Damage:0,affix_data:{sockets:0}}",
     "item:mythicmetals:mythril_drill{Damage:0,affix_data:{sockets:0}}",
@@ -183,13 +201,19 @@
     "item:mcdar:updraft_tome{Damage:0}"
   ],
   "craft_history": [
+    "l2hostility:hostility_detector",
+    "minecraft:lightning_rod",
+    "minecraft:spruce_fence",
+    "minecraft:oak_fence",
+    "quark:tweaks/crafting/utility/bent/bread",
+    "bountifulfares:sun_hat",
+    "minecraft:torch",
     "prefabricated:triple_compressed_stone_to_double_compressed_stone",
     "tacz:iron_ammo_box",
     "tacz:gun_smith_table",
     "minecraft:iron_block",
     "lightmanscurrency:atm",
     "minecraft:glass_pane",
-    "minecraft:torch",
     "mythicmetals:armor/banglum_leggings",
     "mythicmetals:armor/banglum_chestplate",
     "mythicmetals:armor/banglum_helmet",
@@ -218,7 +242,6 @@
     "sophisticatedbackpacks:gold_backpack",
     "weaponmaster:weaponkit",
     "minecraft:oak_trapdoor",
-    "quark:tweaks/crafting/utility/bent/bread",
     "brewery:pretzel",
     "brewery:gingerbread",
     "croptopia:flour",

@@ -1,5 +1,7 @@
+#556 minecraft:beach
 #460 minecraft:cherry_grove
 #3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
 #6AF biomesoplenty:crag
 #3DE minecraft:deep_ocean
 #4CA minecraft:dripstone_caves
