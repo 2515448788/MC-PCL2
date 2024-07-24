@@ -879,12 +879,6 @@
     },
     "done": true
   },
-  "parcool:grant_parcool_guide": {
-    "criteria": {
-      "tick": "2024-07-18 13:26:12 +0800"
-    },
-    "done": true
-  },
   "enigmaticlegacy:book/accessories/avarice_scroll": {
     "criteria": {
       "has_the_recipe": "2024-07-18 13:26:12 +0800"

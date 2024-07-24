@@ -1783,17 +1783,17 @@
     },
     "done": true
   },
+  "quark:get_all_blossom_saplings": {
+    "criteria": {
+      "yellow": "2024-07-21 22:42:04 +0800"
+    },
+    "done": false
+  },
   "idas:hunters_cabin": {
     "criteria": {
       "in_hunters_cabin": "2024-07-21 22:47:41 +0800"
     },
     "done": true
-  },
-  "croptopia:gather_food": {
-    "criteria": {
-      "clam": "2024-07-21 22:58:05 +0800"
-    },
-    "done": false
   },
   "kitchenkarrot:get_pillager_pie": {
     "criteria": {
@@ -1807,9 +1807,9 @@
     },
     "done": true
   },
-  "quark:get_all_blossom_saplings": {
+  "croptopia:gather_food": {
     "criteria": {
-      "yellow": "2024-07-21 22:42:04 +0800"
+      "clam": "2024-07-21 22:58:05 +0800"
     },
     "done": false
   },
