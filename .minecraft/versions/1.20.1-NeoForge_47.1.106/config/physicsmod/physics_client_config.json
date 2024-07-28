@@ -94,7 +94,7 @@
   "windVolume": 1.0,
   "weatherRainParticleAmount": 5,
   "weatherThunderParticleAmount": 2,
-  "oceanPhysics": true,
+  "oceanPhysics": false,
   "oceanAdjustHitbox": false,
   "oceanDetail": 1.0,
   "oceanWaveHeightMultiplier": 1.0,

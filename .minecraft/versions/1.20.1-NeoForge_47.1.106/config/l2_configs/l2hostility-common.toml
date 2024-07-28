@@ -192,6 +192,10 @@ enableEntitySpecificDatapack = true
 	#Insulator Enchantment factor for reducing pushing
 	#Range: 0.0 ~ 1.0
 	insulatorFactor = 0.8
+	#Cap drop at item max stack size
+	nidhoggurCapAtItemMaxStack = false
+	#When using book of reprint to copy books, drop extra on player and does not allow overstacking
+	bookOfReprintSpread = false
 
 [traits]
 	#Health bonus for Tank trait per level

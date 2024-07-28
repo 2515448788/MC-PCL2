@@ -44,6 +44,8 @@ humanoidGolemSlot = 3
 #Default slots for dog golem
 #Range: 0 ~ 100
 dogGolemSlot = 2
+#Allow command wand to edit curios of other mobs you own
+allowEditCuriosForOthers = true
 
 [modifiers]
 	#Percentage damage reflection per level of thorn

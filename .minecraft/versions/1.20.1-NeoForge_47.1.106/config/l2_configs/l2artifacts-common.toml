@@ -33,4 +33,11 @@ baseExpConversion = 100
 expConversionRankFactor = 2.0
 #Enable Artifact Rank up recipe
 enableArtifactRankUpRecipe = true
+#When L2Hostility is installed, use level instead of health for drops
+#Min health requirement would still be effective
+useLevelDropForHostility = true
+#Reduce artifact drop chance by a factor
+#Stack multiplicatively with drop chance specified in datapack
+#Range: 0.0 ~ 10.0
+globalDropChanceMultiplier = 1.0
 

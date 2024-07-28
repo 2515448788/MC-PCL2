@@ -10,13 +10,14 @@
       "armor_ignore": 0.20,
       "head_shot_multiplier": 1.30,
       "damage_adjust": [
+        {"distance": 1, "damage": 6},
         {"distance": 15, "damage": 5},
         {"distance": 35, "damage": 4},
         {"distance": "infinite", "damage": 3}
       ]
     },
     "speed": 180,
-    "gravity": 0.15,
+    "gravity": 0.098,
     "knockback": 0,
     "friction": 0.025,
     "ignite": false,
@@ -60,9 +61,8 @@
       {"time": 1.0, "value": [0, 0]}
     ],
     "yaw": [
-      {"time": 0, "value": [-0.45, 0.15]},
-      {"time": 0.25, "value": [-0.45, 0.15]},
-      {"time": 1, "value": [0, 0]}
+      {"time": 0, "value": [-0.1, 0.1]},
+      {"time": 0.45, "value": [0, 0]}
     ]
   },
   "inaccuracy": {

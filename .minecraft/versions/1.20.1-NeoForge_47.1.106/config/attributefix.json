@@ -66,17 +66,6 @@
         "value": 100
       }
     },
-    "additionalentityattributes:player.bonus_rare_loot_rolls": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 128,
-        "value": 128
-      }
-    },
     "attributeslib:overheal": {
       "enabled": false,
       "min": {
@@ -88,15 +77,15 @@
         "value": 10
       }
     },
-    "additionalentityattributes:player.collection_range": {
+    "additionalentityattributes:player.bonus_rare_loot_rolls": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 64,
-        "value": 64
+        "default": 128,
+        "value": 128
       }
     },
     "mcdw:attack_range": {
@@ -130,6 +119,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additionalentityattributes:player.collection_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "additionalentityattributes:generic.water_speed": {
@@ -176,17 +176,6 @@
         "value": 1000
       }
     },
-    "additionalentityattributes:player.dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "attributeslib:armor_pierce": {
       "enabled": false,
       "min": {
@@ -196,6 +185,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additionalentityattributes:player.dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "obscure_api:regeneration": {
@@ -297,6 +297,17 @@
         "value": 100
       }
     },
+    "obscure_api:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
+      }
+    },
     "mythicmetals:elytra_rocket_speed": {
       "enabled": false,
       "min": {
@@ -308,15 +319,15 @@
         "value": 1024
       }
     },
-    "obscure_api:magic_damage": {
+    "obscure_api:healing_power": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 100000,
-        "value": 100000
+        "default": 100,
+        "value": 100
       }
     },
     "additionalentityattributes:player.water_visibility": {
@@ -350,17 +361,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "obscure_api:healing_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "additionalentityattributes:generic.magic_protection": {
@@ -836,17 +836,6 @@
         "value": 2048
       }
     },
-    "additionalentityattributes:generic.jump_height": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "attributeslib:current_hp_damage": {
       "enabled": false,
       "min": {
@@ -856,6 +845,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "additionalentityattributes:generic.jump_height": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2weaponry:reflect_time": {
@@ -1023,17 +1023,6 @@
         "value": 1
       }
     },
-    "additionalentityattributes:player.critical_bonus_damage": {
-      "enabled": false,
-      "min": {
-        "default": -1,
-        "value": -1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "attributeslib:life_steal": {
       "enabled": false,
       "min": {
@@ -1043,6 +1032,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "additionalentityattributes:player.critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     }
   }

@@ -36,14 +36,19 @@
 	#If projectiles can bounce, ricochet, and be deflected.
 	projectilesCanBounce = true
 	#.
-	#The minimum velocity necessary to activate the penetration bonus, in meters per game tick. (1 m/gt = 20 m/s)
+	#Range: 0.0 ~ 1.0
+	baseProjectileBounceChance = 0.33000001311302185
+	#.
+	#Range: 0.0 ~ 1.0
+	baseProjectileFluidBounceChance = 0.8999999761581421
+	#.
+	#[in Meters per Tick]
+	#The minimum velocity necessary to activate the penetration bonus.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	minimumVelocityForPenetrationBonus = 1.0
 	#.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	penetrationBonusScale = 0.10000000149011612
-	#.
-	projectilesCanChunkload = true
 	#.
 	#The extent to which cannon projectiles can damage surrounding blocks.
 	#All Damage - projectiles will destroy anything they hit, if applicable. Explosive projectiles will destroy blocks on detonation.
@@ -51,21 +56,47 @@
 	#No Damage - projectiles will not destroy anything they hit, and will only deal entity damage. Explosive projectiles will only harm entities on detonation.
 	#Allowed Values: ALL_DAMAGE, NO_EXPLOSIVE_DAMAGE, NO_DAMAGE
 	damageRestriction = "ALL_DAMAGE"
+	#.
+	projectilesChangeSurroundings = true
+
+	#.
+	#Chunkloading
+	[munitions.chunkloading]
+		#.
+		projectilesCanChunkload = true
+		#.
+		smokeCloudsCanChunkload = true
+
+	#.
+	#Big Cannon Munitions
+	[munitions.bigCannonMunitions]
+		#.
+		#Allowed Values: NONE, LONG, SHORT
+		trailType = "SHORT"
+		#.
+		#Makes all shot big cannon projectiles tracers regardless if the item had a tracer tip applied.
+		allBigCannonProjectilesAreTracers = false
+		#.
+		#[in Ticks]
+		#Range: 0 ~ 100
+		quickFiringBreechItemPickupDelay = 20
+		#.
+		quickFiringBreechItemGoesToInventory = false
 
 	#.
 	#Projectile Fuzes
 	[munitions.fuzes]
 		#.
-		#Chance that the Impact Fuze will detonate on hitting something. 0 is 0% (never), 1 is 100% (always).
+		#Chance that the Impact Fuze/Delayed Impact Fuze will detonate on hitting something. 0 is 0% (never), 1 is 100% (always).
 		#Range: 0.0 ~ 1.0
 		impactFuzeDetonationChance = 0.6700000166893005
 		#.
-		#How many blocks the Impact Fuze can hit before breaking. Set to -1 to never break.
+		#How many blocks the Impact Fuze/Delayed Impact Fuze can hit before breaking. Set to -1 to never break.
 		#Range: > -1
 		impactFuzeDurability = 3
 		#.
-		#Time it takes for a proximity fuze to arm itself in ticks.
-		#(For reference, there are 20 ticks in 1 second.)
+		#[in Ticks]
+		#Time it takes for a proximity fuze to arm itself.
 		#After the fuze has been in the air for the specified arming time, it will detonate when it gets close enough to a block or entity.
 		#Range: > 0
 		proximityFuzeArmingTime = 20
@@ -79,20 +110,11 @@
 		fluidBlobBlockEffectChance = 0.5
 
 	#.
-	#Deflection
-	[munitions.deflectChances]
-		#.
-		#The chance that a big cannon projectile deflects. 0 is 0% (never), 1 is 100% (always).
-		#Range: 0.0 ~ 1.0
-		bigCannonProjectileDeflectionChance = 0.8999999761581421
-		#.
-		#The chance that an autocannon projectile deflects. 0 is 0% (never), 1 is 100% (always).
-		#Range: 0.0 ~ 1.0
-		autocannonProjectileDeflectionChance = 0.20000000298023224
-
-	#.
 	#Autocannon Munitions
 	[munitions.autocannonMunitions]
+		#.
+		#Allowed Values: NONE, LONG, SHORT
+		trailType = "SHORT"
 		#.
 		#Makes all shot autocannon projectiles tracers regardless if the item had a tracer tip applied. Emulates legacy behavior.
 		allAutocannonProjectilesAreTracers = false
@@ -189,6 +211,13 @@
 		#.
 		shouldDisplayContainedMunitions = true
 
+	#.
+	#Big Cannon Screen Shake
+	[cannons.bigCannonScreenShake]
+		#.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		blastDistanceMultiplier = 8.0
+
 #.
 #These values affect various miscellaneous contraptions.
 [kinetics]
@@ -242,6 +271,7 @@
 	#Range: > 2
 	maxCannonBuilderRange = 32
 	#.
+	#[in Ticks]
 	#Time a built-up cannon block needs to be heated for until it transforms into its finished form.
 	#Range: > 0
 	builtUpCannonHeatingTime = 6000

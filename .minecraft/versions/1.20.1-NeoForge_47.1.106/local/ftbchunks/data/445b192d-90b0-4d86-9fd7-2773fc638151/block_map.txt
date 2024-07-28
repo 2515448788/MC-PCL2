@@ -281,6 +281,7 @@
 #8638B9 minecraft:smooth_basalt
 #E05640 minecraft:smooth_quartz_slab
 #3A9287 minecraft:smooth_stone
+#CB82F8 minecraft:smooth_stone_slab
 #872D76 minecraft:snow
 #12E6C4 minecraft:snow_block
 #6B495B minecraft:spawner
