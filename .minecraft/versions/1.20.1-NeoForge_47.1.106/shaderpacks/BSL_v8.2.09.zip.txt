@@ -1,3 +1,7 @@
-#Sun Jul 28 18:30:40 CST 2024
+#Sat Aug 03 12:37:07 CST 2024
 DOF_STRENGTH=4.0
 FAR_VANILLA_FOG=3
+LIGHT_SHAFT=false
+SHADOW_COLOR=false
+shadowDistance=192.0
+shadowMapResolution=1536

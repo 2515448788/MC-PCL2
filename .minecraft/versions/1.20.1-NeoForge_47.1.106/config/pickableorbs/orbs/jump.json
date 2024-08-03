@@ -7,11 +7,8 @@
     "blockList": [],
     "blockListType": "whitelist",
     "blockDropChance": 0.0,
-    "entityList": [
-      "minecraft:rabbit",
-      "minecraft:horse"
-    ],
+    "entityList": ["minecraft:rabbit", "minecraft:horse"],
     "entityListType": "whitelist",
-    "entityDropChance": 0.0
+    "entityDropChance": 12.5
   }
 }

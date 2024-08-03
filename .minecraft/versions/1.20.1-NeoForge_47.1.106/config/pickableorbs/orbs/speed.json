@@ -4,16 +4,11 @@
     "effectMultiplier": 2,
     "effectDuration": 100,
     "color": "#51E5FF",
-    "blockList": [
-      "minecraft:spawner"
-    ],
+    "blockList": ["minecraft:spawner"],
     "blockListType": "whitelist",
-    "blockDropChance": 0.0,
-    "entityList": [
-      "minecraft:rabbit",
-      "minecraft:horse"
-    ],
+    "blockDropChance": 25,
+    "entityList": ["minecraft:rabbit", "minecraft:horse"],
     "entityListType": "whitelist",
-    "entityDropChance": 0.0
+    "entityDropChance": 12.5
   }
 }

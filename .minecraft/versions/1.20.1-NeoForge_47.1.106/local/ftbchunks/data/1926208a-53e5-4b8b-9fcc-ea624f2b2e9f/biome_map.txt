@@ -1,0 +1,7 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#6D4 biomesoplenty:field
+#251 biomesoplenty:forested_field
+#056 biomesoplenty:maple_woods
+#5FF minecraft:river
+#169 minecraft:taiga

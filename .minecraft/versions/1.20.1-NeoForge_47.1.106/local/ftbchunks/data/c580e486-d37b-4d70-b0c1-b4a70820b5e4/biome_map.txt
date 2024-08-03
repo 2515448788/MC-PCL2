@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#420 biomesoplenty:clover_patch
+#646 biomesoplenty:dune_beach
+#67B biomesoplenty:grassland
+#47F biomesoplenty:mediterranean_forest
+#4F1 minecraft:ocean
+#552 biomesoplenty:old_growth_woodland
+#68B biomesoplenty:rainforest
+#698 biomesoplenty:redwood_forest
+#5FF minecraft:river
+#204 biomesoplenty:rocky_shrubland
+#274 biomesoplenty:scrubland
+#2CF biomesoplenty:shrubland
+#7F2 biomesoplenty:woodland

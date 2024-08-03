@@ -7,11 +7,8 @@
     "blockList": [],
     "blockListType": "whitelist",
     "blockDropChance": 0.0,
-    "entityList": [
-      "minecraft:witch",
-      "minecraft:wither_skeleton"
-    ],
+    "entityList": ["minecraft:witch", "minecraft:wither_skeleton"],
     "entityListType": "whitelist",
-    "entityDropChance": 0.0
+    "entityDropChance": 1.0
   }
 }

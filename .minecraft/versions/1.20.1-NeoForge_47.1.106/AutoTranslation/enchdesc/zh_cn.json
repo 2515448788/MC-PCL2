@@ -126,5 +126,6 @@
   "enchantment.improved_exp.invulnerability.desc": "佩戴者不会受到伤害。",
   "__support_shield+": "护盾+ https://www.curseforge.com/minecraft/mc-mods/shieldsplus",
   "enchantment.improved_exp.return_from_void.desc": "如果佩戴者落入虚空，则将其传送回地面。",
-  "enchantment.improved_exp.resistance.desc": "为佩戴者提供抵抗力增益。"
+  "enchantment.improved_exp.resistance.desc": "为佩戴者提供抵抗力增益。",
+  "enchdesc.jei.compatible_items.title": "兼容项目"
 }
