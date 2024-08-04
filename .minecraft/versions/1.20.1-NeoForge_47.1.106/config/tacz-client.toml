@@ -32,7 +32,7 @@
 	#Range: > 0
 	TargetRenderDistance = 128
 	#Whether or not to render first person bullet trail
-	FirstPersonBulletTracerEnable = true
+	FirstPersonBulletTracerEnable = false
 	#Disable the interact hud text in center of the screen
 	DisableInteractHudText = false
 	#Max time the damage counter will reset

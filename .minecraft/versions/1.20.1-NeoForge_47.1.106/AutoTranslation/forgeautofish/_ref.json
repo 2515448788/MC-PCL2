@@ -1,0 +1,10 @@
+{
+  "gui.setthrowdelay.throwdelay": "Throw Delay",
+  "gui.setcheckinterval.checkinterval": "Check Interval",
+  "gui.forgeautofish.throwdelay": "Throw Delay",
+  "gui.setcheckinterval.save": "Save Check Interval",
+  "gui.setthrowdelay": "Set Throw Delay",
+  "gui.forgeautofish.checkinterval": "Check Interval",
+  "gui.setthrowdelay.save": "Save Throw Delay",
+  "gui.setcheckinterval": "Set Check Interval"
+}

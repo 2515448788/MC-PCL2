@@ -1,0 +1,10 @@
+{
+  "gui.setthrowdelay.throwdelay": "投掷延迟",
+  "gui.setcheckinterval.checkinterval": "检查间隔",
+  "gui.forgeautofish.throwdelay": "投掷延迟",
+  "gui.setcheckinterval.save": "保存检查间隔",
+  "gui.setthrowdelay": "设置抛出延迟",
+  "gui.forgeautofish.checkinterval": "检查间隔",
+  "gui.setthrowdelay.save": "保存投掷延迟",
+  "gui.setcheckinterval": "设置检查间隔"
+}

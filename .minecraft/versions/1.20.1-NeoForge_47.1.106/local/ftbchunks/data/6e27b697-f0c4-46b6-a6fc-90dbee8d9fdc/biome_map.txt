@@ -1,0 +1,12 @@
+#47F minecraft:birch_forest
+#420 biomesoplenty:clover_patch
+#4F9 minecraft:dark_forest
+#4CA minecraft:dripstone_caves
+#0AF biomesoplenty:glowing_grotto
+#67B biomesoplenty:grassland
+#467 biomesoplenty:highland
+#498 minecraft:lush_caves
+#0DF biomesoplenty:moor
+#1DF minecraft:old_growth_birch_forest
+#5FF minecraft:river
+#14C biomesoplenty:spider_nest

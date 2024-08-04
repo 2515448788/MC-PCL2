@@ -59,5 +59,9 @@
   "sodium.options.view_bobbing.tooltip": "If enabled, the player\u0027s view will sway and bob when moving around. Players who experience motion sickness while playing can benefit from disabling this.",
   "sodium.options.v_sync.tooltip": "If enabled, the game\u0027s frame rate will be synchronized to the monitor\u0027s refresh rate, making for a generally smoother experience at the expense of overall input latency. This setting might reduce performance if your system is too slow.",
   "sodium.options.graphics_quality.tooltip": "The default graphics quality controls some legacy options and is necessary for mod compatibility. If the options below are left to \"Default\", they will use this setting.",
-  "sodium.options.attack_indicator.tooltip": "Controls where the Attack Indicator is displayed on screen."
+  "sodium.options.attack_indicator.tooltip": "Controls where the Attack Indicator is displayed on screen.",
+  "sodium.console.config_file_was_reset": "The config file has been reset to known-good defaults.",
+  "sodium.options.sort_behavior.name": "Translucency Sorting",
+  "sodium.options.sort_behavior.tooltip": "Enables translucency sorting. This avoids glitches in translucent blocks like water and glass when enabled and attempts to correctly present them even when the camera is in motion. This has a small performance impact on chunk loading and update speeds, but is usually not noticeable in frame rates.",
+  "sodium.console.config_not_loaded": "The configuration file for Sodium has been corrupted, or is currently unreadable. Some options have been temporarily reset to their defaults. Please open the Video Settings screen to resolve this problem."
 }

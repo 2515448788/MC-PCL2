@@ -6,5 +6,9 @@
   "sodium.console.core_shaders_error": "以下资源包与 Embeddium 不兼容：",
   "sodium.console.core_shaders_info": "检查游戏日志以获取详细信息。",
   "sodium.options.use_no_error_context.tooltip": "如果启用，将创建 OpenGL 上下文并禁用错误检查。这可能会稍微提高性能，但也会增加游戏崩溃的风险，而不是优雅地处理 OpenGL 错误。如果您遇到突然的无法解释的崩溃，您应该禁用此选项。",
-  "sodium.console.broken_nvidia_driver": "您的 NVIDIA 显卡驱动程序已过期！\n * 安装 Embeddium 时，这将导致严重的性能问题和崩溃。\n * 请将您的显卡驱动程序更新到最新版本（版本 536.23 或更高版本。）"
+  "sodium.console.broken_nvidia_driver": "您的 NVIDIA 显卡驱动程序已过期！\n * 安装 Embeddium 时，这将导致严重的性能问题和崩溃。\n * 请将您的显卡驱动程序更新到最新版本（版本 536.23 或更高版本。）",
+  "sodium.console.config_file_was_reset": "配置文件已重置为已知良好的默认值。",
+  "sodium.options.sort_behavior.name": "半透明排序",
+  "sodium.options.sort_behavior.tooltip": "启用半透明排序。这可以避免在启用时出现水和玻璃等半透明块的故障，并且即使在相机处于运动状态时也能尝试正确呈现它们。这对块加载和更新速度的性能影响很小，但通常在帧速率方面并不明显。",
+  "sodium.console.config_not_loaded": "Sodium 的配置文件已损坏，或当前无法读取。某些选项已暂时重置为默认值。请打开视频设置屏幕来解决此问题。"
 }
