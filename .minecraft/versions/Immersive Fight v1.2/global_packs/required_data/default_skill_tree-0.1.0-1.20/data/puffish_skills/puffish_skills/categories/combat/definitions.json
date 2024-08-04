@@ -1,0 +1,356 @@
+{
+	"root_health+2": {
+		"title": "生命值",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+                                                {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+                                                                                "value": 0.1,
+                                                                                "operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_resistance+1%": {
+		"title": "抗性",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+                                                {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+                                                                                "value": 0.1,
+                                                                                "operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_melee_damage+3%": {
+		"title": " 近战伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+                                                {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+                                                                                "value": 0.1,
+                                                                                "operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"root_ranged_damage+3%": {
+		"title": "远程伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.06,
+					"operation": "multiply_total"
+				}
+			},
+                                                {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+                                                                                "value": 0.1,
+                                                                                "operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"health+2": {
+		"title": "+2 最大生命值",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistance+1%": {
+		"title": "+1% 抗性",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage+3%": {
+		"title": "+2% 近战伤害",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+3%": {
+		"title": "+3% 远程伤害",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"attack_speed+5%": {
+		"title": "+5% 攻击速度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+5%": {
+		"title": "+5% 移动速度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"luck+0.25": {
+		"title": "+0.1 体力回复",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sullysmod:jade_upgrade_smithing_template"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:stamina_regen",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina+5%": {
+		"title": "+3 体力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:armor_stand"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:staminar",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"healing+5%": {
+		"title": "+5% 回血效果",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"jump+5%": {
+		"title": "+5体力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:armor_stand"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:staminar",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

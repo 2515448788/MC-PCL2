@@ -1,0 +1,262 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = mc_cave_animation_2cfb5f2c6ab641c1
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = resources/2widgets.png
+  backgroundnormal = resources/11widgets.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 模组
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/2widgets.png
+  backgroundnormal = resources/11widgets.png
+}
+
+customization {
+  identifier = %id=9650%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 69
+}
+
+customization {
+  identifier = %id=96501%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/2widgets.png
+  backgroundnormal = resources/11widgets.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 69
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/5widgets.png
+  backgroundnormal = resources/4widgets.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 69
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/5widgets.png
+  backgroundnormal = resources/4widgets.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 69
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 105
+  width = 271
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 391fdfcd-e46a-4179-a6f0-4725f8a9b6a61706259055005
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 87
+  action = deep_customization_element:title_screen_branding
+  actionid = 96956e34-5753-4a09-bbda-0f1093ef687a1706259055006
+  y = 203
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 311
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 48211143-594a-40e4-9c0a-ff330013363e1706259055006
+  y = 235
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0d46337a-02f0-4eec-a6bf-fd824f9b483c1706259055006
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 1bc38fb3-ac03-4ab0-b07f-b3b3dcd655d71706259055006
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ed24cd80-aaa1-4623-bf42-696b6d8782be1706259055006
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://space.bilibili.com/88151879%btnaction_splitter_fm%
+  backgroundhovered = resources/zuoz2.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = -79
+  width = 74
+  action = addbutton
+  actionid = ece4a9dd-f149-4987-8593-1a67ac8998691722021624427
+  y = -23
+  backgroundnormal = resources/zuoz.png
+  height = 13
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 整合包版本V1.2
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 97
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a28a64fa-581e-4ffa-a2f7-3f0fb34913361722181968324
+  y = -61
+  alignment = left
+  height = 14
+}
+

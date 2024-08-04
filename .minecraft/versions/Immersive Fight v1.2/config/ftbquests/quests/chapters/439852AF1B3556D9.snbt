@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "439852AF1B3556D9"
+	group: "4E6BE2D374D7AE03"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"cold_sweat:item_insulation": {
+				Insulation: [ ]
+			}
+		}
+		id: "legendary_monsters:dinosaur_bone_shield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "439852AF1B3556D9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "legendary_monsters:chorus_crystal"
+			id: "72F6A3499DDC681E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534CDC1F10542909"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				id: "579389B1282C4E9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "45B1ED214CD9D745"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E233E237DF420CD"
+				table_id: 823528550893493875L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				icon: "legendary_monsters:warped_mushroom_cap_part"
+				id: "5E8AD508B01534D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "7FC51A68C9820082"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EB82EB9840A991D"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: "legendary_monsters:frozen_rune"
+				id: "7E4FA6A1B83D03A6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "55A17E36002555D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F3796AB3BF2AA2"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:dinosaur_bone"
+				id: "35C61771A8C77691"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "1E052F8D5A598221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206AC1C093928B71"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: "legendary_monsters:nature_crystal"
+				id: "529DC7BBD3A62AF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "45E145161413CCC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B326B8A13604877"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: "legendary_monsters:lava_eaters_skin"
+				id: "7A6509E2CC3DF6CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "393CA001131CED20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02374CFF63CF639E"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "08A38FF89A295DCA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "73FDE15889CB1B5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D89018EBD101F57"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:chorusling"
+				icon: "legendary_monsters:infected_chorus_fruit"
+				id: "6A88BE8906E828C0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "54AC6BBA4161FFFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C84AC356AD3BC4"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: "legendary_monsters:withered_bone"
+				id: "24DE11FBCF7B2442"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "395922BE668A6FC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6870EB0B08365B83"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:anchor_handle"
+					tag: {
+						Damage: 0
+						Enchantments: [ ]
+						itemModifier: "modifiers:slow"
+					}
+				}
+				id: "55A45EE2A8664CC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "66C55560EDB55082"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC880D1AD8FADEB"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: "legendary_monsters:air_rune"
+				id: "1D66ECD592796256"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "49E94AF0C1E4F17B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "085CAC648113D043"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:crystal_of_sandstorm"
+					tag: {
+						Enchantments: [ ]
+					}
+				}
+				id: "2934B81131848258"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "6118FFC7D722B7E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "078215F453748CCC"
+				table_id: 823528550893493875L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
+					Count: 1b
+					id: "legendary_monsters:corrupted_soul"
+					tag: {
+						Enchantments: [ ]
+					}
+				}
+				id: "553DC88092320EE3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "0E1790C77B6A5D32"
+			tasks: [{
+				id: "255EED9DA57DD699"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:chorus_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "01393B454A010C9F"
+			tasks: [{
+				id: "264755ECAE61A654"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:dinosaur_bone_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "7053C353BA6366EE"
+			tasks: [{
+				id: "580035B436C824B8"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "7192A574C4CD82B4"
+			tasks: [{
+				id: "4135A20D7B42E253"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "4EBA226477ECA6AA"
+			tasks: [{
+				id: "0A82EBB691011FA6"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:the_great_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "772633AFE978D40B"
+			tasks: [{
+				id: "6BB80B026FE6A3C2"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "5989D3DEABEC567B"
+			tasks: [{
+				id: "0BE6F93B95E03CE1"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:axe_of_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "43953A7E8712903F"
+			tasks: [{
+				id: "73A9FBA3BA39E11F"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "458B54FD84DDFAB3"
+			tasks: [{
+				id: "166186A5B6791390"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "200A193CF6328102"
+			tasks: [{
+				id: "3DD9DC60A60C717D"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:sand_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "7BFBC4B4C468C8FF"
+			tasks: [{
+				id: "68904622C2FF8706"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:chorus_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "66E0B0CEA5373D93"
+			tasks: [{
+				id: "06FFE4448AB884CA"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:chorus_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "2D2FE3037FBA7114"
+			tasks: [{
+				id: "10A724E9F2724B4D"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:blastproof_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "40AEE208F7947404"
+			tasks: [{
+				id: "0FE7BCDC17C8AFF7"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:shulker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "3088419F7267CA57"
+			tasks: [{
+				id: "20E0CB4F0498E75C"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:atmospheric_boots"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:brisk"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "0BB0DD14E76A6F6C"
+			tasks: [{
+				id: "03560DEE12BDD43A"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:withered_ribcage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "7F79F304AB2024CB"
+			tasks: [{
+				id: "1210A2AFC80A1487"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:mossy_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "5FD143255659F190"
+			tasks: [{
+				id: "58FB2B301C4DC5BB"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:shulker_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "6EBE08D761771CCF"
+			tasks: [{
+				id: "6DE8E0ABF5F9933C"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:dinosaur_bone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "2E2666143D62F7CD"
+			tasks: [{
+				id: "28AC9C61093BF4D8"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "58BFA01B6D659192"
+			tasks: [{
+				id: "1461FEDF2BBC850F"
+				item: {
+					Count: 1b
+					id: "legendary_monsters:spiky_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+	title: "传奇怪物"
+}

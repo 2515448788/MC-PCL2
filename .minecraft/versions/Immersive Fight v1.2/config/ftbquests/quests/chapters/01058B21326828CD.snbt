@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01058B21326828CD"
+	group: "4E6BE2D374D7AE03"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "01058B21326828CD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在【冰冻深海】群系中探索，"
+				"搁浅舰船中船长室的掠夺者掉落"
+				"用于在冰冻深海群系中的水边"
+				"召唤BOSS船长科妮莉亚亡灵。"
+			]
+			id: "64136C1DA1F71BC1"
+			rewards: [
+				{
+					id: "580C2DC572F5615E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 18
+					id: "3776E24FF07F717F"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F6CE770C5435846"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6922092C12A2BDE4"
+				"3C4CC2A22C76DD02"
+			]
+			id: "662B02AFCB061700"
+			rewards: [{
+				count: 10
+				id: "1EE66DFAED771D37"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54AD34F2B8CE016E"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9D13E1202F56EE"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3304BF7C424E2A"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05B028B112088CAA"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EB810EAC7346E15"
+					item: {
+						Count: 1b
+						id: "aquamirae:whisper_of_the_abyss"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:slow"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "485D43AD06D7B121"
+					item: {
+						Count: 1b
+						id: "aquamirae:maze_rose"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "obscure_api:distance"
+									lvl: 3s
+								}
+								{
+									id: "obscure_api:fast_spin"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F16EFC747D2D781"
+				"3BADF803652F9CF5"
+				"3C4CC2A22C76DD02"
+			]
+			id: "18912BB810BF1784"
+			rewards: [{
+				count: 10
+				id: "7960FC276E75C6CB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B3EE87518DCA38E"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E1ABD3A7C853C5A"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "720EE33E121498FF"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A08843D43864CF3"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65299E811E60011B"
+					item: {
+						Count: 1b
+						id: "aquamirae:poisoned_chakra"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"击杀迷宫之母可得到深海紫水晶*1-2。"
+				"你也可以通过海船墓地之回响和紫水晶碎片"
+				"自行合成深海紫水晶。"
+			]
+			id: "6922092C12A2BDE4"
+			tasks: [{
+				id: "1A7BBB4D824389E5"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"击杀金蛾和棘鱼概率掉落，"
+				"击杀巨鳗可固定掉落，"
+				"也可以通过打开冰冻之箱概率获得。"
+			]
+			id: "3C4CC2A22C76DD02"
+			tasks: [{
+				id: "101BF0C4610C3072"
+				item: "aquamirae:ship_graveyard_echo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["鮟鱇鱼掉落"]
+			disable_toast: true
+			id: "3BADF803652F9CF5"
+			tasks: [{
+				id: "6D9CD4BF61B74F9D"
+				item: "aquamirae:anglers_fang"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["大嘴鱼和鮟鱇鱼可掉落"]
+			disable_toast: true
+			id: "2F16EFC747D2D781"
+			tasks: [{
+				id: "4DD0DDD062A38E2B"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"冻洋的水会使你逐渐冻结，"
+				"你也许需要一套潜水服"
+			]
+			id: "30B4BF8BB1359982"
+			rewards: [{
+				id: "65DE49FE2C0B21D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "631AA2E7F4F5D118"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03E6FA0AA022BD61"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7B0B031968C893"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+							itemModifier: "modifiers:wild"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64136C1DA1F71BC1"]
+			description: [
+				"可以用于打开冰冻之箱。 "
+				" 击败船长BOSS掉落。"
+			]
+			id: "7ECA35C8F52354BE"
+			rewards: [{
+				count: 32
+				id: "488C9F3184AF48BE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "740AD61EFA9E2659"
+					item: "aquamirae:frozen_key"
+					type: "item"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: {
+						Count: 1b
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+							itemModifier: "modifiers:damaged"
+						}
+					}
+					id: "100038B98532F2DC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7ECA35C8F52354BE"]
+			description: [
+				"找到深藏于冰下的【避难所】，"
+				"那里面有冰冻宝箱，"
+				"但是有一只巨鳗守护着，你需要击败它。"
+				""
+				" 在冰面有一座大矿井，那里是避难所的入口"
+			]
+			icon: "aquamirae:frozen_chest"
+			id: "16FCCC5BDF6045E1"
+			rewards: [{
+				count: 2
+				id: "73A4ECC2F05877FC"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:frozen_chest"
+				id: "3D8BB113CD899791"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
+	title: "海灵物语"
+}

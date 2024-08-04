@@ -1,0 +1,116 @@
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.18.1
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.3, Azul Systems, Inc.
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: unknown
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Config File: D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\CustomSkinLoader.json
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.18.1
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 22
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: forceIgnoreHttpsCertificate : false
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2024-08-04 22:01:29] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2024-08-04 22:01:29] [Aaalicecao/INFO] [CustomSkinLoader Core]: Loading Aaalicecao's profile.
+[2024-08-04 22:01:29] [Aaalicecao/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-08-04 22:01:29] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-08-04 22:01:29] [Aaalicecao/INFO] [CustomSkinLoader Core]: Payload: ["Aaalicecao"]
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 76)
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "b23d6b6456a641d1a734109f719e4add",
+  "name" : "Aaalicecao"
+} ]
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/b23d6b6456a641d1a734109f719e4add'.
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 540)
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 540 , Path: 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\bf711916f38ab6301dcab3b477f15c73ef46d2e0' , Expire: 1722780120)
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "b23d6b6456a641d1a734109f719e4add",
+  "name" : "Aaalicecao",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyMjc4MDA5MTM2OSwKICAicHJvZmlsZUlkIiA6ICJiMjNkNmI2NDU2YTY0MWQxYTczNDEwOWY3MTllNGFkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBYWFsaWNlY2FvIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzOTRlZWQ4MTg5N2JhOWU1Y2IzODg0NTNjZGUwZjVlNmNiODkwM2E4NTAwYTNhNmRjMGJhNTNmZDFhMTYxNTIiCiAgICB9CiAgfQp9"
+  } ],
+  "profileActions" : [ ]
+}
+[2024-08-04 22:01:30] [Aaalicecao/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-08-04 22:01:30] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Aaalicecao.json'.
+[2024-08-04 22:01:31] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-08-04 22:01:31] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\968601bf71e2d93597912c2e28625ad8b2afbbf3' , Expire: 1722780184)
+[2024-08-04 22:01:31] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-08-04 22:01:31] [Aaalicecao/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-08-04 22:01:31] [Aaalicecao/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-08-04 22:01:31] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/Aaalicecao.json'.
+[2024-08-04 22:01:32] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-08-04 22:01:32] [Aaalicecao/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-08-04 22:01:32] [Aaalicecao/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-08-04 22:01:32] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/Aaalicecao'.
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 121)
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\8108ba26d36709cb586f1f5f8542fc8d8fa5af50' , Expire: 1722780187)
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/8394eed81897ba9e5cb388453cde0f5e6cb8903a8500a3a6dc0ba53fd1a16152"}}
+[2024-08-04 22:01:35] [Aaalicecao/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/Aaalicecao.json'.
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/Aaalicecao.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-08-04 22:01:35] [Aaalicecao/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-08-04 22:01:35] [Aaalicecao/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-08-04 22:01:35] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/Aaalicecao'.
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\b87648677c0d525af75e2cad9503b0835ff277bf' , Expire: 1722780190)
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/8394eed81897ba9e5cb388453cde0f5e6cb8903a8500a3a6dc0ba53fd1a16152"}}
+[2024-08-04 22:01:36] [Aaalicecao/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Aaalicecao'.
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-08-04 22:01:36] [Aaalicecao/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-08-04 22:01:36] [Aaalicecao/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-08-04 22:01:36] [Aaalicecao/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-08-04 22:01:36] [Aaalicecao/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-08-04 22:01:36] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/b23d6b6456a641d1a734109f719e4add'.
+[2024-08-04 22:01:37] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 304 , Content Length: -1)
+[2024-08-04 22:01:37] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 96 , Path: 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\a80765c7fe0d837a138f8025d11a55776956580b' , Expire: 0)
+[2024-08-04 22:01:37] [Aaalicecao/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\CustomSkinLoader\caches\a80765c7fe0d837a138f8025d11a55776956580b'.
+[2024-08-04 22:01:37] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-08-04 22:01:37] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"textures":{"cape":null,"ears":null}}
+[2024-08-04 22:01:37] [Aaalicecao/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-08-04 22:01:37] [Aaalicecao/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-08-04 22:01:37] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/Aaalicecao.png'.
+[2024-08-04 22:01:38] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-08-04 22:01:38] [Aaalicecao/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-08-04 22:01:38] [Aaalicecao/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-08-04 22:01:38] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2024-08-04 22:01:38] [Aaalicecao/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"b23d6b64-56a6-41d1-a734-109f719e4add"}
+[2024-08-04 22:01:39] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 502)
+[2024-08-04 22:01:39] [Aaalicecao/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-08-04 22:01:39] [Aaalicecao/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-08-04 22:01:39] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/Aaalicecao.png'.
+[2024-08-04 22:01:41] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-08-04 22:01:41] [Aaalicecao/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-08-04 22:01:41] [Aaalicecao/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-08-04 22:01:41] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/b23d6b64-56a6-41d1-a734-109f719e4add'.
+[2024-08-04 22:01:42] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-08-04 22:01:42] [Aaalicecao/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-08-04 22:01:42] [Aaalicecao/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-08-04 22:01:42] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=Aaalicecao&uuid=b23d6b64-56a6-41d1-a734-109f719e4add&nothirdparty'.
+[2024-08-04 22:01:43] [Aaalicecao/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 521)
+[2024-08-04 22:01:43] [Aaalicecao/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-08-04 22:01:43] [Aaalicecao/INFO] [CustomSkinLoader Core]: Aaalicecao's profile loaded.
+[2024-08-04 22:01:43] [Aaalicecao/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/8394eed81897ba9e5cb388453cde0f5e6cb8903a8500a3a6dc0ba53fd1a16152 , Model: default , CapeUrl: null  , Expiry: 1722780133)

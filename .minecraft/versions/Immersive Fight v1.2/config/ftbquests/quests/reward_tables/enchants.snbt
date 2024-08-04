@@ -1,0 +1,108 @@
+{
+	icon: "modifiers:modifier_book"
+	id: "0B6DC2DA92661E73"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:violent"
+				}
+			}
+			title: "暴力+4%攻速"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:quick"
+				}
+			}
+			title: "快速+4%速度"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:menacing"
+				}
+			}
+			title: "危险+4%伤害"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:warding"
+				}
+			}
+			title: "守护+1盔甲韧性"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:armored"
+				}
+			}
+			title: "武装+2护甲值"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:hearty"
+				}
+			}
+			title: "活力+2最大生命值"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:menacing"
+				}
+			}
+			title: "危险+4%伤害"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:heavy"
+				}
+			}
+			title: "沉重+20%伤害-15%攻速-5%速度"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:light"
+				}
+			}
+			title: "轻便+15%攻速-10%伤害"
+			weight: 2.0f
+		}
+	]
+	title: "普通武器品质"
+}

@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "item": "minecraft:potion",
+            "nbt": {
+                "Potion": "alexsmobs:long_soulsteal"
+            }
+        }
+        
+    ],
+    "tooltips": [
+        "§7窃取敌人的生命值"
+    ]
+}

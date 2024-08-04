@@ -1,0 +1,324 @@
+{
+  "epicfight:stone_greatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:gold_greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:runic_claymore":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:runic_halberd":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:runic_greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:runic_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:netherite_greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:iron_greatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:golden_greatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:diamond_greatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:netherite_greatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "wom:iron_greataxe":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "wom:golden_greataxe":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "wom:diamond_greataxe":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "wom:netherite_greataxe":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:cinderkingblade":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "soul_like_armors_reworked:sawblade":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "soul_like_armors_reworked:greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:iron_greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+   }
+],
+  "simplyswords:diamond_greathammer":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:slumbering_lichblade":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:waking_lichblade":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:awakened_lichblade":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:sunfire":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:harbinger":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+   }
+],
+  "simplyswords:waxweaver":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+   }
+],
+  "simplyswords:enigma":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+   }
+],
+  "soul_like_armors_reworked:crystaltrident":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:icewhisper":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+],
+  "simplyswords:arcanethyst":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:thunderbrand":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:platinumspsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:coral_bardiche":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:the_incinerator":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:stone_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:iron_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:golden_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:diamond_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "epicfight:netherite_spear":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:ornsteinspsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:lightningsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:moonkatana":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:darkmoongreatsword":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:longinustrident":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "simplyswords:flamewind":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "soul_like_armors_reworked:bloodtrident":[
+    {
+      "attribute": "puffish_attributes:player.resistance",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

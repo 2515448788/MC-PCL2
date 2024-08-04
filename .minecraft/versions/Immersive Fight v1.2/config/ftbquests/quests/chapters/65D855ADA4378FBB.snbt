@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65D855ADA4378FBB"
+	group: "645C652F9B0DFA16"
+	icon: {
+		Count: 1b
+		id: "minecraft:potion"
+		tag: {
+			Potion: "minecraft:healing"
+		}
+	}
+	id: "65D855ADA4378FBB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["药水现在可以堆叠16个"]
+			id: "36F1F3695A71C349"
+			tasks: [{
+				count: 16L
+				id: "128DB084C3CB4834"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "5D0D72BD019C296F"
+			tasks: [{
+				id: "1AA9535B8152F504"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: ["急迫增加攻速"]
+			id: "491DEDA283531221"
+			tasks: [{
+				id: "304E66F99521BEF7"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexscaves:strong_haste"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "3501796E8DB0DD14"
+			tasks: [{
+				id: "53D40B71360B8F28"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "1BAA90577C8AE8FC"
+			tasks: [{
+				id: "7E9B1254DA6E8CD5"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "50BE1B95F5553EBE"
+			tasks: [{
+				id: "740BC280185ECD33"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "02DDF4CF06D5B5DC"
+			tasks: [{
+				id: "3CC3767CAB19325E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "114F5D475DF1153C"
+			tasks: [{
+				id: "0F16AE94453F98CC"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexscaves:long_deepsight"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["攻击吸血"]
+			id: "7113BFACBAD92C79"
+			tasks: [{
+				id: "5A9B9EAB35F49AE3"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:strong_soulsteal"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "075F87CCEB335740"
+			tasks: [
+				{
+					id: "69D19C19873F21B2"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "60C5B4A061C8F043"
+					item: "friendsandfoes:totem_of_illusion"
+					type: "item"
+				}
+				{
+					id: "555DE267B6EC6794"
+					item: "born_in_chaos_v1:death_totem"
+					type: "item"
+				}
+				{
+					id: "684F629F85D6D758"
+					item: "friendsandfoes:totem_of_freezing"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"现在所有食物进食能直接"
+				"回复血量"
+			]
+			id: "513061AFBF7AB3C4"
+			tasks: [{
+				id: "52F8C642C920C326"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "常用药水"
+}

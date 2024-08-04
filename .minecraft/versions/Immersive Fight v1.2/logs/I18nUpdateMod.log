@@ -1,0 +1,11 @@
+[2024-08-04 22:24:55] [INFO]: I18nUpdate Mod 3.5.2 is loaded in 1.20.1 with Forge
+[2024-08-04 22:24:55] [DEBUG]: Minecraft path: D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2
+[2024-08-04 22:24:55] [DEBUG]: User home: C:\Users\Administrator
+[2024-08-04 22:24:55] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.19.3\Minecraft-Mod-Language-Modpack-1-19.zip has been updated recently.
+[2024-08-04 22:24:55] [DEBUG]: Already up to date.
+[2024-08-04 22:24:55] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.18.2\Minecraft-Mod-Language-Modpack-1-18.zip has been updated recently.
+[2024-08-04 22:24:55] [DEBUG]: Already up to date.
+[2024-08-04 22:24:55] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19.3\Minecraft-Mod-Language-Modpack-1-19.zip
+[2024-08-04 22:24:55] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18.2\Minecraft-Mod-Language-Modpack-1-18.zip
+[2024-08-04 22:24:56] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.19.3\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18.2\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-08-04 22:24:56] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> D:\MC-PCL2\.minecraft\versions\Immersive Fight v1.2\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip

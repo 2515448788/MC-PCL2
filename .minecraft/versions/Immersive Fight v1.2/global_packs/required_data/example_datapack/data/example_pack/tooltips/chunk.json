@@ -1,0 +1,10 @@
+
+{
+    "items": [
+        "chickenchunks:spot_loader"
+
+    ],
+    "tooltips": [
+        "§a只强加载所在的1个区块"
+    ]
+}

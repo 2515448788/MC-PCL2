@@ -1,0 +1,6 @@
+
+[Enchantato-Loot]
+	#If you enable this, the 'DisabledEnchantments' will become 'AllowedEnchantments'
+	InvertedMode = false
+	DisabledEnchantments = ["minecraft:binding_curse", "minecraft:unbreaking", "backpacked:repairman", "minecraft:mending", "alexsmobs:straddle_jump"]
+

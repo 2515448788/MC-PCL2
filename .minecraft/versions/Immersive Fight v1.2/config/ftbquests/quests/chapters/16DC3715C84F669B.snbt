@@ -1,0 +1,185 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16DC3715C84F669B"
+	group: "645C652F9B0DFA16"
+	icon: {
+		Count: 1b
+		id: "wom:agony"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "16DC3715C84F669B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "13F9048653F88B3A"
+			tasks: [{
+				id: "3ECA0C91AC4906F7"
+				item: {
+					Count: 1b
+					id: "wom:agony"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "1BC2BD0E4C9E3111"
+			tasks: [{
+				id: "22DDBD69847A58E2"
+				item: {
+					Count: 1b
+					id: "wom:tormented_mind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "0E06CB59B0D2367A"
+			tasks: [{
+				id: "2235119935CE11CF"
+				item: {
+					Count: 1b
+					id: "wom:ruine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "556F5AD4D78480B2"
+			tasks: [{
+				id: "5F5ACD23EBFBD3DF"
+				item: {
+					Count: 1b
+					id: "wom:ender_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "3AD66140A0781842"
+			tasks: [{
+				id: "1A48669AB6750D32"
+				item: {
+					Count: 1b
+					id: "wom:antitheus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "25F8C7A854A95BB5"
+			tasks: [{
+				id: "43D1DABB8FDE85CD"
+				item: {
+					Count: 1b
+					id: "wom:satsujin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["支配者与法则搭配才能发挥作用"]
+			id: "0ECAC2DC7916DDAE"
+			tasks: [{
+				id: "0297E7AC1E7D2794"
+				item: {
+					Count: 1b
+					id: "wom:herrscher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: ["支配者与法则搭配才能发挥作用"]
+			id: "06102E50916903A5"
+			tasks: [{
+				id: "30066452F98933B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "wom:gesetz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "0BD9C41782DF007F"
+			tasks: [{
+				id: "25A8EB795C1DFE85"
+				item: {
+					Count: 1b
+					id: "wom:moonless"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"模组添加了许多强力，"
+				"有复杂攻击动画的武器，"
+				"探索可以找到，也可以合成"
+			]
+			id: "42C9936525FB7845"
+			tasks: [{
+				id: "4AE13D6D487DF892"
+				title: "简介"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+	]
+	title: "奇迹武器"
+}

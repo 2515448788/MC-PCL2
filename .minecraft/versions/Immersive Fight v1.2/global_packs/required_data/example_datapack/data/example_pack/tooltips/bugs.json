@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "item": "minecraft:potion",
+            "nbt": {
+                "Potion": "betterend:end_veil"
+            }
+        }
+        
+    ],
+    "tooltips": [
+        "§7防止末影人对你产生敌意"
+    ]
+}

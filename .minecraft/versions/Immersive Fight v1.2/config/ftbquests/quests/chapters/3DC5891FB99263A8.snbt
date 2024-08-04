@@ -1,0 +1,919 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3DC5891FB99263A8"
+	group: "4E6BE2D374D7AE03"
+	icon: "betterend:eternal_crystal"
+	id: "3DC5891FB99263A8"
+	images: [{
+		click: "https://www.mcmod.cn/item/505402.html"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["基座摆放"]
+		image: "ftbteams:textures/alian.png"
+		rotation: 0.0d
+		width: 1.0503597122302157d
+		x: -1.0d
+		y: 1.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"独特的群系，"
+				"资源能制作更强力的装备"
+			]
+			id: "254E78FF4D7E1AD8"
+			tasks: [{
+				id: "1E3BBEF0D34CAF2A"
+				title: "探索收集资源"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			id: "715EA62A9AE5FA1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFACF82F52364B3"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58E06FB7DF8A2ADD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:aeternium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			id: "1E38D6BEC86AF7B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CEB2F296D1EC4C0"
+				table_id: 7474746035066092266L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0256078BEFF472B9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:crystalite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			id: "27729123585B6EE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "222BAE757CE79199"
+				table_id: 823528550893493875L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48D8E0DD03D1A870"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:terminite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			id: "04251AC10131401F"
+			tasks: [{
+				id: "170595BE6A9F3D94"
+				item: "betterend:end_stone_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04251AC10131401F"]
+			description: ["由终界铁锭与下界合金锭在末地石冶炼炉内进行合金制成。"]
+			id: "43C11812B830AC06"
+			tasks: [{
+				id: "2894313DAEFA46EC"
+				item: "betterend:aeternium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			description: [
+				"默认按键【N】为鞘翅上锁，"
+				"避免奔跑时误触"
+			]
+			id: "45BE48980E2C2479"
+			tasks: [{
+				id: "35BB8CC1BD343E37"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:elytra_crystalite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			description: [
+				"默认按键【N】为鞘翅上锁，"
+				"避免奔跑时误触"
+			]
+			id: "1FB789EB8BAE41B6"
+			tasks: [{
+				id: "6A7776216ED2F0FD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:elytra_armored"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43C11812B830AC06"]
+			id: "081D087B9E530820"
+			tasks: [{
+				id: "62491614F4A6648F"
+				item: {
+					Count: 1b
+					id: "betterend:aeternium_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43C11812B830AC06"]
+			id: "5DBD3AA5C918C3C6"
+			tasks: [{
+				id: "327518C44A766586"
+				item: {
+					Count: 1b
+					id: "betterend:aeternium_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04251AC10131401F"]
+			id: "12AB0EBFC604FBDC"
+			tasks: [{
+				id: "7D9410A275DAAA14"
+				item: {
+					Count: 1b
+					id: "betterend:terminite_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04251AC10131401F"]
+			id: "76B6C75D45340C50"
+			tasks: [{
+				id: "64E4B58CA0C2D8F4"
+				item: {
+					Count: 1b
+					id: "betterend:terminite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12AB0EBFC604FBDC"
+				"76B6C75D45340C50"
+			]
+			id: "198357FD64FD481C"
+			tasks: [{
+				id: "0F028656C45F6CED"
+				item: "betterend:terminite_forged_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"081D087B9E530820"
+				"5DBD3AA5C918C3C6"
+			]
+			id: "10C4095654CBEF76"
+			tasks: [{
+				id: "3A5AF00386A71405"
+				item: "betterend:aeternium_forged_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["254E78FF4D7E1AD8"]
+			description: [
+				"以灌注基底为中心，"
+				"周围一圈 按圆形摆8个任意材质基座"
+				"搭建多方块灌注祭坛"
+				"右键放上物品进行合成"
+			]
+			id: "21BC122D06353E5E"
+			tasks: [{
+				id: "17ECFB4B9FED1D33"
+				item: "betterend:infusion_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"因为信雅互联的BetterEnd模组，"
+				"JEI没有灌注台配方"
+				"列出几种灌注祭坛重要配方"
+				"更多资料可能需要自己去查"
+			]
+			id: "0DE2367D2631D04D"
+			tasks: [{
+				id: "2F5F97A035112213"
+				title: "合成配方查不到"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "21DCE8DDD1429147"
+			tasks: [{
+				id: "786854173A2153D8"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "27F9D0FE0E37EBBE"
+			tasks: [{
+				id: "54F1FBF7F1AD503D"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "063A0ED166E0FD01"
+			tasks: [{
+				id: "22AFBBE00124B4C3"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "2F5A91992A013C91"
+			tasks: [{
+				id: "1DF44A46821EACDD"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "7E2C093C0D4D4628"
+			tasks: [{
+				id: "51C7B50E2F1A6E01"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "7A4F4B400C10D37E"
+			tasks: [{
+				id: "2794EB732E97D787"
+				item: "betterend:ender_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "14071C864719ACEE"
+			tasks: [{
+				id: "705EA4FF422112F6"
+				item: "betterend:ender_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "1A934BB898007069"
+			tasks: [{
+				id: "541568E6A36887D0"
+				item: "betterend:ender_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "7CD720CEEF0D4093"
+			tasks: [{
+				id: "1B36022F0170F4DA"
+				item: "betterend:ender_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "38AD6284DF689258"
+			tasks: [{
+				id: "3C755C0660EF2847"
+				item: "betterend:eternal_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "46766F2398302C80"
+			tasks: [
+				{
+					id: "240ACB9888881E54"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "betterend:terminite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7979ADC0FC1AE843"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "betterend:terminite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "6F20C55DD714023E"
+			tasks: [{
+				id: "21EE36ACCC38F81C"
+				item: "betterend:amber_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "20F672F01DA2C09F"
+			tasks: [{
+				id: "503E77846157BFF3"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "028238EE14FDE7DB"
+			tasks: [{
+				id: "10993AAB846FFC42"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "775009631DB5EBD7"
+			tasks: [{
+				id: "0A0985A1D268E8E3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:terminite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "694A9BBA829D1773"
+			tasks: [{
+				id: "73B20CF843CA8CE2"
+				item: "betterend:amber_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "1D2CD6C0CB764AFB"
+			tasks: [{
+				id: "4727F443BD72431A"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "308AAF5D4FEDDA05"
+			tasks: [{
+				id: "352BD7F8584CCF6A"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "2ABD728BC21515CC"
+			tasks: [{
+				id: "5610B6F993F12D5E"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "2C97FC7F5A65EE72"
+			tasks: [{
+				id: "2BA77E01EF5822B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:terminite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "51CB1C75F3F7B2BC"
+			tasks: [{
+				id: "15E98209407DD956"
+				item: "betterend:amber_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "5D1FDBC84E3E7B5C"
+			tasks: [{
+				id: "2546B8CC156E86E6"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "2B49F327D4F352B8"
+			tasks: [{
+				id: "1B6D2C166327F828"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "6368AF520FE71D2B"
+			tasks: [{
+				id: "151FF3562DF017A7"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "0212BA28AF2AF9A9"
+			tasks: [{
+				id: "1857990AE4A14D3D"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "7476EADA91C4C7D6"
+			tasks: [{
+				id: "10B024072B76B916"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "367B4FCE8BD6DEBE"
+			tasks: [{
+				id: "3C372D0B9EC21D87"
+				item: "betterend:amber_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "03A60A810CADB1C9"
+			tasks: [{
+				id: "1DE2754B399B0669"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "41172B3CAF49FDDC"
+			tasks: [{
+				id: "790E17F9190B5506"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "59A25DB52BBAEA79"
+			tasks: [{
+				id: "07F939ECE44AF0F5"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "51664F271059127B"
+			tasks: [{
+				id: "0C7E6F0F69C823BA"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "17A10961F6F7DFDB"
+			tasks: [{
+				id: "5B9A3654257B291A"
+				item: "betterend:enchanted_membrane"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "71746D244E33DA50"
+			tasks: [{
+				id: "179AFE350C6CE223"
+				item: "betterend:enchanted_membrane"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "65FD24C88C9A2FCC"
+			tasks: [{
+				id: "28E4C387D8B893EA"
+				item: "betterend:enchanted_membrane"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "64182CB89B77DDC9"
+			tasks: [
+				{
+					id: "6901DB7B62EA623A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "betterend:crystalite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23020AD55ABA1580"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "betterend:crystalite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "329CF401CD8BEDC7"
+			tasks: [{
+				id: "2B58FAC9BA4E8A54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:crystalite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "5B40A346A40C7341"
+			tasks: [{
+				id: "7EF566C0FC5299E9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:crystalite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "352A726DCD7218F7"
+			tasks: [{
+				id: "5CD710A48F293CCF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "betterend:elytra_crystalite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "001AB72703DEEB47"
+			tasks: [{
+				id: "683A6F36F9DB0F61"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "539D2656B066A477"
+			tasks: [{
+				id: "60EC134E60D584E2"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "738A930A4227623B"
+			tasks: [{
+				id: "3E5A53AF7937F8C7"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "5F3E0CC5BBF0C244"
+			tasks: [{
+				id: "195AA29DB3E17811"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "01682239D398310D"
+			tasks: [{
+				id: "29A0F189F17CB261"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "700EFF46AE0A9E73"
+			tasks: [{
+				id: "7EA525E81EDB53CD"
+				item: "betterend:enchanted_membrane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+	]
+	title: "更好的末地"
+}

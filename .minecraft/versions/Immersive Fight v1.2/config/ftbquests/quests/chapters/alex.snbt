@@ -1,0 +1,1191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alex"
+	group: "4E6BE2D374D7AE03"
+	icon: "alexscaves:enigmatic_engine"
+	id: "34CAE2E23EB8C791"
+	images: [{
+		click: "https://www.mcmod.cn/item/773321.html"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["磁力采石场"]
+		image: "ftbteams:textures/alian.png"
+		rotation: 0.0d
+		width: 1.0503597122302157d
+		x: -6.5d
+		y: 2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在【地底小屋】（使用指针定位）"
+				"寻找或制作洞穴概论"
+				"这本书会指导你游玩"
+				""
+				"在洞穴勘探台上"
+				"破译出手稿，合成地图右键，等待地图加载，"
+				"它会告诉你洞穴所在位置[可配合探险指针使用]"
+				""
+				"破译有困难可以搜索"
+				"“标准银河字母”查找对应"
+			]
+			icon: "alexscaves:cave_book"
+			id: "4EEAFF19C3F5E712"
+			rewards: [
+				{
+					count: 3
+					id: "5402899609C23C58"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1941421791B7397B"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A56C8A5A73EAD8F"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "22A46E4C161320AC"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "720A416E50791029"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32A9CE43D50B0199"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "77A7B7CAD3B96047"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EEAFF19C3F5E712"]
+			description: [
+				"右键手稿可以为手册添加资料，"
+				"也能用来合成地图寻找洞穴"
+			]
+			id: "7DE92F529E293753"
+			rewards: [
+				{
+					id: "1103F2F110FF216C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "40EF819CC3FC6DE8"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D761AA0FDE7FBFA"
+					table_id: 7474746035066092266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "382D5C6DE9467899"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "原始洞穴"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EEAFF19C3F5E712"]
+			description: [
+				"右键手稿可以为手册添加资料，"
+				"也能用来合成地图寻找洞穴"
+			]
+			id: "07E3AC06A004D244"
+			rewards: [
+				{
+					id: "7BB6CE98E62598E5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "459ABFA4ACE908C7"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CEC9479D72EBAAF"
+					table_id: 7474746035066092266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29168C5088DF8586"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "深海陷窟"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EEAFF19C3F5E712"]
+			description: [
+				"右键手稿可以为手册添加资料，"
+				"也能用来合成地图寻找洞穴"
+			]
+			id: "6E515F67F2D34F6D"
+			rewards: [
+				{
+					id: "01C05F019A752C92"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "0A812F2B69BE5EB1"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1577C7AA8B147575"
+					table_id: 7474746035066092266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4759E59DE72FDCE7"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "毒化洞穴"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EEAFF19C3F5E712"]
+			description: [
+				"右键手稿可以为书添加资料，"
+				"也能用来合成地图寻找洞穴"
+			]
+			id: "18584D5090A05377"
+			rewards: [
+				{
+					id: "2D207D88F3486010"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "1CF66BF8849B1BB3"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EA34B5D32913F90"
+					table_id: 7474746035066092266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2610C539CFB30A5C"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "磁场洞穴"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EEAFF19C3F5E712"]
+			description: [
+				"右键手稿可以为手册添加资料，"
+				"也能用来合成地图寻找洞穴"
+			]
+			id: "2E278D947E1AE807"
+			rewards: [
+				{
+					id: "77B586688D85A27C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "2B414F69FEE90BA6"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A2C934C56044F79"
+					table_id: 7474746035066092266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "74FC9BB775B7EBD3"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			title: "异寂空谷"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29C761D7783CBC65"]
+			description: ["制作物品丢入火山口，召唤BOSS"]
+			id: "468614E6F174423D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA43F14D7EE4CCE"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0849C1D09CDCE421"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DE92F529E293753"]
+			description: ["在原始洞穴中找到火山"]
+			id: "29C761D7783CBC65"
+			tasks: [{
+				icon: "alexscaves:primal_magma"
+				id: "527A79B61040D805"
+				structure: "alexscaves:volcano"
+				title: "找到地底火山"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE92F529E293753"]
+			description: ["根据所处生物群系，生成当前生物群系中会生成的生物。"]
+			id: "2828E3CF91B5DA38"
+			tasks: [{
+				id: "02227E4EFCA88E34"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["468614E6F174423D"]
+			description: [""]
+			id: "68CFEBE75D97F047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "169D440969759C46"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A094F7F832F0BAC"
+				item: {
+					Count: 1b
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["468614E6F174423D"]
+			description: [
+				"击败BOSS后，擎天龙会自然生成在洞穴内，"
+				"使用幽静沙拉驯服"
+			]
+			id: "65953C67B9A1E65B"
+			tasks: [{
+				id: "4F99BD953429F864"
+				item: "alexscaves:serene_salad"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468614E6F174423D"]
+			description: [
+				"除了合成物品外，"
+				"还可以右键恐龙为他们切换余烬皮肤"
+			]
+			id: "69C40C986D3605EB"
+			tasks: [{
+				id: "297A6BC613612892"
+				item: "alexscaves:tectonic_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07E3AC06A004D244"]
+			description: ["击败碎船兽"]
+			id: "2C901CCBE955CF5B"
+			tasks: [{
+				id: "018B96DD181A2228"
+				item: "alexscaves:immortal_embryo"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DE92F529E293753"]
+			description: [
+				"给两只已驯服的撼地龙喂食恐龙肉骨"
+				"可以使它们繁殖并产下撼地龙蛋。"
+				""
+				"需要精准采集"
+			]
+			id: "79FC1B92E721809E"
+			tasks: [{
+				id: "33EC993EFD6295D8"
+				item: "alexscaves:tremorsaurus_egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"79FC1B92E721809E"
+				"69C40C986D3605EB"
+				"2C901CCBE955CF5B"
+				"0948A7F966DC8393"
+				"7A4F220D77F1661A"
+			]
+			description: [
+				"使用上方三种材料合成"
+				"需要核爆进行孵化"
+			]
+			id: "69604F82A383ED9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79E23331354D8FE0"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1743D11DCF69D21B"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E515F67F2D34F6D"]
+			id: "06C1EE0C9FBB78E5"
+			tasks: [{
+				id: "386CB18D50BDCC25"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06C1EE0C9FBB78E5"]
+			id: "4DBBA4C03ACB9482"
+			tasks: [
+				{
+					id: "7DBEEC448E223DD6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40FD624DF2C2F9CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+							itemModifier: "modifiers:brisk"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F637DD07485DF64"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40DFA12F48E7C4A4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06C1EE0C9FBB78E5"]
+			id: "706A8C579F16E335"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B63C79FD1E4DEFC"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3938139FB0AE1537"
+				item: {
+					Count: 1b
+					id: "alexscaves:raygun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06C1EE0C9FBB78E5"]
+			description: [
+				"手持并右键点击一个爆炸物（如TNT，核弹）与其绑定，"
+				"之后右键点击方块或空气可以将之前绑定的爆炸物引爆。"
+			]
+			id: "29022F24511468D2"
+			tasks: [{
+				id: "206A0499E3C43E8E"
+				item: "alexscaves:remote_detonator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29022F24511468D2"]
+			description: [
+				"可以使用打火石点燃（你不会想这么做的）"
+				""
+				"点燃核弹之后玩家可以坐在上面等待爆炸，随后消失在巨大的蘑菇云中。"
+				"玩家会取得进度[我们很快再次相见]。"
+				""
+				"如果你后悔了点燃核弹，使用剪刀右击点燃的核弹就可以取消爆炸，并且核弹会变为物品形式，同时玩家取得进度[剪断红线]。"
+			]
+			id: "0948A7F966DC8393"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423DADE241A92966"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76F80A91FAE8AA52"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E515F67F2D34F6D"]
+			description: ["击杀核能苦力怕概率掉落。"]
+			id: "147BB7DB9AFF0D6B"
+			tasks: [{
+				id: "6C75F3876B151BC6"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E515F67F2D34F6D"]
+			description: ["也可作为撼地斯拉的食物"]
+			id: "7A4F220D77F1661A"
+			tasks: [{
+				id: "56093606C09D87B6"
+				item: "alexscaves:waste_drum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07E3AC06A004D244"]
+			description: [
+				"与深潜者骑士交易概率获取。"
+				"手持螺纹长枪，长按右键蓄力，之后松开右键可以向前发射水浪并突进一段距离"
+			]
+			id: "5E2EE4E941F39FB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EB9E639738928A0"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "457D00B69B64692F"
+				item: {
+					Count: 1b
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07E3AC06A004D244"]
+			description: [
+				"可以使用渊海祭坛与深潜者骑士进行交易获取。"
+				"右键使用后可以随机召唤一大群深潜者为你战斗"
+			]
+			id: "1EB2335F27A8AE1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DD23EDABD1AC93B"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36EEA515F5E34F76"
+				item: {
+					Count: 1b
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07E3AC06A004D244"]
+			description: [
+				"与深潜者法师交易小概率获取。"
+				"手持海洋法杖右键点击，可以向前发射能追踪生物的水箭"
+			]
+			id: "18BA406DAA899248"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B078D7C1B98936A"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C952D9E710DA66F"
+				item: {
+					Count: 1b
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07E3AC06A004D244"]
+			description: [
+				"在渊海陷窟中生成的溺尸有概率穿有潜水套装，击杀获取"
+				"渊海陷窟中的战利品箱可能会有满耐久的潜水套装部件。"
+				""
+				"头盔可以在出水时提供40秒的水下呼吸，"
+				"胸甲提供盔甲韧性，"
+				"护腿可以加快玩家的游泳速度，"
+				"靴子可以使玩家不受海底淤泥的减速影响。"
+			]
+			id: "1DC6D68D57E0A1B3"
+			tasks: [
+				{
+					id: "71B8B581C1DAD55F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34D92D13254639FF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52DA84EB2FF269FE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "401BD0277B03663F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			description: [
+				"需要装在副手，主手持任意铁磁性物品，"
+				"之后长按右键可以使用磁力控制主手的物品来进行远程操作，"
+				"在无附魔的情况下最大触及距离30，可以通过附魔来增加触及范围。"
+			]
+			id: "0B81D53BA0BD85A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D80229E9D0FE84F"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BBF3A743DCE116B"
+				item: {
+					Count: 1b
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			description: [
+				"手持阻尼盾牌长按右键可以使用并格挡正前方的物理攻击，"
+				"格挡时会向周围放出电流，电击生物造成持续伤害。"
+				""
+				"拥有两种模式，手持阻尼盾牌潜行右击可以切换模式。"
+				""
+				"第一种模式下格挡会发出蓝色电流，对生物持续造成2点伤害并击退。"
+				""
+				"第二种模式下格挡会发出红色电流，对生物持续造成2点伤害并将生物向玩家牵引。"
+			]
+			id: "701E207C3CECBF4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD251111906F22F"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60D167B96A28F840"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			id: "5035165C14D78ADF"
+			tasks: [{
+				id: "6B312272EBC41D74"
+				item: "alexscaves:magnetic_light"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			id: "4BD389120CAB3465"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CE2D67BE8024E5E"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C13D631B9196AF6"
+				item: "alexscaves:quarry"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			id: "7B19E4930EB7B79D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "059D535E0EA69F83"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "437CF4A0A5AEAEA7"
+				item: "alexscaves:quarry_smasher"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7B19E4930EB7B79D"
+				"5035165C14D78ADF"
+				"4BD389120CAB3465"
+			]
+			description: [
+				""
+				"使用一个磁力采石场、一个磁力采石场粉碎器和四个磁力灯搭建。搭建后，可以采集一定范围内的可破坏的所有方块。"
+			]
+			id: "3368F01EF6FAD910"
+			tasks: [{
+				id: "311D78F624F0DF13"
+				title: "搭建采石场"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0005B9F7B51A3B4D"]
+			description: [
+				"类似摄像头，手持神秘宝珠右键绑定窥探器，"
+				"使用绑定的神秘宝珠可调用窥探器的视角。"
+			]
+			id: "4543CCDCAABB4CD4"
+			tasks: [{
+				id: "7EE1AF083B986C87"
+				item: "alexscaves:beholder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5966D8B90611A20D"]
+			description: ["射出去的箭会变为箭雨从玩家准星所看向的地方落下"]
+			id: "459B39B24E2B9708"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3452DD8BF2F605EB"
+				table_id: 7474746035066092266L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "329EA0F2B63C3FA9"
+				item: {
+					Count: 1b
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E278D947E1AE807"]
+			description: [
+				"地底异教徒有2.5%的概率掉落（受抢夺影响）。"
+				""
+				"在攻击后会召唤一个幻影匕首，幻影匕首会锁定被攻击的对象，短暂蓄力后造成2点魔法伤害，每次攻击只能锁定一个目标。"
+			]
+			id: "49C78BA0BA6FD7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "576A6E1645794D87"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38F5F5014D4899E1"
+				item: {
+					Count: 1b
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5966D8B90611A20D"
+				"0005B9F7B51A3B4D"
+			]
+			description: [
+				"同时装备时，会出现一个充能进度条，同时会不断充能。"
+				"当充能进度条蓄满时在黑暗处按下特殊能力键，"
+				"可以使玩家进入10秒的黑暗化身状态。"
+				"可通过食用暗染苹果延长黑暗化身状态的时间。"
+			]
+			id: "297B9B729D3AF68E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FC6FC709A5FDBA7"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "309AF6B5172EC260"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "497790A38CA408FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E278D947E1AE807"]
+			id: "5966D8B90611A20D"
+			tasks: [{
+				id: "4F6D0AD28B439F8D"
+				item: "alexscaves:shadow_silk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E278D947E1AE807"]
+			description: [
+				"击杀窥心者(由地底异教徒举行仪式献祭幽暗蛾后生成)概率掉落。"
+				""
+				"也有极小概率可以在异寂空谷的战利品箱中取得。"
+			]
+			id: "0005B9F7B51A3B4D"
+			tasks: [{
+				id: "738EDD6473AC03C1"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18584D5090A05377"]
+			description: ["可以射出击退敌人的脉冲"]
+			id: "4672D1CB3F654DA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "473F44D75B8BDA1E"
+				table_id: 7474746035066092266L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2A94CBA192AAFB82"
+				item: {
+					Count: 1b
+					id: "alexscaves_torpedoes:pulsargun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C40C986D3605EB"]
+			id: "1574A4E3D1F53D45"
+			tasks: [
+				{
+					id: "29B304391B5F6438"
+					item: {
+						Count: 1b
+						id: "alexscaves_torpedoes:tectonic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BB1E8669493DBF8"
+					item: {
+						Count: 1b
+						id: "alexscaves_torpedoes:tectonic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60C000FBE80354C4"
+					item: {
+						Count: 1b
+						id: "alexscaves_torpedoes:tectonic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F7BD0C5921F095C"
+					item: {
+						Count: 1b
+						id: "alexscaves_torpedoes:tectonic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+	]
+	title: "Alex洞穴"
+}

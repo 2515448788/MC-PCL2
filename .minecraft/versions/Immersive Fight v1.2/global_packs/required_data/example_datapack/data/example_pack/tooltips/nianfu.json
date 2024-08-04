@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "item": "minecraft:potion",
+            "nbt": {
+                "Potion": "alexsmobs:long_clinging"
+            }
+        }
+        
+    ],
+    "tooltips": [
+        "§7使玩家可以攀爬天花板"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "aquamirae:terrible_sword":[
+    {
+      "attribute": "obscure_api:critical_damage",
+      "modify": -3.5,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:bow":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "minecraft:crossbow":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "alexscaves:dreadbow":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "cataclysm:wither_assault_shoulder_weapon":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "cataclysm:void_assault_shoulder_weapon":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "cataclysm:laser_gatling":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "legendary_monsters:sand_cannon":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "legendary_monsters:chorus_cannon":[
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ]
+}

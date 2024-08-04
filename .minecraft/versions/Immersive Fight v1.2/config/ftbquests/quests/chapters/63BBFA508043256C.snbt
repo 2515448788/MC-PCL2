@@ -1,0 +1,506 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63BBFA508043256C"
+	group: "4E6BE2D374D7AE03"
+	icon: "graveyard:corruption"
+	id: "63BBFA508043256C"
+	images: [{
+		click: "https://www.mcmod.cn/item/777374.html"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["BOSS信息"]
+		image: "ftbteams:textures/alian.png"
+		rotation: 0.0d
+		width: 1.0503597122302157d
+		x: -1.0d
+		y: 1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C9FFB54285F5DEC"]
+			description: [
+				"当你在死者巨树下发现吊死的村民"
+				"在夜晚，你可以用精华和他交易"
+			]
+			id: "1FCE04F92A672815"
+			tasks: [{
+				disable_toast: true
+				id: "023CEBAAD6AF5CEA"
+				item: "graveyard:corruption"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C9840A9A4B66A7A"]
+			description: ["位于遗迹（哨塔样式）的楼顶"]
+			id: "2AB5AB0927F79E1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5095F38F1BA3832B"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0379BB5E56226F2C"
+				item: "graveyard:upper_bone_staff"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C9840A9A4B66A7A"]
+			description: ["位于遗迹（祭祀场地样式）"]
+			id: "37C00736B1A3CC1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "320C04AA8CA0CEE6"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C07159145055AE5"
+				item: "graveyard:middle_bone_staff"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C9840A9A4B66A7A"]
+			description: ["位于遗迹(营地样式)"]
+			id: "209C0EF3222A654D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15B02AE181DF9667"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A0656B4349179EA"
+				item: "graveyard:lower_bone_staff"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2AB5AB0927F79E1A"
+				"209C0EF3222A654D"
+				"37C00736B1A3CC1E"
+				"43CC8817353C4FBB"
+			]
+			description: [
+				"前往巫妖监狱"
+				"在祭坛前的碎裂深石中心"
+				"按顺序摆放三个骨杖残片"
+				"用满的血瓶右键祭坛进行召唤"
+				"（夜晚才能召唤）"
+			]
+			id: "09533044DDCF5325"
+			tasks: [{
+				id: "2007DBAE65A1558B"
+				structure: "graveyard:lich_prison"
+				type: "structure"
+			}]
+			title: "前往【墓园】巫妖监狱"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			description: ["副手持玻璃瓶，使用骨匕击杀村民收集血液"]
+			icon: {
+				Count: 1b
+				id: "graveyard:vial_of_blood"
+				tag: {
+					Blood: 0.8000001f
+				}
+			}
+			id: "43CC8817353C4FBB"
+			tasks: [
+				{
+					id: "185DF8186A4315C7"
+					item: {
+						Count: 1b
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2900A20ABF65928E"
+					item: {
+						Count: 1b
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8000001f
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "血瓶"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4136241D57627B10"]
+			description: ["尝试制作梦魇装备，可以得到额外buff"]
+			id: "2F3C1957C0EFA86F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "072AF575E7C8BF88"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "01D75E75AE9B85A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50C36B9BF2D5B229"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15E0DB6DF9691C4B"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F3D52C08F506C89"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F8B68467A5027A5"]
+			description: [
+				"当你持有该图腾死亡时，图腾会消耗使你免于一死，"
+				"并给予你生命恢复V，力量III和魔力衰弱减II效果。"
+				""
+				"同时会使你的饥饿值降到1点"
+			]
+			id: "1FB5B21F37ACA015"
+			tasks: [{
+				id: "37CB986D4D60BABC"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4136241D57627B10"]
+			description: ["可以将下界合金装备升级成更强力的装备"]
+			id: "2D859D2D9A029501"
+			tasks: [{
+				id: "1C7670E706BC9FAD"
+				item: "born_in_chaos_v1:dark_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: ["可以制作各种武器装备"]
+			id: "4136241D57627B10"
+			tasks: [{
+				id: "5B642E47DDF67A3D"
+				item: "born_in_chaos_v1:dark_metal_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F8B68467A5027A5"]
+			description: [
+				"破坏&a恶魔南瓜&r，"
+				"召唤南瓜伯爵"
+			]
+			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+			id: "2776F3024124F131"
+			rewards: [{
+				id: "47244BA1A0BB5D04"
+				item: "born_in_chaos_v1:infernal_evil_pumpkin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "48D36F569F67946D"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "084F30CF441E2E40"
+					item: "born_in_chaos_v1:nightmare_claw"
+					type: "item"
+				}
+				{
+					id: "6DABAE7CC754140B"
+					item: "born_in_chaos_v1:sea_terror_eye"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "2F8B68467A5027A5"
+			tasks: [{
+				id: "2BC085104D025BBF"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2776F3024124F131"]
+			description: [
+				"邪恶南瓜由【施肥南瓜】雕刻得到，"
+				"然后将它合成为恶魔南瓜，"
+				"放置地面使用转换剂右键，"
+				"召唤BOSS南瓜领主"
+			]
+			id: "63384A60FA5F6F72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05EE28FF72D908BB"
+				table_id: 7474746035066092266L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1C22D192882B9092"
+					item: "born_in_chaos_v1:cultivated_pumpkin"
+					type: "item"
+				}
+				{
+					id: "16083684F508B332"
+					item: "born_in_chaos_v1:evil_carved_pumpkin"
+					type: "item"
+				}
+				{
+					id: "70380243FEB813FA"
+					item: "born_in_chaos_v1:infernal_evil_pumpkin"
+					type: "item"
+				}
+				{
+					id: "110FC925843E6772"
+					item: "born_in_chaos_v1:transmuting_elixir"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D859D2D9A029501"]
+			id: "63FBBFB5ACEE07B6"
+			tasks: [
+				{
+					id: "36257A57682FD3E1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B81287C321A7E97"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62AB6ACD4C19D0CE"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:spiked"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B8ADF5DE9AD2D24"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60108F79D82B6B2F"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:sluggish"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06B58736B0E32438"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:darkwarblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"刺壳蟹掉落"
+				"刺壳蟹：海岸生成"
+			]
+			id: "114DBE54D94F4A79"
+			tasks: [{
+				id: "50896D876C11CFA1"
+				item: "born_in_chaos_v1:spiny_shell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["114DBE54D94F4A79"]
+			id: "7B54FD4CAF938F04"
+			tasks: [
+				{
+					id: "59A81CB937C97474"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:spiny_shell_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "446B43AE6F962D0E"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:spiny_shell_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69C5EDBA439329AE"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:shell_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"埋藏着骨杖碎片的遗迹，"
+				"生成于森林群系，分为旧哨塔、血祀坑和破败营地三个变种。"
+			]
+			id: "3C9840A9A4B66A7A"
+			tasks: [{
+				id: "4197BB3C31B30F7F"
+				structure: "graveyard:ruins"
+				title: "找到【墓园】遗迹"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "4C9FFB54285F5DEC"
+			tasks: [{
+				id: "1D618A19CA22CFA2"
+				structure: "graveyard:dead_tree"
+				title: "找到【墓园】吊死树"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "墓园＆生于混沌"
+}

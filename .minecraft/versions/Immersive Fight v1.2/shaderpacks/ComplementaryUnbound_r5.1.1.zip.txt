@@ -1,0 +1,2 @@
+#Sun Aug 04 18:39:55 CST 2024
+shadowDistance=128.0
