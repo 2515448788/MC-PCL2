@@ -1,14 +1,14 @@
-[2024-08-04 18:39:31] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
-[2024-08-04 18:39:31] [DEBUG]: Minecraft path: D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
-[2024-08-04 18:39:31] [DEBUG]: User home: C:\Users\Administrator
-[2024-08-04 18:39:31] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip has been updated recently.
-[2024-08-04 18:39:31] [DEBUG]: Already up to date.
-[2024-08-04 18:39:31] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip has been updated recently.
-[2024-08-04 18:39:31] [DEBUG]: Already up to date.
-[2024-08-04 18:39:31] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip md5: 8557C8C364FADD718FC3301D80E98B3D, remote md5: 8557C8C364FADD718FC3301D80E98B3D
-[2024-08-04 18:39:31] [DEBUG]: Already up to date.
-[2024-08-04 18:39:31] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2024-08-04 18:39:31] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2024-08-04 18:39:32] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
-[2024-08-04 18:39:32] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
-[2024-08-04 18:39:32] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-08-05 21:45:31] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
+[2024-08-05 21:45:31] [DEBUG]: Minecraft path: D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
+[2024-08-05 21:45:31] [DEBUG]: User home: C:\Users\Administrator
+[2024-08-05 21:45:31] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip has been updated recently.
+[2024-08-05 21:45:31] [DEBUG]: Already up to date.
+[2024-08-05 21:45:31] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: 9AE217BBD199FEAD9D7AE008D78B2917, remote md5: 9AE217BBD199FEAD9D7AE008D78B2917
+[2024-08-05 21:45:31] [DEBUG]: Already up to date.
+[2024-08-05 21:45:31] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip md5: 8557C8C364FADD718FC3301D80E98B3D, remote md5: 8557C8C364FADD718FC3301D80E98B3D
+[2024-08-05 21:45:31] [DEBUG]: Already up to date.
+[2024-08-05 21:45:31] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
+[2024-08-05 21:45:31] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2024-08-05 21:45:31] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
+[2024-08-05 21:45:32] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-08-05 21:45:32] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip

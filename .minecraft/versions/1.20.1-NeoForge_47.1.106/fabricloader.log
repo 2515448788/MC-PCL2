@@ -1,3 +1,9 @@
-[11:27:11] [WARN] [FabricLoader/Resolution]: Warnings were found!
- - §Emod 'Alloy Forgery' (alloy_forgery)§r 2.1.2+1.20 recommends version 12.0.0 or later of §6roughlyenoughitems§r, which is missing!
-	 - You should install version 12.0.0 or later of §6roughlyenoughitems§r for the optimal experience.
+[21:45:34] [WARN] [FabricLoader/Resolution]: Warnings were found!
+ - §Emod 'Chat Patches' (chatpatches)§r 201.5.6 recommends any version of §6menulogue§r, which is missing!
+	 - You should install any version of §6menulogue§r for the optimal experience.
+ - §Emod 'SimplySkills' (simplyskills)§r 1.5.0+1.20.1 recommends version 1.0.2+1.20.1 or later of §6paladins§r, which is missing!
+	 - You should install version 1.0.2+1.20.1 or later of §6paladins§r for the optimal experience.
+ - §Emod 'SimplySkills' (simplyskills)§r 1.5.0+1.20.1 recommends version 1.4.2+1.20.1 or later of §6amethyst_core§r, which is missing!
+	 - You should install version 1.4.2+1.20.1 or later of §6amethyst_core§r for the optimal experience.
+ - §Emod 'Spell Engine' (spell_engine)§r 0.15.8+1.20.1 recommends any version of §6trinkets§r, which is missing!
+	 - You should install any version of §6trinkets§r for the optimal experience.
