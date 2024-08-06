@@ -1,3 +1,23 @@
 {
-  "container.apotheosis.fletching_table": "§r§fFletching"
+  "container.apotheosis.fletching_table": "§r§fFletching",
+  "button.apotheosis.augmenting.upgrade.cost": "Cost: %sx %s",
+  "text.apotheosis.upgraded_form": "Upgraded Form",
+  "text.apotheosis.potential_rerolls": "Potential Rerolls",
+  "item.apotheosis.sigil_of_withdrawal.desc": "Removes all socketed gems from an item",
+  "item.apotheosis.sigil_of_unnaming.desc": "Removes the affixed name from an item",
+  "item.apotheosis.sigil_of_socketing.desc": "Adds one socket to an item",
+  "button.apotheosis.augmenting.max_level": "Already Max Level",
+  "button.apotheosis.augmenting.upgrade": "Upgrade Selected Affix",
+  "item.apotheosis.sigil_of_rebirth": "Sigil of Rebirth",
+  "item.apotheosis.sigil_of_unnaming": "Sigil of Unnaming",
+  "item.apotheosis.sigil_of_rebirth.desc": "Used to fuel the Reforging Table",
+  "text.apotheosis.alternative_page": "Page %s/%s (scroll to change)",
+  "button.apotheosis.augmenting.no_selection": "No Affix Selected",
+  "item.apotheosis.gem_fused_slate": "Gem-Fused Slate",
+  "item.apotheosis.sigil_of_withdrawal": "Sigil of Withdrawal",
+  "button.apotheosis.augmenting.reroll": "Reroll Selected Affix",
+  "item.apotheosis.sigil_of_enhancement.desc": "Used to fuel the Augmentation Table",
+  "block.apotheosis.augmenting_table.desc": "Uses Sigils of Enhancement to augment individual affixes",
+  "button.apotheosis.augmenting.no_alternatives": "No Alternative Affixes",
+  "block.apotheosis.augmenting_table": "Augmenting Table"
 }

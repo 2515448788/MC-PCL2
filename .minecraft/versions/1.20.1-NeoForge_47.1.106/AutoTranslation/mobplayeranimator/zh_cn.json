@@ -1,0 +1,12 @@
+{
+  "entity_model_features.config.variable_explanation.mobplayeranimator.is_playeranimator_animation_active": "如果实体有激活的 Player Animator 动画",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models": "EMF 力普通模型",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist.@Tooltip": "对于这些实体，将它们列入黑名单，以免在 Player Animator 动画处于活动状态时停止其 EMF 动画",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models.@Tooltip": "对于这些实体，当 Player Animator 动画处于活动状态时，强制 EMF 使用其普通模型而不是停止其动画",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist": "EMF 动画暂停动画黑名单",
+  "text.autoconfig.mobplayeranimator.title": "怪物玩家动画师",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled": "EMF 动画停止",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist.@Tooltip": "对于这些 Player Animator 动画，将它们列入黑名单，以免仅在它们处于活动状态时导致 EMF 动画停止。",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled.@Tooltip": "当 Player Animator 动画处于活动状态时，停止播放实体模型功能动画",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist": "EMF 动画停止黑名单"
+}

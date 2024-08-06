@@ -1,0 +1,10 @@
+{
+  "toast.puffish_skills.missing_config.description": "No skill trees provided, make sure to add one.",
+  "command.puffish_skills.open.success.single": "Opened skills screen for %s",
+  "command.puffish_skills.open.success.multiple": "Opened skills screen for %s players",
+  "command.puffish_skills.skills.lock.success.single": "Locked %s skill in category %s for %s",
+  "command.puffish_skills.skills.lock.success.multiple": "Locked %s skill in category %s for %s players",
+  "command.puffish_skills.no_experience": "Experience is not enabled for this category",
+  "command.puffish_skills.category.open.success.multiple": "Opened category %s screen for %s players",
+  "command.puffish_skills.category.open.success.single": "Opened category %s screen for %s"
+}

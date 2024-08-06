@@ -1,0 +1,5 @@
+{
+  "text.chatpatches.desc.chatHidePacket": "Should hide message packets that delete chat messages be ignored?",
+  "modmenu.descriptionTranslation.chatpatches": "A versatile client-side chat mod that makes chat more customizable, check out the config and the GitHub page for more info!\nJoin the Discord at https://discord.gg/3MqBvNEyMz!",
+  "text.chatpatches.chatHidePacket": "Ignore hide message packet"
+}

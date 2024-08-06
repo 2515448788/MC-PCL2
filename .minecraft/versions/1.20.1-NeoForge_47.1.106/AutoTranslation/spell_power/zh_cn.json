@@ -1,0 +1,18 @@
+{
+  "attribute.name.spell_power.air": "空气法术强度",
+  "attribute.name.spell_power.nature": "自然法术强度",
+  "effect.spell_power.shadow": "暗影之力",
+  "attribute.name.spell_power.holy": "圣咒力量",
+  "effect.spell_power.unholy": "邪恶力量",
+  "attribute.name.spell_power.blood": "血系法术力量",
+  "effect.spell_power.air": "空中力量",
+  "attribute.name.spell_power.unholy": "邪恶法术力量",
+  "effect.spell_power.nature": "自然之力",
+  "effect.spell_power.holy": "神圣力量",
+  "effect.spell_power.earth": "大地之力",
+  "effect.spell_power.blood": "血力",
+  "attribute.name.spell_power.water": "水系法术力量",
+  "attribute.name.spell_power.earth": "土系法术强度",
+  "attribute.name.spell_power.shadow": "暗影法术强度",
+  "effect.spell_power.water": "水动力"
+}

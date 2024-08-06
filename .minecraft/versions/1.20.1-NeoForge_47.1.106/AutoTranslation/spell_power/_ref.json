@@ -1,0 +1,18 @@
+{
+  "attribute.name.spell_power.air": "Air Spell Power",
+  "attribute.name.spell_power.nature": "Nature Spell Power",
+  "effect.spell_power.shadow": "Shadow Power",
+  "attribute.name.spell_power.holy": "Holy Spell Power",
+  "effect.spell_power.unholy": "Unholy Power",
+  "attribute.name.spell_power.blood": "Blood Spell Power",
+  "effect.spell_power.air": "Air Power",
+  "attribute.name.spell_power.unholy": "Unholy Spell Power",
+  "effect.spell_power.nature": "Nature Power",
+  "effect.spell_power.holy": "Holy Power",
+  "effect.spell_power.earth": "Earth Power",
+  "effect.spell_power.blood": "Blood Power",
+  "attribute.name.spell_power.water": "Water Spell Power",
+  "attribute.name.spell_power.earth": "Earth Spell Power",
+  "attribute.name.spell_power.shadow": "Shadow Spell Power",
+  "effect.spell_power.water": "Water Power"
+}

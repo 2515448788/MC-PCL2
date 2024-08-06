@@ -1,0 +1,4 @@
+{
+  "config.entity_texture_features.transparent_skins_extra.tooltip": "Tweaks the vanilla skin transparency code to make it not affect all the extra pixels that aren\u0027t actually used in your skin\nThis allows transparency in these extra pixels without affecting the vanilla skin behaviour\nVery useful for custom player models",
+  "config.entity_texture_features.transparent_skins_extra.title": "Better vanilla skin transparency"
+}

@@ -1,0 +1,10 @@
+{
+  "toast.puffish_skills.missing_config.description": "没有提供技能树，请务必添加一棵。",
+  "command.puffish_skills.open.success.single": "打开 %s 的技能屏幕",
+  "command.puffish_skills.open.success.multiple": "已为 %s 玩家打开技能屏幕",
+  "command.puffish_skills.skills.lock.success.single": "已为 %s 的类别 %s 锁定 %s 技能",
+  "command.puffish_skills.skills.lock.success.multiple": "已为 %s 名玩家锁定类别 %s 中的 %s 技能",
+  "command.puffish_skills.no_experience": "此类别未启用体验",
+  "command.puffish_skills.category.open.success.multiple": "已为 %s 名玩家打开类别 %s 屏幕",
+  "command.puffish_skills.category.open.success.single": "已打开 %s 的类别 %s 屏幕"
+}

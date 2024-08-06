@@ -1,0 +1,18 @@
+{
+  "generator.bclib.large": "Large \u0026 BetterX",
+  "bclib.updates.download_link": "Download",
+  "tooltip.bclib.place_underwater_depth": "min. depth: %s",
+  "title.screen.bclib.worldgen.nether_biome_size": "Biome Size",
+  "generator.bclib.amplified": "Ampl. \u0026 BetterX",
+  "title.screen.bclib.worldgen.nether_vertical_biome_size": "Biome Height",
+  "title.config.bclib.client.ui.preferModrinthForUpdates": "Prefere Modrinth for Updates",
+  "tooltip.bclib.place_underwater": "Survives under water",
+  "tooltip.bclib.pottable_on": "Pottable on: %s",
+  "title.screen.bclib.worldgen.nether_vertical": "Generate vertical Biomes",
+  "title.screen.bclib.worldgen.nether_amplified": "Double the Nether Height (Amplified)",
+  "title.config.bclib.main.infos.verbose": "Verbose Logging",
+  "title.config.bclib.client.infos.survives_on_hint": "Show \u0027Survives On\u0027 hint as Tooltip",
+  "title.screen.bclib.worldgen.custom_nether_biome_source": "Use Custom Nether Biome Source",
+  "tooltip.bclib.place_underwater_on": "Survives under water on: %s",
+  "title.screen.bclib.worldgen.custom_end_biome_source": "Use Custom End Biome Source"
+}

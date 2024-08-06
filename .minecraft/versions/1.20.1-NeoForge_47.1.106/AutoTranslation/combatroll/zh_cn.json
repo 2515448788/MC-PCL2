@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.combatroll.option.client.showWhenFull": "满时显示箭头",
+  "text.autoconfig.combatroll.option.client.keybindingLabelPosition": "按键绑定标签位置",
+  "text.autoconfig.combatroll.option.client.showKeybinding": "在 HUD 上显示按键绑定"
+}

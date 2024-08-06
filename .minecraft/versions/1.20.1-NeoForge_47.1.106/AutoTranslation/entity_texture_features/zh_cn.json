@@ -1,0 +1,4 @@
+{
+  "config.entity_texture_features.transparent_skins_extra.tooltip": "调整原版皮肤透明度代码，使其不会影响皮肤中实际未使用的所有额外像素\n这允许这些额外像素的透明度，而不影响原版皮肤行为\n对于自定义玩家模型非常有用",
+  "config.entity_texture_features.transparent_skins_extra.title": "更好的香草皮肤透明度"
+}

@@ -1,0 +1,17 @@
+{
+  "config.citresewn.broken_paths.title": "允许资源包中存在损坏的路径",
+  "config.citresewn.cache_ms.tooltip": "cit 缓存应多久刷新一次。\n较高的值将提供更高的性能。\n较低的值将使 cits 更新更快。\nREALTIME 将完全删除缓存，\n 使项目每帧检查 cits。",
+  "config.citresewn.citenchantment_scroll_multiplier.title": "CIT 附魔：卷轴乘数",
+  "config.citresewn.mute_errors.title": "静音加载错误",
+  "config.citresewn.enabled.tooltip": "CIT Resewn 是否应该从资源包加载并注入 cits",
+  "config.citresewn.broken_paths.tooltip": "允许加载具有非法资源路径的包。\n可能会导致问题！",
+  "config.citresewn.cache_ms.title": "缓存",
+  "config.citresewn.mute_errors.tooltip": "CIT Resewn 是否应该不记录引用错误",
+  "pack.incompatible.confirm.broken_paths": "该包包含损坏的路径，并且将来可能会放弃对其的支持。请联系包作者以删除此警告。 （~ CIT 重新整理）",
+  "config.citresewn.title": "CIT 重新配置",
+  "config.citresewn.mute_warns.tooltip": "CIT Resewn 是否应该不记录 cit 警告",
+  "pack.incompatible.broken_paths": "（包含损坏的路径）",
+  "config.citresewn.enabled.title": "启用",
+  "config.citresewn.mute_warns.title": "静音加载警告",
+  "config.citresewn.citenchantment_scroll_multiplier.tooltip": "由结界 CIT 添加的闪烁纹理的滚动速度的一般乘数。"
+}

@@ -1,0 +1,14 @@
+{
+  "block.biomeswevegone.sandy_dirt": "Sandy Dirt",
+  "death.attack.biomeswevegone.inQuicksand": "%s tried to swim in the desert",
+  "death.attack.biomeswevegone.cattailExplosion": "%s got too curious and put a cattail in a campfire",
+  "block.biomeswevegone.sandy_farmland": "Sandy Farmland",
+  "biome.biomeswevegone.frosted_coniferous_forest": "Frosted Coniferous Forest",
+  "entity.minecraft.villager.biomeswevegone.forager": "Forager",
+  "biome.biomeswevegone.overgrowth_woodlands": "Overgrowth Woodlands",
+  "item.biomeswevegone.music_disc_pixie_club": "Music Disc",
+  "block.biomeswevegone.cyan_pitcher_plant": "Cyan Pitcher Plant",
+  "block.biomeswevegone.magenta_pitcher_plant": "Magenta Pitcher Plant",
+  "item.biomeswevegone.music_disc_pixie_club.desc": "AOCAWOL - Pixie Club",
+  "block.biomeswevegone.sandy_dirt_path": "Sandy Dirt Path"
+}

@@ -1,0 +1,12 @@
+{
+  "transmog.config.tooltip.full.tooltip": "将项目变形后的外观项目的原始工具提示添加到其工具提示中。这是默认选项。",
+  "transmog.config.tooltip.minimal": "最小",
+  "transmog.config.tooltip.minimal.tooltip": "将项目变形后的外观项目的名称添加到其工具提示中。",
+  "transmog.config.disable_during_pvp_duration.tooltip": "如果您击中或被其他玩家击中，则在一段时间内暂时禁用渲染幻化。设置为 0 以忽略 PvP。",
+  "transmog.config.tooltip": "工具提示详细程度",
+  "transmog.config.tooltip.full": "满的",
+  "transmog.config.tooltip.none.tooltip": "根本不要将有关正在变形的项目的任何信息添加到其工具提示中。",
+  "transmog.config.tooltip.none": "没有任何",
+  "transmog.config.disable_during_pvp_duration.label": "%s 秒",
+  "transmog.config.disable_during_pvp_duration": "PvP 期间禁用"
+}

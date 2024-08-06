@@ -1,0 +1,8 @@
+{
+  "item.ranged_weapon.pull_time": "%1$s 秒拉取时间",
+  "attribute.name.ranged_weapon.haste": "绘制速度",
+  "attribute.name.ranged_weapon.pull_time": "秒拉动时间",
+  "effect.ranged_weapon.haste": "熊熊大火",
+  "effect.ranged_weapon.damage": "影响",
+  "attribute.name.ranged_weapon.damage": "远程伤害"
+}

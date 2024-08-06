@@ -1,0 +1,18 @@
+{
+  "generator.bclib.large": "大和BetterX",
+  "bclib.updates.download_link": "下载",
+  "tooltip.bclib.place_underwater_depth": "分钟。深度：%s",
+  "title.screen.bclib.worldgen.nether_biome_size": "生物群落大小",
+  "generator.bclib.amplified": "振幅。 ＆BetterX",
+  "title.screen.bclib.worldgen.nether_vertical_biome_size": "生物群落高度",
+  "title.config.bclib.client.ui.preferModrinthForUpdates": "首选莫德林斯更新",
+  "tooltip.bclib.place_underwater": "在水下生存",
+  "tooltip.bclib.pottable_on": "可饮用：%s",
+  "title.screen.bclib.worldgen.nether_vertical": "生成垂直生物群落",
+  "title.screen.bclib.worldgen.nether_amplified": "双倍虚空高度（放大）",
+  "title.config.bclib.main.infos.verbose": "详细日志记录",
+  "title.config.bclib.client.infos.survives_on_hint": "将“幸存”提示显示为工具提示",
+  "title.screen.bclib.worldgen.custom_nether_biome_source": "使用自定义下界生物群落源",
+  "tooltip.bclib.place_underwater_on": "在水下生存：%s",
+  "title.screen.bclib.worldgen.custom_end_biome_source": "使用自定义最终生物群系源"
+}

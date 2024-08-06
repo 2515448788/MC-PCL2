@@ -1,3 +1,23 @@
 {
-  "container.apotheosis.fletching_table": "§r§f箭羽"
+  "container.apotheosis.fletching_table": "§r§f箭羽",
+  "button.apotheosis.augmenting.upgrade.cost": "成本：%sx %s",
+  "text.apotheosis.upgraded_form": "升级版",
+  "text.apotheosis.potential_rerolls": "潜在的重投",
+  "item.apotheosis.sigil_of_withdrawal.desc": "移除物品上所有镶嵌的宝石",
+  "item.apotheosis.sigil_of_unnaming.desc": "从项目中删除附加名称",
+  "item.apotheosis.sigil_of_socketing.desc": "向一项项目添加一个插槽",
+  "button.apotheosis.augmenting.max_level": "已经达到最高等级",
+  "button.apotheosis.augmenting.upgrade": "升级选定的词缀",
+  "item.apotheosis.sigil_of_rebirth": "重生符印",
+  "item.apotheosis.sigil_of_unnaming": "无名符印",
+  "item.apotheosis.sigil_of_rebirth.desc": "用于为重铸台提供燃料",
+  "text.apotheosis.alternative_page": "第 %s/%s 页（滚动以更改）",
+  "button.apotheosis.augmenting.no_selection": "未选择词缀",
+  "item.apotheosis.gem_fused_slate": "熔凝宝石板岩",
+  "item.apotheosis.sigil_of_withdrawal": "撤退符印",
+  "button.apotheosis.augmenting.reroll": "重新滚动选定的词缀",
+  "item.apotheosis.sigil_of_enhancement.desc": "用于为增强台提供燃料",
+  "block.apotheosis.augmenting_table.desc": "使用增强印记来增强单个词缀",
+  "button.apotheosis.augmenting.no_alternatives": "没有替代词缀",
+  "block.apotheosis.augmenting_table": "增强表"
 }

@@ -1,0 +1,14 @@
+{
+  "block.biomeswevegone.sandy_dirt": "沙土",
+  "death.attack.biomeswevegone.inQuicksand": "%s尝试在沙漠中游泳",
+  "death.attack.biomeswevegone.cattailExplosion": "%s 太好奇了，把香蒲放入篝火中",
+  "block.biomeswevegone.sandy_farmland": "沙地农田",
+  "biome.biomeswevegone.frosted_coniferous_forest": "霜冻针叶林",
+  "entity.minecraft.villager.biomeswevegone.forager": "觅食者",
+  "biome.biomeswevegone.overgrowth_woodlands": "过度生长的林地",
+  "item.biomeswevegone.music_disc_pixie_club": "音乐唱片",
+  "block.biomeswevegone.cyan_pitcher_plant": "青色猪笼草",
+  "block.biomeswevegone.magenta_pitcher_plant": "洋红色猪笼草",
+  "item.biomeswevegone.music_disc_pixie_club.desc": "AOCAWOL - 小精灵俱乐部",
+  "block.biomeswevegone.sandy_dirt_path": "沙土路"
+}

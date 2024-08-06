@@ -1,0 +1,12 @@
+{
+  "transmog.config.tooltip.full.tooltip": "Add the original tooltip of the appearance item that an item is transmogrified into to its tooltip. This is the default option.",
+  "transmog.config.tooltip.minimal": "Minimal",
+  "transmog.config.tooltip.minimal.tooltip": "Add the name of the appearance item that an item is transmogrified into to its tooltip.",
+  "transmog.config.disable_during_pvp_duration.tooltip": "Temporarily disable rendering transmogs for a set amount of time if you hit or are hit by another player. Set to 0 to ignore PvP.",
+  "transmog.config.tooltip": "Tooltip Detail Level",
+  "transmog.config.tooltip.full": "Full",
+  "transmog.config.tooltip.none.tooltip": "Don\u0027t add any info about an item being transmogrified to its tooltip at all.",
+  "transmog.config.tooltip.none": "None",
+  "transmog.config.disable_during_pvp_duration.label": "%s Seconds",
+  "transmog.config.disable_during_pvp_duration": "Disable During PvP"
+}

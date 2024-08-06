@@ -1,0 +1,5 @@
+{
+  "text.chatpatches.desc.chatHidePacket": "是否应该忽略删除聊天消息的隐藏消息包？",
+  "modmenu.descriptionTranslation.chatpatches": "多功能客户端聊天模块，使聊天更加可定制，请查看配置和 GitHub 页面以获取更多信息！\n通过 https://discord.gg/3MqBvNEyMz 加入 Discord！",
+  "text.chatpatches.chatHidePacket": "忽略隐藏消息包"
+}
