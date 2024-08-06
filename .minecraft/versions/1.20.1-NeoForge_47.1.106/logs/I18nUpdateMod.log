@@ -1,23 +1,14 @@
-[2024-08-06 15:32:57] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
-[2024-08-06 15:32:57] [DEBUG]: Minecraft path: C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
-[2024-08-06 15:32:57] [DEBUG]: User home: C:\Users\Admin
-[2024-08-06 15:32:57] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip md5: F6283CF99CFC1DB899BB444B947CFD83, remote md5: DE34A1BD3AFB5C1BD5F0FC53BBC973D5
-[2024-08-06 15:32:57] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip -> C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp
-[2024-08-06 15:32:57] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip -> C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp
-[2024-08-06 15:32:57] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp md5: DE34A1BD3AFB5C1BD5F0FC53BBC973D5, remote md5: DE34A1BD3AFB5C1BD5F0FC53BBC973D5
-[2024-08-06 15:32:57] [DEBUG]: Updates temp file: C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2024-08-06 15:32:57] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: 6309DF6DC2308C0B92C49A5D64FF422D, remote md5: 9AE217BBD199FEAD9D7AE008D78B2917
-[2024-08-06 15:32:57] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip -> C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp
-[2024-08-06 15:32:58] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip -> C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp
-[2024-08-06 15:32:58] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp md5: 9AE217BBD199FEAD9D7AE008D78B2917, remote md5: 9AE217BBD199FEAD9D7AE008D78B2917
-[2024-08-06 15:32:58] [DEBUG]: Updates temp file: C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2024-08-06 15:32:58] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip md5: CD095CD943966533D8049A9FB4299F25, remote md5: 8557C8C364FADD718FC3301D80E98B3D
-[2024-08-06 15:32:58] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18.zip -> C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip.tmp
-[2024-08-06 15:32:58] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18.zip -> C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip.tmp
-[2024-08-06 15:32:58] [DEBUG]: C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip.tmp md5: 8557C8C364FADD718FC3301D80E98B3D, remote md5: 8557C8C364FADD718FC3301D80E98B3D
-[2024-08-06 15:32:58] [DEBUG]: Updates temp file: C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
-[2024-08-06 15:32:58] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2024-08-06 15:32:59] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2024-08-06 15:32:59] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
-[2024-08-06 15:33:00] [INFO]: Converted: [C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Admin\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
-[2024-08-06 15:33:00] [INFO]: Synchronized: C:\Users\Admin\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-08-06 19:11:18] [INFO]: I18nUpdate Mod 3.5.5 is loaded in 1.20.1 with Forge
+[2024-08-06 19:11:18] [DEBUG]: Minecraft path: C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106
+[2024-08-06 19:11:18] [DEBUG]: User home: C:\Users\Admin
+[2024-08-06 19:11:18] [DEBUG]: Local file C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip has been updated recently.
+[2024-08-06 19:11:18] [DEBUG]: Already up to date.
+[2024-08-06 19:11:18] [DEBUG]: Local file C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip has been updated recently.
+[2024-08-06 19:11:18] [DEBUG]: Already up to date.
+[2024-08-06 19:11:18] [DEBUG]: Local file C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip has been updated recently.
+[2024-08-06 19:11:18] [DEBUG]: Already up to date.
+[2024-08-06 19:11:18] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
+[2024-08-06 19:11:18] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2024-08-06 19:11:18] [INFO]: Converting: C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip
+[2024-08-06 19:11:19] [INFO]: Converted: [C:\Users\Admin\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Admin\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Admin\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\Admin\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+[2024-08-06 19:11:19] [INFO]: Synchronized: C:\Users\Admin\.i18nupdatemod\1.20.1\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip -> C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
