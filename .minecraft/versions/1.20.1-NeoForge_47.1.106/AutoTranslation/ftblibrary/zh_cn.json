@@ -30,5 +30,9 @@
   "ftblibrary.client_settings.tooltips.image_modname": "在图像选择 GUI 中显示模组名称",
   "ftblibrary.gui.nbt_copied": "NBT 已复制到剪贴板",
   "ftblibrary.client_settings.tooltips.item_modname": "在项目选择 GUI 中显示 Mod 名称",
-  "ftblibrary.unsaved_changes": "放弃未保存的更改？"
+  "ftblibrary.unsaved_changes": "放弃未保存的更改？",
+  "item.ftblibrary.fluid_container": "流体容器",
+  "item.ftblibrary.fluid_container.use": "右键单击水箱以清空容器",
+  "ftblibrary.empty": "空的",
+  "ftblibrary.mb": "%s %s mB"
 }

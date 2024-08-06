@@ -1,0 +1,15 @@
+{
+  "item.goblintraders.goblin_trader_spawn_egg": "哥布林商人刷怪蛋",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "静脉哥布林商人刷怪蛋",
+  "mob_spawner.type.skeleton": "骨骼",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "闲置咕噜声",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "海豚恩典喷溅药水",
+  "entity.goblintraders.goblin_trader": "妖精商人",
+  "mob_spawner.type.zombie": "僵尸",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "恼怒的咕噜声",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "海豚恩典滞留药水",
+  "entity.goblintraders.vein_goblin_trader": "静脉哥布林商人",
+  "item.minecraft.potion.effect.dolphins_grace": "海豚恩典药水",
+  "mob_spawner.type.creeper": "苦力怕",
+  "stat.goblintraders.trade_with_goblin": "与哥布林交易"
+}

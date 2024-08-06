@@ -699,5 +699,7 @@
   "affix.apotheotic_additions:curios_armor/dmg_reduction/explosion.suffix": "爆炸防护",
   "alexsmobs.potion.oiled.desc": "在水中漂浮并在雨中漂浮。",
   "affix.apotheotic_additions:shield/mob_effect/corruption.suffix": "恐怖防御之",
-  "affix.apotheotic_additions:armor/attribute/esoteric_armor": "无限强化"
+  "affix.apotheotic_additions:armor/attribute/esoteric_armor": "无限强化",
+  "curios.modifiers.an_focus": "当作为法术焦点佩戴时",
+  "effect.born_in_chaos_v1.jawattack": "下巴攻击"
 }

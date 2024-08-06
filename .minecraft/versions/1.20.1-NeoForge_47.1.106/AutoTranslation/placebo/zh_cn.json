@@ -1,0 +1,8 @@
+{
+  "placebo.cmd.serialize_success": "已将 %s 保存到 %s。",
+  "placebo.cmd.not_found": "未找到 %s。",
+  "placebo.cmd.serialize_failure": "序列化过程中发生错误。",
+  "key.categories.placebo": "安慰剂",
+  "placebo.toggleWings": "切换支持翼",
+  "placebo.toggleTrails": "切换支持者轨迹"
+}

@@ -1,0 +1,14 @@
+{
+  "item.archers.crystal_longbow": "水晶长弓",
+  "item.archers.ruby_rapid_crossbow": "红宝石快速十字弓",
+  "spell.archers.magic_arrow.description": "射出一支魔法箭，刺穿路径上的所有敌人，对每个目标造成 {damage} 点伤害。",
+  "advancements.rpg_series.spell_novice_archer.description": "获得你的第一个射箭技能",
+  "advancements.rpg_series.path_choose_archer.description": "创建为射箭手册",
+  "advancements.rpg_series.path_choose_archer.title": "射箭之路",
+  "advancements.rpg_series.spell_novice_archer.title": "致命一枪",
+  "item.archers.aeternium_spear": "永恒之矛",
+  "item.archers.ruby_heavy_crossbow": "红宝石重弩",
+  "spell.archers.magic_arrow.name": "魔法箭",
+  "item.archers.ruby_spear": "红宝石矛",
+  "item.archers.crystal_shortbow": "水晶短弓"
+}

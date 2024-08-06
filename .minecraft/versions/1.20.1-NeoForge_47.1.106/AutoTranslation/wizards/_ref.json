@@ -1,0 +1,20 @@
+{
+  "advancements.rpg_series.spell_novice_fire.title": "Playing with fire",
+  "spell.wizards.frost_blizzard.description": "Channels a rain of frost shards down onto your target and nearby enemies, dealing up to {damage} frost spell damage slowing the target, in {impact_range} blocks radius.",
+  "spell.wizards.fire_wall.description": "Creates a wall of fire, lasting {cloud_duration} seconds, dealing up to {damage} fire spell damage continuously to enemies passing thru.",
+  "advancements.rpg_series.path_choose_frost.description": "Create a Tome of Frost",
+  "advancements.rpg_series.spell_novice_fire.description": "Obtain your first Fire Wizard Spell",
+  "advancements.rpg_series.spell_novice_frost.description": "Obtain your first Frost Wizard Spell",
+  "spell.wizards.frost_blizzard.name": "Blizzard",
+  "advancements.rpg_series.path_choose_arcane.title": "Path of Arcane",
+  "spell.wizards.arcane_blink.name": "Blink",
+  "advancements.rpg_series.path_choose_fire.description": "Create a Tome of Fire",
+  "advancements.rpg_series.path_choose_fire.title": "Path of Fire",
+  "advancements.rpg_series.spell_novice_arcane.title": "Magic Attunement",
+  "spell.wizards.fire_wall.name": "Wall of Flames",
+  "advancements.rpg_series.path_choose_frost.title": "Path of Frost",
+  "advancements.rpg_series.path_choose_arcane.description": "Create a Tome of Arcane",
+  "spell.wizards.arcane_blink.description": "Teleports you forwards for {teleport_distance} blocks.",
+  "advancements.rpg_series.spell_novice_arcane.description": "Obtain your first Arcane Wizard Spell",
+  "advancements.rpg_series.spell_novice_frost.title": "Keep it cool"
+}

@@ -1,0 +1,22 @@
+{
+  "item.netherskeletons.nether_skeleton_spawn_egg": "下界骷髅刷怪蛋",
+  "entity.netherskeletons.basalt_skeleton": "玄武岩骨骼",
+  "item.netherskeletons.charred_skeleton_spawn_egg": "烧焦的骷髅刷怪蛋",
+  "entity.netherskeletons.nether_skeleton": "下界骷髅",
+  "entity.netherskeletons.soul_skeleton": "灵魂骷髅",
+  "entity.netherskeletons.skelly_piglin": "骷髅猪灵",
+  "entity.netherskeletons.skelly_ghast": "斯凯勒加斯特",
+  "item.netherskeletons.crimson_skeleton_spawn_egg": "深红骷髅刷怪蛋",
+  "item.netherskeletons.crying_obby_skeleton_spawn_egg": "哭泣的黑曜石骷髅刷怪蛋",
+  "item.netherskeletons.skelly_piglin_spawn_egg": "骷髅猪灵刷怪蛋",
+  "item.netherskeletons.soul_skeleton_spawn_egg": "灵魂骷髅刷怪蛋",
+  "itemGroup.tabnether_skeletons": "下界骷髅",
+  "item.netherskeletons.warped_skeleton_spawn_egg": "扭曲的骷髅刷怪蛋",
+  "item.netherskeletons.basalt_skeleton_spawn_egg": "玄武岩骷髅刷怪蛋",
+  "item.netherskeletons.skelly_ghast_spawn_egg": "斯凯勒鬼刷怪蛋",
+  "entity.netherskeletons.crying_obby_skeleton": "哭泣的黑曜石骷髅",
+  "entity.netherskeletons.crimson_skeleton": "猩红骷髅",
+  "item_group.netherskeletons.nether_skeletons": "下界骷髅",
+  "entity.netherskeletons.warped_skeleton": "扭曲的骷髅",
+  "entity.netherskeletons.charred_skeleton": "烧焦的骷髅"
+}

@@ -2,5 +2,9 @@
   "create.command.debuginfo.sending": "Collecting debug information...",
   "create.command.debuginfo.saved_to_clipboard": "Debug information has been copied to your clipboard.",
   "fluid.create.honey": "Honey",
-  "fluid.create.chocolate": "Chocolate"
+  "fluid.create.chocolate": "Chocolate",
+  "create.item_attributes.item_affix": "has the \u0027%1$s\u0027 affix",
+  "create.item_attributes.item_rarity": "has \u0027%1$s\u0027 rarity",
+  "create.item_attributes.item_rarity.inverted": "does not have \u0027%1$s\u0027 rarity",
+  "create.item_attributes.item_affix.inverted": "does not have the \u0027%1$s\u0027 affix"
 }

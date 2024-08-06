@@ -79,5 +79,10 @@
   "block.minecraft.banner.enchantsmith.enchantsmith_banner_noise.blue": "蓝色 Enchantsmith 横幅噪音",
   "block.minecraft.banner.enchantsmith.enchantsmith_banner_noise.light_blue": "浅蓝色 Enchantsmith 横幅噪音",
   "block.minecraft.banner.enchantsmith.enchantsmith_banner.light_blue": "浅蓝色附魔师旗帜",
-  "block.minecraft.banner.enchantsmith.enchantsmith_banner.red": "红色附魔师旗帜"
+  "block.minecraft.banner.enchantsmith.enchantsmith_banner.red": "红色附魔师旗帜",
+  "iris.load.failure.generic": "Oculus 在尝试加载着色器时遇到问题；请向 Oculus 开发人员报告此情况。 ",
+  "iris.keybind.wireframe": "线框（仅限 SP）",
+  "iris.load.failure.shader": "着色器包加载失败！请将错误报告给着色器开发人员。 ",
+  "options.iris.colorSpace": "色彩空间",
+  "options.iris.colorSpace.sodium_tooltip": "将屏幕转换为的颜色空间。在着色器包之上工作。如果不确定，请使用 SRGB。"
 }

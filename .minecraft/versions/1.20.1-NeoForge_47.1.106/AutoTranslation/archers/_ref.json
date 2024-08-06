@@ -1,0 +1,14 @@
+{
+  "item.archers.crystal_longbow": "Crystal Longbow",
+  "item.archers.ruby_rapid_crossbow": "Ruby Rapid Crossbow",
+  "spell.archers.magic_arrow.description": "Shoots a magical arrow piercing thru all enemies in its path, dealing {damage} damage to each target.",
+  "advancements.rpg_series.spell_novice_archer.description": "Obtain your first Archery skill",
+  "advancements.rpg_series.path_choose_archer.description": "Create as Archery Manual",
+  "advancements.rpg_series.path_choose_archer.title": "Path of Archery",
+  "advancements.rpg_series.spell_novice_archer.title": "Lethal Shots",
+  "item.archers.aeternium_spear": "Aeternium Spear",
+  "item.archers.ruby_heavy_crossbow": "Ruby Heavy Crossbow",
+  "spell.archers.magic_arrow.name": "Magic Arrow",
+  "item.archers.ruby_spear": "Ruby Spear",
+  "item.archers.crystal_shortbow": "Crystal Shortbow"
+}

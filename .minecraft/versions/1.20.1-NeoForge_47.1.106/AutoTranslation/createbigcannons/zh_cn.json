@@ -171,5 +171,6 @@
   "createbigcannons.subtitle.hot_projectile_splash": "射弹飞溅",
   "entity.createbigcannons.fluid_blob_burst": "流体斑点爆裂",
   "entity.createbigcannons.shrapnel_burst": "弹片爆炸",
-  "createbigcannons.ponder.munitions/adding_tracers.header": "为大炮弹丸添加曳光弹"
+  "createbigcannons.ponder.munitions/adding_tracers.header": "为大炮弹丸添加曳光弹",
+  "tag.c.steel_nuggets": "钢块"
 }

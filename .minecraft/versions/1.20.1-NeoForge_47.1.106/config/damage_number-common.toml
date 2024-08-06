@@ -2,7 +2,7 @@ show = true
 
 [number]
 	x = -200
-	y = 100
+	y = 120
 	#Range: 0.0 ~ 10.0
 	scale = 2.5
 	#Range: 0.0 ~ 1.0
@@ -16,11 +16,11 @@ show = true
 	scale = 1.8
 	#Range: 0.0 ~ 1.0
 	opacity = 1.0
-	show = true
+	show = false
 
 [combo]
 	x = -210
-	y = 125
+	y = 150
 	#Range: 0.0 ~ 1.0
 	opacity = 1.0
 	#Range: 0.0 ~ 10.0
@@ -39,7 +39,7 @@ show = true
 
 [damage_rank]
 	#Use damage ranked style
-	enable = false
+	enable = true
 	#Use format like "<damage amount>|<rank name>|<render color>"
 	option = ["0|D|#ffffff", "20|C|#e6fffb", "50|B|#bae7ff", "100|A|#bae637", "200|S|#fff566", "400|SS|#ffbb96", "800|SSS|#ffa39e"]
 
@@ -53,7 +53,7 @@ show = true
 
 [combo_rank]
 	#Use combo ranked style
-	enable = false
+	enable = true
 	#Use format like "<combo>|<rank name>|<render color>"
 	option = ["0|D|#ffffff", "5|C|#e6fffb", "10|B|#bae7ff", "20|A|#bae637", "40|S|#fff566", "80|SS|#ffbb96", "160|SSS|#ffa39e"]
 

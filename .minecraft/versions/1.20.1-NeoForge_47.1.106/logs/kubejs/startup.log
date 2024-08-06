@@ -1,9 +1,9 @@
-[19:11:54] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[19:11:54] [INIT] Loaded plugins:
-[19:11:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:11:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:11:54] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
-[19:11:54] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:11:55] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[19:11:55] [INFO] Loaded script startup_scripts:example.js in 0.058 s
-[19:11:55] [INFO] Loaded 1/1 KubeJS startup scripts in 0.928 s with 0 errors and 0 warnings
+[22:12:01] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[22:12:01] [INIT] Loaded plugins:
+[22:12:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:12:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:12:01] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[22:12:01] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:12:02] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[22:12:02] [INFO] Loaded script startup_scripts:example.js in 0.039 s
+[22:12:02] [INFO] Loaded 1/1 KubeJS startup scripts in 0.435 s with 0 errors and 0 warnings

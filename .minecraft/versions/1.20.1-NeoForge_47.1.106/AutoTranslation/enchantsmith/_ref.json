@@ -79,5 +79,10 @@
   "block.minecraft.banner.enchantsmith.enchantsmith_banner_noise.blue": "Blue Enchantsmith Banner Noise",
   "block.minecraft.banner.enchantsmith.enchantsmith_banner_noise.light_blue": "Light Blue Enchantsmith Banner Noise",
   "block.minecraft.banner.enchantsmith.enchantsmith_banner.light_blue": "Light Blue Enchantsmith Banner",
-  "block.minecraft.banner.enchantsmith.enchantsmith_banner.red": "Red Enchantsmith Banner"
+  "block.minecraft.banner.enchantsmith.enchantsmith_banner.red": "Red Enchantsmith Banner",
+  "iris.load.failure.generic": "Oculus encountered an issue trying to load the shader; please report this to Oculus developers. ",
+  "iris.keybind.wireframe": "Wireframe (SP only)",
+  "iris.load.failure.shader": "The shaderpack failed to load! Please report the error to the shader developer. ",
+  "options.iris.colorSpace": "Color Space",
+  "options.iris.colorSpace.sodium_tooltip": "The color space to transform the screen to. Works on top of shader packs. Use SRGB if unsure."
 }

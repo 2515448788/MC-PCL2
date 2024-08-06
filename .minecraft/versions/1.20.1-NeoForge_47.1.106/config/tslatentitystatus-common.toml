@@ -15,7 +15,7 @@
 	hudRenderPosition = "TOP_LEFT"
 	#Manually adjust the left-offset rendering position of the TES HUD
 	#Range: -100000 ~ 100000
-	hudPositionLeftAdjust = 80
+	hudPositionLeftAdjust = 50
 	#Manually adjust the top-offset rendering position of the TES HUD
 	#Range: -100000 ~ 100000
 	hudPositionTopAdjust = 0

@@ -1,0 +1,20 @@
+{
+  "advancements.rpg_series.spell_novice_fire.title": "玩火",
+  "spell.wizards.frost_blizzard.description": "引导冰霜碎片雨落到你的目标和附近的敌人身上，在 {impact_range} 格半径内造成最多 {damage} 的冰霜法术伤害，使目标减速。",
+  "spell.wizards.fire_wall.description": "创建一道持续 {cloud_duration} 秒的火墙，对穿过的敌人持续造成最多 {damage} 火焰法术伤害。",
+  "advancements.rpg_series.path_choose_frost.description": "创建一本冰霜之书",
+  "advancements.rpg_series.spell_novice_fire.description": "获得你的第一个火法师法术",
+  "advancements.rpg_series.spell_novice_frost.description": "获得你的第一个冰霜巫师法术",
+  "spell.wizards.frost_blizzard.name": "暴风雪",
+  "advancements.rpg_series.path_choose_arcane.title": "奥术之路",
+  "spell.wizards.arcane_blink.name": "眨",
+  "advancements.rpg_series.path_choose_fire.description": "创建一本火焰之书",
+  "advancements.rpg_series.path_choose_fire.title": "火之路",
+  "advancements.rpg_series.spell_novice_arcane.title": "魔法调音",
+  "spell.wizards.fire_wall.name": "火焰之墙",
+  "advancements.rpg_series.path_choose_frost.title": "冰霜之路",
+  "advancements.rpg_series.path_choose_arcane.description": "创建一本奥术之书",
+  "spell.wizards.arcane_blink.description": "将您向前传送 {teleport_distance} 块。",
+  "advancements.rpg_series.spell_novice_arcane.description": "获得你的第一个奥术巫师法术",
+  "advancements.rpg_series.spell_novice_frost.title": "保持冷静"
+}

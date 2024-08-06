@@ -1,0 +1,13 @@
+{
+  "catalogue.gui.mod_list": "模组",
+  "catalogue.gui.version": "版本：%s",
+  "catalogue.gui.contributors": "贡献者：%s",
+  "catalogue.gui.config": "配置",
+  "catalogue.gui.update_available": "更新",
+  "catalogue.gui.authors": "作者：%s",
+  "catalogue.gui.open_mods_folder": "打开模组文件夹",
+  "catalogue.gui.internal_libraries": "显示内部库",
+  "catalogue.gui.licenses": "许可证：%s",
+  "catalogue.gui.credits": "制作人员：%s",
+  "catalogue.gui.search": "搜索"
+}

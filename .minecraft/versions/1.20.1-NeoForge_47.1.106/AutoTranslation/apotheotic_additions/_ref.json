@@ -700,5 +700,6 @@
   "alexsmobs.potion.oiled.desc": "Float in water and Levitate in rain.",
   "affix.apotheotic_additions:shield/mob_effect/corruption.suffix": "of Eldritch Defense",
   "affix.apotheotic_additions:armor/attribute/esoteric_armor": "Infinity-Reinforced",
-  "curios.modifiers.an_focus": "When worn as a Spell Focus"
+  "curios.modifiers.an_focus": "When worn as a Spell Focus",
+  "effect.born_in_chaos_v1.jawattack": "Jaw Attack"
 }

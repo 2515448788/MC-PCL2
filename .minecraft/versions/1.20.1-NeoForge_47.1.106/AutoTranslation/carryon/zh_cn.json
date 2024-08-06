@@ -1,3 +1,14 @@
 {
-  "key.carry.category": "继续"
+  "key.carry.category": "继续",
+  "carryon.category.whitelist": "白名单",
+  "carryon.category.settings": "设置",
+  "carryon.category.custompickupconditions": "自定义取件条件（高级）",
+  "carryon.general.modeloverrides.modeloverrides": "模型覆盖",
+  "key.carry.desc": "携带",
+  "carryon.general.blacklist.forbiddentiles": "玩家无法拾取的方块",
+  "carryon.category.custompickupconditions.custompickupconditionsentities": "自定义实体拾取条件",
+  "carryon.category.blacklist": "黑名单",
+  "carryon.category.custompickupconditions.custompickupconditionsblocks": "自定义块拾取条件",
+  "carryon.category.modeloverrides": "模型覆盖（高级）",
+  "carryon.general.blacklist.forbiddenentities": "玩家无法拾取的实体"
 }

@@ -21,5 +21,6 @@
   "citadel.gui.patreon_customization": "Citadel Patreon 定制",
   "citadel.gui.follower_type": "类型： ",
   "citadel.gui.no_cape": "无改装斗篷",
-  "citadel.gui.patreon_rewards_option": "Citadel Patreon 定制..."
+  "citadel.gui.patreon_rewards_option": "Citadel Patreon 定制...",
+  "item.citadel.debug": "Citadel 调试器"
 }

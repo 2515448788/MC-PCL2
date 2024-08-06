@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "b23d6b6456a641d1a734109f719e4add"
+	name: "Aaalicecao#b23d6b64"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
