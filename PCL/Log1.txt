@@ -2137,3 +2137,35 @@ openjdk 64-bit server vm zulu21.32+17-ca (build 21.0.2+13-lts, mixed mode, shari
 [22:39:55.488] [Launch] [29684] Minecraft 已退出，返回值：0
 [22:39:55.488] [Launch] [全局] 已无运行中的 Minecraft
 [22:39:55.725] [Launch] [29684] Minecraft 日志监控已退出
+[22:43:14.214] [Control] 按下按钮：版本设置
+[22:43:14.220] [Control] 切换主要页面：VersionSetup, 0
+[22:43:15.090] [Control] 按下单选列表项：Mod 管理
+[22:43:15.220] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[22:43:15.221] [System] 已刷新 Mod 列表
+[22:43:17.082] [Mod] 共有 405 个 Mod，其中 6 个需要联网获取信息，0 个需要更新信息
+[22:43:17.207] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
+[22:43:17.208] [Mod] 目标加载器：NeoForge，版本：1.20.1
+[22:43:17.208] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
+[22:43:17.255] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
+[22:43:17.626] [Mod] 从 CurseForge 获取到 6 个本地 Mod 的对应信息
+[22:43:17.627] [Mod] 需要从 CurseForge 获取 6 个本地 Mod 的工程信息
+[22:43:17.627] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[22:43:17.633] [Mod] 从 Modrinth 获取到 6 个本地 Mod 的对应信息
+[22:43:17.633] [Mod] 需要从 Modrinth 获取 6 个本地 Mod 的工程信息
+[22:43:17.633] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["QgooUXAJ","pduQXSbl","FxXkHaLe","y9clIFY4","lP9Yrr1E","NkGaQMDA"]），最大超时 15000
+[22:43:17.994] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
+[22:43:17.994] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
+[22:43:18.332] [Mod] 从 Modrinth 获取本地 Mod 信息结束
+[22:43:18.335] [Animation] 两个动画帧间隔 1110 ms
+[22:43:18.365] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[22:43:18.694] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 1 个用于检查更新的文件信息
+[22:43:18.694] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[22:43:19.101] [Animation] 两个动画帧间隔 734 ms
+[22:43:19.353] [Mod] 从 CurseForge 获取 Mod 更新信息结束
+[22:43:19.367] [Mod] 联网获取本地 Mod 信息完成，为 6 个 Mod 更新缓存
+[22:43:19.381] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
+[22:43:19.461] [Animation] 两个动画帧间隔 328 ms
+[22:43:22.887] [Animation] 两个动画帧间隔 484 ms
+[22:43:34.091] [Control] 按下图标按钮：BtnTitleClose
+[22:43:34.096] [System] 收到关闭指令
+[22:43:34.321] [System] 程序已退出，返回值：Success
