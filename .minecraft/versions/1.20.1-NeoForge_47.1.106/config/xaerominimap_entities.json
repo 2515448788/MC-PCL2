@@ -10,12 +10,12 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayHeight": 0.0,
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
-    "displayNameWhenIconFails": true,
+    "displayNameWhenIconFails": false,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
     "startFadingAt": 0.0,
@@ -24,7 +24,7 @@
     "icons": 2.0,
     "heightLimit": 20.0,
     "names": 0.0,
-    "iconScale": 0.75
+    "iconScale": 1.0
   },
   "subCategories": [
     {
