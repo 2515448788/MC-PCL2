@@ -33,7 +33,7 @@ antiAliasing:true
 blockColours:0
 lighting:true
 dotsStyle:0
-dotNameScale:1.0
+dotNameScale:1.5
 compassOverEverything:true
 showFlowers:true
 keepWaypointNames:true

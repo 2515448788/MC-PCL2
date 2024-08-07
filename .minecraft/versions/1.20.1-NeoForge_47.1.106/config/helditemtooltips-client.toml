@@ -2,7 +2,7 @@
 last_line = true
 #Show black chat background behind tooltip lines for better visibility.
 #Allowed Values: NONE, RECTANGLE, ADAPTIVE
-background = "RECTANGLE"
+background = "NONE"
 #Amount of ticks the held item tooltip will be displayed for. Set to 0 to always display the tooltip as long as an item is being held.
 #Range: > 0
 display_time = 40
@@ -13,7 +13,7 @@ additional_information = false
 offset_x = 0
 #Offset on y-axis from screen center.
 #Range: > 0
-offset_y = 59
+offset_y = 70
 #Interval in ticks after which the tooltip will be rebuilt. Some stats such as durability are rebuilt every tick regardless of this setting.
 #Range: > 1
 update_interval = 20
@@ -25,7 +25,7 @@ item_blacklist = []
 display_scale = 6
 #Maximum amount of rows to be displayed for held item tooltips.
 #Range: > 1
-max_lines = 4
+max_lines = 1
 
 [components]
 
