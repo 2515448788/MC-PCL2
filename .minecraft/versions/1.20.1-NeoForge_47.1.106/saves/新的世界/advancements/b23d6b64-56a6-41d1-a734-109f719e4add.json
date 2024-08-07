@@ -1043,12 +1043,6 @@
     },
     "done": true
   },
-  "lightmanscurrency:currency/wallet_crafting": {
-    "criteria": {
-      "wallet": "2024-08-07 13:00:06 +0800"
-    },
-    "done": true
-  },
   "beautify:blinds": {
     "criteria": {
       "requirement": "2024-08-07 13:02:05 +0800"
@@ -1111,18 +1105,6 @@
     },
     "done": true
   },
-  "lightmanscurrency:currency/root": {
-    "criteria": {
-      "coin": "2024-08-07 13:08:01 +0800"
-    },
-    "done": true
-  },
-  "lightmanscurrency:currency/myfirstpenny": {
-    "criteria": {
-      "coin": "2024-08-07 13:08:01 +0800"
-    },
-    "done": true
-  },
   "apotheosis:affix/root": {
     "criteria": {
       "sword": "2024-08-07 13:12:27 +0800"
@@ -1132,30 +1114,6 @@
   "apotheosis:affix/random": {
     "criteria": {
       "sword": "2024-08-07 13:12:27 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/neighborhood_brawl": {
-    "criteria": {
-      "coded_trigger": "2024-08-07 19:26:28 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/find_grave_dust": {
-    "criteria": {
-      "from_undead": "2024-08-07 19:14:46 +0800"
-    },
-    "done": true
-  },
-  "lkartifacts:get_recovery_blade": {
-    "criteria": {
-      "requirement": "2024-08-07 19:29:48 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2024-08-07 19:14:40 +0800"
     },
     "done": true
   },
@@ -1177,9 +1135,33 @@
     },
     "done": true
   },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-08-07 19:14:40 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/ashes_and_bones": {
     "criteria": {
       "coded_trigger": "2024-08-07 19:14:40 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-08-07 19:14:46 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2024-08-07 19:26:28 +0800"
+    },
+    "done": true
+  },
+  "lkartifacts:get_recovery_blade": {
+    "criteria": {
+      "requirement": "2024-08-07 19:29:48 +0800"
     },
     "done": true
   },

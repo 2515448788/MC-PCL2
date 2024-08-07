@@ -16,6 +16,24 @@ MBrain_many = 5
 #Brain's critical strike multiplier
 #Range: 1.0 ~ 999.0
 MBrain_critical_multiplier = 2.25
-#Whether to enable exclusion and affinity mechanisms
-"Exclusion and affinity" = false
+#The speed of the battery
+#Range: 0.0 ~ 999.0
+battery = 0.1
+#The speed of the quadriceps
+#Range: 0.0 ~ 999.0
+quadriceps = 0.25
+#The speed of the flygene
+#Range: 0.0 ~ 999.0
+flygene = 0.125
+#The speed of the bloodvirus
+#Range: 0.0 ~ 999.0
+bloodvirus = 0.175
+#The speed of the motor
+#Range: 0.0 ~ 999.0
+motor = 0.15
+#What creatures should be killed and dropped
+Mob = "minecraft:warden"
+#What is this value, divide the damage by (“2” is “/2”)
+#Range: 1 ~ 1000
+Int = 2
 

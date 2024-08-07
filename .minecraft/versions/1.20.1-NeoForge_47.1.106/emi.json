@@ -1,12 +1,6 @@
 {
   "favorites": [
     {
-      "stack": "item:weaponmaster:weaponkit"
-    },
-    {
-      "stack": "item:weaponmaster:workstation"
-    },
-    {
       "stack": "item:some_assembly_required:sandwiching_station"
     },
     {
@@ -45,25 +39,12 @@
       "stack": "item:minecraft:frog_spawn_egg"
     },
     {
-      "stack": "item:lightmanscurrency:wallet_iron"
-    },
-    {
-      "stack": "item:lightmanscurrency:atm"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "minecraft:torch",
         "amount": 4
       },
       "recipe": "minecraft:torch"
-    },
-    {
-      "stack": "item:tacz:ammo_box{Level:0}",
-      "recipe": "tacz:iron_ammo_box"
-    },
-    {
-      "stack": "item:tacz:gun_smith_table"
     },
     {
       "stack": {
@@ -77,6 +58,14 @@
     }
   ],
   "lookup_history": [
+    "item:farmersdelight:wheat_dough",
+    "#item:c:dough",
+    "item:farmersdelight:raw_pasta",
+    "#item:c:pasta",
+    "item:farmersdelight:pasta_with_meatballs",
+    "item:farmersdelight:sweet_berry_cookie",
+    "item:farmersdelight:dumplings",
+    "item:farmersdelight:stuffed_pumpkin",
     "item:l2hostility:hostility_detector",
     "item:minecraft:lightning_rod",
     "item:minecraft:ender_eye",
@@ -85,42 +74,16 @@
     "item:minecraft:enchanting_table",
     "item:alexscaves:tremorzilla_egg",
     "item:mcdar:wonderful_wheat{Damage:0}",
-    "item:iter_rpg:coin",
-    "item:mythicmetals:mythril_pickaxe{Damage:0,affix_data:{sockets:0}}",
-    "item:mythicmetals:mythril_drill{Damage:0,affix_data:{sockets:0}}",
-    "item:weaponmaster:workstation",
-    "item:tacz:ammo_box{AmmoCount:300,AmmoId:\"tacz:9mm\",Level:0}",
-    "item:tacz:gun_smith_table",
     "item:minecraft:iron_block",
-    "item:born_in_chaos_v1:monster_flesh{affix_data:{affixes:{\"apotheosis:sword/attribute/intricate\":0.44613117f},name:\u0027{\"color\":\"#808080\",\"translate\":\"misc.apotheosis.affix_name.two\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/intricate\"},\"\",\"\"]}\u0027,rarity:\"apotheosis:common\",uuids:[[I;2126812251,-813676615,-1309701008,-472557024]]}}",
-    "item:lightmanscurrency:coin_iron",
-    "item:lightmanscurrency:atm",
     {
       "type": "item",
       "id": "minecraft:glass",
       "amount": 15
     },
-    {
-      "type": "item",
-      "id": "mythicmetals:morkite",
-      "amount": 17
-    },
     "item:quark:vertical_ancient_planks",
     "item:minecraft:stick",
     "item:minecraft:glass_pane",
-    "item:lightmanscurrency:wallet_iron",
-    {
-      "type": "item",
-      "id": "mythicmetals:banglum_ingot",
-      "amount": 21
-    },
     "item:minecraft:iron_ingot",
-    {
-      "type": "item",
-      "id": "lightmanscurrency:coin_gold",
-      "amount": 2
-    },
-    "item:tacz:ammo{AmmoId:\"tacz:9mm\"}",
     "item:twilightforest:minotaur_spawn_egg",
     {
       "type": "item",
@@ -154,11 +117,9 @@
       "id": "minecraft:copper_ingot",
       "amount": 3
     },
-    "item:weaponmaster:weaponkit",
     "item:mm_cooking:str_kitchen",
     "item:l2complements:totemic_gold_ingot",
     "item:minecraft:emerald",
-    "item:born_in_chaos_v1:corpse_maggot",
     "item:minecraft:iron_sword{Damage:0,affix_data:{sockets:1}}",
     "item:tombstone:grave_dust",
     {
@@ -181,12 +142,6 @@
     "item:lkartifacts:broken_star_small",
     "item:some_assembly_required:sandwiching_station",
     "item:aquamirae:fin",
-    "item:born_in_chaos_v1:bone_heart",
-    {
-      "type": "item",
-      "id": "born_in_chaos_v1:fused_bone",
-      "amount": 2
-    },
     "item:sophisticatedbackpacks:iron_backpack{contentsUuid:[I;1418179783,-738767021,-1553537292,433305261],inventorySlots:54,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:2}",
     "item:minecraft:iron_axe{Damage:0,affix_data:{sockets:1}}",
     "item:comforts:sleeping_bag_white",
@@ -209,18 +164,11 @@
     "bountifulfares:sun_hat",
     "minecraft:torch",
     "prefabricated:triple_compressed_stone_to_double_compressed_stone",
-    "tacz:iron_ammo_box",
-    "tacz:gun_smith_table",
     "minecraft:iron_block",
-    "lightmanscurrency:atm",
     "minecraft:glass_pane",
-    "mythicmetals:armor/banglum_leggings",
-    "mythicmetals:armor/banglum_chestplate",
-    "mythicmetals:armor/banglum_helmet",
     "prefabricated:swift_blade_obsidian",
     "quark:tweaks/crafting/utility/misc/easy_sticks",
     "vinery:grapevine_stem",
-    "lightmanscurrency:wallet/wallet_iron",
     "quark:building/crafting/chests/oak_chest",
     "quark:building/crafting/chests/mixed_chest",
     "minecraft:spruce_planks",
@@ -240,7 +188,6 @@
     "minecraft:stick",
     "minecraft:redstone_torch",
     "sophisticatedbackpacks:gold_backpack",
-    "weaponmaster:weaponkit",
     "minecraft:oak_trapdoor",
     "brewery:pretzel",
     "brewery:gingerbread",
