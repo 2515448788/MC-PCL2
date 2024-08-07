@@ -55,9 +55,29 @@
     },
     {
       "stack": "item:minecraft:enchanting_table"
+    },
+    {
+      "stack": "item:minecraft:stick"
+    },
+    {
+      "stack": "item:minecraft:wooden_axe{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:wooden_pickaxe{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:stone_axe{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:stone_pickaxe{Damage:0}"
     }
   ],
   "lookup_history": [
+    "item:minecraft:stone_axe{Damage:0}",
+    "item:minecraft:stone_pickaxe{Damage:0}",
+    "item:minecraft:wooden_pickaxe{Damage:0}",
+    "item:minecraft:wooden_axe{Damage:0}",
+    "item:minecraft:stick",
     "item:farmersdelight:wheat_dough",
     "#item:c:dough",
     "item:farmersdelight:raw_pasta",
@@ -81,7 +101,6 @@
       "amount": 15
     },
     "item:quark:vertical_ancient_planks",
-    "item:minecraft:stick",
     "item:minecraft:glass_pane",
     "item:minecraft:iron_ingot",
     "item:twilightforest:minotaur_spawn_egg",
@@ -156,6 +175,13 @@
     "item:mcdar:updraft_tome{Damage:0}"
   ],
   "craft_history": [
+    "quark:tweaks/crafting/utility/tools/stone_axe",
+    "quark:tweaks/crafting/utility/tools/stone_pickaxe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_axe",
+    "minecraft:stick",
+    "minecraft:crafting_table",
+    "minecraft:birch_planks",
     "l2hostility:hostility_detector",
     "minecraft:lightning_rod",
     "minecraft:spruce_fence",
@@ -185,7 +211,6 @@
     "sophisticatedstorage:basic_to_copper_tier_upgrade",
     "lootbundles:loot_bundle",
     "minecraft:jungle_slab",
-    "minecraft:stick",
     "minecraft:redstone_torch",
     "sophisticatedbackpacks:gold_backpack",
     "minecraft:oak_trapdoor",
@@ -202,8 +227,7 @@
     "minecraft:oak_planks",
     "minecraft:spruce_slab",
     "minecraft:oak_sign",
-    "minecraft:golden_pickaxe",
-    "quark:tweaks/crafting/utility/tools/stone_pickaxe"
+    "minecraft:golden_pickaxe"
   ],
   "recipe_defaults": {
     "added": [],
