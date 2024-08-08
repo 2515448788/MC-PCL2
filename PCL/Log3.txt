@@ -1,569 +1,917 @@
-[19:47:55.546] [Start] 程序版本：Snapshot 2.8.3 (331)
-[19:47:55.548] [Start] 识别码：B3B4-C8E8-A188-2726
-[19:47:55.548] [Start] 程序路径：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[19:47:55.548] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
-[19:47:55.548] [Start] 管理员权限：True
-[19:47:55.551] [Start] 第一阶段加载用时：47 ms
-[19:47:55.633] [UI] 刷新主题：4
-[19:47:55.663] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[19:47:55.664] [Start] 第二阶段加载用时：109 ms
-[19:47:55.669] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[19:47:55.810] [UI] 加载背景图片：D:\MC-PCL2\PCL\Pictures\Background.jpg
-[19:47:55.895] [System] 窗口已置顶，位置：(432, 178), 1056 x 676
-[19:47:55.899] [Start] 第三阶段加载用时：94 ms
-[19:47:55.900] [Animation] 动画线程开始
-[19:47:55.901] [Start] 加载 DLL：Json
-[19:47:55.901] [System] 获取资源：Json
-[19:47:55.908] [Launch] Minecraft 文件夹：D:\MC-PCL2\.minecraft\
-[19:47:55.959] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
-[19:47:55.965] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
-[19:47:55.968] [Java] 缓存中有 4 个可用的 Java：
-[19:47:55.969] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:47:55.969] [Java]  - JDK 17 (17.0.11)：C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin\
-[19:47:55.969] [Java]  - JDK 17 (17.0.8)：C:\Users\Administrator\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
-[19:47:55.969] [Java]  - JDK 21 (21.0.3)：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
-[19:47:55.983] [Page] 实例化：清空自定义主页 UI，来源为空
-[19:47:55.986] [Skin] 载入头像成功：Loader Skin Ms
-[19:47:56.000] [Minecraft] 启动按钮：Minecraft 版本：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[19:47:56.004] [Loader] 加载器 登录 状态改变：Loading
-[19:47:56.006] [Launch] 登录加载已开始
-[19:47:56.007] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[19:47:56.009] [Launch] 登录方式：正版（Aaalicecao）
-[19:47:56.010] [Launch] 开始微软登录步骤 2（刷新登录）
-[19:47:56.014] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[19:47:56.172] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[19:47:56.174] [UI] 解锁隐藏主题：6
-[19:47:56.174] [Loader] 加载器 PCL 服务 状态改变：Loading
-[19:47:56.174] [Server] 正在连接到 PCL 服务器
-[19:47:56.177] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
-[19:47:56.184] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1723031276-10eea7fc-0-9158e4238303e3978cdb4defeae0afac，超时 10000ms
-[19:47:56.266] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
-[19:47:56.393] [Server] 服务器公告：145|331|332|5，无需更新
-[19:47:56.398] [Loader] 加载器 PCL 服务 状态改变：Finished
-[19:47:56.446] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[19:47:56.621] [System] DPI：96，系统版本：10.0.22631.0，PCL 位置：D:\MC-PCL2\Plain Craft Launcher 2.exe
-[19:47:57.615] [Launch] 开始微软登录步骤 3
-[19:47:57.615] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[19:47:57.879] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[19:47:58.381] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
-[19:47:59.143] [Launch] 开始微软登录步骤 4
-[19:47:59.143] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[19:47:59.406] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[19:47:59.913] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
-[19:48:00.678] [Launch] 开始微软登录步骤 5
-[19:48:00.680] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[19:48:00.940] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
-[19:48:02.043] [Launch] 开始微软登录步骤 6
-[19:48:02.043] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[19:48:02.305] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
-[19:48:02.641] [Control] 按下按钮：版本设置
-[19:48:02.684] [Control] 切换主要页面：VersionSetup, 0
-[19:48:03.037] [Launch] 开始微软登录步骤 7
-[19:48:03.038] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[19:48:03.299] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
-[19:48:03.420] [Control] 按下单选列表项：Mod 管理
-[19:48:03.570] [Loader] 加载器 Mod List Loader 状态改变：Loading
-[19:48:03.571] [System] 已刷新 Mod 列表
-[19:48:03.805] [Launch] 微软登录完成
-[19:48:03.805] [UI] 解锁隐藏主题：10
-[19:48:03.805] [Loader] 加载器 Loader Login Ms 状态改变：Finished
-[19:48:03.816] [Launch] 登录加载已结束
-[19:48:03.816] [Loader] 加载器 登录 状态改变：Finished
-[19:48:04.847] [Mod] 共有 392 个 Mod，其中 1 个需要联网获取信息，0 个需要更新信息
-[19:48:04.960] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
-[19:48:04.963] [Mod] 目标加载器：NeoForge，版本：1.20.1
-[19:48:04.968] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
-[19:48:04.974] [System] 获取资源：ModData
-[19:48:04.979] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
-[19:48:05.366] [Mod] 从 CurseForge 获取到 1 个本地 Mod 的对应信息
-[19:48:05.367] [Mod] 需要从 CurseForge 获取 1 个本地 Mod 的工程信息
-[19:48:05.368] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
-[19:48:05.400] [Mod] 从 Modrinth 获取到 1 个本地 Mod 的对应信息
-[19:48:05.400] [Mod] 需要从 Modrinth 获取 1 个本地 Mod 的工程信息
-[19:48:05.400] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["Djpjjz6B"]），最大超时 15000
-[19:48:05.555] [Animation] 两个动画帧间隔 594 ms
-[19:48:05.571] [Loader] 加载器 Mod List Loader 状态改变：Finished
-[19:48:05.680] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
-[19:48:05.681] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
-[19:48:05.978] [Mod] 从 Modrinth 获取本地 Mod 信息结束
-[19:48:06.041] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 0 个用于检查更新的文件信息
-[19:48:06.054] [Mod] 联网获取本地 Mod 信息完成，为 1 个 Mod 更新缓存
-[19:48:06.066] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
-[19:48:06.348] [Animation] 两个动画帧间隔 656 ms
-[19:48:44.093] [Control] 按下图标按钮
-[19:48:44.102] [Loader] 加载器 Comp File 状态改变：Loading
-[19:48:44.103] [Control] 切换主要页面：CompDetail, 0
-[19:48:44.106] [Comp] 开始获取文件列表：bQh7xzFq
-[19:48:44.106] [Net] 获取网络结果：https://api.modrinth.com/v2/project/bQh7xzFq/version，超时 10000ms，要求 json
-[19:48:44.438] [Loader] 加载器 Comp File 状态改变：Finished
-[19:48:44.791] [Control] 按下按钮：转到 MC 百科
-[19:48:44.791] [System] 正在打开网页：https://www.mcmod.cn/class/8923.html
-[19:49:54.835] [Control] 按下图标按钮：BtnTitleInner
-[19:49:54.835] [Control] 切换主要页面：VersionSetup, -1
-[19:49:56.273] [Control] 按下图标按钮：BtnTitleInner
-[19:49:56.274] [Control] 切换主要页面：Launch, -1
-[19:50:01.769] [Report] FPS 0, 动画 5, 下载中 0（0 B/s）
-[19:50:04.977] [Control] 按下按钮：版本设置
-[19:50:04.979] [Control] 切换主要页面：VersionSetup, 0
-[19:50:05.748] [Control] 按下单选列表项：Mod 管理
-[19:50:18.540] [Control] 按下图标按钮
-[19:50:18.578] [UI] 弹出提示：已将 [MrCrayfish的枪：非官方版] CGM-Unofficial-1.4.17+Forge+1.20.1.jar 删除到回收站！
-[19:50:30.934] [Control] 按下图标按钮
-[19:50:30.972] [UI] 弹出提示：已将 lightmanscurrency-1.20.1-2.2.2.4.jar 删除到回收站！
-[19:50:33.408] [Control] 按下图标按钮：BtnTitleInner
-[19:50:33.408] [Control] 切换主要页面：Launch, -1
-[19:50:34.126] [Control] 按下按钮：版本选择
-[19:50:34.132] [Control] 切换主要页面：VersionSelect, 0
-[19:50:34.275] [Minecraft] 有效的 Minecraft 文件夹：当前文件夹 > D:\MC-PCL2\.minecraft\
-[19:50:34.278] [Loader] 加载器 Minecraft Version List 状态改变：Loading
-[19:50:34.290] [Setup] 当前选择的 Minecraft 版本：1.20.1-NeoForge_47.1.106
-[19:50:34.290] [Minecraft] 选择该文件夹储存的 Minecraft 版本：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[19:50:34.334] [Loader] 加载器 Minecraft Version List 状态改变：Finished
-[19:50:35.486] [Control] 按下图标按钮：BtnTitleInner
-[19:50:35.486] [Control] 切换主要页面：Launch, -1
-[19:50:36.200] [Control] 按下按钮：版本设置
-[19:50:36.203] [Control] 切换主要页面：VersionSetup, 0
-[19:50:37.038] [Control] 按下单选列表项：Mod 管理
-[19:50:37.171] [Loader] 加载器 Mod List Loader 状态改变：Loading
-[19:50:37.171] [System] 已刷新 Mod 列表
-[19:50:38.428] [Mod] 共有 390 个 Mod，其中 0 个需要联网获取信息，1 个需要更新信息
-[19:50:38.531] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
-[19:50:38.531] [Mod] 目标加载器：NeoForge，版本：1.20.1
-[19:50:38.532] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
-[19:50:38.532] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
-[19:50:39.105] [Loader] 加载器 Mod List Loader 状态改变：Finished
-[19:50:39.145] [Mod] 从 CurseForge 获取到 1 个本地 Mod 的对应信息
-[19:50:39.145] [Mod] 需要从 CurseForge 获取 1 个本地 Mod 的工程信息
-[19:50:39.145] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
-[19:50:39.437] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 0 个用于检查更新的文件信息
-[19:50:39.528] [Mod] 从 Modrinth 获取到 1 个本地 Mod 的对应信息
-[19:50:39.528] [Mod] 需要从 Modrinth 获取 1 个本地 Mod 的工程信息
-[19:50:39.528] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["Djpjjz6B"]），最大超时 15000
-[19:50:39.719] [Animation] 两个动画帧间隔 547 ms
-[19:50:39.733] [Animation] 两个动画帧间隔 641 ms
-[19:50:40.109] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
-[19:50:40.109] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
-[19:50:40.402] [Mod] 从 Modrinth 获取本地 Mod 信息结束
-[19:50:40.416] [Mod] 联网获取本地 Mod 信息完成，为 1 个 Mod 更新缓存
-[19:50:40.424] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
-[19:50:52.290] [Control] 按下图标按钮：BtnTitleInner
-[19:50:52.290] [Control] 切换主要页面：Launch, -1
-[19:50:52.982] [Control] 按下单选按钮：下载
-[19:50:53.015] [Loader] 加载器 DlClientList Main 状态改变：Loading
-[19:50:53.015] [Control] 切换主要页面：Download, -1
-[19:50:53.019] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[19:50:53.019] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
-[19:50:53.136] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
-[19:50:53.138] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
-[19:50:53.139] [Loader] 加载器 DlFabricList Main 状态改变：Loading
-[19:50:53.140] [Loader] 加载器 DlOptiFineList Official 状态改变：Loading
-[19:50:53.140] [Loader] 加载器 DlNeoForgeList Main 状态改变：Loading
-[19:50:53.141] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Loading
-[19:50:53.143] [Loader] 加载器 DlFabricList Official 状态改变：Loading
-[19:50:53.143] [Net] 获取网络结果：https://dl.liteloader.com/versions/versions.json，超时 10000ms，要求 json
-[19:50:53.143] [Net] 获取网络结果：https://meta.fabricmc.net/v2/versions，超时 10000ms，要求 json
-[19:50:53.144] [Net] 获取客户端网络结果：https://optifine.net/downloads，最大超时 10000
-[19:50:53.148] [Loader] 加载器 DlNeoForgeList Official 状态改变：Loading
-[19:50:53.153] [Loader] 加载器 源码获取 6480# 状态改变：Loading
-[19:50:53.154] [Download] 刷新 Forge 推荐版本缓存开始
-[19:50:53.154] [Loader] 加载器 源码获取 6484# 状态改变：Loading
-[19:50:53.173] 删除文件夹失败，将在 0.3s 后重试（C:\Users\Administrator\AppData\Local\Temp\PCL\Download）：对路径“C:\Users\Administrator\AppData\Local\Temp\PCL\Download”的访问被拒绝。
-   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
-   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
-   在 PCL.ModBase.DeleteDirectory(String Path, Boolean IgnoreIssue)
-错误类型：System.IO.IOException
-[19:50:53.205] [Download] -439165528_6479 6502#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge
-[19:50:53.292] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[19:50:53.376] [Loader] 加载器 DlClientList Main 状态改变：Finished
-[19:50:53.501] [Download] -1798645995_6483 6510#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
-[19:50:53.837] [Download] -439165528_6479 6502#：文件大小 8748（8.54 K）
-[19:50:53.842] [Download] -1798645995_6483 6510#：文件大小 51113（49.9 K）
-[19:50:53.843] [Download] -439165528_6479：已完成，剩余文件 1
-[19:50:53.844] [Loader] 加载器 源码获取 6480# 状态改变：Finished
-[19:50:53.854] [Download] -1798645995_6483：已完成，剩余文件 0
-[19:50:53.854] [Loader] 加载器 源码获取 6484# 状态改变：Finished
-[19:50:53.858] [Loader] 加载器 源码获取 6525# 状态改变：Loading
-[19:50:53.859] [Download] 刷新 Forge 推荐版本缓存成功
-[19:50:53.873] [Download] 2144960796_6524 6528#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/forge
-[19:50:53.914] [Control] 按下单选列表项：Mod
-[19:50:53.925] [Loader] 加载器 CompProject Mod 状态改变：Loading
-[19:50:53.934] [Comp] 工程列表搜索原始文本：
-[19:50:53.934] [Comp] 工程列表搜索最终文本：
-[19:50:53.936] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0
-[19:50:53.936] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0，超时 10000ms，要求 json
-[19:50:53.938] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
-[19:50:53.938] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]，超时 10000ms，要求 json
-[19:50:54.217] [Download] 2144960796_6524 6528#：文件大小 1100（1.07 K）
-[19:50:54.218] [Download] 2144960796_6524：已完成，剩余文件 0
-[19:50:54.218] [Loader] 加载器 源码获取 6525# 状态改变：Finished
-[19:50:54.227] [Control] 按下单选列表项：Mod
-[19:50:54.232] [Loader] 加载器 DlNeoForgeList Official 状态改变：Finished
-[19:50:54.244] [Loader] 加载器 DlNeoForgeList Main 状态改变：Finished
-[19:50:54.442] [Loader] 加载器 DlOptiFineList Official 状态改变：Finished
-[19:50:54.443] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
-[19:50:54.525] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 57562 个）
-[19:50:54.530] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 26012 个）
-[19:50:54.536] [Comp] 将 Cloth Config API (cloth-config) 与 Cloth Config API (Fabric/Forge/NeoForge) (cloth-config) 认定为相似工程
-[19:50:54.537] [Comp] 将 ModernFix (modernfix) 与 ModernFix (modernfix) 认定为相似工程
-[19:50:54.537] [Comp] 将 Just Enough Items (jei) 与 Just Enough Items (JEI) (jei) 认定为相似工程
-[19:50:54.537] [Comp] 去重、筛选后累计新增结果 77 个
-[19:50:54.547] [Comp] 开始可视化 Mod 列表，已储藏 77 个结果，当前在第 1 页
-[19:50:54.565] [Comp] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/mOgUt4GM/1b6bcdef5a3d92572f517122650716be7ec6458b.webp
-[19:50:54.571] [Loader] 加载器 DlFabricList Official 状态改变：Finished
-[19:50:54.590] [Loader] 加载器 DlFabricList Main 状态改变：Finished
-[19:50:54.705] [Loader] 加载器 CompProject Mod 状态改变：Finished
-[19:50:55.160] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Finished
-[19:50:55.165] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
-[19:50:56.652] [Control] 按下单选按钮：启动
-[19:50:56.653] [Control] 切换主要页面：Launch, -1
-[19:50:57.547] [Control] 按下按钮：版本设置
-[19:50:57.550] [Control] 切换主要页面：VersionSetup, 0
-[19:50:58.591] [Control] 按下单选列表项：Mod 管理
-[19:50:59.248] [Control] 按下图标按钮：BtnTitleInner
-[19:50:59.248] [Control] 切换主要页面：Launch, -1
-[19:50:59.946] [Control] 按下单选按钮：下载
-[19:50:59.946] [Control] 切换主要页面：Download, -1
-[19:51:03.967] [Loader] 加载器 CompProject Mod 状态改变：Loading
-[19:51:03.968] [Comp] 工程列表搜索原始文本：lightman
-[19:51:03.968] [Comp] 工程列表搜索最终文本：lightman
-[19:51:03.968] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=lightman
-[19:51:03.968] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=lightman，超时 10000ms，要求 json
-[19:51:03.968] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=lightman&facets=[["project_type:mod"]]
-[19:51:03.968] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=lightman&facets=[["project_type:mod"]]，超时 10000ms，要求 json
-[19:51:04.254] [Comp] 从 Modrinth 获取到了 11 个工程（已获取 11 个，共 11 个）
-[19:51:04.342] [Comp] 从 CurseForge 获取到了 5 个工程（已获取 5 个，共 5 个）
-[19:51:04.342] [Comp] 将 Claim Shop For Lightmans Currency (claim-shop-for-lightmans-currency) 与 Claim Shop For Lightmans Currency (claim-shop-for-lightmans-currency) 认定为相似工程
-[19:51:04.342] [Comp] 去重、筛选后累计新增结果 10 个
-[19:51:04.342] [Comp] 总结果数需求最少 40 个，仅获得了 10 个
-[19:51:04.342] [Comp] 无法继续加载，将强制结束
-[19:51:04.345] [Comp] 开始可视化 Mod 列表，已储藏 10 个结果，当前在第 1 页
-[19:51:04.370] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/1044/835/64/64/638572534682159298.png
-[19:51:04.387] [Net] 直接下载文件：https://cdn.modrinth.com/data/Z8OVbxC7/d9027380dca89118bed9e6032290a531134ccaf3.jpeg
-[19:51:04.408] [Loader] 加载器 CompProject Mod 状态改变：Finished
-[19:51:07.148] [Control] 按下按钮：搜索
-[19:51:07.148] [Loader] 加载器 CompProject Mod 状态改变：Loading
-[19:51:07.149] [Comp] 工程列表搜索原始文本：lightman
-[19:51:07.149] [Comp] 工程列表搜索最终文本：lightman
-[19:51:07.149] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=lightman
-[19:51:07.149] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=lightman，超时 10000ms，要求 json
-[19:51:07.149] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=lightman&facets=[["project_type:mod"],["versions:'1.20.1'"]]
-[19:51:07.149] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=lightman&facets=[["project_type:mod"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
-[19:51:07.430] [Comp] 从 Modrinth 获取到了 8 个工程（已获取 8 个，共 8 个）
-[19:51:07.459] [Comp] 从 CurseForge 获取到了 5 个工程（已获取 5 个，共 5 个）
-[19:51:07.460] [Comp] 将 Claim Shop For Lightmans Currency (claim-shop-for-lightmans-currency) 与 Claim Shop For Lightmans Currency (claim-shop-for-lightmans-currency) 认定为相似工程
-[19:51:07.460] [Comp] 去重、筛选后累计新增结果 9 个
-[19:51:07.460] [Comp] 总结果数需求最少 40 个，仅获得了 9 个
-[19:51:07.460] [Comp] 无法继续加载，将强制结束
-[19:51:07.461] [Comp] 开始可视化 Mod 列表，已储藏 9 个结果，当前在第 1 页
-[19:51:07.525] [Loader] 加载器 CompProject Mod 状态改变：Finished
-[19:51:10.376] [Control] 切换主要页面：CompDetail, 0
-[19:51:10.376] [Control] 按下资源工程列表项：Lightman's Currency
-[19:51:10.535] [Loader] 加载器 Comp File 状态改变：Loading
-[19:51:10.535] [Comp] 开始获取文件列表：472521
-[19:51:10.535] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
-[19:51:10.858] [Loader] 加载器 Comp File 状态改变：Finished
-[19:51:11.840] [Report] FPS 0, 动画 26, 下载中 0（0 B/s）
-[19:51:13.247] [Control] 按下单击列表项：lightmanscurrency-1.20.1-2.2.2.6.jar
-[19:51:13.251] [Comp] 允许 Forge：True，允许 Fabric：False
-[19:51:13.252] [Comp] 使用当前版本的 mods 文件夹作为默认下载位置（1.20.1-NeoForge_47.1.106）
-[19:51:14.090] [UI] 选择文件返回：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\mods\lightmanscurrency-1.20.1-2.2.2.6.jar
-[19:51:14.092] [Loader] 加载器 Mod 下载：lightmanscurrency-1.20.1-2.2.2.6  状态改变：Loading
-[19:51:14.093] [Taskbar] Mod 下载：lightmanscurrency-1.20.1-2.2.2.6  已加入任务列表
-[19:51:14.094] [Loader] 加载器 下载文件 状态改变：Loading
-[19:51:14.107] [Download] lightmanscurrency-1.20.1-2.2.2.6.jar 7071#：开始，起始点 0，https://media.forgecdn.net/files/5573/448/lightmanscurrency-1.20.1-2.2.2.6.jar
-[19:51:14.143] [Download] lightmanscurrency-1.20.1-2.2.2.6.jar 7071#：文件大小 4998437（4.77 M）
-[19:51:14.354] [Download] 速度下限已提升到 882 K
-[19:51:14.446] [Download] 速度下限已提升到 1.63 M
-[19:51:14.538] [Download] 速度下限已提升到 1.76 M
-[19:51:14.630] [Download] 速度下限已提升到 2.17 M
-[19:51:14.722] [Download] 速度下限已提升到 2.76 M
-[19:51:14.814] [Download] 速度下限已提升到 3.34 M
-[19:51:14.906] [Download] 速度下限已提升到 3.67 M
-[19:51:14.939] [Control] 按下图标按钮：BtnTitleInner
-[19:51:14.939] [Control] 切换主要页面：Download, -1
-[19:51:15.014] [Download] 速度下限已提升到 4.32 M
-[19:51:15.022] [Download] lightmanscurrency-1.20.1-2.2.2.6.jar：已完成，剩余文件 0
-[19:51:15.022] [Loader] 加载器 下载文件 状态改变：Finished
-[19:51:15.023] [Loader] 加载器 Mod 下载：lightmanscurrency-1.20.1-2.2.2.6  状态改变：Finished
-[19:51:15.082] [UI] 弹出提示：Mod 下载：lightmanscurrency-1.20.1-2.2.2.6 成功！
-[19:51:15.082] [Taskbar] Mod 下载：lightmanscurrency-1.20.1-2.2.2.6  已移出任务列表
-[19:51:15.500] [Control] 按下单选按钮：启动
-[19:51:15.501] [Control] 切换主要页面：Launch, -1
-[19:51:16.663] [Control] 按下按钮：版本设置
-[19:51:16.666] [Control] 切换主要页面：VersionSetup, 0
-[19:51:17.364] [Control] 按下单选列表项：Mod 管理
-[19:51:17.495] [Loader] 加载器 Mod List Loader 状态改变：Loading
-[19:51:17.496] [System] 已刷新 Mod 列表
-[19:51:18.817] [Mod] 共有 391 个 Mod，其中 1 个需要联网获取信息，1 个需要更新信息
-[19:51:18.927] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
-[19:51:18.927] [Mod] 目标加载器：NeoForge，版本：1.20.1
-[19:51:18.927] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
-[19:51:18.947] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
-[19:51:19.267] [Mod] 从 Modrinth 获取到 2 个本地 Mod 的对应信息
-[19:51:19.267] [Mod] 需要从 Modrinth 获取 2 个本地 Mod 的工程信息
-[19:51:19.267] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["wvMc8AJt","Djpjjz6B"]），最大超时 15000
-[19:51:19.538] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
-[19:51:19.538] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
-[19:51:19.544] [Loader] 加载器 Mod List Loader 状态改变：Finished
-[19:51:19.804] [Mod] 从 CurseForge 获取到 2 个本地 Mod 的对应信息
-[19:51:19.804] [Mod] 需要从 CurseForge 获取 2 个本地 Mod 的工程信息
-[19:51:19.804] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
-[19:51:19.832] [Mod] 从 Modrinth 获取本地 Mod 信息结束
-[19:51:20.084] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 0 个用于检查更新的文件信息
-[19:51:20.093] [Mod] 联网获取本地 Mod 信息完成，为 2 个 Mod 更新缓存
-[19:51:20.104] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
-[19:51:20.193] [Animation] 两个动画帧间隔 578 ms
-[19:51:20.207] [Animation] 两个动画帧间隔 703 ms
-[19:51:23.847] [Control] 按下图标按钮
-[19:51:36.398] [Control] 按下图标按钮
-[19:51:37.218] [Report] FPS 0, 动画 5, 下载中 0（0 B/s）
-[19:51:37.237] [Control] 按下图标按钮
-[19:51:38.812] [Control] 按下图标按钮
-[19:51:41.543] [Control] 按下图标按钮
-[19:51:41.544] [Control] 切换主要页面：CompDetail, 0
-[19:51:41.704] [Loader] 加载器 Comp File 状态改变：Loading
-[19:51:41.704] [Comp] 开始获取文件列表：475117
-[19:51:41.704] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
-[19:51:41.904] [Report] FPS 0, 动画 5, 下载中 0（0 B/s）
-[19:51:42.027] [Loader] 加载器 Comp File 状态改变：Finished
-[19:51:42.295] [Control] 按下按钮：转到 MC 百科
-[19:51:42.295] [System] 正在打开网页：https://www.mcmod.cn/class/3822.html
-[19:53:55.349] [Control] 按下图标按钮：BtnTitleInner
-[19:53:55.349] [Control] 切换主要页面：VersionSetup, -1
-[19:53:55.493] [Loader] 加载器 Mod List Loader 状态改变：Loading
-[19:53:55.493] [System] 已刷新 Mod 列表
-[19:53:56.820] [Mod] 共有 391 个 Mod，其中 0 个需要联网获取信息，2 个需要更新信息
-[19:53:56.925] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
-[19:53:56.925] [Mod] 目标加载器：NeoForge，版本：1.20.1
-[19:53:56.925] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
-[19:53:56.926] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
-[19:53:57.316] [Mod] 从 Modrinth 获取到 2 个本地 Mod 的对应信息
-[19:53:57.316] [Mod] 需要从 Modrinth 获取 2 个本地 Mod 的工程信息
-[19:53:57.316] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["wvMc8AJt","Djpjjz6B"]），最大超时 15000
-[19:53:57.322] [Mod] 从 CurseForge 获取到 2 个本地 Mod 的对应信息
-[19:53:57.322] [Mod] 需要从 CurseForge 获取 2 个本地 Mod 的工程信息
-[19:53:57.322] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
-[19:53:57.511] [Loader] 加载器 Mod List Loader 状态改变：Finished
-[19:53:57.617] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 0 个用于检查更新的文件信息
-[19:53:57.619] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
-[19:53:57.619] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
-[19:53:57.926] [Mod] 从 Modrinth 获取本地 Mod 信息结束
-[19:53:57.931] [Mod] 联网获取本地 Mod 信息完成，为 2 个 Mod 更新缓存
-[19:53:57.948] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
-[19:53:58.133] [Animation] 两个动画帧间隔 547 ms
-[19:53:58.150] [Animation] 两个动画帧间隔 672 ms
-[19:54:08.135] [Control] 按下图标按钮
-[19:54:41.160] [Control] 按下图标按钮：BtnTitleInner
-[19:54:41.160] [Control] 切换主要页面：Launch, -1
-[19:56:25.792] [Control] 按下单选按钮：下载
-[19:56:25.792] [Control] 切换主要页面：Download, -1
-[19:56:27.761] [Loader] 加载器 CompProject Mod 状态改变：Loading
-[19:56:27.761] [Comp] 工程列表搜索原始文本：jei
-[19:56:27.762] [Comp] 工程列表搜索最终文本：jei
-[19:56:27.762] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei
-[19:56:27.762] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei，超时 10000ms，要求 json
-[19:56:27.762] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei&facets=[["project_type:mod"],["versions:'1.20.1'"]]
-[19:56:27.762] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei&facets=[["project_type:mod"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
-[19:56:27.911] [Comp] 工程列表搜索原始文本：jei
-[19:56:27.911] [Comp] 工程列表搜索最终文本：jei
-[19:56:27.911] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei
-[19:56:27.911] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei，超时 10000ms，要求 json
-[19:56:27.911] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei&facets=[["project_type:mod"],["versions:'1.20.1'"]]
-[19:56:27.911] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei&facets=[["project_type:mod"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
-[19:56:28.145] [Comp] 从 Modrinth 获取到了 21 个工程（已获取 21 个，共 21 个）
-[19:56:28.184] [Comp] 从 CurseForge 获取到了 4 个工程（已获取 4 个，共 4 个）
-[19:56:28.188] [Comp] 从 CurseForge 获取到了 4 个工程（已获取 4 个，共 4 个）
-[19:56:28.288] [Comp] 从 Modrinth 获取到了 21 个工程（已获取 21 个，共 21 个）
-[19:56:28.289] [Comp] 将 JEITweaker (jeitweaker) 与 JEITweaker (jeitweaker) 认定为相似工程
-[19:56:28.289] [Comp] 将 Just Enough Items (jei) 与 Just Enough Items (JEI) (jei) 认定为相似工程
-[19:56:28.290] [Comp] 去重、筛选后累计新增结果 23 个
-[19:56:28.290] [Comp] 总结果数需求最少 40 个，仅获得了 23 个
-[19:56:28.290] [Comp] 无法继续加载，将强制结束
-[19:56:28.293] [Comp] 开始可视化 Mod 列表，已储藏 23 个结果，当前在第 1 页
-[19:56:28.324] [Net] 直接下载文件：https://cdn.modrinth.com/data/EO27GKs1/8523cbeae55e8b83e076ff22c819f2b1a958684e.png
-[19:56:28.358] [Net] 直接下载文件：https://cdn.modrinth.com/data/Thy5Pqut/2f06d6858db654f24098263b4b8d29f4766687e9.jpeg
-[19:56:28.370] [Net] 直接下载文件：https://cdn.modrinth.com/data/zvQzspGU/d764dc30bc4efcf0c61bdb4caba19edfc1a0e2c9.png
-[19:56:28.397] [Loader] 加载器 CompProject Mod 状态改变：Finished
-[19:56:35.275] [Loader] 加载器 CompProject Mod 状态改变：Loading
-[19:56:35.276] [Comp] 工程列表搜索原始文本：jei fram
-[19:56:35.276] [Comp] 工程列表搜索最终文本：jei fram jeifram
-[19:56:35.276] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei+fram+jeifram
-[19:56:35.276] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=jei+fram+jeifram，超时 10000ms，要求 json
-[19:56:35.276] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei+fram+jeifram&facets=[["project_type:mod"],["versions:'1.20.1'"]]
-[19:56:35.277] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=jei+fram+jeifram&facets=[["project_type:mod"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
-[19:56:35.602] [Comp] 从 CurseForge 获取到了 3 个工程（已获取 3 个，共 3 个）
-[19:56:35.819] [Comp] 从 Modrinth 获取到了 20 个工程（已获取 20 个，共 20 个）
-[19:56:35.819] [Comp] 将 Just Enough Items (jei) 与 Just Enough Items (JEI) (jei) 认定为相似工程
-[19:56:35.820] [Comp] 去重、筛选后累计新增结果 22 个
-[19:56:35.820] [Comp] 总结果数需求最少 40 个，仅获得了 22 个
-[19:56:35.820] [Comp] 无法继续加载，将强制结束
-[19:56:35.822] [Comp] 开始可视化 Mod 列表，已储藏 22 个结果，当前在第 1 页
-[19:56:35.926] [Loader] 加载器 CompProject Mod 状态改变：Finished
-[19:56:44.350] [Control] 切换主要页面：CompDetail, 0
-[19:56:44.350] [Control] 按下资源工程列表项：Just Enough Farmer's Recipes
-[19:56:44.528] [Loader] 加载器 Comp File 状态改变：Loading
-[19:56:44.528] [Comp] 开始获取文件列表：fQhRIhD6
-[19:56:44.528] [Net] 获取网络结果：https://api.modrinth.com/v2/project/fQhRIhD6/version，超时 10000ms，要求 json
-[19:56:44.858] [Comp] fQhRIhD6 文件列表中还需要获取信息的前置 Mod：4EakbH8e
-[19:56:44.858] [Net] 获取网络结果：https://api.modrinth.com/v2/projects?ids=["4EakbH8e"]，超时 10000ms，要求 json
-[19:56:45.190] [Loader] 加载器 Comp File 状态改变：Finished
-[19:56:45.375] [Control] 按下按钮：转到 Modrinth
-[19:56:45.375] [System] 正在打开网页：https://modrinth.com/mod/just-enough-farmers-recipes
-[19:57:59.975] [Control] 按下图标按钮：BtnTitleInner
-[19:57:59.975] [Control] 切换主要页面：Download, -1
-[19:58:01.139] [Control] 按下单选按钮：启动
-[19:58:01.140] [Control] 切换主要页面：Launch, -1
-[19:58:01.877] [Control] 按下按钮：启动游戏
-[19:58:01.879] [Loader] 加载器 Loader Launch 状态改变：Loading
-[19:58:01.889] [Launch] 预检测已通过
-[19:58:01.891] [Download] 开始后台检查资源文件索引
-[19:58:01.891] [Loader] 加载器 后台更新资源文件索引 状态改变：Loading
-[19:58:01.892] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Loading
-[19:58:01.893] [Loader] 加载器 登录 状态改变：Waiting
-[19:58:01.893] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[19:58:01.893] [Loader] 加载器 获取 Java 状态改变：Loading
-[19:58:01.894] [Loader] 加载器 登录 状态改变：Loading
-[19:58:01.894] [Loader] 加载器 补全文件 状态改变：Loading
-[19:58:01.894] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[19:58:01.894] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[19:58:01.894] [Launch] 登录加载已开始
-[19:58:01.894] [Loader] 加载器 Loader Login Ms 状态改变：Loading
-[19:58:01.894] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[19:58:01.894] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Loading
-[19:58:01.894] [Loader] 加载器 分析资源文件索引地址 状态改变：Loading
-[19:58:01.894] [Download] 无需更新资源文件索引
-[19:58:01.894] [Launch] 登录方式：正版（Aaalicecao）
-[19:58:01.894] [Launch] 微软登录完成
-[19:58:01.894] [UI] 解锁隐藏主题：10
-[19:58:01.895] [Loader] 加载器 Loader Login Ms 状态改变：Finished
-[19:58:01.895] [Loader] 加载器 后台分析资源文件索引地址 状态改变：Aborted
-[19:58:01.895] [Taskbar] Minecraft 启动 已加入任务列表
-[19:58:01.895] [Loader] 加载器 后台更新资源文件索引 状态改变：Aborted
-[19:58:01.895] [Download] 版本 1.20.1-NeoForge_47.1.106 对应的资源文件索引为 5
-[19:58:01.895] [Loader] 加载器 后台下载资源文件索引 状态改变：Aborted
-[19:58:01.895] [Download] 后台下载资源文件索引 已取消！
-[19:58:01.895] [Loader] 加载线程 后台分析资源文件索引地址 (60) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
-[19:58:01.897] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
-[19:58:01.905] [Loader] 加载器 分析资源文件索引地址 状态改变：Finished
-[19:58:01.905] [Loader] 加载器 下载资源文件索引 状态改变：Loading
-[19:58:01.906] [Loader] 加载器 下载资源文件索引 状态改变：Finished
-[19:58:01.906] [Loader] 加载器 分析缺失资源文件 状态改变：Loading
-[19:58:01.907] [Java] 开始完全遍历查找：D:\MC-PCL2\
-[19:58:01.917] [Launch] 登录加载已结束
-[19:58:01.917] [Loader] 加载器 登录 状态改变：Finished
-[19:58:01.920] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\
-[19:58:01.925] [Java] 开始完全遍历查找：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[19:58:01.942] [Java] 开始确认列表 Java 状态，共 2 项
-[19:58:01.945] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\MCA Selector\jre\bin\java.exe -version
-[19:58:01.945] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[19:58:01.950] [Loader] 加载器 分析缺失资源文件 状态改变：Finished
-[19:58:01.950] [Loader] 加载器 下载资源文件 状态改变：Loading
-[19:58:01.951] [Loader] 加载器 下载资源文件 状态改变：Finished
-[19:58:01.951] [Loader] 加载器 下载资源文件（主加载器） 状态改变：Finished
-[19:58:01.972] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[19:58:02.033] [Java] 检查失败的 Java 输出：D:\MC-PCL2\MCA Selector\jre\bin\java.exe
-openjdk version "21.0.2" 2024-01-16 lts
-openjdk runtime environment zulu21.32+17-ca (build 21.0.2+13-lts)
-openjdk 64-bit server vm zulu21.32+17-ca (build 21.0.2+13-lts, mixed mode, sharing)
-
-[19:58:02.034] 位于 D:\MC-PCL2\MCA Selector\jre\bin\ 的 Java 存在异常：检查 Java 失败（D:\MC-PCL2\MCA Selector\jre\bin\javaw.exe）
-→ 由于高版本 JRE 对游戏的兼容性很差，因此不再允许使用。你可以使用对应版本的 JDK，而非 JRE！
-   在 PCL.ModJava.JavaEntry.Check()
-   在 PCL.ModJava._Closure$__17-0._Lambda$__0()
-   在 PCL.ModJava.JavaEntry.Check()
-[19:58:02.041] [Java] 检查后找到 1 个特定路径下的 Java：
-[19:58:02.041] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.041] [System] 执行外部命令并等待返回结果：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\java.exe -version
-[19:58:02.112] [Java] 用户指定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.112] [Java] 使用用户指定的 Java：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.112] [Java] 排序后的 Java 优先顺序：
-[19:58:02.112] [Java]  - JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.112] [Java] 最终选定的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.112] [Launch] 选择的 Java：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.112] [Loader] 加载器 获取 Java 状态改变：Finished
-[19:58:02.140] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[19:58:02.140] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[19:58:02.141] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[19:58:02.141] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[19:58:02.141] [Loader] 加载器 补全文件 状态改变：Finished
-[19:58:02.141] [Loader] 加载器 获取启动参数 状态改变：Loading
-[19:58:02.143] [Launch] 开始获取 Minecraft 启动参数
-[19:58:02.143] [Launch] 获取新版 JVM 参数
-[19:58:02.149] [Launch] 当前剩余内存：8.9G
-[19:58:02.155] [Java] 选定的 Java Wrapper 路径：D:\MC-PCL2\PCL\JavaWrapper.jar
-[19:58:02.155] [System] 获取资源：JavaWrapper
-[19:58:02.155] [Launch] 新版 JVM 参数获取成功：
-[19:58:02.155] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=${natives_directory} -Djna.tmpdir=${natives_directory} -Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory} -Dio.netty.native.workdir=${natives_directory} -Dminecraft.launcher.brand=${launcher_name} -Dminecraft.launcher.version=${launcher_version} -cp ${classpath} -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,${version_name}.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory=${library_directory} -p ${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.5/asm-9.5.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher
-[19:58:02.155] [Launch] 获取新版 Game 参数
-[19:58:02.158] [Launch] 新版 Game 参数获取成功
-[19:58:02.160] [Minecraft] 获取支持库列表：1.20.1-NeoForge_47.1.106
-[19:58:02.162] [Launch] Minecraft 启动参数：
-[19:58:02.164] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Djna.tmpdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dorg.lwjgl.system.SharedLibraryExtractPath="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dio.netty.native.workdir="D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives" -Dminecraft.launcher.brand=PCL -Dminecraft.launcher.version=331 -cp "D:\MC-PCL2\.minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;D:\MC-PCL2\.minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\MC-PCL2\.minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;D:\MC-PCL2\.minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\authlib\4.0.43\authlib-4.0.43.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\brigadier\1.1.8\brigadier-1.1.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\datafixerupper\6.0.8\datafixerupper-6.0.8.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;D:\MC-PCL2\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;D:\MC-PCL2\.minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\MC-PCL2\.minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;D:\MC-PCL2\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;D:\MC-PCL2\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;D:\MC-PCL2\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;D:\MC-PCL2\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-arm64.jar;D:\MC-PCL2\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-x86.jar;D:\MC-PCL2\.minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\loader\47.2.2\loader-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\earlydisplay\47.2.2\earlydisplay-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\securejarhandler\2.1.10\securejarhandler-2.1.10.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm\9.5\asm-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-util\9.5\asm-util-9.5.jar;D:\MC-PCL2\.minecraft\libraries\org\ow2\asm\asm-analysis\9.5\asm-analysis-9.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\accesstransformers\8.0.4\accesstransformers-8.0.4.jar;D:\MC-PCL2\.minecraft\libraries\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\eventbus\6.0.5\eventbus-6.0.5.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\forgespi\7.0.1\forgespi-7.0.1.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\coremods\5.0.1\coremods-5.0.1.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\modlauncher\10.0.9\modlauncher-10.0.9.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\unsafe\0.2.0\unsafe-0.2.0.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-api.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\core\3.6.4\core-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\com\electronwill\night-config\toml\3.6.4\toml-3.6.4.jar;D:\MC-PCL2\.minecraft\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar;D:\MC-PCL2\.minecraft\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.2.0\terminalconsoleappender-1.2.0.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-reader\3.12.1\jline-reader-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\jline\jline-terminal\3.12.1\jline-terminal-3.12.1.jar;D:\MC-PCL2\.minecraft\libraries\org\spongepowered\mixin\0.8.5\mixin-0.8.5.jar;D:\MC-PCL2\.minecraft\libraries\org\openjdk\nashorn\nashorn-core\15.3\nashorn-core-15.3.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarSelector\0.3.19\JarJarSelector-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarMetadata\0.3.19\JarJarMetadata-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\cpw\mods\bootstraplauncher\1.1.2\bootstraplauncher-1.1.2.jar;D:\MC-PCL2\.minecraft\libraries\net\minecraftforge\JarJarFileSystems\0.3.19\JarJarFileSystems-0.3.19.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\events\47.2.2\events-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\core\47.2.2\core-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-java\47.2.2\language-java-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-lowcode\47.2.2\language-lowcode-47.2.2.jar;D:\MC-PCL2\.minecraft\libraries\net\neoforged\fancymodloader\language-minecraft\47.2.2\language-minecraft-47.2.2.jar;D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106.jar" -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,events-47.2.2.jar,core-47.2.2.jar,language-java,language-lowcode,language-minecraft,client-extra,forge-,1.20.1-NeoForge_47.1.106.jar -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar -Dfml.pluginLayerLibraries=core-47.2.2.jar,language-java-47.2.2.jar,language-lowcode-47.2.2.jar,language-minecraft-47.2.2.jar -Dfml.gameLayerLibraries=events-47.2.2.jar -DlibraryDirectory="D:\MC-PCL2\.minecraft\libraries" -p "D:\MC-PCL2\.minecraft\libraries"/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar;"D:\MC-PCL2\.minecraft\libraries"/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/org/ow2/asm/asm/9.5/asm-9.5.jar;"D:\MC-PCL2\.minecraft\libraries"/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar --add-modules ALL-MODULE-PATH --add-opens java.base/java.util.jar=cpw.mods.securejarhandler --add-opens java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports java.base/sun.security.util=cpw.mods.securejarhandler --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming -Xmn1536m -Xmx10240m --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="D:\MC-PCL2\PCL" -jar "D:\MC-PCL2\PCL\JavaWrapper.jar" cpw.mods.bootstraplauncher.BootstrapLauncher --username Aaalicecao --version 1.20.1-NeoForge_47.1.106 --gameDir "D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106" --assetsDir "D:\MC-PCL2\.minecraft\assets" --assetIndex 5 --uuid b23d6b6456a641d1a734109f719e4add --accessToken eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************ECpOY --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType PCL --width 852 --height 448 --launchTarget forgeclient --fml.forgeVersion 47.1.106 --fml.fmlVersion 47.2.2 --fml.mcVersion 1.20.1 --fml.mcpVersion 20230612.114412 
-[19:58:02.164] [Loader] 加载器 获取启动参数 状态改变：Finished
-[19:58:02.169] [Loader] 加载器 解压文件 状态改变：Loading
-[19:58:02.171] [Launch] 正在解压 Natives 文件
-[19:58:02.171] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\glfw.dll
-[19:58:02.172] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jemalloc.dll
-[19:58:02.172] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna8133908971459155909.dll
-[19:58:02.173] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\jna8133908971459155909.dll.x
-[19:58:02.174] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl.dll
-[19:58:02.174] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_opengl.dll
-[19:58:02.175] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\lwjgl_stb.dll
-[19:58:02.177] [Launch] 删除：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives\OpenAL.dll
-[19:58:02.177] [Loader] 加载器 解压文件 状态改变：Finished
-[19:58:02.221] [Loader] 加载器 预启动处理 状态改变：Loading
-[19:58:02.230] [Launch] 已更新 launcher_profiles.json
-[19:58:02.230] [Launch] 需要的语言为 zh_cn，当前语言为 zh_cn，无需修改
-[19:58:02.230] [Loader] 加载器 预启动处理 状态改变：Finished
-[19:58:02.247] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[19:58:02.251] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[19:58:02.271] [Loader] 加载器 启动进程 状态改变：Loading
-[19:58:02.276] [Launch] 已启动游戏进程：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\javaw.exe
-[19:58:02.276] [Loader] 加载器 启动进程 状态改变：Finished
-[19:58:02.301] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[19:58:02.302] [Launch] 
-[19:58:02.302] [Launch] ~ 基础参数 ~
-[19:58:02.302] [Launch] PCL 版本：Snapshot 2.8.3 (331)
-[19:58:02.302] [Launch] 游戏版本：1.20.1, NeoForge 47.1.106（识别为 1.20.1）
-[19:58:02.302] [Launch] 资源版本：5
-[19:58:02.302] [Launch] 版本继承：无
-[19:58:02.302] [Launch] 分配的内存：10 GB（10240 MB）
-[19:58:02.302] [Launch] MC 文件夹：D:\MC-PCL2\.minecraft\
-[19:58:02.302] [Launch] 版本文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
-[19:58:02.302] [Launch] 版本隔离：True
-[19:58:02.302] [Launch] HMCL 格式：False
-[19:58:02.302] [Launch] Java 信息：JDK 21 (21.0.3)：D:\MC-PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
-[19:58:02.303] [Launch] 环境变量：未设置
-[19:58:02.303] [Launch] Natives 文件夹：D:\MC-PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\1.20.1-NeoForge_47.1.106-natives
-[19:58:02.303] [Launch] 
-[19:58:02.303] [Launch] ~ 登录参数 ~
-[19:58:02.303] [Launch] 玩家用户名：Aaalicecao
-[19:58:02.303] [Launch] AccessToken：eyJra******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************ECpOY
-[19:58:02.303] [Launch] ClientToken：b23d6b6456a641d1a734109f719e4add
-[19:58:02.303] [Launch] UUID：b23d6b6456a641d1a734109f719e4add
-[19:58:02.303] [Launch] 登录方式：Microsoft
-[19:58:02.303] [Launch] 
-[19:58:02.305] [Launch] [5892] 开始 Minecraft 日志监控
-[19:58:02.305] [Launch] [全局] 出现运行中的 Minecraft
-[19:58:04.160] [Launch] [5892] 日志 1/5：已出现日志输出
-[19:58:06.274] [Launch] [5892] Minecraft 窗口已加载：Minecraft: Forge Loading...（789084）
-[19:58:06.274] [Launch] [5892] Minecraft 加载已完成
-[19:58:06.341] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[19:58:06.344] [Loader] 加载器 结束处理 状态改变：Loading
-[19:58:06.345] [Launch] 开始启动结束处理
-[19:58:06.346] [Launch] 启动器可见性：5
-[19:58:06.346] [Loader] 加载器 结束处理 状态改变：Finished
-[19:58:06.347] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[19:58:06.401] [Taskbar] Minecraft 启动 已移出任务列表
-[19:58:06.541] [Loader] 加载器 Loader Launch 状态改变：Finished
-[19:58:06.587] [UI] 弹出提示：1.20.1-NeoForge_47.1.106 启动成功！
-[19:58:27.598] [Launch] [5892] 日志 2/5：游戏用户已设置
-[19:58:30.172] [Launch] [5892] 日志 3/5：LWJGL 版本已确认
-[19:59:58.615] [Launch] [5892] 日志 4/5：OpenAL 已加载
-[19:59:58.851] [Launch] [5892] 日志 5/5：材质已加载
-[20:04:01.984] [Launch] [5892] Minecraft 已退出，返回值：0
-[20:04:01.990] [Launch] [全局] 已无运行中的 Minecraft
-[20:04:02.220] [Launch] [5892] Minecraft 日志监控已退出
-[20:04:02.687] [Control] 按下图标按钮：BtnTitleClose
-[20:04:02.697] [System] 收到关闭指令
-[20:04:02.922] [System] 程序已退出，返回值：Success
+[16:58:16.873] [Start] 程序版本：Snapshot 2.8.3 (331)
+[16:58:16.875] [Start] 识别码：9716-A12E-161C-8DBC
+[16:58:16.875] [Start] 程序路径：C:\PCL2\Plain Craft Launcher 2.exe
+[16:58:16.875] [Start] 系统编码：System.Text.DBCSCodePageEncoding (936, GBK=True)
+[16:58:16.875] [Start] 管理员权限：False
+[16:58:16.878] [Start] 第一阶段加载用时：94 ms
+[16:58:16.989] [UI] 刷新主题：4
+[16:58:17.027] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[16:58:17.028] [Start] 第二阶段加载用时：140 ms
+[16:58:17.036] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[16:58:17.186] [UI] 加载背景图片：C:\PCL2\PCL\Pictures\Background.jpg
+[16:58:17.294] [System] 窗口已置顶，位置：(555, 254), 810 x 533
+[16:58:17.299] [Animation] 动画线程开始
+[16:58:17.300] [Start] 第三阶段加载用时：125 ms
+[16:58:17.302] [Start] 加载 DLL：Json
+[16:58:17.303] [System] 获取资源：Json
+[16:58:17.315] [Launch] Minecraft 文件夹：C:\PCL2\.minecraft\
+[16:58:17.388] [Java] 缓存中有 6 个可用的 Java：
+[16:58:17.389] [Java]  - JDK 21 (21.0.3)：C:\PCL2\zulu21.34.19-ca-jdk21.0.3-win_x64\zulu21.34.19-ca-jdk21.0.3-win_x64\bin\
+[16:58:17.389] [Java]  - JRE 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\jre\bin\
+[16:58:17.389] [Java]  - JDK 17 (17.0.8)：C:\Users\Admin\AppData\Roaming\.minecraft\runtime\java-runtime-gamma-snapshot\bin\
+[16:58:17.389] [Java]  - JDK 8 (8.0.201)：C:\Program Files\Java\jdk1.8.0_201\bin\
+[16:58:17.389] [Java]  - JDK 21 (21.0.3)：C:\Users\Admin\AppData\Roaming\.minecraft\cache\java\java-runtime-delta\windows-x64\java-runtime-delta\bin\
+[16:58:17.389] [Java]  - JDK 11 (11.0.12)：C:\Program Files\Java\jdk-11.0.12\bin\
+[16:58:17.395] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[16:58:17.401] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[16:58:17.449] [Page] 实例化：清空自定义主页 UI，来源为空
+[16:58:17.452] [Skin] 载入头像成功：Loader Skin Ms
+[16:58:17.454] [Minecraft] 启动按钮：Minecraft 版本：C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\
+[16:58:17.458] [Loader] 加载器 登录 状态改变：Loading
+[16:58:17.461] [Launch] 登录加载已开始
+[16:58:17.462] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[16:58:17.464] [Launch] 登录方式：正版（Aaalicecao）
+[16:58:17.465] [Launch] 开始微软登录步骤 2（刷新登录）
+[16:58:17.469] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[16:58:17.602] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[16:58:17.604] [UI] 解锁隐藏主题：6
+[16:58:17.604] [Loader] 加载器 PCL 服务 状态改变：Loading
+[16:58:17.605] [Server] 正在连接到 PCL 服务器
+[16:58:17.607] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[16:58:17.614] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1723107498-4f516bee-0-6553aae7edcd0552de70d907abda2402，超时 10000ms
+[16:58:17.671] [Server] 服务器公告：145|331|332|5，无需更新
+[16:58:17.676] [Loader] 加载器 PCL 服务 状态改变：Finished
+[16:58:17.726] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[16:58:18.025] [System] DPI：96，系统版本：10.0.19044.0，PCL 位置：C:\PCL2\Plain Craft Launcher 2.exe
+[16:58:18.170] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[16:58:19.244] [Launch] 开始微软登录步骤 3
+[16:58:19.244] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[16:58:19.497] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[16:58:20.001] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[16:58:23.597] [Launch] 开始微软登录步骤 4
+[16:58:23.597] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[16:58:23.848] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[16:58:24.352] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[16:58:25.105] [Launch] 开始微软登录步骤 5
+[16:58:25.106] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[16:58:25.356] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[16:58:27.058] [Launch] 开始微软登录步骤 6
+[16:58:27.058] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[16:58:27.324] [Net] 发起网络请求（GET，https://api.minecraftservices.com/entitlements/mcstore），最大超时 30000
+[16:58:28.308] [Launch] 开始微软登录步骤 7
+[16:58:28.309] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[16:58:28.574] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[16:58:29.093] [Launch] 微软登录完成
+[16:58:29.093] [UI] 解锁隐藏主题：10
+[16:58:29.093] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[16:58:29.104] [Launch] 登录加载已结束
+[16:58:29.104] [Loader] 加载器 登录 状态改变：Finished
+[16:58:32.451] [Control] 按下按钮：版本设置
+[16:58:32.500] [Control] 切换主要页面：VersionSetup, 0
+[16:58:33.380] [Control] 按下单选列表项：Mod 管理
+[16:58:33.531] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[16:58:33.532] [System] 已刷新 Mod 列表
+[16:58:36.219] [Mod] 共有 391 个 Mod，其中 5 个需要联网获取信息，386 个需要更新信息
+[16:58:36.383] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
+[16:58:36.386] [Mod] 目标加载器：NeoForge，版本：1.20.1
+[16:58:36.392] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
+[16:58:36.401] [System] 获取资源：ModData
+[16:58:36.527] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
+[16:58:37.217] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[16:58:37.234] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[16:58:37.661] [Animation] 两个动画帧间隔 1265 ms
+[16:58:37.676] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[16:58:37.858] [Mod] 从 CurseForge 获取到 374 个本地 Mod 的对应信息
+[16:58:37.964] [Mod] 需要从 CurseForge 获取 374 个本地 Mod 的工程信息
+[16:58:37.966] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[16:58:38.663] [Animation] 两个动画帧间隔 859 ms
+[16:58:39.299] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/999/371/64/64/638518073690140297.png
+[16:58:39.330] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 174 个用于检查更新的文件信息
+[16:58:39.330] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[16:58:39.474] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/1036/230/64/64/638560666018816482.png
+[16:58:39.486] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/994/51/64/64/638509276831052619.png
+[16:58:39.726] [Mod] 从 CurseForge 获取 Mod 更新信息结束
+[16:58:40.463] [Mod] 从 Modrinth 获取到 288 个本地 Mod 的对应信息
+[16:58:40.498] [Mod] 需要从 Modrinth 获取 288 个本地 Mod 的工程信息
+[16:58:40.498] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["SvXrP8rT","wFv8yCxM","rYlnn25U","ynxotL0Y","r0v8vy1s","6iTJugQR","RmI01fbW","N29BujGY","QgooUXAJ","lhGA9TYQ","xvAim1vw","mnLFouB0","rkN8aqci","b1ZV3DIJ","bii8qPSt","HY0PMpa3","pduQXSbl","BgNRHReB","5sy6g3kz","uy4Cnpcm","OK421ZCh","GkIc6rRo","jJfV67b1","9s6osm5g","dQcfqGbl","2gq0ALnz","e0M1UDsY","FYpiwiBR","1IjD5062","ziOp6EO8","IAnP4np7","OsZiaDHq","z2Ihxkgp","vvuO3ImH","rvq6KsSD","DNuNq5bb","QIt10I7z","rYocd2LE","nWSeFpQt","6FtRfnLg","tpehi7ww","3hqwGCUB","sk9rgfiA","yD9qW65f","fRiHVvU7","705gWllI","bWabfFX3","BVzZfTc1","jv7tzVE4","Aqlf1Shp","Ha28R6CL","z3TzcquW","ltRggnDx","FTaA4pRW","hYykXjDp","d47NdDkH","W4Ajthd2","GDmztpJg","BuWCQzqf","Dw7M6XKW","W6ROj0Hl","5ZwdcRci","V6fKbpBN","s4OWxYQQ","xuDOzCLy","4HeIHvIP","zfbCkvdZ","J81TRJWm","ordsPcFz","umyGl7zF","4Vh3BQ3F","9d9Bkqva","vE2FN5qn","4XJZeZbM","wvMc8AJt","FoVacERa","XaDC71GB","hgkxDdvz","fJFETWDN","8Lw09aLb","mH8wdmqr","sc9lpPiU","CVT4pFB2","r4PuRGfV","codAaoxh","nGUXvjTa","zkK9lPaS","QdG47OkI","twkfQtEc","RJCLIx7k","OQAgZMH1","O53VhQoZ","bQh7xzFq","M36xhGy8","KuNKN7d2","k5jeNqWg","fU7jbFHc","ndHYMY2K","GchcoXML","FxXkHaLe","RSeLon5O","KdJhOYVV","gHkzYDn7","gedNE4y2","5hoSWfrw","McLbj2dz","1OE8wbN0","AOyJhFvl","FCFcFw09","hqQqvaa4","QAGBst4M","ibnDR6oc","ZAfRfkTo","AtT9wm5O","AqaIIO6D","nzRWPE5v","M1953qlQ","G1hIVOrD","RLzHAoZe","MBmh0f9A","ZpZffQVs","y9clIFY4","lyvwxqAy","8T53F0sy","jZi8ogTA","7R2BqYPs","8ooWzSQP","myL7fuqp","pe7FN3d6","kkmrDlKT","8oi3bsk5","4A86JsDZ","JtifUr64","abooMhox","HsdNFinx","qmCh2PxS","T21szC0a","Vr3O6THr","MmALiFwH","7b5VoITI","AVo2esap","Gv3VVf1s","FfR6U4UK","1eAoo2KR","Ua7DFN59","ZYgyPyfq","MVARlG2f","zV5r3pPn","U6GY0xp0","2cMuAZAp","j2HhbEE7","u6dRKJwZ","C7I0BCni","w4an97C2","NcUtCpym","1bokaNcj","Z2mXHnxP","z9Ve58Ih","o1C1Dkj5","2BwBOmBQ","Ht4BfYp6","XNlO7sBv","t5FRdP87","3dT9sgt4","HjmxVlSr","kidLKymU","b5GyyYkp","YgrSDjlb","atHH8NyV","GcowSBDA","gtGDlsAD","NRjRiSSD","R2OftAxM","5faXoLqX","6L3ydNi8","ulloLmqG","2JkvF271","aLcHfalx","VYRu7qmG","z13R7Et1","RZwVw5iA","Z8OZShAU","ZsrrjDbP","tagwiZkJ","qnQsVE2z","P0Mu4wcQ","uJT3ahxz","4I1XuqiY","NNAgCjsB","lOOpEntO","B0xSlae0","nU0bVIaL","Th33t82F","RH07bruJ","FZmGDE43","xweQBqAC","oMitr7dU","wGKYL7st","3wWtgZGB","RV1qfVQ8","AMCbgyVw","joEfVgkn","gOQjCAAD","W5rjEyqs","icU5P2Mk","54eqfZSC","MPCX6s5C","7N4JJ4JD","P3iIrPH3","8shC1gFX","yQj7xqEM","gc8OEnCC","czNFt8ef","KUZAAwdD","Q2OqKxDG","Djpjjz6B","yHN0njMr","Lq6ojcWv","LNytGWDc","btq68HMO","ZzjhlDgM","GWp4jCJj","g6sbyCTu","GNxdLCoP","XZNI4Cpy","eE2Db4YU","GyKzAh3l","kOuPUitF","XvoWJaA2","DGiq4ZSW","k23mNPhZ","mPND0Adp","rtu7uERF","Eh11TaTm","OSQ8mw2r","b1fMg6sH","sk9knFPE","nvQzSEkH","nmDcB62a","UEtTD3gP","cV5LQXKx","qMxbM4BQ","IpUWAlqM","lP9Yrr1E","bK3Ubu9p","pJmCFF0p","NmDRyAF4","9BPuv4vL","DnNYdJsx","Wb5oqrBJ","MOqt4Z5n","Xqu7vgqw","8nIicBYu","PWERr14M","ANu8FMzT","rXiN1g54","fPetb5Kh","fM515JnW","SaCpeal4","AsUUCoXX","MI1LWe93","EsAfCjCV","8RtpLoXH","6hD6YA2r","CbV689EN","oPrh2Lz3","1qkL7Png","1DWmBJVA","H1sntfo8","Adega8YN","BpwWFOVM","HXF82T3G","kepjj2sy","R0bDWFAW","9NM0dXub","rUgZvGzi","aTsegPV0","uXXizFIs","fFEIiSDQ","UVtY3ZAC","zYuGPZIx","mSQF1NpT","ulY7WPQy","rqIsPf9F","WFwYiVoG","h5JyLdjM","NkGaQMDA","aC3cM3Vq"]），最大超时 15000
+[16:58:41.738] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
+[16:58:41.738] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
+[16:58:41.885] [Net] 直接下载文件：https://cdn.modrinth.com/data/lP9Yrr1E/cfe4491b8f0353d278dbfef95d4cd55874ebc5c5.png
+[16:58:42.103] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[16:58:42.404] [Mod] 从 Modrinth 获取本地 Mod 信息结束
+[16:58:42.414] [Mod] 联网获取本地 Mod 信息完成，为 391 个 Mod 更新缓存
+[16:58:42.452] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
+[16:58:42.464] [Net] 直接下载文件：https://cdn.modrinth.com/data/y9clIFY4/3f5f9ab5c02f7d819dc47f7418d8eb6102c811db.png
+[16:58:42.477] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[16:58:42.601] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[16:58:42.602] [Net] 直接下载文件：https://cdn.modrinth.com/data/pduQXSbl/e1ab3fc63a52df5d6f9b31e0d14eb045d4ae0674.png
+[16:58:42.969] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png1846）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[16:58:42.970] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[16:58:42.970] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[16:58:43.197] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png1846）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[16:58:43.197] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[16:58:43.198] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[16:59:59.290] [Control] 按下图标按钮
+[17:00:00.074] [Control] 按下图标按钮
+[17:00:00.858] [Control] 按下图标按钮
+[17:00:01.490] [Control] 按下图标按钮
+[17:00:02.234] [Control] 按下图标按钮
+[17:00:52.032] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[17:00:52.033] [System] 已刷新 Mod 列表
+[17:00:52.446] [Control] 按下图标按钮：BtnClear
+[17:00:52.477] [Animation] 两个动画帧间隔 359 ms
+[17:00:53.014] [Control] 按下图标按钮：BtnTitleInner
+[17:00:53.015] [Control] 切换主要页面：Launch, -1
+[17:00:53.899] [Control] 按下按钮：版本设置
+[17:00:53.914] [Control] 切换主要页面：VersionSetup, 0
+[17:00:54.090] [Mod] 共有 391 个 Mod，其中 0 个需要联网获取信息，0 个需要更新信息
+[17:00:55.175] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[17:00:55.191] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[17:00:55.356] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:00:55.737] [Control] 按下单选列表项：Mod 管理
+[17:00:55.738] [Control] 按下单选列表项：Mod 管理
+[17:00:55.742] [Animation] 两个动画帧间隔 1469 ms
+[17:00:55.772] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[17:00:56.883] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png3376）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:00:56.883] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:00:56.883] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:00:56.888] [Animation] 两个动画帧间隔 1109 ms
+[17:00:56.929] [Control] 按下单选列表项：设置
+[17:00:57.050] [Control] 按下单选列表项：设置
+[17:00:57.109] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png3376）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:00:57.109] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:00:57.116] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[17:00:59.730] [Control] 按下单选列表项：概览
+[17:01:00.666] [Control] 按下按钮：版本文件夹
+[17:01:00.666] [System] 执行外部命令：explorer.exe "C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\"
+[17:01:24.962] [Control] 按下图标按钮：BtnTitleInner
+[17:01:24.962] [Control] 切换主要页面：Launch, -1
+[17:01:25.883] [Control] 按下按钮：版本设置
+[17:01:25.885] [Control] 切换主要页面：VersionSetup, 0
+[17:01:29.347] [Control] 按下单选列表项：设置
+[17:01:31.378] [Control] 按下单选列表项：概览
+[17:01:32.507] [Control] 按下按钮：版本文件夹
+[17:01:32.507] [System] 执行外部命令：explorer.exe "C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\"
+[17:02:20.530] [Control] 按下图标按钮：BtnTitleInner
+[17:02:20.530] [Control] 切换主要页面：Launch, -1
+[17:02:21.602] [Control] 按下按钮：版本设置
+[17:02:21.604] [Control] 切换主要页面：VersionSetup, 0
+[17:02:22.282] [Control] 按下单选列表项：Mod 管理
+[17:02:24.349] [Report] FPS 0, 动画 7, 下载中 0（0 B/s）
+[17:03:12.275] [Control] 按下图标按钮：BtnUpdate
+[17:03:12.280] [Mod] 开始更新 1 个 Mod
+[17:03:12.281] [Loader] 加载器 Mod 更新：1.20.1-NeoForge_47.1.106 状态改变：Loading
+[17:03:12.282] [Taskbar] Mod 更新：1.20.1-NeoForge_47.1.106 已加入任务列表
+[17:03:12.284] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[17:03:12.285] [Loader] 加载器 下载新版 Mod 文件 状态改变：Loading
+[17:03:12.288] [System] 已刷新 Mod 列表
+[17:03:12.289] [Mod] 等待 Mod 更新完成后才能继续加载 Mod 列表
+[17:03:12.331] [Download] JadeAddons-1.20.1-Forge-5.3.0.jar 8308#：开始，起始点 0，https://cdn.modrinth.com/data/xuDOzCLy/versions/vSfJX8UF/JadeAddons-1.20.1-Forge-5.3.0.jar
+[17:03:12.960] [Download] JadeAddons-1.20.1-Forge-5.3.0.jar 8308#：文件大小 75658（73.9 K）
+[17:03:13.068] [Report] FPS 0, 动画 8, 下载中 1（30.1 K/s）
+[17:03:13.260] [Download] JadeAddons-1.20.1-Forge-5.3.0.jar：已完成，剩余文件 0
+[17:03:13.261] [Loader] 加载器 下载新版 Mod 文件 状态改变：Finished
+[17:03:13.261] [Loader] 加载器 替换旧版 Mod 文件 状态改变：Loading
+[17:03:13.297] [Loader] 加载器 替换旧版 Mod 文件 状态改变：Finished
+[17:03:13.298] [Loader] 加载器 Mod 更新：1.20.1-NeoForge_47.1.106 状态改变：Finished
+[17:03:13.332] [UI] 弹出提示：已成功更新：JadeAddons-1.20.1-Forge-5.3.0.jar
+[17:03:13.332] [Taskbar] Mod 更新：1.20.1-NeoForge_47.1.106 已移出任务列表
+[17:03:15.220] [Mod] 共有 391 个 Mod，其中 1 个需要联网获取信息，0 个需要更新信息
+[17:03:15.382] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
+[17:03:15.382] [Mod] 目标加载器：NeoForge，版本：1.20.1
+[17:03:15.382] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
+[17:03:15.385] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
+[17:03:16.135] [Mod] 从 CurseForge 获取到 1 个本地 Mod 的对应信息
+[17:03:16.135] [Mod] 需要从 CurseForge 获取 1 个本地 Mod 的工程信息
+[17:03:16.135] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[17:03:16.229] [Mod] 从 Modrinth 获取到 1 个本地 Mod 的对应信息
+[17:03:16.229] [Mod] 需要从 Modrinth 获取 1 个本地 Mod 的工程信息
+[17:03:16.229] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["xuDOzCLy"]），最大超时 15000
+[17:03:16.338] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[17:03:16.354] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[17:03:16.518] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:03:16.553] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
+[17:03:16.553] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
+[17:03:16.554] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 1 个用于检查更新的文件信息
+[17:03:16.554] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:03:16.969] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[17:03:17.017] [Mod] 从 Modrinth 获取本地 Mod 信息结束
+[17:03:17.213] [Mod] 从 CurseForge 获取 Mod 更新信息结束
+[17:03:17.221] [Mod] 联网获取本地 Mod 信息完成，为 1 个 Mod 更新缓存
+[17:03:17.229] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
+[17:03:18.053] [Animation] 两个动画帧间隔 1578 ms
+[17:03:18.054] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png8960）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:03:18.054] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:03:18.055] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:03:18.066] [Animation] 两个动画帧间隔 1110 ms
+[17:03:18.292] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png8960）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:03:18.292] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:03:18.293] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[17:03:52.258] [Control] 按下图标按钮：BtnUpdate
+[17:03:52.259] [Mod] 开始更新 1 个 Mod
+[17:03:52.259] [Loader] 加载器 Mod 更新：1.20.1-NeoForge_47.1.106 状态改变：Loading
+[17:03:52.259] [Taskbar] Mod 更新：1.20.1-NeoForge_47.1.106 已加入任务列表
+[17:03:52.259] [Loader] 加载器 下载新版 Mod 文件 状态改变：Loading
+[17:03:52.259] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[17:03:52.263] [System] 已刷新 Mod 列表
+[17:03:52.264] [Mod] 等待 Mod 更新完成后才能继续加载 Mod 列表
+[17:03:52.278] [Download] collective-1.20.1-7.80.jar 12646#：开始，起始点 0，https://cdn.modrinth.com/data/e0M1UDsY/versions/mLJbbJPj/collective-1.20.1-7.80.jar
+[17:03:52.486] [Download] collective-1.20.1-7.80.jar 12646#：文件大小 646955（632 K）
+[17:03:52.778] [Download] 速度下限已提升到 352 K
+[17:03:52.858] [Download] collective-1.20.1-7.80.jar：已完成，剩余文件 0
+[17:03:52.858] [Loader] 加载器 下载新版 Mod 文件 状态改变：Finished
+[17:03:52.858] [Loader] 加载器 替换旧版 Mod 文件 状态改变：Loading
+[17:03:52.872] [Download] 速度下限已提升到 573 K
+[17:03:52.876] [Loader] 加载器 替换旧版 Mod 文件 状态改变：Finished
+[17:03:52.876] [Loader] 加载器 Mod 更新：1.20.1-NeoForge_47.1.106 状态改变：Finished
+[17:03:52.904] [UI] 弹出提示：已成功更新：collective-1.20.1-7.80.jar
+[17:03:52.904] [Taskbar] Mod 更新：1.20.1-NeoForge_47.1.106 已移出任务列表
+[17:03:54.740] [Mod] 共有 391 个 Mod，其中 1 个需要联网获取信息，0 个需要更新信息
+[17:03:54.902] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
+[17:03:54.902] [Mod] 目标加载器：NeoForge，版本：1.20.1
+[17:03:54.903] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
+[17:03:54.907] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
+[17:03:55.566] [Mod] 从 CurseForge 获取到 1 个本地 Mod 的对应信息
+[17:03:55.566] [Mod] 需要从 CurseForge 获取 1 个本地 Mod 的工程信息
+[17:03:55.566] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[17:03:55.637] [Mod] 从 Modrinth 获取到 1 个本地 Mod 的对应信息
+[17:03:55.637] [Mod] 需要从 Modrinth 获取 1 个本地 Mod 的工程信息
+[17:03:55.637] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["e0M1UDsY"]），最大超时 15000
+[17:03:55.803] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[17:03:55.819] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[17:03:55.990] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:03:55.995] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
+[17:03:55.995] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
+[17:03:56.281] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 1 个用于检查更新的文件信息
+[17:03:56.281] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:03:56.406] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png13295）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:03:56.406] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:03:56.407] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:03:56.434] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[17:03:56.527] [Mod] 从 Modrinth 获取本地 Mod 信息结束
+[17:03:56.679] [Mod] 从 CurseForge 获取 Mod 更新信息结束
+[17:03:56.688] [Mod] 联网获取本地 Mod 信息完成，为 1 个 Mod 更新缓存
+[17:03:56.696] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
+[17:03:57.548] [Animation] 两个动画帧间隔 1516 ms
+[17:03:57.549] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png13295）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:03:57.549] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:03:57.550] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[17:03:57.562] [Animation] 两个动画帧间隔 1141 ms
+[17:04:05.308] [Report] FPS 0, 动画 20, 下载中 0（0 B/s）
+[17:04:07.619] [Loader] 加载器 Comp File 状态改变：Loading
+[17:04:07.622] [Control] 切换主要页面：CompDetail, 0
+[17:04:07.625] [Comp] 开始获取文件列表：U6GY0xp0
+[17:04:07.625] [Net] 获取网络结果：https://api.modrinth.com/v2/project/U6GY0xp0/version，超时 10000ms，要求 json
+[17:04:08.073] [Loader] 加载器 Comp File 状态改变：Finished
+[17:04:09.058] [Control] 按下图标按钮：BtnTitleInner
+[17:04:09.058] [Control] 切换主要页面：VersionSetup, -1
+[17:04:09.293] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[17:04:09.293] [System] 已刷新 Mod 列表
+[17:04:09.472] [Report] FPS 0, 动画 464, 下载中 0（0 B/s）
+[17:04:11.296] [Mod] 共有 391 个 Mod，其中 0 个需要联网获取信息，0 个需要更新信息
+[17:04:12.337] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[17:04:12.353] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[17:04:12.512] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:04:12.911] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png15554）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:04:12.911] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:04:12.912] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:04:12.942] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[17:04:14.034] [Animation] 两个动画帧间隔 1485 ms
+[17:04:14.035] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png15554）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:04:14.035] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:04:14.036] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[17:04:14.039] [Animation] 两个动画帧间隔 1093 ms
+[17:04:14.518] [Control] 按下本地 Mod 列表项：Alex 的洞穴
+[17:04:16.612] [Control] 按下本地 Mod 列表项：Alex 的洞穴
+[17:04:17.460] [Animation] 两个动画帧间隔 391 ms
+[17:04:17.515] [Animation] 两个动画帧间隔 297 ms
+[17:04:17.607] [Control] 按下本地 Mod 列表项：Alex 的洞穴
+[17:04:21.803] [Control] 按下带图标按钮：取消选择
+[17:04:58.962] [Control] 按下图标按钮：BtnTitleInner
+[17:04:58.967] [Control] 切换主要页面：Launch, -1
+[17:04:59.635] [Control] 按下单选按钮：下载
+[17:04:59.688] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[17:04:59.688] [Control] 切换主要页面：Download, -1
+[17:04:59.693] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[17:04:59.694] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[17:04:59.791] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[17:04:59.793] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[17:04:59.794] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[17:04:59.796] [Loader] 加载器 DlNeoForgeList Main 状态改变：Loading
+[17:04:59.796] [Loader] 加载器 DlOptiFineList Official 状态改变：Loading
+[17:04:59.797] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Loading
+[17:04:59.799] [Loader] 加载器 DlFabricList Official 状态改变：Loading
+[17:04:59.800] [Net] 获取网络结果：https://dl.liteloader.com/versions/versions.json，超时 10000ms，要求 json
+[17:04:59.801] [Loader] 加载器 DlNeoForgeList Official 状态改变：Loading
+[17:04:59.801] [Net] 获取客户端网络结果：https://optifine.net/downloads，最大超时 10000
+[17:04:59.802] [Net] 获取网络结果：https://meta.fabricmc.net/v2/versions，超时 10000ms，要求 json
+[17:04:59.803] [Loader] 加载器 源码获取 20988# 状态改变：Loading
+[17:04:59.815] [Download] 刷新 Forge 推荐版本缓存开始
+[17:04:59.816] [Loader] 加载器 源码获取 20992# 状态改变：Loading
+[17:04:59.829] [Download] -439165528_20987 21013#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge
+[17:04:59.829] [Download] -1798645995_20991 21014#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[17:05:00.430] [Download] -1798645995_20991 21014#：文件大小 51113（49.9 K）
+[17:05:00.431] [Download] -1798645995_20991：已完成，剩余文件 1
+[17:05:00.431] [Loader] 加载器 源码获取 20992# 状态改变：Finished
+[17:05:00.453] [Download] 刷新 Forge 推荐版本缓存成功
+[17:05:00.843] [Control] 按下单选列表项：Mod
+[17:05:00.857] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:05:00.870] [Comp] 工程列表搜索原始文本：
+[17:05:00.871] [Comp] 工程列表搜索最终文本：
+[17:05:00.873] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0
+[17:05:00.873] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0，超时 10000ms，要求 json
+[17:05:00.875] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
+[17:05:00.875] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[17:05:00.895] [Download] -439165528_20987 21013#：文件大小 8770（8.56 K）
+[17:05:00.896] [Download] -439165528_20987：已完成，剩余文件 0
+[17:05:00.896] [Loader] 加载器 源码获取 20988# 状态改变：Finished
+[17:05:00.909] [Loader] 加载器 源码获取 21111# 状态改变：Loading
+[17:05:00.924] [Download] 2144960796_21110 21114#：开始，起始点 0，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/forge
+[17:05:01.390] [Download] 2144960796_21110 21114#：文件大小 1100（1.07 K）
+[17:05:01.391] [Download] 2144960796_21110：已完成，剩余文件 0
+[17:05:01.391] [Loader] 加载器 源码获取 21111# 状态改变：Finished
+[17:05:01.421] [Loader] 加载器 DlNeoForgeList Official 状态改变：Finished
+[17:05:01.428] [Loader] 加载器 DlOptiFineList Official 状态改变：Finished
+[17:05:01.434] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[17:05:01.434] [Loader] 加载器 DlNeoForgeList Main 状态改变：Finished
+[17:05:01.475] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 26058 个）
+[17:05:01.827] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 57618 个）
+[17:05:01.832] [Comp] 将 Cloth Config API (cloth-config) 与 Cloth Config API (Fabric/Forge/NeoForge) (cloth-config) 认定为相似工程
+[17:05:01.833] [Comp] 将 ModernFix (modernfix) 与 ModernFix (modernfix) 认定为相似工程
+[17:05:01.834] [Comp] 将 Just Enough Items (jei) 与 Just Enough Items (JEI) (jei) 认定为相似工程
+[17:05:01.834] [Comp] 去重、筛选后累计新增结果 77 个
+[17:05:01.847] [Comp] 开始可视化 Mod 列表，已储藏 77 个结果，当前在第 1 页
+[17:05:01.864] [Comp] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/mOgUt4GM/1b6bcdef5a3d92572f517122650716be7ec6458b.webp
+[17:05:01.972] [Net] 直接下载文件：https://cdn.modrinth.com/data/w7ThoJFB/25d48c335340c12566044c8f35df5102e72dc06c.png
+[17:05:01.995] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:05:02.028] [Loader] 加载器 DlLiteLoaderList Official 状态改变：Finished
+[17:05:02.038] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[17:05:02.140] [Loader] 加载器 DlFabricList Official 状态改变：Finished
+[17:05:02.149] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[17:05:03.325] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:05:03.325] [Comp] 工程列表搜索原始文本：gone
+[17:05:03.325] [Comp] 工程列表搜索最终文本：gone
+[17:05:03.325] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=gone
+[17:05:03.325] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&searchFilter=gone，超时 10000ms，要求 json
+[17:05:03.325] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"]]
+[17:05:03.325] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[17:05:03.671] [Comp] 从 Modrinth 获取到了 28 个工程（已获取 28 个，共 28 个）
+[17:05:03.932] [Comp] 从 CurseForge 获取到了 22 个工程（已获取 22 个，共 22 个）
+[17:05:03.933] [Comp] 将 Spells Gone Wrong (Iron's Spells N Spellbooks) (spells-gone-wrong) 与 Spells Gone Wrong (Iron's Spells N Spellbooks) (spells-gone-wrong) 认定为相似工程
+[17:05:03.934] [Comp] 将 Leaves Be Gone (leaves-be-gone) 与 Leaves Be Gone [Forge & Fabric] (leaves-be-gone) 认定为相似工程
+[17:05:03.935] [Comp] 将 Detected setBlock Be Gone (dsbg) 与 Detected setBlock Be Gone (detected-setblock-be-gone) 认定为相似工程
+[17:05:03.935] [Comp] 将 Sounds Be Gone! (soundsbegone) 与 Sounds Be Gone! (sounds-be-gone) 认定为相似工程
+[17:05:03.936] [Comp] 将 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 与 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 认定为相似工程
+[17:05:03.936] [Comp] 将 Bow Spam Be-Gone (bow-spam-be-gone) 与 Bow Spam Be-Gone! (bow-spam-be-gone) 认定为相似工程
+[17:05:03.937] [Comp] 去重、筛选后累计新增结果 40 个
+[17:05:03.946] [Comp] 开始可视化 Mod 列表，已储藏 40 个结果，当前在第 1 页
+[17:05:03.954] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/76/620/64/64/636172476320346851.png
+[17:05:03.959] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/471/663/64/64/637760602427290368.png
+[17:05:03.961] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/858/41/64/64/638263100611823642.png
+[17:05:03.962] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/835/661/64/64/638227395999703278.png
+[17:05:03.964] [Net] 直接下载文件：https://cdn.modrinth.com/data/HMNV4z01/icon.png
+[17:05:03.966] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/911/189/64/64/638365674309068878.png
+[17:05:03.967] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/895/121/64/64/638339370303047713.png
+[17:05:03.972] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/802/883/64/64/638167893194284159.png
+[17:05:03.973] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/640/902/64/64/638042576202349150.png
+[17:05:03.975] [Net] 直接下载文件：https://cdn.modrinth.com/data/5bhD9Qxf/f23c76f9bed9d5b2262c6b6d7f26a39c5eb48a1c.png
+[17:05:03.983] [Net] 直接下载文件：https://cdn.modrinth.com/data/172ZQNmN/icon.jpg
+[17:05:04.004] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/282/487/64/64/637289399900058340.png
+[17:05:04.006] [Net] 直接下载文件：https://cdn.modrinth.com/data/HQimMngd/1164da93c972c562f4e3d2413d521dda45743e27.png
+[17:05:04.011] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/304/768/64/64/637378513476061538.png
+[17:05:04.020] [Net] 直接下载文件：https://cdn.modrinth.com/data/3DxDmIN5/00c6b8f5b79a5ea3d31fbfe18ad63b191a100c4f.png
+[17:05:04.022] [Net] 直接下载文件：https://cdn.modrinth.com/data/SpQWQ4KX/icon.png
+[17:05:04.023] [Net] 直接下载文件：https://cdn.modrinth.com/data/6B5InQA5/c0b58a3916763c82f863e2a02ab20a267033c682.png
+[17:05:04.025] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/435/815/64/64/637676370337226273.png
+[17:05:04.027] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/890/437/64/64/638330903815538230.png
+[17:05:04.029] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/438/327/64/64/637683570528668788.png
+[17:05:04.037] [Net] 直接下载文件：https://cdn.modrinth.com/data/7diJQfvM/01ca05eae132c43d86083fb9631ab78f26c5b501.png
+[17:05:04.039] [Net] 直接下载文件：https://cdn.modrinth.com/data/v0yHFnm9/icon.png
+[17:05:04.040] [Net] 直接下载文件：https://cdn.modrinth.com/data/ya9bzjor/a2dcd42687201521196c0f3a4bb3c700565a2659.png
+[17:05:04.042] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/832/899/64/64/638224207279912832.png
+[17:05:04.044] [Net] 直接下载文件：https://cdn.modrinth.com/data/958YGqFM/icon.png
+[17:05:04.045] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/150/470/64/64/636597048121754068.png
+[17:05:04.047] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/950/477/64/64/638439151552946548.png
+[17:05:04.048] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/29/672/64/64/635849261702377509.png
+[17:05:04.050] [Net] 直接下载文件：https://cdn.modrinth.com/data/u7Pv6ogu/a7382c49a8b662a9de09338095ff0df7aa9b291a.png
+[17:05:04.052] [Net] 直接下载文件：https://cdn.modrinth.com/data/ZCLrWdGm/9535b745de508bbf705b2358df11d3bc24436796.png
+[17:05:04.059] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/986/633/64/64/638496855557052871.png
+[17:05:04.061] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/947/64/64/256/638433566452287040.png
+[17:05:04.064] [Net] 直接下载文件：https://cdn.modrinth.com/data/wOVCyncE/0b3a5ad790c69e4e77e5549038e1f70e2dd2077b.png
+[17:05:04.065] [Net] 直接下载文件：https://cdn.modrinth.com/data/6PfoSsEE/icon.jpeg
+[17:05:04.068] [Net] 直接下载文件：https://cdn.modrinth.com/data/EuVRMQWq/6fe094a1246775c9fee2270e14b90e8043e9499b.png
+[17:05:04.092] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:05:05.783] [Loader] 加载器 DlClientList Bmclapi 状态改变：Loading
+[17:05:05.784] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[17:05:07.306] [Control] 按下按钮：搜索
+[17:05:07.306] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:05:07.307] [Comp] 工程列表搜索原始文本：gone
+[17:05:07.307] [Comp] 工程列表搜索最终文本：gone
+[17:05:07.307] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=gone
+[17:05:07.307] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0&gameVersion=1.20.1&searchFilter=gone，超时 10000ms，要求 json
+[17:05:07.307] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["versions:'1.20.1'"]]
+[17:05:07.307] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
+[17:05:07.623] [Comp] 从 CurseForge 获取到了 11 个工程（已获取 11 个，共 11 个）
+[17:05:07.739] [Comp] 从 Modrinth 获取到了 19 个工程（已获取 19 个，共 19 个）
+[17:05:07.740] [Comp] 将 Spells Gone Wrong (Iron's Spells N Spellbooks) (spells-gone-wrong) 与 Spells Gone Wrong (Iron's Spells N Spellbooks) (spells-gone-wrong) 认定为相似工程
+[17:05:07.740] [Comp] 将 Leaves Be Gone (leaves-be-gone) 与 Leaves Be Gone [Forge & Fabric] (leaves-be-gone) 认定为相似工程
+[17:05:07.741] [Comp] 将 Detected setBlock Be Gone (dsbg) 与 Detected setBlock Be Gone (detected-setblock-be-gone) 认定为相似工程
+[17:05:07.742] [Comp] 将 Sounds Be Gone! (soundsbegone) 与 Sounds Be Gone! (sounds-be-gone) 认定为相似工程
+[17:05:07.742] [Comp] 将 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 与 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 认定为相似工程
+[17:05:07.743] [Comp] 将 Bow Spam Be-Gone (bow-spam-be-gone) 与 Bow Spam Be-Gone! (bow-spam-be-gone) 认定为相似工程
+[17:05:07.743] [Comp] 去重、筛选后累计新增结果 20 个
+[17:05:07.743] [Comp] 总结果数需求最少 40 个，仅获得了 20 个
+[17:05:07.743] [Comp] 无法继续加载，将强制结束
+[17:05:07.746] [Comp] 开始可视化 Mod 列表，已储藏 20 个结果，当前在第 1 页
+[17:05:07.759] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/911/189/64/64/638365674309068878.png
+[17:05:07.760] [Net] 直接下载文件：https://cdn.modrinth.com/data/5bhD9Qxf/f23c76f9bed9d5b2262c6b6d7f26a39c5eb48a1c.png
+[17:05:07.767] [Net] 直接下载文件：https://cdn.modrinth.com/data/172ZQNmN/icon.jpg
+[17:05:07.771] [Net] 直接下载文件：https://cdn.modrinth.com/data/3DxDmIN5/00c6b8f5b79a5ea3d31fbfe18ad63b191a100c4f.png
+[17:05:07.775] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/890/437/64/64/638330903815538230.png
+[17:05:07.787] [Net] 直接下载文件：https://cdn.modrinth.com/data/7diJQfvM/01ca05eae132c43d86083fb9631ab78f26c5b501.png
+[17:05:07.792] [Net] 直接下载文件：https://cdn.modrinth.com/data/wOVCyncE/0b3a5ad790c69e4e77e5549038e1f70e2dd2077b.png
+[17:05:07.824] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:05:08.213] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[17:05:08.223] [Loader] 加载器 DlClientList Bmclapi 状态改变：Aborted
+[17:05:08.332] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[17:05:09.887] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/947/256/256/256/638433566452287040.png
+[17:05:13.266] [Control] 按下按钮：搜索
+[17:05:13.266] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:05:13.267] [Comp] 工程列表搜索原始文本：gone
+[17:05:13.267] [Comp] 工程列表搜索最终文本：gone
+[17:05:13.267] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=406&gameVersion=1.20.1&searchFilter=gone
+[17:05:13.267] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=406&gameVersion=1.20.1&searchFilter=gone，超时 10000ms，要求 json
+[17:05:13.267] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["categories:'worldgen'"],["versions:'1.20.1'"]]
+[17:05:13.267] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["categories:'worldgen'"],["versions:'1.20.1'"]]，超时 10000ms，要求 json
+[17:05:13.819] [Comp] 从 CurseForge 获取到了 2 个工程（已获取 2 个，共 2 个）
+[17:05:13.846] [Comp] 从 Modrinth 获取到了 4 个工程（已获取 4 个，共 4 个）
+[17:05:13.847] [Comp] 将 Detected setBlock Be Gone (dsbg) 与 Detected setBlock Be Gone (detected-setblock-be-gone) 认定为相似工程
+[17:05:13.848] [Comp] 将 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 与 Oh The Biomes We've Gone (oh-the-biomes-weve-gone) 认定为相似工程
+[17:05:13.848] [Comp] 去重、筛选后累计新增结果 4 个
+[17:05:13.848] [Comp] 总结果数需求最少 40 个，仅获得了 4 个
+[17:05:13.848] [Comp] 无法继续加载，将强制结束
+[17:05:13.848] [Comp] 开始可视化 Mod 列表，已储藏 4 个结果，当前在第 1 页
+[17:05:13.898] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:05:15.756] [Control] 切换主要页面：CompDetail, 0
+[17:05:15.756] [Control] 按下资源工程列表项：Oh The Biomes We've Gone
+[17:05:15.922] [Loader] 加载器 Comp File 状态改变：Loading
+[17:05:15.923] [Comp] 开始获取文件列表：1070751
+[17:05:15.923] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:05:16.336] [Comp] 1070751 文件列表中还需要获取信息的前置 Mod：962544，565956，563928
+[17:05:16.336] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[17:05:16.778] [Control] 按下按钮：转到 CurseForge
+[17:05:16.779] [System] 正在打开网页：https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
+[17:05:16.783] [Loader] 加载器 Comp File 状态改变：Finished
+[17:08:23.499] [Control] 按下图标按钮：BtnTitleInner
+[17:08:23.499] [Control] 切换主要页面：Download, -1
+[17:08:27.883] [Control] 按下按钮：搜索
+[17:08:27.883] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:08:27.883] [Comp] 工程列表搜索原始文本：gone
+[17:08:27.884] [Comp] 工程列表搜索最终文本：gone
+[17:08:27.884] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["categories:'worldgen'"]]
+[17:08:27.884] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=gone&facets=[["project_type:mod"],["categories:'worldgen'"]]，超时 10000ms，要求 json
+[17:08:28.420] [Comp] 从 Modrinth 获取到了 8 个工程（已获取 8 个，共 8 个）
+[17:08:28.420] [Comp] 去重、筛选后累计新增结果 8 个
+[17:08:28.420] [Comp] 总结果数需求最少 40 个，仅获得了 8 个
+[17:08:28.420] [Comp] 无法继续加载，将强制结束
+[17:08:28.422] [Comp] 开始可视化 Mod 列表，已储藏 8 个结果，当前在第 1 页
+[17:08:28.424] [Net] 直接下载文件：https://cdn.modrinth.com/data/zv7fYVyQ/82c4704b9404d8341e19a3b82c7f782b959d5f48.png
+[17:08:28.486] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:08:29.379] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:08:29.380] [Comp] 工程列表搜索原始文本：
+[17:08:29.380] [Comp] 工程列表搜索最终文本：
+[17:08:29.380] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"],["categories:'worldgen'"]]
+[17:08:29.380] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"],["categories:'worldgen'"]]，超时 10000ms，要求 json
+[17:08:29.856] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 3026 个）
+[17:08:29.856] [Comp] 去重、筛选后累计新增结果 40 个
+[17:08:29.856] [Comp] 开始可视化 Mod 列表，已储藏 40 个结果，当前在第 1 页
+[17:08:30.160] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:08:30.302] [Animation] 两个动画帧间隔 266 ms
+[17:08:33.058] [Control] 按下按钮：搜索
+[17:08:33.058] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:08:33.059] 加载线程 CompProject Mod (70) 发生运行时错误：没有符合条件的结果
+   在 PCL.ModComp.CompProjectsGet(LoaderTask`2 Task)
+   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
+[17:08:33.059] [Loader] 加载器 CompProject Mod 状态改变：Failed
+[17:08:36.362] [Control] 按下按钮：搜索
+[17:08:36.362] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:08:36.362] [Comp] 工程列表搜索原始文本：
+[17:08:36.362] [Comp] 工程列表搜索最终文本：
+[17:08:36.363] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407
+[17:08:36.363] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407，超时 10000ms，要求 json
+[17:08:37.228] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 2930 个）
+[17:08:37.229] [Comp] 去重、筛选后累计新增结果 40 个
+[17:08:37.229] [Comp] 开始可视化 Mod 列表，已储藏 40 个结果，当前在第 1 页
+[17:08:37.257] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/312/477/64/64/637405956561016055.png
+[17:08:37.259] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/299/190/64/64/637352261915891559.png
+[17:08:37.273] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/1055/574/64/64/638586877714541407.png
+[17:08:37.376] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:09:05.434] [Control] 按下图标按钮：BtnPageRight
+[17:09:05.435] [Download] Mod 切换到第 2 页
+[17:09:05.551] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:09:05.551] [Comp] 工程列表搜索原始文本：
+[17:09:05.551] [Comp] 工程列表搜索最终文本：
+[17:09:05.552] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=40
+[17:09:05.552] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=40，超时 10000ms，要求 json
+[17:09:06.716] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 80 个，共 2930 个）
+[17:09:06.717] [Comp] 去重、筛选后累计新增结果 40 个
+[17:09:06.717] [Comp] 开始可视化 Mod 列表，已储藏 80 个结果，当前在第 2 页
+[17:09:06.727] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/319/988/64/64/637426757546296123.png
+[17:09:06.728] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/311/846/64/64/637403908494433239.png
+[17:09:06.731] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/37/49/64/64/635946831519953877.png
+[17:09:06.733] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/309/595/64/64/637395755681954917.png
+[17:09:06.736] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/904/426/64/64/638354589833181239.png
+[17:09:06.742] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/348/680/64/64/637499783550541555.png
+[17:09:06.744] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/108/310/64/64/636371830910019202.png
+[17:09:06.746] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/338/6/64/64/637476366006481558.png
+[17:09:06.748] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/368/157/64/64/637535965708497439.png
+[17:09:06.750] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/293/898/64/64/637331087170066932.png
+[17:09:06.755] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/739/626/64/64/638086535583655306.png
+[17:09:06.757] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/561/884/64/64/637914692469246256.png
+[17:09:06.759] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/739/625/64/64/638086535531995238.png
+[17:09:06.765] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/462/622/64/64/637741967575839533.png
+[17:09:06.767] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/181/555/64/64/636801413197375346.jpeg
+[17:09:06.769] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/293/332/64/64/637328852126283848.png
+[17:09:06.771] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/777/188/64/64/638119923580221188.png
+[17:09:06.776] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/462/568/64/64/637741776715826797.png
+[17:09:06.777] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/364/51/64/64/637530866915476380.png
+[17:09:06.780] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/215/779/64/64/636999080849843238.png
+[17:09:06.782] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/36/371/64/64/635938166426993077.png
+[17:09:06.784] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/313/38/64/64/637407655318523973.png
+[17:09:06.794] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/177/977/64/64/636775015158267116.png
+[17:09:06.797] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/618/908/64/64/638005114319634805.png
+[17:09:06.799] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/269/36/64/64/637240495345086317.png
+[17:09:06.801] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/627/662/64/64/638023107190922765.png
+[17:09:06.803] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/884/462/64/64/638318694008176397.png
+[17:09:06.806] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/482/986/64/64/637782351378079841.png
+[17:09:06.813] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/676/439/64/64/638067448459394311.png
+[17:09:06.818] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/810/971/64/64/638183246156426755.png
+[17:09:06.825] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/851/972/64/64/638254470839980834.png
+[17:09:06.827] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/829/703/64/64/638218358671270795.png
+[17:09:06.830] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/989/308/64/64/638501818718338016.png
+[17:09:06.832] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/830/328/64/64/638219607228642044_animated.gif
+[17:09:06.868] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:09:25.779] [Control] 按下图标按钮：BtnPageRight
+[17:09:25.779] [Download] Mod 切换到第 3 页
+[17:09:25.880] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:09:25.880] [Comp] 工程列表搜索原始文本：
+[17:09:25.880] [Comp] 工程列表搜索最终文本：
+[17:09:25.881] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=80
+[17:09:25.881] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=80，超时 10000ms，要求 json
+[17:09:26.299] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 120 个，共 2930 个）
+[17:09:26.300] [Comp] 去重、筛选后累计新增结果 40 个
+[17:09:26.300] [Comp] 开始可视化 Mod 列表，已储藏 120 个结果，当前在第 3 页
+[17:09:26.310] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/13/705/64/64/635572519145491106.png
+[17:09:26.312] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/105/104/64/64/636350617712021192.png
+[17:09:26.314] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/54/432/64/64/636135140666602633.png
+[17:09:26.322] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/304/723/64/64/637378187625308923.png
+[17:09:26.324] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/37/761/64/64/635956759285357547.png
+[17:09:26.326] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/16/923/64/64/635655168794934800.png
+[17:09:26.328] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/85/929/64/64/636205852061585081.png
+[17:09:26.332] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/311/847/64/64/637403908563202563.png
+[17:09:26.334] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/174/539/64/64/636751452499539001.png
+[17:09:26.336] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/250/449/64/64/637178872675324299.png
+[17:09:26.338] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/28/290/64/64/635825047725414178.png
+[17:09:26.347] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/349/912/64/64/637502319924440542.png
+[17:09:26.349] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/444/570/64/64/637699665483663165.png
+[17:09:26.351] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/815/777/64/64/638192256011786159.png
+[17:09:26.352] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/881/133/64/64/638311021627858433.png
+[17:09:26.358] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/671/841/64/64/638064204307624131.png
+[17:09:26.359] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/552/290/64/64/637891369912653003.png
+[17:09:26.361] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/342/754/64/64/637487079110751548.png
+[17:09:26.364] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/349/913/64/64/637502320519629691.png
+[17:09:26.365] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/828/829/64/64/638216770970287112.png
+[17:09:26.367] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/510/832/64/64/637828355354176412.png
+[17:09:26.372] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/463/244/64/64/637743275012281295.png
+[17:09:26.374] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/861/585/64/64/638269339604475053.png
+[17:09:26.376] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/270/203/64/64/637244323009502081.png
+[17:09:26.378] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/619/175/64/64/638005968052151532.png
+[17:09:26.380] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/907/253/64/64/638358210341906966_animated.gif
+[17:09:26.382] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/789/199/64/64/638143351265709381.png
+[17:09:26.385] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/789/200/64/64/638143351397799250.png
+[17:09:26.392] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/505/817/64/64/637823139023412418.png
+[17:09:26.400] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/377/679/64/64/637555901044597945.png
+[17:09:26.402] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/582/556/64/64/637948677150442891.png
+[17:09:26.404] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/661/691/64/64/638060214920682460.png
+[17:09:26.406] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/911/757/64/64/638366557275561927.png
+[17:09:26.408] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/922/28/64/64/638386990274767129.png
+[17:09:26.432] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:09:26.619] [Animation] 两个动画帧间隔 204 ms
+[17:09:44.338] [Control] 切换主要页面：CompDetail, 0
+[17:09:44.338] [Control] 按下资源工程列表项：Hamsters Plus
+[17:09:44.517] [Loader] 加载器 Comp File 状态改变：Loading
+[17:09:44.517] [Comp] 开始获取文件列表：952435
+[17:09:44.517] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:09:44.912] [Loader] 加载器 Comp File 状态改变：Finished
+[17:09:46.266] [Control] 按下按钮：转到 CurseForge
+[17:09:46.266] [System] 正在打开网页：https://www.curseforge.com/minecraft/mc-mods/hamsters
+[17:10:01.096] [Control] 展开卡片：1.20.1
+[17:10:10.219] [Control] 按下单击列表项：Hamsters 1.0.3 (Forge 1.20.1)
+[17:10:10.224] [Comp] 允许 Forge：True，允许 Fabric：False
+[17:10:10.225] [Comp] 使用当前版本的 mods 文件夹作为默认下载位置（1.20.1-NeoForge_47.1.106）
+[17:10:13.304] [UI] 选择文件返回：C:\PCL2\.minecraft\versions\1.20.1-NeoForge_47.1.106\mods\hamsters-forge-1.0.3-1.20.1.jar
+[17:10:13.307] [Loader] 加载器 Mod 下载：hamsters-forge-1.0.3-1.20.1  状态改变：Loading
+[17:10:13.308] [Taskbar] Mod 下载：hamsters-forge-1.0.3-1.20.1  已加入任务列表
+[17:10:13.309] [Loader] 加载器 下载文件 状态改变：Loading
+[17:10:13.326] [Download] hamsters-forge-1.0.3-1.20.1.jar 22460#：开始，起始点 0，https://media.forgecdn.net/files/5121/305/hamsters-forge-1.0.3-1.20.1.jar
+[17:10:13.458] [Download] hamsters-forge-1.0.3-1.20.1.jar 22460#：文件大小 439448（429 K）
+[17:10:14.146] [Download] hamsters-forge-1.0.3-1.20.1.jar：已完成，剩余文件 0
+[17:10:14.147] [Loader] 加载器 下载文件 状态改变：Finished
+[17:10:14.147] [Loader] 加载器 Mod 下载：hamsters-forge-1.0.3-1.20.1  状态改变：Finished
+[17:10:14.186] [UI] 弹出提示：Mod 下载：hamsters-forge-1.0.3-1.20.1 成功！
+[17:10:14.186] [Taskbar] Mod 下载：hamsters-forge-1.0.3-1.20.1  已移出任务列表
+[17:10:14.306] [Control] 按下图标按钮：BtnTitleInner
+[17:10:14.306] [Control] 切换主要页面：Download, -1
+[17:10:22.290] [Control] 切换主要页面：CompDetail, 0
+[17:10:22.290] [Control] 按下资源工程列表项：Floralis
+[17:10:22.472] [Loader] 加载器 Comp File 状态改变：Loading
+[17:10:22.472] [Comp] 开始获取文件列表：458358
+[17:10:22.472] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:10:22.847] [Loader] 加载器 Comp File 状态改变：Finished
+[17:10:24.674] [Control] 按下图标按钮：BtnTitleInner
+[17:10:24.674] [Control] 切换主要页面：Download, -1
+[17:10:26.146] [Control] 按下图标按钮：BtnPageRight
+[17:10:26.146] [Download] Mod 切换到第 4 页
+[17:10:26.247] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:10:26.248] [Comp] 工程列表搜索原始文本：
+[17:10:26.248] [Comp] 工程列表搜索最终文本：
+[17:10:26.248] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=120
+[17:10:26.248] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&index=120，超时 10000ms，要求 json
+[17:10:26.725] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 160 个，共 2930 个）
+[17:10:26.726] [Comp] 去重、筛选后累计新增结果 40 个
+[17:10:26.726] [Comp] 开始可视化 Mod 列表，已储藏 160 个结果，当前在第 4 页
+[17:10:26.743] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/224/977/64/64/637037272074264354.png
+[17:10:26.745] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/332/414/64/64/637463463212555221.png
+[17:10:26.747] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/402/539/64/64/637610420057870216.png
+[17:10:26.750] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/33/978/64/64/635903780991859924.jpeg
+[17:10:26.752] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/19/963/64/64/635704371131281346.png
+[17:10:26.754] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/528/386/64/64/637851066965542722.png
+[17:10:26.756] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/52/769/64/64/636118024784495975.png
+[17:10:26.758] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/16/509/64/64/635646366555739137.png
+[17:10:26.760] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/253/902/64/64/637196317706949677.png
+[17:10:26.774] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/438/187/64/64/637682976175912874.png
+[17:10:26.776] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/611/420/64/64/637995628404719739.png
+[17:10:26.778] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/428/741/64/64/637662544519651226.png
+[17:10:26.783] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/378/623/64/64/637557953844036992.png
+[17:10:26.785] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/102/810/64/64/636333511297754078.png
+[17:10:26.788] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/391/324/64/64/637584073848756096.png
+[17:10:26.789] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/369/826/64/64/637539561248397542_animated.gif
+[17:10:26.791] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/562/30/64/64/637915111485602566.png
+[17:10:26.797] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/510/835/64/64/637828355807658993.png
+[17:10:26.799] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/367/611/64/64/637534686697588271.png
+[17:10:26.801] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/327/154/64/64/637448605956593073.png
+[17:10:26.803] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/851/252/64/64/638253250475265768.png
+[17:10:26.805] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/883/805/64/64/638317493857372381.png
+[17:10:26.807] [Comp] 发现不支持的 WebP 格式图标，已更改为默认图标：https://media.forgecdn.net/avatars/thumbnails/1013/835/256/256/638538890900825610.webp
+[17:10:26.809] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/775/490/64/64/638116870135313742.png
+[17:10:26.812] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/977/484/64/64/638481807152944327.png
+[17:10:26.814] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/754/647/64/64/638092482955711455.png
+[17:10:26.816] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/942/216/64/64/638424287388186521.png
+[17:10:26.822] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/556/407/64/64/637901326548852909.png
+[17:10:26.827] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/990/682/64/64/638504233266852567.png
+[17:10:26.829] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/1008/200/64/64/638530946920774248.png
+[17:10:26.831] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/990/873/64/64/638504493744347281.png
+[17:10:26.833] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/1031/487/64/64/638554342482554695.png
+[17:10:26.835] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/818/333/64/64/638196983997144505.png
+[17:10:26.838] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/955/818/64/64/638448189578975831.png
+[17:10:26.873] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:10:41.339] [Control] 切换主要页面：CompDetail, 0
+[17:10:41.339] [Control] 按下资源工程列表项：William Wythers' Expanded Ecosphere
+[17:10:41.525] [Loader] 加载器 Comp File 状态改变：Loading
+[17:10:41.525] [Comp] 开始获取文件列表：490686
+[17:10:41.525] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[17:10:41.897] [Comp] 490686 文件列表中还需要获取信息的前置 Mod：856996，850322，319057
+[17:10:41.897] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[17:10:42.268] [Loader] 加载器 Comp File 状态改变：Finished
+[17:10:43.986] [Control] 按下按钮：转到 MC 百科
+[17:10:43.987] [System] 正在打开网页：https://www.mcmod.cn/class/4595.html
+[17:12:59.235] [Control] 按下图标按钮：BtnTitleInner
+[17:12:59.235] [Control] 切换主要页面：Download, -1
+[17:13:01.378] [Control] 按下按钮：搜索
+[17:13:01.378] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:13:01.379] [Comp] 工程列表搜索原始文本：william
+[17:13:01.379] [Comp] 工程列表搜索最终文本：william
+[17:13:01.379] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&searchFilter=william
+[17:13:01.380] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=407&searchFilter=william，超时 10000ms，要求 json
+[17:13:02.217] [Comp] 从 CurseForge 获取到了 4 个工程（已获取 4 个，共 4 个）
+[17:13:02.217] [Comp] 去重、筛选后累计新增结果 4 个
+[17:13:02.217] [Comp] 总结果数需求最少 40 个，仅获得了 4 个
+[17:13:02.217] [Comp] 无法继续加载，将强制结束
+[17:13:02.218] [Comp] 开始可视化 Mod 列表，已储藏 4 个结果，当前在第 1 页
+[17:13:02.229] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/886/990/64/64/638323833924595331.png
+[17:13:02.231] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/398/751/64/64/637601532086805031.jpeg
+[17:13:02.234] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/400/662/64/64/637605845543722981.png
+[17:13:02.269] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:13:04.482] [Control] 按下按钮：搜索
+[17:13:04.483] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:13:04.483] 加载线程 CompProject Mod (11) 发生运行时错误：没有符合条件的结果
+   在 PCL.ModComp.CompProjectsGet(LoaderTask`2 Task)
+   在 PCL.ModLoader.LoaderTask`2._Closure$__13-0._Lambda$__0()
+[17:13:04.483] [Loader] 加载器 CompProject Mod 状态改变：Failed
+[17:13:06.818] [Control] 按下按钮：搜索
+[17:13:06.819] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[17:13:06.819] [Comp] 工程列表搜索原始文本：william
+[17:13:06.819] [Comp] 工程列表搜索最终文本：william
+[17:13:06.819] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=william&facets=[["project_type:mod"]]
+[17:13:06.820] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&query=william&facets=[["project_type:mod"]]，超时 10000ms，要求 json
+[17:13:07.663] [Comp] 从 Modrinth 获取到了 14 个工程（已获取 14 个，共 14 个）
+[17:13:07.663] [Comp] 去重、筛选后累计新增结果 8 个
+[17:13:07.663] [Comp] 总结果数需求最少 40 个，仅获得了 8 个
+[17:13:07.663] [Comp] 无法继续加载，将强制结束
+[17:13:07.665] [Comp] 开始可视化 Mod 列表，已储藏 8 个结果，当前在第 1 页
+[17:13:07.675] [Net] 直接下载文件：https://cdn.modrinth.com/data/II7t6llZ/4274bbe62ab0bbf7c3f637abbfa65cb146ad56fa.png
+[17:13:07.677] [Net] 直接下载文件：https://cdn.modrinth.com/data/wAP4f8Jf/9a9551f7c7d421c8864839467ca65a0b849fbe50.png
+[17:13:07.680] [Net] 直接下载文件：https://cdn.modrinth.com/data/kALDdVOI/86f6c4d25fd1d1d64a7e85db794890680396a96a.gif
+[17:13:07.681] [Net] 直接下载文件：https://cdn.modrinth.com/data/BPhOreRX/b6ce957ce5d723ac11539a1f542c9bb16f871c01.png
+[17:13:07.683] [Net] 直接下载文件：https://cdn.modrinth.com/data/2r2FDWN4/118e9ee9db1b41b25252fffc121d5120b2fc9fe2.png
+[17:13:07.685] [Net] 直接下载文件：https://cdn.modrinth.com/data/4QoWk5WV/731e46369acbf6abb472365ab0446ab0f875249e.gif
+[17:13:07.687] [Net] 直接下载文件：https://cdn.modrinth.com/data/I7mv6L5j/23326dad46716db4f714db64957b7fa3952bcbd3.gif
+[17:13:07.712] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[17:13:11.107] [Control] 切换主要页面：CompDetail, 0
+[17:13:11.107] [Control] 按下资源工程列表项：William Wythers' Expanded Ecosphere
+[17:13:11.287] [Loader] 加载器 Comp File 状态改变：Loading
+[17:13:11.287] [Comp] 开始获取文件列表：O1XGs7ps
+[17:13:11.287] [Net] 获取网络结果：https://api.modrinth.com/v2/project/O1XGs7ps/version，超时 10000ms，要求 json
+[17:13:11.656] [Comp] O1XGs7ps 文件列表中还需要获取信息的前置 Mod：BMKSAGRn
+[17:13:11.656] [Net] 获取网络结果：https://api.modrinth.com/v2/projects?ids=["BMKSAGRn"]，超时 10000ms，要求 json
+[17:13:12.075] [Loader] 加载器 Comp File 状态改变：Finished
+[17:13:12.274] [Control] 按下按钮：转到 Modrinth
+[17:13:12.274] [System] 正在打开网页：https://modrinth.com/mod/expanded-ecosphere
+[17:13:28.538] [Control] 按下图标按钮：BtnTitleInner
+[17:13:28.538] [Control] 切换主要页面：Download, -1
+[17:13:32.082] [Control] 切换主要页面：CompDetail, 0
+[17:13:32.082] [Control] 按下资源工程列表项：William Wythers' Expanded Ecosphere
+[17:13:32.268] [Loader] 加载器 Comp File 状态改变：Loading
+[17:13:32.300] [Loader] 加载器 Comp File 状态改变：Finished
+[17:13:33.794] [Control] 按下图标按钮：BtnTitleInner
+[17:13:33.795] [Control] 切换主要页面：Download, -1
+[17:13:34.842] [Control] 切换主要页面：CompDetail, 0
+[17:13:34.842] [Control] 按下资源工程列表项：William Wythers' Overhauled Overworld
+[17:13:35.001] [Loader] 加载器 Comp File 状态改变：Loading
+[17:13:35.001] [Comp] 开始获取文件列表：II7t6llZ
+[17:13:35.001] [Net] 获取网络结果：https://api.modrinth.com/v2/project/II7t6llZ/version，超时 10000ms，要求 json
+[17:13:35.379] [Loader] 加载器 Comp File 状态改变：Finished
+[17:13:35.706] [Control] 按下按钮：转到 MC 百科
+[17:13:35.706] [System] 正在打开网页：https://www.mcmod.cn/class/4595.html
+[17:20:01.251] [Control] 按下图标按钮：BtnTitleInner
+[17:20:01.251] [Control] 切换主要页面：Download, -1
+[17:20:02.474] [Control] 按下单选按钮：启动
+[17:20:02.475] [Control] 切换主要页面：Launch, -1
+[17:20:03.194] [Control] 按下按钮：版本设置
+[17:20:03.196] [Control] 切换主要页面：VersionSetup, 0
+[17:20:03.858] [Control] 按下单选列表项：Mod 管理
+[17:20:04.044] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[17:20:04.045] [System] 已刷新 Mod 列表
+[17:20:04.334] [Animation] 两个动画帧间隔 219 ms
+[17:20:06.144] [Mod] 共有 392 个 Mod，其中 1 个需要联网获取信息，0 个需要更新信息
+[17:20:06.312] [Loader] 加载器 Mod List Detail Loader 状态改变：Loading
+[17:20:06.313] [Mod] 目标加载器：NeoForge，版本：1.20.1
+[17:20:06.313] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files），最大超时 15000
+[17:20:06.319] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/fingerprints/432/），最大超时 15000
+[17:20:07.108] [Mod] 从 CurseForge 获取到 1 个本地 Mod 的对应信息
+[17:20:07.108] [Mod] 需要从 CurseForge 获取 1 个本地 Mod 的工程信息
+[17:20:07.108] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods），最大超时 15000
+[17:20:07.241] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp
+[17:20:07.257] [LocalModItem] 发现不支持的 WebP 格式图标，已更改为默认图标：https://cdn.modrinth.com/data/jv7tzVE4/aac60640bfd4a44890f075aea150fac41e698da4.webp
+[17:20:07.451] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:20:07.547] [Mod] 已从 CurseForge 获取本地 Mod 信息，需要获取 0 个用于检查更新的文件信息
+[17:20:07.559] [Mod] 从 Modrinth 获取到 1 个本地 Mod 的对应信息
+[17:20:07.559] [Mod] 需要从 Modrinth 获取 1 个本地 Mod 的工程信息
+[17:20:07.559] [Net] 发起网络请求（GET，https://api.modrinth.com/v2/projects?ids=["sRzS8pFG"]），最大超时 15000
+[17:20:07.897] [Mod] 已从 Modrinth 获取本地 Mod 信息，继续获取更新信息
+[17:20:07.897] [Net] 发起网络请求（POST，https://api.modrinth.com/v2/version_files/update），最大超时 15000
+[17:20:07.931] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[17:20:08.353] [Mod] 从 Modrinth 获取本地 Mod 信息结束
+[17:20:08.359] [Mod] 联网获取本地 Mod 信息完成，为 1 个 Mod 更新缓存
+[17:20:08.379] [Loader] 加载器 Mod List Detail Loader 状态改变：Finished
+[17:20:09.013] [Animation] 两个动画帧间隔 1578 ms
+[17:20:09.015] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png26147）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:20:09.015] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:20:09.016] [Net] 直接下载文件：https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png
+[17:20:09.024] [Animation] 两个动画帧间隔 1110 ms
+[17:20:09.238] 加载位图失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png26147）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[17:20:09.238] 读取本地 Mod 图标失败（C:\Users\Admin\AppData\Local\Temp\PCL\CompLogo\16865315334487797144.png）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+   在 PCL.MyLocalModItem._Closure$__7-1._Lambda$__0()
+错误类型：System.ArgumentException
+[17:20:09.238] 下载本地 Mod 图标失败（https://cdn.modrinth.com/data/RJCLIx7k/7f24153b661cdf1c73034d7ebc200cfd115b6a98.png）：参数无效。
+   在 PCL.MyLocalModItem.LogoLoader(String LocalFileAddress)
+错误类型：System.ArgumentException
+[17:24:10.723] [Control] 切换主要页面：CompDetail, 0
+[17:24:10.898] [Loader] 加载器 Comp File 状态改变：Loading
+[17:24:10.899] [Comp] 开始获取文件列表：8oi3bsk5
+[17:24:10.899] [Net] 获取网络结果：https://api.modrinth.com/v2/project/8oi3bsk5/version，超时 10000ms，要求 json
+[17:24:11.634] [Control] 按下按钮：转到 MC 百科
+[17:24:11.634] [System] 正在打开网页：https://www.mcmod.cn/class/4557.html
+[17:24:12.014] [Loader] 加载器 Comp File 状态改变：Finished
+[17:24:53.586] [Control] 按下图标按钮：BtnTitleInner
+[17:24:53.586] [Control] 切换主要页面：VersionSetup, -1
+[17:25:16.939] [Report] FPS 0, 动画 6, 下载中 0（0 B/s）
+[17:27:42.453] [Report] FPS 0, 动画 35, 下载中 0（0 B/s）
+[17:27:46.012] [Control] 按下本地 Mod 列表项：Terralith
+[17:27:47.250] [Control] 按下图标按钮
+[17:27:47.251] [Control] 切换主要页面：CompDetail, 0
+[17:27:47.436] [Loader] 加载器 Comp File 状态改变：Loading
+[17:27:47.484] [Loader] 加载器 Comp File 状态改变：Finished
+[17:27:48.034] [Control] 按下按钮：转到 MC 百科
+[17:27:48.034] [System] 正在打开网页：https://www.mcmod.cn/class/4557.html
+[17:28:05.514] [Control] 按下图标按钮：BtnTitleInner
+[17:28:05.514] [Control] 切换主要页面：VersionSetup, -1
+[17:28:10.394] [Control] 按下图标按钮：BtnClear
+[17:29:38.419] [Control] 按下图标按钮：BtnTitleInner
+[17:29:38.423] [Control] 切换主要页面：Launch, -1
+[17:29:42.818] [Control] 按下图标按钮：BtnHintClose
+[17:29:43.299] [Control] 按下图标按钮：BtnTitleClose
+[17:29:43.301] [System] 收到关闭指令
+[17:29:43.513] [System] 程序已退出，返回值：Success

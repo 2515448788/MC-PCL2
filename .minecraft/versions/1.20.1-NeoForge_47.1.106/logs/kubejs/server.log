@@ -1,12 +1,14 @@
-[19:06:59] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[19:06:59] [INIT] Loaded plugins:
-[19:06:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:06:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:06:59] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
-[19:06:59] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:07:00] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[19:07:00] [INFO] Loaded script server_scripts:example.js in 0.001 s
-[19:07:00] [INFO] Loaded script server_scripts:lightmanCurrencyDrop.js in 0.009 s
-[19:07:00] [INFO] Loaded 2/2 KubeJS server scripts in 0.021 s with 0 errors and 0 warnings
-[19:07:00] [INFO] Scripts loaded
-[19:07:14] [INFO] Server resource reload complete!
+[22:45:29] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[22:45:29] [INIT] Loaded plugins:
+[22:45:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:45:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:45:29] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[22:45:29] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:45:29] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[22:45:29] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[22:45:29] [INFO] Loaded script server_scripts:lightmanCurrencyDrop.js in 0.001 s
+[22:45:29] [INFO] Loaded 2/2 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
+[22:45:29] [INFO] Scripts loaded
+[22:45:29] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[22:45:29] [WARN] You can still see the full log (including past reloads) in your latest.log file.
+[22:45:52] [INFO] Server resource reload complete!
