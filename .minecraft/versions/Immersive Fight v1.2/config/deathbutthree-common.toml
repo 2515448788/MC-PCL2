@@ -1,6 +1,0 @@
-
-[DeathButThree]
-	#Before ';': boss' registry name
-	#After ';': its max death times
-	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;1", "cataclysm:ender_guardian;1", "cataclysm:netherite_monstrosity;1", "cataclysm:the_harbinger;1", "cataclysm:the_leviathan;1", "cataclysm:ancient_remnant;1", "bosses_of_mass_destruction:void_blossom;1", "bosses_of_mass_destruction:obsidilith;1", "bosses_of_mass_destruction:lich;1", "graveyard:lich;1", "bosses_of_mass_destruction:gauntlet;1", "mokels_boss_mantyd:boss_mantyd;1", "mokels_witch_boss:witchboss;1", "corundumguardian:corundum_guardian;1"]
-

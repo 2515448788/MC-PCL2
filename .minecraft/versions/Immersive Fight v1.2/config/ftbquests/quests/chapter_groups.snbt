@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "18A6655ADC4DF0EF", title: "开始章" }
-		{ id: "27EE47AB69EC29B4", title: "主线" }
-		{ id: "4E6BE2D374D7AE03", title: "支线" }
-		{ id: "645C652F9B0DFA16", title: "道具列表" }
-	]
-}

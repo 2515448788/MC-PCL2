@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = D:/MC-PCL2/.minecraft/versions/Immersive Fight v1.2/saves/新的世界
-}
-
