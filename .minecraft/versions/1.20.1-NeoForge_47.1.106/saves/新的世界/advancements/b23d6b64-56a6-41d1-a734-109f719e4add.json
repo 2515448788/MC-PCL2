@@ -1,1005 +1,1048 @@
 {
   "lkartifacts:smithing": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/enigmatic_elytra": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:sunglasses": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_pink": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "rpg_series:root": {
     "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "always": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "comforts:hammock_magenta": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "idas:idas_root": {
     "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "always": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "takesapillage:root": {
     "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "always": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_pressure_plate": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/iron_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:bikini": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "slashblade:movesets": {
     "criteria": {
-      "crafting": "2024-08-08 22:46:52 +0800"
+      "crafting": "2024-08-13 21:12:32 +0800"
+    },
+    "done": true
+  },
+  "l2hostility:hostility/patchouli": {
+    "criteria": {
+      "0": "2024-08-13 21:14:05 +0800"
     },
     "done": true
   },
   "beachparty:mini_fridge": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/ender_slayer": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:rope_and_nail": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "toms_storage:unlock_glowstone": {
     "criteria": {
-      "inv_changed-glowstone": "2024-08-08 22:46:52 +0800"
+      "inv_changed-glowstone": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:chair": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/infinimeal": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_tiny": {
+    "criteria": {
+      "BrokenBlade": "2024-08-13 21:14:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_cyan": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/end_anchor": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_light_gray": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "youkaishomecoming:main/welcome_to_youkais_homecoming": {
     "criteria": {
-      "0": "2024-08-08 22:46:52 +0800"
+      "0": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_beam": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_door": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/magnet_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:beach_hat": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "legendary_monsters:end_root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "create:root": {
     "criteria": {
-      "0": "2024-08-08 22:46:52 +0800"
+      "0": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "comforts:hammock_gray": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "l2backpack:backpacks/root": {
     "criteria": {
-      "0": "2024-08-08 22:46:52 +0800"
+      "0": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "queen_bee:root": {
     "criteria": {
-      "root": "2024-08-08 22:46:52 +0800"
+      "root": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "simplyswords:grant_book_on_first_join": {
     "criteria": {
-      "tick": "2024-08-08 22:46:52 +0800"
+      "tick": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/decorations/lamp": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:cabinet": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_floorboard": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:radio": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_magenta": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_planks": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "naturescompass:natures_compass": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/etherium_axe": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_black": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/fabulous_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "touhou_little_maid:grant_book_on_first_join": {
     "criteria": {
-      "tick": "2024-08-08 22:46:52 +0800"
+      "tick": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/twisted_mirror": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/mending_mixture": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_stairs": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_red": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:witch": "2024-08-13 21:14:01 +0800"
+    },
+    "done": false
+  },
   "enigmaticlegacy:book/armor/etherium_armor": {
     "criteria": {
-      "has_the_recipe2": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe2": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/forbidden_axe": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beautify:progression/root": {
     "criteria": {
-      "Install": "2024-08-08 22:46:52 +0800"
+      "Install": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "toms_storage:unlock_netherite": {
     "criteria": {
-      "inv_changed-netherite": "2024-08-08 22:46:52 +0800"
+      "inv_changed-netherite": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "mowziesmobs:root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/mining_charm": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_brown": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
-    },
-    "done": true
-  },
-  "adorabuild_structures:overworld_structures": {
-    "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_brown": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "explorerscompass:explorers_compass_cobweb": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "lightmanscurrency:currency/wallet_crafting": {
     "criteria": {
-      "wallet": "2024-08-08 22:48:49 +0800"
+      "wallet": "2024-08-13 21:12:35 +0800"
     },
     "done": true
   },
   "herbalbrews:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_button": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_tall_torch": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "toms_storage:unlock_chest": {
     "criteria": {
-      "inv_changed-chest": "2024-08-08 22:46:52 +0800"
+      "inv_changed-chest": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "betterdeserttemples:root": {
     "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "always": "2024-08-13 21:12:32 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-08-13 21:14:01 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/etherium_pickaxe": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "cataclysm:root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "irons_spellbooks:grant_patchouli": {
     "criteria": {
-      "tick": "2024-08-08 22:46:52 +0800"
+      "tick": "2024-08-13 21:12:32 +0800"
+    },
+    "done": true
+  },
+  "slashblade:root": {
+    "criteria": {
+      "attackTheEntity": "2024-08-13 21:14:00 +0800"
     },
     "done": true
   },
   "beachparty:lounge_chair": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/insignia": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/materials/ender_rod": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "explorerscompass:explorers_compass": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "vinery:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/curse_transposer": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/astral_breaker": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/cursed_stone": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_light_blue": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/cosmic_cake": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_sign": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/mega_sponge": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "l2backpack:detection": {
     "criteria": {
-      "locate": "2024-08-08 22:48:50 +0800"
+      "locate": "2024-08-13 21:12:49 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/hunter_guidebook": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_purple": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/escape_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_chest_boat": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/materials/cosmic_heart": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_red": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/enchantment_transposer": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "totw_modded:root": {
     "criteria": {
-      "sample_trigger": "2024-08-08 22:46:52 +0800"
+      "sample_trigger": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "betterend:root": {
     "criteria": {
-      "welcome": "2024-08-08 22:48:50 +0800"
+      "welcome": "2024-08-13 21:12:49 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_white": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_gray": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "explorerscompass:explorers_compass_cracked_stone_bricks": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/ender_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/animal_guidebook": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2024-08-08 22:46:52 +0800"
+      "WDA": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/extradimensional_eye": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/heaven_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-08-13 21:14:01 +0800"
     },
     "done": true
   },
   "comforts:hammock_black": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/astral_potato": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/soul_compass": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/misc/lore_inscriber": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "farmersdelight:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:hammock": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "naturescompass:natures_compass_log": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_cyan": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_purple": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "ags_day_counter:day_counter_root_advancement": {
     "criteria": {
-      "day_counter_root_advancement_0": "2024-08-08 22:46:52 +0800"
+      "day_counter_root_advancement_0": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_green": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_light_blue": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:table": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/xp_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "touhou_little_maid:give_smart_slab": {
     "criteria": {
-      "tick": "2024-08-08 22:46:52 +0800"
+      "tick": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "toms_storage:unlock_dia_pearl": {
     "criteria": {
-      "inv_changed-ender_pearl": "2024-08-08 22:46:52 +0800",
-      "inv_changed-diamond": "2024-08-08 22:46:52 +0800"
+      "inv_changed-ender_pearl": "2024-08-13 21:12:32 +0800",
+      "inv_changed-diamond": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "bakery:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "brewery:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/infernal_shield": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_green": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "lkartifacts:root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "l2backpack:backpacks/patchouli": {
     "criteria": {
-      "0": "2024-08-08 22:46:52 +0800"
+      "0": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/decorations/shroomlamp": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_lime": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "naturescompass:natures_compass_sapling": {
     "criteria": {
-      "has_recipe": "2024-08-08 22:46:52 +0800"
+      "has_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:tiki_chair": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/enchanter_pearl": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/golden_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_boat": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_orange": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-08-13 21:14:01 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/etherium_sword": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_blue": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_white": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/the_twist": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/etherium_scythe": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_light_gray": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "lkartifacts:armor": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:beach_chair": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "betterdungeons:root": {
     "criteria": {
-      "always": "2024-08-08 22:46:52 +0800"
+      "always": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/decorations/redstone_lantern": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
-  "adorabuild_structures:tireless_legs": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "birch_house_small_2": "2024-08-08 22:55:35 +0800"
+      "minecraft:witch": "2024-08-13 21:14:01 +0800"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:dark_forest": "2024-08-08 22:51:27 +0800",
-      "minecraft:old_growth_spruce_taiga": "2024-08-08 22:48:50 +0800"
+      "minecraft:snowy_plains": "2024-08-13 21:13:13 +0800",
+      "minecraft:swamp": "2024-08-13 21:14:35 +0800",
+      "minecraft:snowy_beach": "2024-08-13 21:12:49 +0800"
     },
     "done": false
   },
+  "l2hostility:hostility/root": {
+    "criteria": {
+      "0": "2024-08-13 21:14:05 +0800"
+    },
+    "done": true
+  },
   "lkartifacts:weapon": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_slab": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "kitchenkarrot:root": {
     "criteria": {
-      "root": "2024-08-08 22:46:52 +0800"
+      "root": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "comforts:hammock_pink": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/the_infinitum": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_lime": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_fence_gate": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "apotheosis:give_book": {
     "criteria": {
-      "tick": "2024-08-08 22:46:52 +0800"
+      "tick": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/super_magnet_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_yellow": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "beachparty:palm_trapdoor": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/arcane_scrolls": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "legendary_monsters:legendary_monsters_root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_fence": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/avarice_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/tools/etherium_shovel": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_blue": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "legendary_monsters:nether_root": {
     "criteria": {
-      "custom_test_name": "2024-08-08 22:46:52 +0800"
+      "custom_test_name": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:palm_wood": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/monster_charm": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/desolation_ring": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "tombstone:adventure/root": {
     "criteria": {
-      "auto": "2024-08-08 22:48:50 +0800"
+      "auto": "2024-08-13 21:12:49 +0800"
     },
     "done": true
   },
   "comforts:sleeping_bag_yellow": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "candlelight:main/root": {
     "criteria": {
-      "seeds": "2024-08-08 22:46:52 +0800"
+      "seeds": "2024-08-13 21:12:32 +0800"
     },
     "done": true
   },
   "beachparty:beach_towel": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/berserk_charm": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/materials/twisted_heart": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "enigmaticlegacy:book/accessories/cursed_scroll": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
   "comforts:hammock_orange": {
     "criteria": {
-      "has_the_recipe": "2024-08-08 22:46:52 +0800"
+      "has_the_recipe": "2024-08-13 21:12:00 +0800"
     },
     "done": true
   },
